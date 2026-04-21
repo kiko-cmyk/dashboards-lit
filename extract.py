@@ -426,7 +426,7 @@ def extract_google(month: str) -> dict:
     """)
     g_agg = defaultdict(lambda: {"impressions": 0, "clicks": 0, "cost": 0.0, "conversions": 0.0})
     for row in gender_rows:
-        key = str(row.ad_group_criterion.gender.type).split(".")[-1]
+        key = str(row.ad_group_criterion.gender.type_).split(".")[-1]
         m = row.metrics
         g_agg[key]["impressions"] += m.impressions
         g_agg[key]["clicks"] += m.clicks
@@ -443,7 +443,7 @@ def extract_google(month: str) -> dict:
     """)
     a_agg = defaultdict(lambda: {"impressions": 0, "clicks": 0, "cost": 0.0, "conversions": 0.0})
     for row in age_rows:
-        key = str(row.ad_group_criterion.age_range.type).split(".")[-1]
+        key = str(row.ad_group_criterion.age_range.type_).split(".")[-1]
         m = row.metrics
         a_agg[key]["impressions"] += m.impressions
         a_agg[key]["clicks"] += m.clicks
