@@ -544,7 +544,8 @@
   }
 
   async function selectMonth(month) {
-    document.getElementById("month-label").textContent = month;
+    const label = document.getElementById("month-label");
+    if (label) label.textContent = month;
     const [curr, prev] = await Promise.all([loadMonth(month), loadMonth(prevMonth(month))]);
     state.current = curr;
     state.previous = prev;
