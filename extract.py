@@ -758,7 +758,48 @@ def extract_klaviyo(month: str) -> dict:
 
 SHOPIFY_STORE = os.environ.get("SHOPIFY_STORE", "")
 SHOPIFY_TOKEN = os.environ.get("SHOPIFY_TOKEN", "")
+SHOPIFY_CLIENT_ID = os.environ.get("SHOPIFY_CLIENT_ID", "")
+SHOPIFY_CLIENT_SECRET = os.environ.get("SHOPIFY_CLIENT_SECRET", "")
 SHOPIFY_API_VERSION = "2024-10"
+
+_shopify_token_cache: str | None = None
+
+
+def _shopify_access_token() -> str:
+    """Return a usable Shopify Admin API token.
+
+    Dev Dashboard apps (post 2026-01-01) issue short-lived tokens via
+    client_credentials grant. If SHOPIFY_CLIENT_ID + SHOPIFY_CLIENT_SECRET
+    are set we refresh on first call and cache for the process lifetime.
+    Falls back to a static SHOPIFY_TOKEN otherwise.
+    """
+    global _shopify_token_cache
+    if _shopify_token_cache:
+        return _shopify_token_cache
+    if SHOPIFY_CLIENT_ID and SHOPIFY_CLIENT_SECRET:
+        r = httpx.post(
+            f"https://{SHOPIFY_STORE}/admin/oauth/access_token",
+            data={
+                "grant_type": "client_credentials",
+                "client_id": SHOPIFY_CLIENT_ID,
+                "client_secret": SHOPIFY_CLIENT_SECRET,
+            },
+            timeout=15,
+        )
+        r.raise_for_status()
+        token = r.json().get("access_token")
+        if not token:
+            raise RuntimeError(f"Shopify token refresh returned no token: {r.text[:200]}")
+        _shopify_token_cache = token
+        log.info("Shopify token refreshed via client_credentials")
+        return token
+    if SHOPIFY_TOKEN and SHOPIFY_TOKEN != "PENDIENTE":
+        _shopify_token_cache = SHOPIFY_TOKEN
+        return SHOPIFY_TOKEN
+    raise RuntimeError(
+        "Shopify credentials missing: set SHOPIFY_CLIENT_ID + SHOPIFY_CLIENT_SECRET "
+        "or a static SHOPIFY_TOKEN"
+    )
 
 
 def _shopify_graphql(query, variables=None):
@@ -766,7 +807,7 @@ def _shopify_graphql(query, variables=None):
     r = httpx.post(
         url,
         headers={
-            "X-Shopify-Access-Token": SHOPIFY_TOKEN,
+            "X-Shopify-Access-Token": _shopify_access_token(),
             "Content-Type": "application/json",
         },
         json={"query": query, "variables": variables or {}},
