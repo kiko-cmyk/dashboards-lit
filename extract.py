@@ -543,7 +543,7 @@ def _klaviyo_list_campaigns(first: date, last: date) -> list:
         f'greater-or-equal(scheduled_at,{first.isoformat()}T00:00:00Z),'
         f'less-than(scheduled_at,{(last + timedelta(days=1)).isoformat()}T00:00:00Z))'
     )
-    url = f"{KLAVIYO_API}/campaigns/?filter={filter_str}&fields[campaign]=name,send_time,scheduled_at,status&page[size]=50"
+    url = f"{KLAVIYO_API}/campaigns/?filter={filter_str}&fields[campaign]=name,send_time,scheduled_at,status"
     out = []
     while url:
         r = httpx.get(url, headers=KLAVIYO_HEADERS, timeout=60)
