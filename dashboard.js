@@ -1,4 +1,23 @@
 (() => {
+  const LIT = {
+    indigo: "#323743",
+    indigoSoft: "rgba(50, 55, 67, 0.18)",
+    yellow: "#ebee62",
+    yellowSoft: "rgba(235, 238, 98, 0.35)",
+    beige: "#cfbfad",
+    beigeSoft: "rgba(207, 191, 173, 0.45)",
+    white: "#f8f9f2",
+    muted: "#7a7367",
+    border: "#e5dfd2",
+  };
+
+  if (typeof Chart !== "undefined") {
+    Chart.defaults.font.family = '"Barlow", -apple-system, BlinkMacSystemFont, sans-serif';
+    Chart.defaults.font.size = 12;
+    Chart.defaults.color = LIT.indigo;
+    Chart.defaults.borderColor = LIT.border;
+  }
+
   const state = {
     manifest: null,
     current: null,
@@ -84,7 +103,8 @@
             type: "bar",
             label: barLabel,
             data: barData,
-            backgroundColor: "rgba(40, 90, 200, 0.55)",
+            backgroundColor: LIT.indigo,
+            borderRadius: 2,
             yAxisID: "y",
             order: 2,
           },
@@ -92,8 +112,13 @@
             type: "line",
             label: lineLabel,
             data: lineData,
-            borderColor: "rgba(220, 70, 40, 1)",
-            backgroundColor: "rgba(220, 70, 40, 0.2)",
+            borderColor: LIT.indigo,
+            backgroundColor: LIT.yellow,
+            pointBackgroundColor: LIT.yellow,
+            pointBorderColor: LIT.indigo,
+            pointBorderWidth: 2,
+            pointRadius: 4,
+            borderWidth: 2,
             yAxisID: "y1",
             tension: 0.25,
             order: 1,
@@ -105,26 +130,44 @@
         maintainAspectRatio: false,
         interaction: { mode: "index", intersect: false },
         scales: {
-          y: { beginAtZero: true, position: "left" },
+          y: { beginAtZero: true, position: "left", grid: { color: LIT.border } },
           y1: { beginAtZero: true, position: "right", grid: { drawOnChartArea: false } },
+          x: { grid: { color: LIT.border } },
         },
-        plugins: { legend: { position: "bottom" } },
+        plugins: {
+          legend: {
+            position: "bottom",
+            labels: { usePointStyle: true, boxWidth: 8, padding: 16 },
+          },
+        },
         ...opts,
       },
     });
   }
 
-  function renderBar(canvasId, labels, data, label, color = "rgba(40, 90, 200, 0.65)") {
+  function renderBar(canvasId, labels, data, label, color = LIT.indigo) {
     destroyChart(canvasId);
     const ctx = document.getElementById(canvasId);
     if (!ctx) return;
     state.charts[canvasId] = new Chart(ctx, {
       type: "bar",
-      data: { labels, datasets: [{ label, data, backgroundColor: color }] },
+      data: {
+        labels,
+        datasets: [{
+          label,
+          data,
+          backgroundColor: color,
+          borderRadius: 2,
+        }],
+      },
       options: {
         responsive: true,
         maintainAspectRatio: false,
         plugins: { legend: { display: false } },
+        scales: {
+          y: { beginAtZero: true, grid: { color: LIT.border } },
+          x: { grid: { display: false } },
+        },
       },
     });
   }
@@ -311,7 +354,7 @@
       age.map((x) => x.age_range),
       age.map((x) => x.conversions),
       "Conversiones",
-      "rgba(80, 160, 100, 0.65)");
+      LIT.beige);
 
     renderTable("google-campaigns", [
       { key: "campaign", label: "Campaña" },
@@ -465,7 +508,7 @@
       svo.map((x) => x.bucket),
       svo.map((x) => x.revenue),
       "Revenue",
-      "rgba(80, 160, 100, 0.65)");
+      LIT.yellow);
 
     renderTable("shopify-products", [
       { key: "title", label: "Producto" },
