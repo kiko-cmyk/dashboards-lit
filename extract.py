@@ -558,14 +558,17 @@ def _klaviyo_list_campaigns(first: date, last: date) -> list:
 
 
 def _klaviyo_list_flows() -> list:
-    r = httpx.get(
-        f"{KLAVIYO_API}/flows/",
-        headers=KLAVIYO_HEADERS,
-        params={"fields[flow]": "name,status", "page[size]": 100},
-        timeout=30,
-    )
-    r.raise_for_status()
-    return r.json().get("data", [])
+    url = f"{KLAVIYO_API}/flows/?fields[flow]=name,status&page[size]=100"
+    out = []
+    while url:
+        r = httpx.get(url, headers=KLAVIYO_HEADERS, timeout=30)
+        if r.status_code >= 400:
+            log.warning("Klaviyo flows list failed: %s %s", r.status_code, r.text[:300])
+            return out
+        j = r.json()
+        out.extend(j.get("data", []))
+        url = j.get("links", {}).get("next")
+    return out
 
 
 def _klaviyo_report_row_to_stats(row):
@@ -801,7 +804,10 @@ def extract_shopify(month: str) -> dict:
         amt = order_amount(o)
         refunds = order_refunds(o)
         customer = o.get("customer") or {}
-        num_orders = customer.get("numberOfOrders", 0) or 0
+        try:
+            num_orders = int(customer.get("numberOfOrders") or 0)
+        except (TypeError, ValueError):
+            num_orders = 0
         is_new = num_orders <= 1
         is_sub = order_has_subscription(o)
 
