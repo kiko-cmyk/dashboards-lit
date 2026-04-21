@@ -162,6 +162,41 @@
     });
   }
 
+  function renderLine(canvasId, labels, data, label, color = LIT.indigo) {
+    destroyChart(canvasId);
+    const ctx = document.getElementById(canvasId);
+    if (!ctx) return;
+    state.charts[canvasId] = new Chart(ctx, {
+      type: "line",
+      data: {
+        labels,
+        datasets: [{
+          label,
+          data,
+          borderColor: color,
+          backgroundColor: color,
+          pointBackgroundColor: LIT.yellow,
+          pointBorderColor: color,
+          pointBorderWidth: 1.5,
+          pointRadius: 3,
+          borderWidth: 2,
+          tension: 0.25,
+          fill: false,
+        }],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: { mode: "index", intersect: false },
+        plugins: { legend: { display: false } },
+        scales: {
+          y: { beginAtZero: true, grid: { color: LIT.border } },
+          x: { grid: { display: false }, ticks: { maxRotation: 0, autoSkip: true, maxTicksLimit: 8 } },
+        },
+      },
+    });
+  }
+
   function renderBar(canvasId, labels, data, label, color = LIT.indigo) {
     destroyChart(canvasId);
     const ctx = document.getElementById(canvasId);
@@ -279,13 +314,24 @@
     ], m?.totals, p?.totals);
 
     const daily = m?.daily || [];
+    const dLabels = daily.map((d) => (d.date || "").slice(5));
     renderCombo(
       "meta-daily-chart",
-      daily.map((d) => d.date),
+      dLabels,
       daily.map((d) => d.purchases),
-      "Purchases",
+      "Ventas",
       daily.map((d) => d.cpa),
       "CPA (€)",
+    );
+    renderLine("meta-cpc-chart", dLabels, daily.map((d) => d.cpc), "CPC (€)", LIT.indigo);
+    renderLine("meta-ctr-chart", dLabels, daily.map((d) => d.ctr), "CTR (%)", LIT.indigo);
+    renderCombo(
+      "meta-spend-revenue-chart",
+      dLabels,
+      daily.map((d) => d.spend),
+      "Inversión (€)",
+      daily.map((d) => d.revenue),
+      "Revenue (€)",
     );
 
     const metaCampaignsRows = (m?.campaigns || []).map((r) => withDerived(r, { convKey: "purchases" }));
@@ -380,13 +426,24 @@
     ], g?.totals, p?.totals);
 
     const daily = g?.daily || [];
+    const dLabels = daily.map((d) => (d.date || "").slice(5));
     renderCombo(
       "google-daily-chart",
-      daily.map((d) => d.date),
+      dLabels,
       daily.map((d) => d.conversions),
       "Conversiones",
       daily.map((d) => d.cpa),
       "CPA (€)",
+    );
+    renderLine("google-cpc-chart", dLabels, daily.map((d) => d.cpc), "CPC (€)", LIT.indigo);
+    renderLine("google-ctr-chart", dLabels, daily.map((d) => d.ctr), "CTR (%)", LIT.indigo);
+    renderCombo(
+      "google-spend-revenue-chart",
+      dLabels,
+      daily.map((d) => d.cost),
+      "Inversión (€)",
+      daily.map((d) => d.revenue),
+      "Revenue (€)",
     );
 
     const gender = g?.gender || [];

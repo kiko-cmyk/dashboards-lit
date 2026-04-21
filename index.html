@@ -196,6 +196,14 @@
       grid-template-columns: 1fr 1fr;
       gap: 16px;
     }
+    .chart-row-3 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+    .chart-row-3 .panel { margin-bottom: 0; }
+    .chart-row-3 .chart-wrap { height: 240px; }
     .chart-row .panel { margin-bottom: 0; }
     .chart-row .chart-wrap { height: 260px; }
     .table-wrap { overflow-x: auto; }
@@ -230,8 +238,11 @@
       font-size: 13px;
       font-style: italic;
     }
+    @media (max-width: 980px) {
+      .chart-row-3 { grid-template-columns: 1fr 1fr; }
+    }
     @media (max-width: 720px) {
-      .chart-row { grid-template-columns: 1fr; }
+      .chart-row, .chart-row-3 { grid-template-columns: 1fr; }
       main { padding: 16px; }
       header { padding: 14px 16px; }
       nav.tabs { padding: 0 8px; }
@@ -268,8 +279,22 @@
       <h2>Meta Ads</h2>
       <div id="meta-kpis" class="kpi-grid"></div>
       <div class="panel">
-        <h3>Rendimiento diario</h3>
+        <h3>Rendimiento diario · ventas + CPA</h3>
         <div class="chart-wrap"><canvas id="meta-daily-chart"></canvas></div>
+      </div>
+      <div class="chart-row-3">
+        <div class="panel">
+          <h3>CPC diario</h3>
+          <div class="chart-wrap"><canvas id="meta-cpc-chart"></canvas></div>
+        </div>
+        <div class="panel">
+          <h3>CTR diario</h3>
+          <div class="chart-wrap"><canvas id="meta-ctr-chart"></canvas></div>
+        </div>
+        <div class="panel">
+          <h3>Inversión vs Revenue</h3>
+          <div class="chart-wrap"><canvas id="meta-spend-revenue-chart"></canvas></div>
+        </div>
       </div>
       <div class="panel">
         <h3>Campañas</h3>
@@ -293,8 +318,22 @@
       <h2>Google Ads</h2>
       <div id="google-kpis" class="kpi-grid"></div>
       <div class="panel">
-        <h3>Rendimiento diario</h3>
+        <h3>Rendimiento diario · conversiones + CPA</h3>
         <div class="chart-wrap"><canvas id="google-daily-chart"></canvas></div>
+      </div>
+      <div class="chart-row-3">
+        <div class="panel">
+          <h3>CPC diario</h3>
+          <div class="chart-wrap"><canvas id="google-cpc-chart"></canvas></div>
+        </div>
+        <div class="panel">
+          <h3>CTR diario</h3>
+          <div class="chart-wrap"><canvas id="google-ctr-chart"></canvas></div>
+        </div>
+        <div class="panel">
+          <h3>Inversión vs Revenue</h3>
+          <div class="chart-wrap"><canvas id="google-spend-revenue-chart"></canvas></div>
+        </div>
       </div>
       <div class="chart-row">
         <div class="panel">
@@ -370,6 +409,6 @@
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
-  <script src="dashboard.js?v=5"></script>
+  <script src="dashboard.js?v=6"></script>
 </body>
 </html>
