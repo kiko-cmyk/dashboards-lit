@@ -151,6 +151,20 @@ def extract_meta(month: str) -> dict:
         {"campaign": r.get("campaign_name"), **_meta_base_metrics(r)} for r in campaign_rows
     ]
 
+    adset_rows = _meta_paginate(
+        f"/{META_ACCOUNT}/insights",
+        {
+            "fields": "campaign_name,adset_name," + fields,
+            "time_range": time_range,
+            "level": "adset",
+            "limit": 200,
+        },
+    )
+    adsets = [
+        {"campaign": r.get("campaign_name"), "adset": r.get("adset_name"), **_meta_base_metrics(r)}
+        for r in adset_rows
+    ]
+
     platform_rows = _meta_paginate(
         f"/{META_ACCOUNT}/insights",
         {
@@ -244,6 +258,7 @@ def extract_meta(month: str) -> dict:
         "totals": totals,
         "daily": daily,
         "campaigns": campaigns,
+        "adsets": adsets,
         "platforms": platforms,
         "creatives": creatives,
     }
@@ -390,6 +405,46 @@ def extract_google(month: str) -> dict:
         })
     campaigns.sort(key=lambda x: x["cost"], reverse=True)
 
+    ag_rows = _ga_query(f"""
+        SELECT campaign.name, ad_group.name, ad_group.status,
+               metrics.impressions, metrics.clicks, metrics.cost_micros,
+               metrics.conversions, metrics.conversions_value
+        FROM ad_group
+        WHERE segments.date BETWEEN '{start}' AND '{end}'
+    """)
+    ag_agg = defaultdict(lambda: {"impressions": 0, "clicks": 0, "cost": 0.0,
+                                   "conversions": 0.0, "revenue": 0.0,
+                                   "campaign": "", "status": ""})
+    for row in ag_rows:
+        key = (row.campaign.name, row.ad_group.name)
+        m = row.metrics
+        a = ag_agg[key]
+        a["impressions"] += m.impressions
+        a["clicks"] += m.clicks
+        a["cost"] += _ga_cost(m)
+        a["conversions"] += m.conversions
+        a["revenue"] += m.conversions_value
+        a["campaign"] = row.campaign.name
+        a["status"] = str(row.ad_group.status).split(".")[-1]
+    ad_groups = []
+    for (_camp, ag_name), v in ag_agg.items():
+        ad_groups.append({
+            "campaign": v["campaign"],
+            "ad_group": ag_name,
+            "status": v["status"],
+            "impressions": v["impressions"],
+            "clicks": v["clicks"],
+            "cost": round(v["cost"], 2),
+            "conversions": round(v["conversions"], 2),
+            "revenue": round(v["revenue"], 2),
+            "ctr": round(safe_div(v["clicks"], v["impressions"]) * 100, 2),
+            "cpc": round(safe_div(v["cost"], v["clicks"]), 2),
+            "cpa": round(safe_div(v["cost"], v["conversions"]), 2),
+            "conv_rate": round(safe_div(v["conversions"], v["clicks"]) * 100, 2),
+            "roas": round(safe_div(v["revenue"], v["cost"]), 2),
+        })
+    ad_groups.sort(key=lambda x: x["cost"], reverse=True)
+
     keyword_rows = _ga_query(f"""
         SELECT campaign.name, ad_group.name,
                ad_group_criterion.keyword.text, ad_group_criterion.keyword.match_type,
@@ -456,6 +511,7 @@ def extract_google(month: str) -> dict:
         "totals": totals,
         "daily": daily,
         "campaigns": campaigns,
+        "ad_groups": ad_groups,
         "keywords": keywords,
         "gender": gender,
         "age": age,
@@ -969,9 +1025,9 @@ def main():
         "month": month,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "meta": safe_extract("meta", extract_meta,
-                             {"totals": {}, "daily": [], "campaigns": [], "platforms": [], "creatives": []}),
+                             {"totals": {}, "daily": [], "campaigns": [], "adsets": [], "platforms": [], "creatives": []}),
         "google": safe_extract("google", extract_google,
-                               {"totals": {}, "daily": [], "campaigns": [], "keywords": [], "gender": [], "age": []}),
+                               {"totals": {}, "daily": [], "campaigns": [], "ad_groups": [], "keywords": [], "gender": [], "age": []}),
         "klaviyo": safe_extract("klaviyo", extract_klaviyo,
                                 {"totals": {}, "daily": [], "flows": [], "campaigns": []}),
         "shopify": safe_extract("shopify", extract_shopify,

@@ -349,6 +349,22 @@
       { key: "roas", label: "ROAS", format: fmt.dec2 },
     ], metaCampaignsRows);
 
+    const metaAdsetsRows = (m?.adsets || []).map((r) => withDerived(r, { convKey: "purchases" }));
+    renderTable("meta-adsets", [
+      { key: "adset", label: "Ad Set", truncate: 240 },
+      { key: "campaign", label: "Campaña", truncate: 200 },
+      { key: "spend", label: "Inversión", format: fmt.money },
+      { key: "impressions", label: "Impr.", format: fmt.int },
+      { key: "clicks", label: "Clics", format: fmt.int },
+      { key: "ctr", label: "CTR", format: fmt.pct },
+      { key: "cpc", label: "CPC", format: fmt.money2 },
+      { key: "_cpm", label: "CPM", format: fmt.money2 },
+      { key: "purchases", label: "Ventas", format: fmt.int },
+      { key: "cpa", label: "CPA", format: fmt.money2 },
+      { key: "_conv_rate", label: "CR", format: fmt.pct },
+      { key: "roas", label: "ROAS", format: fmt.dec2 },
+    ], metaAdsetsRows);
+
     const metaPlatformsRows = (m?.platforms || []).map((r) => withDerived(r, { convKey: "purchases" }));
     renderTable("meta-platforms", [
       { key: "platform", label: "Plataforma" },
@@ -475,6 +491,23 @@
       { key: "conv_rate", label: "CR", format: fmt.pct },
       { key: "roas", label: "ROAS", format: fmt.dec2 },
     ], googleCampaignsRows);
+
+    const googleAdGroupsRows = (g?.ad_groups || []).map((r) => withDerived(r, { spendKey: "cost", convKey: "conversions" }));
+    renderTable("google-adgroups", [
+      { key: "ad_group", label: "Ad Group", truncate: 240 },
+      { key: "campaign", label: "Campaña", truncate: 200 },
+      { key: "status", label: "Estado" },
+      { key: "cost", label: "Inversión", format: fmt.money },
+      { key: "impressions", label: "Impr.", format: fmt.int },
+      { key: "clicks", label: "Clics", format: fmt.int },
+      { key: "ctr", label: "CTR", format: fmt.pct },
+      { key: "cpc", label: "CPC", format: fmt.money2 },
+      { key: "_cpm", label: "CPM", format: fmt.money2 },
+      { key: "conversions", label: "Conv.", format: fmt.dec2 },
+      { key: "cpa", label: "CPA", format: fmt.money2 },
+      { key: "conv_rate", label: "CR", format: fmt.pct },
+      { key: "roas", label: "ROAS", format: fmt.dec2 },
+    ], googleAdGroupsRows);
 
     const googleKeywordsRows = (g?.keywords || []).map((r) => withDerived({ ...r, cpc: r.avg_cpc }, { spendKey: "cost", convKey: "conversions" }));
     renderTable("google-keywords", [
