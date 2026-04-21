@@ -539,17 +539,18 @@ def _klaviyo_post_report(kind: str, first: date, last: date, metric_id: str) -> 
 
 
 def _klaviyo_list_campaigns(first: date, last: date) -> list:
-    url = (
-        f"{KLAVIYO_API}/campaigns/"
-        f"?filter=greater-or-equal(send_time,{first.isoformat()}T00:00:00Z),"
-        f"less-than(send_time,{(last + timedelta(days=1)).isoformat()}T00:00:00Z),"
-        f"equals(messages.channel,'email')"
-        f"&fields[campaign]=name,send_time,status&page[size]=100"
+    filter_str = (
+        f'and(equals(messages.channel,"email"),'
+        f'greater-or-equal(send_time,{first.isoformat()}T00:00:00Z),'
+        f'less-than(send_time,{(last + timedelta(days=1)).isoformat()}T00:00:00Z))'
     )
+    url = f"{KLAVIYO_API}/campaigns/?filter={filter_str}&fields[campaign]=name,send_time,status&page[size]=100"
     out = []
     while url:
         r = httpx.get(url, headers=KLAVIYO_HEADERS, timeout=60)
-        r.raise_for_status()
+        if r.status_code >= 400:
+            log.warning("Klaviyo campaigns list failed: %s %s", r.status_code, r.text[:300])
+            return out
         j = r.json()
         out.extend(j.get("data", []))
         url = j.get("links", {}).get("next")
@@ -723,6 +724,7 @@ query($cursor: String, $query: String!) {
       node {
         createdAt
         displayFinancialStatus
+        tags
         currentSubtotalPriceSet { shopMoney { amount } }
         currentTotalPriceSet { shopMoney { amount } }
         totalRefundedSet { shopMoney { amount } }
@@ -732,7 +734,6 @@ query($cursor: String, $query: String!) {
             node {
               currentQuantity
               originalUnitPriceSet { shopMoney { amount } }
-              sellingPlanAllocation { sellingPlan { name } }
               product { id title }
             }
           }
@@ -781,8 +782,10 @@ def extract_shopify(month: str) -> dict:
         return float(rs["shopMoney"]["amount"]) if rs else 0.0
 
     def order_has_subscription(o):
-        for edge in o.get("lineItems", {}).get("edges", []):
-            if edge["node"].get("sellingPlanAllocation"):
+        tags = o.get("tags") or []
+        for t in tags:
+            tl = (t or "").lower()
+            if "subscription" in tl or "recharge" in tl or "seal" in tl:
                 return True
         return False
 
