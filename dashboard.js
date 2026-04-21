@@ -820,11 +820,311 @@
     ], hist);
   }
 
+  // ── NEW: OS Leadership (cross-channel roll-up) ─────────────────────────
+
+  function computeOsTotals(monthData) {
+    if (!monthData) return null;
+    const s = monthData.shopify?.totals || {};
+    const w = monthData.wholesale?.totals || {};
+    const a = monthData.affiliates?.totals || {};
+    const m = monthData.meta?.totals || {};
+    const g = monthData.google?.totals || {};
+
+    const d2cRevenue = s.revenue || 0;
+    const wholesaleRevenue = w.revenue || 0;
+    const affiliatesRevenue = a.revenue || 0;
+    const totalRevenue = d2cRevenue + wholesaleRevenue + affiliatesRevenue;
+
+    const d2cOrders = s.orders || 0;
+    const wholesaleOrders = w.orders || 0;
+    const affiliatesOrders = a.orders || 0;
+    const totalOrders = d2cOrders + wholesaleOrders + affiliatesOrders;
+
+    const metaSpend = m.spend || 0;
+    const googleSpend = g.cost || 0;
+    const paidSpend = metaSpend + googleSpend;
+    const metaRevenue = m.revenue || 0;
+    const googleRevenue = g.revenue || 0;
+    const paidRevenue = metaRevenue + googleRevenue;
+
+    const newCustomers = s.new_customers || 0;
+    return {
+      d2c_revenue: +d2cRevenue.toFixed(2),
+      wholesale_revenue: +wholesaleRevenue.toFixed(2),
+      affiliates_revenue: +affiliatesRevenue.toFixed(2),
+      total_revenue: +totalRevenue.toFixed(2),
+      d2c_orders: d2cOrders,
+      wholesale_orders: wholesaleOrders,
+      affiliates_orders: affiliatesOrders,
+      total_orders: totalOrders,
+      paid_spend: +paidSpend.toFixed(2),
+      meta_spend: +metaSpend.toFixed(2),
+      google_spend: +googleSpend.toFixed(2),
+      paid_revenue: +paidRevenue.toFixed(2),
+      blended_roas: paidSpend ? +(paidRevenue / paidSpend).toFixed(2) : 0,
+      blended_cac: newCustomers ? +(paidSpend / newCustomers).toFixed(2) : 0,
+      d2c_share: totalRevenue ? +((d2cRevenue / totalRevenue) * 100).toFixed(2) : 0,
+      wholesale_share: totalRevenue ? +((wholesaleRevenue / totalRevenue) * 100).toFixed(2) : 0,
+      affiliates_share: totalRevenue ? +((affiliatesRevenue / totalRevenue) * 100).toFixed(2) : 0,
+      subscription_orders: s.subscription_orders || 0,
+      subscription_revenue: s.subscription_revenue || 0,
+      subscription_pct: s.subscription_pct || 0,
+      new_customers: newCustomers,
+      returning_pct: s.returning_pct || 0,
+      refund_rate: s.refund_rate || 0,
+    };
+  }
+
+  function renderOsLeadership() {
+    const current = computeOsTotals(state.current);
+    const previous = computeOsTotals(state.previous);
+
+    renderKpis("os-kpis-revenue", [
+      ["Revenue total", "total_revenue", fmt.money, false],
+      ["D2C (Shopify)", "d2c_revenue", fmt.money, false],
+      ["Wholesale", "wholesale_revenue", fmt.money, false],
+      ["Afiliados", "affiliates_revenue", fmt.money, false],
+      ["Orders total", "total_orders", fmt.int, false],
+    ], current, previous);
+    renderKpis("os-kpis-marketing", [
+      ["Paid spend", "paid_spend", fmt.money, true],
+      ["Paid revenue", "paid_revenue", fmt.money, false],
+      ["Blended ROAS", "blended_roas", fmt.dec2, false],
+      ["Blended CAC", "blended_cac", fmt.money2, true],
+      ["% D2C del total", "d2c_share", fmt.pct, false],
+    ], current, previous);
+    renderKpis("os-kpis-subs", [
+      ["Subs orders", "subscription_orders", fmt.int, false],
+      ["Subs revenue", "subscription_revenue", fmt.money, false],
+      ["% Subs", "subscription_pct", fmt.pct, false],
+      ["New customers", "new_customers", fmt.int, false],
+      ["Refund rate", "refund_rate", fmt.pct, true],
+    ], current, previous);
+
+    // Historical stacked: revenue by channel per month
+    const hist = state.history.map((h) => {
+      const t = computeOsTotals(h);
+      return { month: h.month, ...t };
+    }).sort((a, b) => a.month.localeCompare(b.month));
+
+    destroyChart("os-revenue-mix-chart");
+    const mixCtx = document.getElementById("os-revenue-mix-chart");
+    if (mixCtx) {
+      state.charts["os-revenue-mix-chart"] = new Chart(mixCtx, {
+        type: "bar",
+        data: {
+          labels: hist.map((h) => h.month),
+          datasets: [
+            { label: "D2C", data: hist.map((h) => h.d2c_revenue), backgroundColor: LIT.indigo },
+            { label: "Wholesale", data: hist.map((h) => h.wholesale_revenue), backgroundColor: LIT.beige },
+            { label: "Afiliados", data: hist.map((h) => h.affiliates_revenue), backgroundColor: LIT.yellow },
+          ],
+        },
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          plugins: { legend: { position: "bottom", labels: { usePointStyle: true, boxWidth: 8, padding: 16 } } },
+          scales: {
+            x: { stacked: true, grid: { display: false } },
+            y: { stacked: true, beginAtZero: true, grid: { color: LIT.border } },
+          },
+        },
+      });
+    }
+
+    // Current month channel share donut
+    destroyChart("os-channel-share-chart");
+    const shareCtx = document.getElementById("os-channel-share-chart");
+    if (shareCtx && current) {
+      state.charts["os-channel-share-chart"] = new Chart(shareCtx, {
+        type: "doughnut",
+        data: {
+          labels: ["D2C", "Wholesale", "Afiliados"],
+          datasets: [{
+            data: [current.d2c_revenue, current.wholesale_revenue, current.affiliates_revenue],
+            backgroundColor: [LIT.indigo, LIT.beige, LIT.yellow],
+            borderColor: LIT.white,
+            borderWidth: 3,
+          }],
+        },
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          plugins: { legend: { position: "bottom", labels: { usePointStyle: true, boxWidth: 8, padding: 16 } } },
+        },
+      });
+    }
+
+    // ROAS per platform history
+    const roasMeta = state.history.map((h) => ({ month: h.month, roas: h.meta?.totals?.roas || 0 }));
+    const roasGoogle = state.history.map((h) => ({ month: h.month, roas: h.google?.totals?.roas || 0 }));
+    destroyChart("os-roas-chart");
+    const roasCtx = document.getElementById("os-roas-chart");
+    if (roasCtx) {
+      state.charts["os-roas-chart"] = new Chart(roasCtx, {
+        type: "line",
+        data: {
+          labels: state.history.map((h) => h.month),
+          datasets: [
+            { label: "Meta ROAS", data: roasMeta.map((x) => x.roas), borderColor: LIT.indigo, backgroundColor: LIT.indigo, tension: 0.25, borderWidth: 2, pointRadius: 3 },
+            { label: "Google ROAS", data: roasGoogle.map((x) => x.roas), borderColor: LIT.beige, backgroundColor: LIT.beige, tension: 0.25, borderWidth: 2, pointRadius: 3 },
+          ],
+        },
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          plugins: { legend: { position: "bottom", labels: { usePointStyle: true, boxWidth: 8, padding: 16 } } },
+          scales: {
+            y: { beginAtZero: true, grid: { color: LIT.border } },
+            x: { grid: { display: false } },
+          },
+        },
+      });
+    }
+
+    renderTable("os-history", [
+      { key: "month", label: "Mes" },
+      { key: "total_revenue", label: "Revenue total", format: fmt.money },
+      { key: "d2c_revenue", label: "D2C", format: fmt.money },
+      { key: "wholesale_revenue", label: "Wholesale", format: fmt.money },
+      { key: "affiliates_revenue", label: "Afiliados", format: fmt.money },
+      { key: "paid_spend", label: "Paid spend", format: fmt.money },
+      { key: "blended_roas", label: "Blended ROAS", format: fmt.dec2 },
+      { key: "blended_cac", label: "Blended CAC", format: fmt.money2 },
+      { key: "d2c_share", label: "% D2C", format: (v) => `${v.toFixed(1)}%` },
+    ], hist);
+  }
+
+  // ── NEW: Wholesale ──────────────────────────────────────────────────────
+
+  function renderWholesale() {
+    const w = state.current?.wholesale;
+    const p = state.previous?.wholesale;
+    renderKpis("wholesale-kpis", [
+      ["Orders", "orders", fmt.int, false],
+      ["Revenue", "revenue", fmt.money, false],
+      ["AOV", "aov", fmt.money2, false],
+      ["Pagado %", "paid_pct", fmt.pct, false],
+      ["Cuentas únicas", "accounts", fmt.int, false],
+    ], w?.totals, p?.totals);
+
+    const daily = w?.daily || [];
+    renderCombo(
+      "wholesale-daily-chart",
+      daily.map((d) => (d.date || "").slice(5)),
+      daily.map((d) => d.orders),
+      "Pedidos",
+      daily.map((d) => d.revenue),
+      "Revenue (€)",
+    );
+
+    const pipeline = w?.pipeline || [];
+    renderBar(
+      "wholesale-pipeline-chart",
+      pipeline.map((s) => s.stage),
+      pipeline.map((s) => s.count),
+      "Leads",
+      LIT.indigo,
+    );
+
+    // Paid vs pending donut
+    destroyChart("wholesale-paid-chart");
+    const paidCtx = document.getElementById("wholesale-paid-chart");
+    if (paidCtx && w?.totals) {
+      state.charts["wholesale-paid-chart"] = new Chart(paidCtx, {
+        type: "doughnut",
+        data: {
+          labels: ["Pagado", "Pendiente"],
+          datasets: [{
+            data: [w.totals.paid || 0, w.totals.pending || 0],
+            backgroundColor: [LIT.indigo, LIT.yellow],
+            borderColor: LIT.white,
+            borderWidth: 3,
+          }],
+        },
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          plugins: { legend: { position: "bottom", labels: { usePointStyle: true, boxWidth: 8, padding: 16 } } },
+        },
+      });
+    }
+
+    renderTable("wholesale-accounts", [
+      { key: "account", label: "Cuenta", truncate: 320 },
+      { key: "orders", label: "Orders", format: fmt.int },
+      { key: "revenue", label: "Revenue", format: fmt.money },
+    ], w?.top_accounts, { limit: 50 });
+
+    const hist = aggregateHistory(
+      state.history, "wholesale",
+      ["orders", "revenue", "paid", "pending", "accounts"],
+      { aov: ["revenue", "orders"], paid_pct: ["paid", "revenue", 100] },
+    );
+    renderTable("wholesale-history", [
+      { key: "month", label: "Mes" },
+      { key: "orders", label: "Orders", format: fmt.int },
+      { key: "revenue", label: "Revenue", format: fmt.money },
+      { key: "aov", label: "AOV", format: fmt.money2 },
+      { key: "paid", label: "Pagado", format: fmt.money },
+      { key: "pending", label: "Pendiente", format: fmt.money },
+      { key: "paid_pct", label: "Pagado %", format: (v) => `${v.toFixed(1)}%` },
+      { key: "accounts", label: "Cuentas", format: fmt.int },
+    ], hist);
+  }
+
+  // ── NEW: Affiliates ─────────────────────────────────────────────────────
+
+  function renderAffiliates() {
+    const a = state.current?.affiliates;
+    const p = state.previous?.affiliates;
+    renderKpis("affiliates-kpis", [
+      ["Revenue", "revenue", fmt.money, false],
+      ["Orders", "orders", fmt.int, false],
+      ["Afiliados activos", "active_affiliates", fmt.int, false],
+      ["Total afiliados", "total_affiliates", fmt.int, false],
+      ["Comisión %", "commission_rate", fmt.pct, true],
+    ], a?.totals, p?.totals);
+
+    const daily = a?.daily || [];
+    renderCombo(
+      "affiliates-daily-chart",
+      daily.map((d) => (d.date || "").slice(5)),
+      daily.map((d) => d.revenue),
+      "Revenue (€)",
+      daily.map((d) => d.commission),
+      "Comisiones (€)",
+    );
+
+    renderTable("affiliates-top", [
+      { key: "name", label: "Afiliado", truncate: 200 },
+      { key: "ref_code", label: "Código", truncate: 160 },
+      { key: "orders", label: "Orders", format: fmt.int },
+      { key: "revenue", label: "Revenue", format: fmt.money },
+      { key: "commission", label: "Comisión", format: fmt.money2 },
+    ], a?.top_affiliates, { limit: 50 });
+
+    const hist = aggregateHistory(
+      state.history, "affiliates",
+      ["orders", "revenue", "commission", "active_affiliates", "total_affiliates", "new_affiliates"],
+      { aov: ["revenue", "orders"], commission_rate: ["commission", "revenue", 100] },
+    );
+    renderTable("affiliates-history", [
+      { key: "month", label: "Mes" },
+      { key: "orders", label: "Orders", format: fmt.int },
+      { key: "revenue", label: "Revenue", format: fmt.money },
+      { key: "aov", label: "AOV", format: fmt.money2 },
+      { key: "commission", label: "Comisión", format: fmt.money },
+      { key: "commission_rate", label: "Com %", format: (v) => `${v.toFixed(2)}%` },
+      { key: "active_affiliates", label: "Activos", format: fmt.int },
+      { key: "new_affiliates", label: "Nuevos", format: fmt.int },
+    ], hist);
+  }
+
   function renderAll() {
+    renderOsLeadership();
     renderMeta();
     renderGoogle();
     renderKlaviyo();
     renderShopify();
+    renderWholesale();
+    renderAffiliates();
     document.getElementById("generated-at").textContent = state.current?.generated_at?.slice(0, 16).replace("T", " ") ?? "—";
   }
 

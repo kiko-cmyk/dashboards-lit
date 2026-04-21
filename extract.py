@@ -758,7 +758,48 @@ def extract_klaviyo(month: str) -> dict:
 
 SHOPIFY_STORE = os.environ.get("SHOPIFY_STORE", "")
 SHOPIFY_TOKEN = os.environ.get("SHOPIFY_TOKEN", "")
+SHOPIFY_CLIENT_ID = os.environ.get("SHOPIFY_CLIENT_ID", "")
+SHOPIFY_CLIENT_SECRET = os.environ.get("SHOPIFY_CLIENT_SECRET", "")
 SHOPIFY_API_VERSION = "2024-10"
+
+_shopify_token_cache: str | None = None
+
+
+def _shopify_access_token() -> str:
+    """Return a usable Shopify Admin API token.
+
+    Dev Dashboard apps (post 2026-01-01) issue short-lived tokens via
+    client_credentials grant. If SHOPIFY_CLIENT_ID + SHOPIFY_CLIENT_SECRET
+    are set we refresh on first call and cache for the process lifetime.
+    Falls back to a static SHOPIFY_TOKEN otherwise.
+    """
+    global _shopify_token_cache
+    if _shopify_token_cache:
+        return _shopify_token_cache
+    if SHOPIFY_CLIENT_ID and SHOPIFY_CLIENT_SECRET:
+        r = httpx.post(
+            f"https://{SHOPIFY_STORE}/admin/oauth/access_token",
+            data={
+                "grant_type": "client_credentials",
+                "client_id": SHOPIFY_CLIENT_ID,
+                "client_secret": SHOPIFY_CLIENT_SECRET,
+            },
+            timeout=15,
+        )
+        r.raise_for_status()
+        token = r.json().get("access_token")
+        if not token:
+            raise RuntimeError(f"Shopify token refresh returned no token: {r.text[:200]}")
+        _shopify_token_cache = token
+        log.info("Shopify token refreshed via client_credentials")
+        return token
+    if SHOPIFY_TOKEN and SHOPIFY_TOKEN != "PENDIENTE":
+        _shopify_token_cache = SHOPIFY_TOKEN
+        return SHOPIFY_TOKEN
+    raise RuntimeError(
+        "Shopify credentials missing: set SHOPIFY_CLIENT_ID + SHOPIFY_CLIENT_SECRET "
+        "or a static SHOPIFY_TOKEN"
+    )
 
 
 def _shopify_graphql(query, variables=None):
@@ -766,7 +807,7 @@ def _shopify_graphql(query, variables=None):
     r = httpx.post(
         url,
         headers={
-            "X-Shopify-Access-Token": SHOPIFY_TOKEN,
+            "X-Shopify-Access-Token": _shopify_access_token(),
             "Content-Type": "application/json",
         },
         json={"query": query, "variables": variables or {}},
@@ -969,6 +1010,278 @@ def extract_shopify(month: str) -> dict:
     }
 
 
+# ── WHOLESALE (Holded) ───────────────────────────────────────────────────────
+# B2B invoices + CRM pipeline stages.
+
+HOLDED_API_KEY = os.environ.get("HOLDED_API_KEY", "")
+HOLDED_INVOICING = "https://api.holded.com/api/invoicing/v1"
+HOLDED_CRM = "https://api.holded.com/api/crm/v1"
+
+# Stage IDs from the "LIT - CRM" funnel (hardcoded — must match Holded setup)
+HOLDED_STAGES = [
+    ("6924316373aa8b6ff50532bb", "Prospects"),
+    ("6924316373aa8b6ff50532bc", "Outreach / Visits"),
+    ("6985ead1ffc3d8cc190b36ff", "Qualified / In Communication"),
+    ("699c8e8fe5c58fb5570b7d59", "Lost"),
+    ("6930220d9e7882a79e087f1f", "Order: Consignment"),
+]
+
+
+def _holded_list_invoices(start_ts: int, end_ts: int) -> list[dict]:
+    r = httpx.get(
+        f"{HOLDED_INVOICING}/documents/invoice",
+        headers={"key": HOLDED_API_KEY},
+        params={"starttmp": start_ts, "endtmp": end_ts, "sort": "created-asc"},
+        timeout=30,
+    )
+    r.raise_for_status()
+    data = r.json()
+    return data if isinstance(data, list) else []
+
+
+def _holded_list_leads() -> list[dict]:
+    r = httpx.get(
+        f"{HOLDED_CRM}/leads",
+        headers={"key": HOLDED_API_KEY},
+        params={"limit": 1000},
+        timeout=30,
+    )
+    r.raise_for_status()
+    data = r.json()
+    return data if isinstance(data, list) else []
+
+
+def extract_wholesale(month: str) -> dict:
+    if not HOLDED_API_KEY:
+        log.warning("Holded: missing credentials, skipping")
+        return {"totals": {}, "daily": [], "pipeline": [], "top_accounts": []}
+
+    first, last = month_bounds(month)
+    start_ts = int(datetime(first.year, first.month, first.day, tzinfo=timezone.utc).timestamp())
+    # Include the whole of `last` day
+    end_ts = int(datetime(last.year, last.month, last.day, 23, 59, 59, tzinfo=timezone.utc).timestamp())
+
+    # 1. Invoices within the month
+    all_invoices = _holded_list_invoices(start_ts, end_ts)
+    invoices = []
+    for inv in all_invoices:
+        try:
+            ts = int(inv.get("date") or 0)
+        except (ValueError, TypeError):
+            continue
+        if not (start_ts <= ts <= end_ts):
+            continue
+        invoices.append(inv)
+
+    daily_agg = defaultdict(lambda: {"orders": 0, "revenue": 0.0, "paid": 0.0})
+    account_agg = defaultdict(lambda: {"orders": 0, "revenue": 0.0})
+    total_revenue = 0.0
+    total_paid = 0.0
+    total_pending = 0.0
+    for inv in invoices:
+        try:
+            d = datetime.fromtimestamp(int(inv.get("date") or 0), tz=timezone.utc).date().isoformat()
+        except Exception:
+            continue
+        total = float(inv.get("total") or 0)
+        paid = float(inv.get("paymentsTotal") or 0)
+        pending = float(inv.get("paymentsPending") or 0)
+        daily_agg[d]["orders"] += 1
+        daily_agg[d]["revenue"] += total
+        daily_agg[d]["paid"] += paid
+        total_revenue += total
+        total_paid += paid
+        total_pending += pending
+        account = (inv.get("contactName") or "Sin cliente").strip() or "Sin cliente"
+        account_agg[account]["orders"] += 1
+        account_agg[account]["revenue"] += total
+
+    daily = []
+    for d in daterange(first, last):
+        k = d.isoformat()
+        v = daily_agg.get(k, {"orders": 0, "revenue": 0.0, "paid": 0.0})
+        daily.append({
+            "date": k,
+            "orders": v["orders"],
+            "revenue": round(v["revenue"], 2),
+            "paid": round(v["paid"], 2),
+        })
+
+    top_accounts = [
+        {"account": name, "orders": v["orders"], "revenue": round(v["revenue"], 2)}
+        for name, v in account_agg.items()
+    ]
+    top_accounts.sort(key=lambda x: x["revenue"], reverse=True)
+
+    totals = {
+        "orders": len(invoices),
+        "revenue": round(total_revenue, 2),
+        "paid": round(total_paid, 2),
+        "pending": round(total_pending, 2),
+        "aov": round(safe_div(total_revenue, len(invoices)), 2),
+        "paid_pct": round(safe_div(total_paid, total_revenue) * 100, 2),
+        "accounts": len(account_agg),
+    }
+
+    # 2. Pipeline stages — current snapshot (not filterable by month)
+    try:
+        leads = _holded_list_leads()
+    except Exception as exc:
+        log.warning("Holded leads fetch failed: %s", exc)
+        leads = []
+    stage_counts = {sid: 0 for sid, _ in HOLDED_STAGES}
+    for lead in leads:
+        sid = lead.get("stageId")
+        if sid in stage_counts:
+            stage_counts[sid] += 1
+    pipeline = [
+        {"stage": name, "count": stage_counts[sid]}
+        for sid, name in HOLDED_STAGES
+    ]
+
+    return {
+        "totals": totals,
+        "daily": daily,
+        "pipeline": pipeline,
+        "top_accounts": top_accounts,
+    }
+
+
+# ── AFFILIATES (GoAffPro) ────────────────────────────────────────────────────
+# GoAffPro replaced UpPromote in April 2026 for LIT's affiliate program.
+
+GOAFFPRO_TOKEN = os.environ.get("GOAFFPRO_ACCESS_TOKEN", "")
+GOAFFPRO_API = "https://api.goaffpro.com/v1"
+
+
+def _goaffpro_get(path: str, params: dict | None = None) -> dict:
+    r = httpx.get(
+        f"{GOAFFPRO_API}{path}",
+        headers={"x-goaffpro-access-token": GOAFFPRO_TOKEN, "Accept": "application/json"},
+        params=params or {},
+        timeout=60,
+    )
+    r.raise_for_status()
+    return r.json()
+
+
+def _parse_iso(s: str | None) -> date | None:
+    if not s:
+        return None
+    try:
+        return datetime.fromisoformat(s.replace("Z", "+00:00")).date()
+    except Exception:
+        return None
+
+
+def extract_affiliates(month: str) -> dict:
+    if not GOAFFPRO_TOKEN:
+        log.warning("GoAffPro: missing credentials, skipping")
+        return {"totals": {}, "daily": [], "top_affiliates": []}
+
+    first, last = month_bounds(month)
+
+    aff_resp = _goaffpro_get("/admin/affiliates", {
+        "count": 500,
+        "fields": "id,name,email,ref_code,created,tags",
+    })
+    affiliates = aff_resp.get("affiliates", [])
+
+    ord_resp = _goaffpro_get("/admin/orders", {
+        "count": 10000,
+        "fields": "id,total,subtotal,affiliate_id,commission,status,created",
+    })
+    orders_all = ord_resp.get("orders", [])
+
+    # Affiliate index for name/email lookup
+    aff_index = {a.get("id"): a for a in affiliates}
+
+    # Filter orders to the month and status=approved
+    month_orders = []
+    for o in orders_all:
+        d = _parse_iso(o.get("created"))
+        if not d:
+            continue
+        if not (first <= d <= last):
+            continue
+        if (o.get("status") or "").lower() != "approved":
+            continue
+        month_orders.append({**o, "_date": d})
+
+    # Cumulative affiliate count (all-time) up to end of month
+    total_affs_all_time = 0
+    new_affs_this_month = 0
+    for a in affiliates:
+        d = _parse_iso(a.get("created"))
+        if d and d <= last:
+            total_affs_all_time += 1
+            if first <= d <= last:
+                new_affs_this_month += 1
+
+    # Aggregates
+    daily_agg = defaultdict(lambda: {"orders": 0, "revenue": 0.0, "commission": 0.0})
+    aff_agg = defaultdict(lambda: {"orders": 0, "revenue": 0.0, "commission": 0.0})
+    total_revenue = 0.0
+    total_commission = 0.0
+    active_affiliates = set()
+    for o in month_orders:
+        d_iso = o["_date"].isoformat()
+        total = float(o.get("total") or 0)
+        commission = float(o.get("commission") or 0)
+        aff_id = o.get("affiliate_id")
+        daily_agg[d_iso]["orders"] += 1
+        daily_agg[d_iso]["revenue"] += total
+        daily_agg[d_iso]["commission"] += commission
+        aff_agg[aff_id]["orders"] += 1
+        aff_agg[aff_id]["revenue"] += total
+        aff_agg[aff_id]["commission"] += commission
+        total_revenue += total
+        total_commission += commission
+        if aff_id is not None:
+            active_affiliates.add(aff_id)
+
+    daily = []
+    for d in daterange(first, last):
+        k = d.isoformat()
+        v = daily_agg.get(k, {"orders": 0, "revenue": 0.0, "commission": 0.0})
+        daily.append({
+            "date": k,
+            "orders": v["orders"],
+            "revenue": round(v["revenue"], 2),
+            "commission": round(v["commission"], 2),
+        })
+
+    top_affiliates = []
+    for aff_id, v in aff_agg.items():
+        meta = aff_index.get(aff_id, {}) or {}
+        top_affiliates.append({
+            "affiliate_id": aff_id,
+            "name": meta.get("name"),
+            "ref_code": meta.get("ref_code"),
+            "orders": v["orders"],
+            "revenue": round(v["revenue"], 2),
+            "commission": round(v["commission"], 2),
+        })
+    top_affiliates.sort(key=lambda x: x["revenue"], reverse=True)
+
+    totals = {
+        "orders": len(month_orders),
+        "revenue": round(total_revenue, 2),
+        "commission": round(total_commission, 2),
+        "active_affiliates": len(active_affiliates),
+        "total_affiliates": total_affs_all_time,
+        "new_affiliates": new_affs_this_month,
+        "aov": round(safe_div(total_revenue, len(month_orders)), 2),
+        "commission_rate": round(safe_div(total_commission, total_revenue) * 100, 2),
+    }
+
+    return {
+        "totals": totals,
+        "daily": daily,
+        "top_affiliates": top_affiliates,
+    }
+
+
 # ── commit helper ────────────────────────────────────────────────────────────
 
 def github_commit(month: str, path: Path):
@@ -1034,6 +1347,10 @@ def main():
                                 {"totals": {}, "daily": [], "flows": [], "campaigns": []}),
         "shopify": safe_extract("shopify", extract_shopify,
                                 {"totals": {}, "daily": [], "products": [], "breakdowns": {}}),
+        "wholesale": safe_extract("wholesale", extract_wholesale,
+                                  {"totals": {}, "daily": [], "pipeline": [], "top_accounts": []}),
+        "affiliates": safe_extract("affiliates", extract_affiliates,
+                                   {"totals": {}, "daily": [], "top_affiliates": []}),
     }
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)

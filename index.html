@@ -323,13 +323,42 @@
   </header>
 
   <nav class="tabs">
-    <button class="tab active" data-tab="shopify">Shopify</button>
+    <button class="tab active" data-tab="os">OS Leadership</button>
+    <button class="tab" data-tab="shopify">Shopify</button>
     <button class="tab" data-tab="meta">Meta Ads</button>
     <button class="tab" data-tab="google">Google Ads</button>
     <button class="tab" data-tab="klaviyo">Klaviyo</button>
+    <button class="tab" data-tab="wholesale">Wholesale</button>
+    <button class="tab" data-tab="affiliates">Afiliados</button>
   </nav>
 
   <main>
+    <section class="section active" data-section="os">
+      <h2>OS Leadership</h2>
+      <p class="tables-note">Vista cross-canal: D2C (Shopify) · Wholesale (Holded) · Afiliados (GoAffPro) · Paid media (Meta + Google)</p>
+      <div id="os-kpis-revenue" class="kpi-grid kpi-row-5"></div>
+      <div id="os-kpis-marketing" class="kpi-grid kpi-row-5"></div>
+      <div id="os-kpis-subs" class="kpi-grid kpi-row-5"></div>
+      <div class="panel">
+        <h3>Revenue por canal · mes a mes</h3>
+        <div class="chart-wrap"><canvas id="os-revenue-mix-chart"></canvas></div>
+      </div>
+      <div class="chart-row">
+        <div class="panel">
+          <h3>Revenue mix · mes actual</h3>
+          <div class="chart-wrap"><canvas id="os-channel-share-chart"></canvas></div>
+        </div>
+        <div class="panel">
+          <h3>ROAS mensual por plataforma</h3>
+          <div class="chart-wrap"><canvas id="os-roas-chart"></canvas></div>
+        </div>
+      </div>
+      <div class="panel">
+        <h3>Histórico mensual · roll-up</h3>
+        <div class="table-wrap" id="os-history"></div>
+      </div>
+    </section>
+
     <section class="section" data-section="meta">
       <h2>Meta Ads</h2>
       <div class="period-bar" id="meta-period-bar">
@@ -455,7 +484,7 @@
       </div>
     </section>
 
-    <section class="section active" data-section="shopify">
+    <section class="section" data-section="shopify">
       <h2>Shopify</h2>
       <div id="shopify-kpis" class="kpi-grid"></div>
       <div class="panel">
@@ -479,6 +508,52 @@
       <div class="panel">
         <h3>Histórico mensual</h3>
         <div class="table-wrap" id="shopify-history"></div>
+      </div>
+    </section>
+
+    <section class="section" data-section="wholesale">
+      <h2>Wholesale</h2>
+      <p class="tables-note">B2B invoices (Holded) + pipeline CRM. El pipeline es un snapshot actual, no filtrable por mes.</p>
+      <div id="wholesale-kpis" class="kpi-grid kpi-row-5"></div>
+      <div class="panel">
+        <h3>Revenue diario · pedidos + total €</h3>
+        <div class="chart-wrap"><canvas id="wholesale-daily-chart"></canvas></div>
+      </div>
+      <div class="chart-row">
+        <div class="panel">
+          <h3>Pipeline CRM · snapshot actual</h3>
+          <div class="chart-wrap"><canvas id="wholesale-pipeline-chart"></canvas></div>
+        </div>
+        <div class="panel">
+          <h3>Distribución pagado vs pendiente</h3>
+          <div class="chart-wrap"><canvas id="wholesale-paid-chart"></canvas></div>
+        </div>
+      </div>
+      <div class="panel">
+        <h3>Top cuentas (top 50 por revenue)</h3>
+        <div class="table-wrap" id="wholesale-accounts"></div>
+      </div>
+      <div class="panel">
+        <h3>Histórico mensual</h3>
+        <div class="table-wrap" id="wholesale-history"></div>
+      </div>
+    </section>
+
+    <section class="section" data-section="affiliates">
+      <h2>Afiliados</h2>
+      <p class="tables-note">GoAffPro (reemplazó a UpPromote en abril 2026). Solo pedidos con status=approved.</p>
+      <div id="affiliates-kpis" class="kpi-grid kpi-row-5"></div>
+      <div class="panel">
+        <h3>Revenue diario · pedidos + comisiones</h3>
+        <div class="chart-wrap"><canvas id="affiliates-daily-chart"></canvas></div>
+      </div>
+      <div class="panel">
+        <h3>Top afiliados del mes</h3>
+        <div class="table-wrap" id="affiliates-top"></div>
+      </div>
+      <div class="panel">
+        <h3>Histórico mensual</h3>
+        <div class="table-wrap" id="affiliates-history"></div>
       </div>
     </section>
   </main>

@@ -3724,5 +3724,474 @@
         }
       ]
     }
+  },
+  "wholesale": {
+    "totals": {
+      "orders": 5,
+      "revenue": 4191.14,
+      "paid": 337.05,
+      "pending": 3854.09,
+      "aov": 838.23,
+      "paid_pct": 8.04,
+      "accounts": 4
+    },
+    "daily": [
+      {
+        "date": "2026-01-01",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-01-02",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-01-03",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-01-04",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-01-05",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-01-06",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-01-07",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-01-08",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-01-09",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-01-10",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-01-11",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-01-12",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-01-13",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-01-14",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-01-15",
+        "orders": 1,
+        "revenue": 3.95,
+        "paid": 3.95
+      },
+      {
+        "date": "2026-01-16",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-01-17",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-01-18",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-01-19",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-01-20",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-01-21",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-01-22",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-01-23",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-01-24",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-01-25",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-01-26",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-01-27",
+        "orders": 2,
+        "revenue": 586.24,
+        "paid": 293.12
+      },
+      {
+        "date": "2026-01-28",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-01-29",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-01-30",
+        "orders": 2,
+        "revenue": 3600.95,
+        "paid": 39.98
+      },
+      {
+        "date": "2026-01-31",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      }
+    ],
+    "pipeline": [
+      {
+        "stage": "Prospects",
+        "count": 21
+      },
+      {
+        "stage": "Outreach / Visits",
+        "count": 67
+      },
+      {
+        "stage": "Qualified / In Communication",
+        "count": 43
+      },
+      {
+        "stage": "Lost",
+        "count": 22
+      },
+      {
+        "stage": "Order: Consignment",
+        "count": 12
+      }
+    ],
+    "top_accounts": [
+      {
+        "account": "CLIENTES SHOPIFY",
+        "orders": 1,
+        "revenue": 3560.97
+      },
+      {
+        "account": "WELLNESS PUERTA DE ALCALA SL. (SIX HARMONIES)",
+        "orders": 2,
+        "revenue": 586.24
+      },
+      {
+        "account": "Silvia Vera Juan",
+        "orders": 1,
+        "revenue": 39.98
+      },
+      {
+        "account": "Kiko González León",
+        "orders": 1,
+        "revenue": 3.95
+      }
+    ]
+  },
+  "affiliates": {
+    "totals": {
+      "orders": 6,
+      "revenue": 152.03,
+      "commission": 22.81,
+      "active_affiliates": 3,
+      "total_affiliates": 20,
+      "new_affiliates": 2,
+      "aov": 25.34,
+      "commission_rate": 15.0
+    },
+    "daily": [
+      {
+        "date": "2026-01-01",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-01-02",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-01-03",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-01-04",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-01-05",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-01-06",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-01-07",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-01-08",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-01-09",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-01-10",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-01-11",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-01-12",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-01-13",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-01-14",
+        "orders": 1,
+        "revenue": 28.93,
+        "commission": 4.34
+      },
+      {
+        "date": "2026-01-15",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-01-16",
+        "orders": 1,
+        "revenue": 16.52,
+        "commission": 2.48
+      },
+      {
+        "date": "2026-01-17",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-01-18",
+        "orders": 1,
+        "revenue": 23.13,
+        "commission": 3.47
+      },
+      {
+        "date": "2026-01-19",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-01-20",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-01-21",
+        "orders": 1,
+        "revenue": 37.19,
+        "commission": 5.58
+      },
+      {
+        "date": "2026-01-22",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-01-23",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-01-24",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-01-25",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-01-26",
+        "orders": 1,
+        "revenue": 29.74,
+        "commission": 4.46
+      },
+      {
+        "date": "2026-01-27",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-01-28",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-01-29",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-01-30",
+        "orders": 1,
+        "revenue": 16.52,
+        "commission": 2.48
+      },
+      {
+        "date": "2026-01-31",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      }
+    ],
+    "top_affiliates": [
+      {
+        "affiliate_id": 9894578,
+        "name": "Alejandra Rodriguez",
+        "ref_code": "9214863.7sITLMxdEEAKZn",
+        "orders": 4,
+        "revenue": 93.36,
+        "commission": 14.01
+      },
+      {
+        "affiliate_id": 19579845,
+        "name": "Manuel Goncalves",
+        "ref_code": "9214898.wSDyxEUM0rzTc",
+        "orders": 1,
+        "revenue": 29.74,
+        "commission": 4.46
+      },
+      {
+        "affiliate_id": 19579849,
+        "name": "Mother Euro",
+        "ref_code": "10412833.rUpLwioB0wXDno",
+        "orders": 1,
+        "revenue": 28.93,
+        "commission": 4.34
+      }
+    ]
   }
 }
