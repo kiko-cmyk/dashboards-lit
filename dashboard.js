@@ -24,7 +24,117 @@
     previous: null,
     history: [],
     charts: {},
+    period: { meta: "all", google: "all" },
+    weeks: [],
   };
+
+  function buildWeeks(month) {
+    if (!month) return [{ id: "all", label: "Mes" }];
+    const [y, m] = month.split("-").map(Number);
+    const lastDay = new Date(Date.UTC(y, m, 0)).getUTCDate();
+    const weeks = [{ id: "all", label: "Mes" }];
+    const step = 7;
+    let i = 1;
+    let start = 1;
+    while (start <= lastDay) {
+      const end = Math.min(start + step - 1, lastDay);
+      const pad = (n) => String(n).padStart(2, "0");
+      weeks.push({
+        id: `w${i}`,
+        label: `W${i} · ${pad(start)}–${pad(end)}`,
+        start: `${month}-${pad(start)}`,
+        end: `${month}-${pad(end)}`,
+      });
+      start += step;
+      i += 1;
+    }
+    return weeks;
+  }
+
+  function filterDaily(daily, week) {
+    if (!week || week.id === "all") return daily || [];
+    return (daily || []).filter((d) => d.date >= week.start && d.date <= week.end);
+  }
+
+  function recomputeMetaTotals(daily) {
+    const t = { spend: 0, impressions: 0, clicks: 0, reach: 0, purchases: 0, revenue: 0 };
+    for (const d of daily) {
+      t.spend += d.spend || 0;
+      t.impressions += d.impressions || 0;
+      t.clicks += d.clicks || 0;
+      t.reach += d.reach || 0;
+      t.purchases += d.purchases || 0;
+      t.revenue += d.revenue || 0;
+    }
+    return {
+      spend: +t.spend.toFixed(2),
+      impressions: t.impressions,
+      clicks: t.clicks,
+      reach: t.reach,
+      purchases: +t.purchases.toFixed(2),
+      revenue: +t.revenue.toFixed(2),
+      ctr: t.impressions ? +((t.clicks / t.impressions) * 100).toFixed(2) : 0,
+      cpc: t.clicks ? +(t.spend / t.clicks).toFixed(2) : 0,
+      cpm: t.impressions ? +((t.spend / t.impressions) * 1000).toFixed(2) : 0,
+      cpa: t.purchases ? +(t.spend / t.purchases).toFixed(2) : 0,
+      roas: t.spend ? +(t.revenue / t.spend).toFixed(2) : 0,
+    };
+  }
+
+  function recomputeGoogleTotals(daily) {
+    const t = { cost: 0, impressions: 0, clicks: 0, conversions: 0, revenue: 0 };
+    for (const d of daily) {
+      t.cost += d.cost || 0;
+      t.impressions += d.impressions || 0;
+      t.clicks += d.clicks || 0;
+      t.conversions += d.conversions || 0;
+      t.revenue += d.revenue || 0;
+    }
+    return {
+      cost: +t.cost.toFixed(2),
+      impressions: t.impressions,
+      clicks: t.clicks,
+      conversions: +t.conversions.toFixed(2),
+      revenue: +t.revenue.toFixed(2),
+      ctr: t.impressions ? +((t.clicks / t.impressions) * 100).toFixed(2) : 0,
+      cpc: t.clicks ? +(t.cost / t.clicks).toFixed(2) : 0,
+      cpm: t.impressions ? +((t.cost / t.impressions) * 1000).toFixed(2) : 0,
+      cpa: t.conversions ? +(t.cost / t.conversions).toFixed(2) : 0,
+      conv_rate: t.clicks ? +((t.conversions / t.clicks) * 100).toFixed(2) : 0,
+      roas: t.cost ? +(t.revenue / t.cost).toFixed(2) : 0,
+    };
+  }
+
+  function renderPeriodBar(scope) {
+    const bar = document.getElementById(`${scope}-period-bar`);
+    if (!bar) return;
+    bar.querySelectorAll(".period-btn").forEach((b) => b.remove());
+    const currentId = state.period[scope];
+    for (const w of state.weeks) {
+      const btn = document.createElement("button");
+      btn.className = "period-btn" + (w.id === currentId ? " active" : "");
+      btn.textContent = w.label;
+      btn.dataset.range = w.id;
+      btn.addEventListener("click", () => {
+        state.period[scope] = w.id;
+        if (scope === "meta") renderMeta(); else renderGoogle();
+      });
+      bar.appendChild(btn);
+    }
+  }
+
+  function activeWeek(scope) {
+    const id = state.period[scope];
+    return state.weeks.find((w) => w.id === id) || state.weeks[0];
+  }
+
+  function prevWeek(scope) {
+    const id = state.period[scope];
+    if (!id || id === "all") return null;
+    const idx = state.weeks.findIndex((w) => w.id === id);
+    if (idx <= 1) return null;
+    return state.weeks[idx - 1];
+  }
 
   const fmt = {
     int: (v) => Number(v ?? 0).toLocaleString("es-ES"),
@@ -300,20 +410,35 @@
   // ── rendering per section ──────────────────────────────────────────────
 
   function renderMeta() {
+    renderPeriodBar("meta");
     const m = state.current?.meta;
     const p = state.previous?.meta;
+    const week = activeWeek("meta");
+    const allDaily = m?.daily || [];
+    const daily = filterDaily(allDaily, week);
+
+    let currentTotals;
+    let previousTotals;
+    if (week.id === "all") {
+      currentTotals = m?.totals;
+      previousTotals = p?.totals;
+    } else {
+      currentTotals = recomputeMetaTotals(daily);
+      const pw = prevWeek("meta");
+      previousTotals = pw ? recomputeMetaTotals(filterDaily(allDaily, pw)) : null;
+    }
+
     renderKpis("meta-kpis", [
       ["Inversión", "spend", fmt.money, true],
       ["Impresiones", "impressions", fmt.int, false],
       ["Clics", "clicks", fmt.int, false],
       ["CTR", "ctr", fmt.pct, false],
       ["CPC", "cpc", fmt.money2, true],
-      ["Purchases", "purchases", fmt.int, false],
+      ["Ventas", "purchases", fmt.int, false],
       ["CPA", "cpa", fmt.money2, true],
       ["ROAS", "roas", fmt.dec2, false],
-    ], m?.totals, p?.totals);
+    ], currentTotals, previousTotals);
 
-    const daily = m?.daily || [];
     const dLabels = daily.map((d) => (d.date || "").slice(5));
     renderCombo(
       "meta-daily-chart",
@@ -428,8 +553,24 @@
   }
 
   function renderGoogle() {
+    renderPeriodBar("google");
     const g = state.current?.google;
     const p = state.previous?.google;
+    const week = activeWeek("google");
+    const allDaily = g?.daily || [];
+    const daily = filterDaily(allDaily, week);
+
+    let currentTotals;
+    let previousTotals;
+    if (week.id === "all") {
+      currentTotals = g?.totals;
+      previousTotals = p?.totals;
+    } else {
+      currentTotals = recomputeGoogleTotals(daily);
+      const pw = prevWeek("google");
+      previousTotals = pw ? recomputeGoogleTotals(filterDaily(allDaily, pw)) : null;
+    }
+
     renderKpis("google-kpis", [
       ["Inversión", "cost", fmt.money, true],
       ["Impresiones", "impressions", fmt.int, false],
@@ -439,9 +580,8 @@
       ["Conversiones", "conversions", fmt.dec2, false],
       ["CPA", "cpa", fmt.money2, true],
       ["Tasa Conv.", "conv_rate", fmt.pct, false],
-    ], g?.totals, p?.totals);
+    ], currentTotals, previousTotals);
 
-    const daily = g?.daily || [];
     const dLabels = daily.map((d) => (d.date || "").slice(5));
     renderCombo(
       "google-daily-chart",
@@ -695,6 +835,9 @@
   async function selectMonth(month) {
     const label = document.getElementById("month-label");
     if (label) label.textContent = month;
+    state.weeks = buildWeeks(month);
+    state.period.meta = "all";
+    state.period.google = "all";
     const [curr, prev] = await Promise.all([loadMonth(month), loadMonth(prevMonth(month))]);
     state.current = curr;
     state.previous = prev;
