@@ -427,16 +427,26 @@
       const pw = prevWeek("meta");
       previousTotals = pw ? recomputeMetaTotals(filterDaily(allDaily, pw)) : null;
     }
+    const enrich = (t) => {
+      if (!t) return t;
+      return { ...t, conv_rate: t.clicks ? (t.purchases / t.clicks) * 100 : 0 };
+    };
+    currentTotals = enrich(currentTotals);
+    previousTotals = enrich(previousTotals);
 
-    renderKpis("meta-kpis", [
+    renderKpis("meta-kpis-perf", [
       ["Inversión", "spend", fmt.money, true],
+      ["Ventas", "purchases", fmt.int, false],
+      ["CPA", "cpa", fmt.money2, true],
+      ["CR", "conv_rate", fmt.pct, false],
+      ["ROAS", "roas", fmt.dec2, false],
+    ], currentTotals, previousTotals);
+    renderKpis("meta-kpis-traffic", [
       ["Impresiones", "impressions", fmt.int, false],
       ["Clics", "clicks", fmt.int, false],
       ["CTR", "ctr", fmt.pct, false],
       ["CPC", "cpc", fmt.money2, true],
-      ["Ventas", "purchases", fmt.int, false],
-      ["CPA", "cpa", fmt.money2, true],
-      ["ROAS", "roas", fmt.dec2, false],
+      ["CPM", "cpm", fmt.money2, true],
     ], currentTotals, previousTotals);
 
     const dLabels = daily.map((d) => (d.date || "").slice(5));
@@ -459,11 +469,9 @@
       "Revenue (€)",
     );
 
-    const metaCampaignsRows = (m?.campaigns || []).map((r) => withDerived(r, { convKey: "purchases" }));
-    renderTable("meta-campaigns", [
-      { key: "campaign", label: "Campaña", truncate: 280 },
+    const META_METRIC_COLS = [
       { key: "spend", label: "Inversión", format: fmt.money },
-      { key: "impressions", label: "Impr.", format: fmt.int },
+      { key: "impressions", label: "Impresiones", format: fmt.int },
       { key: "clicks", label: "Clics", format: fmt.int },
       { key: "ctr", label: "CTR", format: fmt.pct },
       { key: "cpc", label: "CPC", format: fmt.money2 },
@@ -472,38 +480,44 @@
       { key: "cpa", label: "CPA", format: fmt.money2 },
       { key: "_conv_rate", label: "CR", format: fmt.pct },
       { key: "roas", label: "ROAS", format: fmt.dec2 },
-    ], metaCampaignsRows);
+    ];
+
+    const metaCampaignsRows = (m?.campaigns || []).map((r) => withDerived(r, { convKey: "purchases" }));
+    renderTable("meta-campaigns",
+      [{ key: "campaign", label: "Campaña", truncate: 280 }, ...META_METRIC_COLS],
+      metaCampaignsRows);
 
     const metaAdsetsRows = (m?.adsets || []).map((r) => withDerived(r, { convKey: "purchases" }));
     renderTable("meta-adsets", [
       { key: "adset", label: "Ad Set", truncate: 240 },
       { key: "campaign", label: "Campaña", truncate: 200 },
-      { key: "spend", label: "Inversión", format: fmt.money },
-      { key: "impressions", label: "Impr.", format: fmt.int },
-      { key: "clicks", label: "Clics", format: fmt.int },
-      { key: "ctr", label: "CTR", format: fmt.pct },
-      { key: "cpc", label: "CPC", format: fmt.money2 },
-      { key: "_cpm", label: "CPM", format: fmt.money2 },
-      { key: "purchases", label: "Ventas", format: fmt.int },
-      { key: "cpa", label: "CPA", format: fmt.money2 },
-      { key: "_conv_rate", label: "CR", format: fmt.pct },
-      { key: "roas", label: "ROAS", format: fmt.dec2 },
+      ...META_METRIC_COLS,
     ], metaAdsetsRows);
 
-    const metaPlatformsRows = (m?.platforms || []).map((r) => withDerived(r, { convKey: "purchases" }));
-    renderTable("meta-platforms", [
-      { key: "platform", label: "Plataforma" },
-      { key: "spend", label: "Inversión", format: fmt.money },
-      { key: "impressions", label: "Impr.", format: fmt.int },
-      { key: "clicks", label: "Clics", format: fmt.int },
-      { key: "ctr", label: "CTR", format: fmt.pct },
-      { key: "cpc", label: "CPC", format: fmt.money2 },
-      { key: "_cpm", label: "CPM", format: fmt.money2 },
-      { key: "purchases", label: "Ventas", format: fmt.int },
-      { key: "cpa", label: "CPA", format: fmt.money2 },
-      { key: "_conv_rate", label: "CR", format: fmt.pct },
-      { key: "roas", label: "ROAS", format: fmt.dec2 },
-    ], metaPlatformsRows);
+    const platformsAll = (m?.platforms || []).map((r) => withDerived(r, { convKey: "purchases" }));
+    const mainPlatforms = new Set(["facebook", "instagram"]);
+    const platformsMain = platformsAll.filter((r) => mainPlatforms.has(r.platform));
+    const platformsRest = platformsAll.filter((r) => !mainPlatforms.has(r.platform));
+    const platformCols = [{ key: "platform", label: "Plataforma" }, ...META_METRIC_COLS];
+    renderTable("meta-platforms", platformCols, platformsMain);
+    renderTable("meta-platforms-rest", platformCols, platformsRest);
+    const moreBtn = document.getElementById("meta-platforms-more");
+    const restContainer = document.getElementById("meta-platforms-rest-wrap");
+    if (moreBtn && restContainer) {
+      if (platformsRest.length) {
+        moreBtn.style.display = "";
+        moreBtn.textContent = `Ver más (${platformsRest.length})`;
+        restContainer.style.display = "none";
+        moreBtn.onclick = () => {
+          const hidden = restContainer.style.display === "none";
+          restContainer.style.display = hidden ? "block" : "none";
+          moreBtn.textContent = hidden ? "Ocultar" : `Ver más (${platformsRest.length})`;
+        };
+      } else {
+        moreBtn.style.display = "none";
+        restContainer.style.display = "none";
+      }
+    }
 
     const metaCreativesRows = (m?.creatives || []).map((r) => withDerived({ ...r, _short: shortName(r.ad_name) }, { convKey: "purchases" }));
     renderTable("meta-creatives", [
@@ -512,17 +526,8 @@
           v ? `<img src="${v}" style="width:44px;height:44px;object-fit:cover;border-radius:3px" loading="lazy">` : ""
       },
       { key: "_short", label: "Anuncio", truncate: 220 },
-      { key: "campaigns", label: "Campañas", format: (v) => (v || []).join(", "), truncate: 180 },
-      { key: "spend", label: "Inversión", format: fmt.money },
-      { key: "impressions", label: "Impr.", format: fmt.int },
-      { key: "clicks", label: "Clics", format: fmt.int },
-      { key: "ctr", label: "CTR", format: fmt.pct },
-      { key: "cpc", label: "CPC", format: fmt.money2 },
-      { key: "_cpm", label: "CPM", format: fmt.money2 },
-      { key: "purchases", label: "Ventas", format: fmt.int },
-      { key: "cpa", label: "CPA", format: fmt.money2 },
-      { key: "_conv_rate", label: "CR", format: fmt.pct },
-      { key: "roas", label: "ROAS", format: fmt.dec2 },
+      { key: "adsets", label: "Ad Set", format: (v) => (v || []).join(", "), truncate: 200 },
+      ...META_METRIC_COLS,
     ], metaCreativesRows, { limit: 80 });
 
     const hist = aggregateHistory(
@@ -540,7 +545,7 @@
     renderTable("meta-history", [
       { key: "month", label: "Mes" },
       { key: "spend", label: "Inversión", format: fmt.money },
-      { key: "impressions", label: "Impr.", format: fmt.int },
+      { key: "impressions", label: "Impresiones", format: fmt.int },
       { key: "clicks", label: "Clics", format: fmt.int },
       { key: "ctr", label: "CTR", format: (v) => `${v.toFixed(2)}%` },
       { key: "cpc", label: "CPC", format: fmt.money2 },
@@ -571,15 +576,19 @@
       previousTotals = pw ? recomputeGoogleTotals(filterDaily(allDaily, pw)) : null;
     }
 
-    renderKpis("google-kpis", [
+    renderKpis("google-kpis-perf", [
       ["Inversión", "cost", fmt.money, true],
+      ["Conversiones", "conversions", fmt.dec2, false],
+      ["CPA", "cpa", fmt.money2, true],
+      ["CR", "conv_rate", fmt.pct, false],
+      ["ROAS", "roas", fmt.dec2, false],
+    ], currentTotals, previousTotals);
+    renderKpis("google-kpis-traffic", [
       ["Impresiones", "impressions", fmt.int, false],
       ["Clics", "clicks", fmt.int, false],
       ["CTR", "ctr", fmt.pct, false],
       ["CPC", "cpc", fmt.money2, true],
-      ["Conversiones", "conversions", fmt.dec2, false],
-      ["CPA", "cpa", fmt.money2, true],
-      ["Tasa Conv.", "conv_rate", fmt.pct, false],
+      ["CPM", "cpm", fmt.money2, true],
     ], currentTotals, previousTotals);
 
     const dLabels = daily.map((d) => (d.date || "").slice(5));
@@ -615,13 +624,9 @@
       "Conversiones",
       LIT.beige);
 
-    const googleCampaignsRows = (g?.campaigns || []).map((r) => withDerived(r, { spendKey: "cost", convKey: "conversions" }));
-    renderTable("google-campaigns", [
-      { key: "campaign", label: "Campaña", truncate: 240 },
-      { key: "type", label: "Tipo" },
-      { key: "status", label: "Estado" },
+    const GOOGLE_METRIC_COLS = [
       { key: "cost", label: "Inversión", format: fmt.money },
-      { key: "impressions", label: "Impr.", format: fmt.int },
+      { key: "impressions", label: "Impresiones", format: fmt.int },
       { key: "clicks", label: "Clics", format: fmt.int },
       { key: "ctr", label: "CTR", format: fmt.pct },
       { key: "cpc", label: "CPC", format: fmt.money2 },
@@ -630,6 +635,14 @@
       { key: "cpa", label: "CPA", format: fmt.money2 },
       { key: "conv_rate", label: "CR", format: fmt.pct },
       { key: "roas", label: "ROAS", format: fmt.dec2 },
+    ];
+
+    const googleCampaignsRows = (g?.campaigns || []).map((r) => withDerived(r, { spendKey: "cost", convKey: "conversions" }));
+    renderTable("google-campaigns", [
+      { key: "campaign", label: "Campaña", truncate: 240 },
+      { key: "type", label: "Tipo" },
+      { key: "status", label: "Estado" },
+      ...GOOGLE_METRIC_COLS,
     ], googleCampaignsRows);
 
     const googleAdGroupsRows = (g?.ad_groups || []).map((r) => withDerived(r, { spendKey: "cost", convKey: "conversions" }));
@@ -637,32 +650,15 @@
       { key: "ad_group", label: "Ad Group", truncate: 240 },
       { key: "campaign", label: "Campaña", truncate: 200 },
       { key: "status", label: "Estado" },
-      { key: "cost", label: "Inversión", format: fmt.money },
-      { key: "impressions", label: "Impr.", format: fmt.int },
-      { key: "clicks", label: "Clics", format: fmt.int },
-      { key: "ctr", label: "CTR", format: fmt.pct },
-      { key: "cpc", label: "CPC", format: fmt.money2 },
-      { key: "_cpm", label: "CPM", format: fmt.money2 },
-      { key: "conversions", label: "Conv.", format: fmt.dec2 },
-      { key: "cpa", label: "CPA", format: fmt.money2 },
-      { key: "conv_rate", label: "CR", format: fmt.pct },
-      { key: "roas", label: "ROAS", format: fmt.dec2 },
+      ...GOOGLE_METRIC_COLS,
     ], googleAdGroupsRows);
 
-    const googleKeywordsRows = (g?.keywords || []).map((r) => withDerived({ ...r, cpc: r.avg_cpc }, { spendKey: "cost", convKey: "conversions" }));
+    const googleKeywordsRows = (g?.keywords || []).map((r) => withDerived({ ...r, cpc: r.avg_cpc, conv_rate: convRate(r.conversions, r.clicks), roas: r.cost ? ((r.revenue || 0) / r.cost) : 0 }, { spendKey: "cost", convKey: "conversions" }));
     renderTable("google-keywords", [
       { key: "keyword", label: "Keyword", truncate: 220 },
       { key: "match_type", label: "Match" },
       { key: "campaign", label: "Campaña", truncate: 200 },
-      { key: "impressions", label: "Impr.", format: fmt.int },
-      { key: "clicks", label: "Clics", format: fmt.int },
-      { key: "ctr", label: "CTR", format: fmt.pct },
-      { key: "avg_cpc", label: "CPC", format: fmt.money2 },
-      { key: "_cpm", label: "CPM", format: fmt.money2 },
-      { key: "cost", label: "Coste", format: fmt.money },
-      { key: "conversions", label: "Conv.", format: fmt.dec2 },
-      { key: "cpa", label: "CPA", format: fmt.money2 },
-      { key: "_conv_rate", label: "CR", format: fmt.pct },
+      ...GOOGLE_METRIC_COLS,
     ], googleKeywordsRows, { limit: 100 });
 
     const hist = aggregateHistory(
@@ -680,7 +676,7 @@
     renderTable("google-history", [
       { key: "month", label: "Mes" },
       { key: "cost", label: "Inversión", format: fmt.money },
-      { key: "impressions", label: "Impr.", format: fmt.int },
+      { key: "impressions", label: "Impresiones", format: fmt.int },
       { key: "clicks", label: "Clics", format: fmt.int },
       { key: "ctr", label: "CTR", format: (v) => `${v.toFixed(2)}%` },
       { key: "cpc", label: "CPC", format: fmt.money2 },

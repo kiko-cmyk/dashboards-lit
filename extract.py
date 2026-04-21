@@ -181,7 +181,7 @@ def extract_meta(month: str) -> dict:
     ad_rows = _meta_paginate(
         f"/{META_ACCOUNT}/insights",
         {
-            "fields": "ad_id,ad_name,campaign_name," + fields,
+            "fields": "ad_id,ad_name,campaign_name,adset_name," + fields,
             "time_range": time_range,
             "level": "ad",
             "limit": 200,
@@ -208,7 +208,7 @@ def extract_meta(month: str) -> dict:
                     "body": creative.get("body"),
                 }
 
-    merged = defaultdict(lambda: {"campaigns": set(), "spend": 0, "impressions": 0, "clicks": 0,
+    merged = defaultdict(lambda: {"campaigns": set(), "adsets": set(), "spend": 0, "impressions": 0, "clicks": 0,
                                    "reach": 0, "purchases": 0.0, "revenue": 0.0})
     for r in ad_rows:
         cm = creative_map.get(r.get("ad_id"), {})
@@ -216,6 +216,7 @@ def extract_meta(month: str) -> dict:
         m = _meta_base_metrics(r)
         c = merged[cid]
         c["campaigns"].add(r.get("campaign_name") or "")
+        c["adsets"].add(r.get("adset_name") or "")
         c["spend"] += m["spend"]
         c["impressions"] += m["impressions"]
         c["clicks"] += m["clicks"]
@@ -241,6 +242,7 @@ def extract_meta(month: str) -> dict:
             "title": c.get("title"),
             "body": c.get("body"),
             "campaigns": sorted(x for x in c["campaigns"] if x),
+            "adsets": sorted(x for x in c["adsets"] if x),
             "spend": round(spend, 2),
             "impressions": imp,
             "clicks": clk,

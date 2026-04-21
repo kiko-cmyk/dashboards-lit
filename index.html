@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex,nofollow">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <title>LIT Dashboard</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -185,6 +186,17 @@
       gap: 12px;
       margin-bottom: 24px;
     }
+    .kpi-row-5 {
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      margin-bottom: 12px;
+    }
+    .kpi-row-5 + .kpi-row-5 { margin-bottom: 24px; }
+    @media (max-width: 1080px) {
+      .kpi-row-5 { grid-template-columns: repeat(3, 1fr); }
+    }
+    @media (max-width: 720px) {
+      .kpi-row-5 { grid-template-columns: repeat(2, 1fr); }
+    }
     .kpi {
       background: white;
       border: 1px solid var(--border);
@@ -194,26 +206,26 @@
     }
     .kpi-label {
       font-family: "Barlow Condensed", sans-serif;
-      font-size: 11px;
+      font-size: 13px;
       font-weight: 600;
       color: var(--muted);
       text-transform: uppercase;
       letter-spacing: 0.14em;
-      margin-bottom: 8px;
+      margin-bottom: 10px;
     }
     .kpi-value {
       font-family: "Clash Display", sans-serif;
-      font-size: 26px;
+      font-size: 32px;
       font-weight: 600;
       line-height: 1.1;
       color: var(--indigo);
     }
     .kpi-delta {
       font-family: "Barlow", sans-serif;
-      font-size: 12px;
+      font-size: 13px;
       font-weight: 600;
-      margin-top: 6px;
-      min-height: 16px;
+      margin-top: 8px;
+      min-height: 18px;
     }
     .delta.good { color: var(--good); }
     .delta.bad { color: var(--bad); }
@@ -225,13 +237,13 @@
       margin-bottom: 20px;
     }
     .panel h3 {
-      font-family: "Barlow Condensed", sans-serif;
-      font-size: 12px;
+      font-family: "Clash Display", sans-serif;
+      font-size: 16px;
       font-weight: 600;
-      color: var(--muted);
+      color: var(--indigo);
       text-transform: uppercase;
-      letter-spacing: 0.14em;
-      margin-bottom: 14px;
+      letter-spacing: 0.06em;
+      margin-bottom: 16px;
     }
     .chart-wrap { height: 320px; position: relative; }
     .chart-row {
@@ -254,10 +266,10 @@
       width: 100%;
       border-collapse: collapse;
       font-family: "Barlow", sans-serif;
-      font-size: 13px;
+      font-size: 14px;
     }
     table.data-table th, table.data-table td {
-      padding: 9px 12px;
+      padding: 10px 13px;
       text-align: left;
       border-bottom: 1px solid var(--border);
       white-space: nowrap;
@@ -267,7 +279,7 @@
       font-weight: 600;
       color: var(--muted);
       text-transform: uppercase;
-      font-size: 11px;
+      font-size: 12px;
       letter-spacing: 0.14em;
       background: var(--white);
       position: sticky;
@@ -323,7 +335,8 @@
       <div class="period-bar" id="meta-period-bar">
         <span class="label">Periodo</span>
       </div>
-      <div id="meta-kpis" class="kpi-grid"></div>
+      <div id="meta-kpis-perf" class="kpi-grid kpi-row-5"></div>
+      <div id="meta-kpis-traffic" class="kpi-grid kpi-row-5"></div>
       <div class="panel">
         <h3>Rendimiento diario · ventas + CPA</h3>
         <div class="chart-wrap"><canvas id="meta-daily-chart"></canvas></div>
@@ -353,6 +366,10 @@
       <div class="panel">
         <h3>Por plataforma</h3>
         <div class="table-wrap" id="meta-platforms"></div>
+        <button id="meta-platforms-more" class="period-btn" style="margin-top:12px;display:none"></button>
+        <div id="meta-platforms-rest-wrap" class="table-wrap" style="display:none;margin-top:10px">
+          <div id="meta-platforms-rest"></div>
+        </div>
       </div>
       <div class="panel">
         <h3>Creatividades (top 50)</h3>
@@ -369,7 +386,8 @@
       <div class="period-bar" id="google-period-bar">
         <span class="label">Periodo</span>
       </div>
-      <div id="google-kpis" class="kpi-grid"></div>
+      <div id="google-kpis-perf" class="kpi-grid kpi-row-5"></div>
+      <div id="google-kpis-traffic" class="kpi-grid kpi-row-5"></div>
       <div class="panel">
         <h3>Rendimiento diario · conversiones + CPA</h3>
         <div class="chart-wrap"><canvas id="google-daily-chart"></canvas></div>
@@ -466,6 +484,6 @@
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
-  <script src="dashboard.js?v=8"></script>
+  <script src="dashboard.js?v=9"></script>
 </body>
 </html>
