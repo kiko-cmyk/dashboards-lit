@@ -518,7 +518,6 @@ def _klaviyo_post_report(kind: str, first: date, last: date, metric_id: str) -> 
             "attributes": {
                 "statistics": KLAVIYO_STATS,
                 "timeframe": {
-                    "key": "custom",
                     "start": f"{first.isoformat()}T00:00:00+00:00",
                     "end": f"{(last + timedelta(days=1)).isoformat()}T00:00:00+00:00",
                 },
@@ -541,10 +540,10 @@ def _klaviyo_post_report(kind: str, first: date, last: date, metric_id: str) -> 
 def _klaviyo_list_campaigns(first: date, last: date) -> list:
     filter_str = (
         f'and(equals(messages.channel,"email"),'
-        f'greater-or-equal(send_time,{first.isoformat()}T00:00:00Z),'
-        f'less-than(send_time,{(last + timedelta(days=1)).isoformat()}T00:00:00Z))'
+        f'greater-or-equal(scheduled_at,{first.isoformat()}T00:00:00Z),'
+        f'less-than(scheduled_at,{(last + timedelta(days=1)).isoformat()}T00:00:00Z))'
     )
-    url = f"{KLAVIYO_API}/campaigns/?filter={filter_str}&fields[campaign]=name,send_time,status&page[size]=100"
+    url = f"{KLAVIYO_API}/campaigns/?filter={filter_str}&fields[campaign]=name,send_time,scheduled_at,status&page[size]=50"
     out = []
     while url:
         r = httpx.get(url, headers=KLAVIYO_HEADERS, timeout=60)
@@ -558,7 +557,7 @@ def _klaviyo_list_campaigns(first: date, last: date) -> list:
 
 
 def _klaviyo_list_flows() -> list:
-    url = f"{KLAVIYO_API}/flows/?fields[flow]=name,status&page[size]=100"
+    url = f"{KLAVIYO_API}/flows/?fields[flow]=name,status&page[size]=50"
     out = []
     while url:
         r = httpx.get(url, headers=KLAVIYO_HEADERS, timeout=30)
@@ -621,7 +620,7 @@ def extract_klaviyo(month: str) -> dict:
         campaigns.append({
             "campaign_id": cid,
             "name": meta.get("name"),
-            "send_time": meta.get("send_time"),
+            "send_time": meta.get("send_time") or meta.get("scheduled_at"),
             **kpis,
         })
     campaigns.sort(key=lambda x: x.get("send_time") or "", reverse=True)
