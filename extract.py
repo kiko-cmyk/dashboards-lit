@@ -492,15 +492,23 @@ KLAVIYO_STATS = [
 
 
 def _klaviyo_placed_order_metric_id() -> str | None:
-    r = httpx.get(
-        f"{KLAVIYO_API}/metrics/",
-        headers=KLAVIYO_HEADERS,
-        params={"filter": "equals(name,'Placed Order')"},
-        timeout=30,
-    )
-    r.raise_for_status()
-    data = r.json().get("data", [])
-    return data[0]["id"] if data else None
+    url = f"{KLAVIYO_API}/metrics/"
+    found = None
+    while url:
+        r = httpx.get(url, headers=KLAVIYO_HEADERS, timeout=30)
+        if r.status_code >= 400:
+            log.warning("Klaviyo metrics list failed: %s %s", r.status_code, r.text[:200])
+            return None
+        j = r.json()
+        for m in j.get("data", []):
+            attrs = m.get("attributes", {})
+            if attrs.get("name") == "Placed Order":
+                found = m.get("id")
+                break
+        if found:
+            return found
+        url = j.get("links", {}).get("next")
+    return None
 
 
 def _klaviyo_post_report(kind: str, first: date, last: date, metric_id: str) -> list:
@@ -942,13 +950,24 @@ def main():
     month = resolve_month(args.month)
     log.info("Extracting month %s", month)
 
+    def safe_extract(name, fn, empty):
+        try:
+            return fn(month)
+        except Exception as exc:
+            log.exception("%s failed: %s", name, exc)
+            return {**empty, "error": str(exc)[:300]}
+
     payload = {
         "month": month,
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "meta": extract_meta(month),
-        "google": extract_google(month),
-        "klaviyo": extract_klaviyo(month),
-        "shopify": extract_shopify(month),
+        "meta": safe_extract("meta", extract_meta,
+                             {"totals": {}, "daily": [], "campaigns": [], "platforms": [], "creatives": []}),
+        "google": safe_extract("google", extract_google,
+                               {"totals": {}, "daily": [], "campaigns": [], "keywords": [], "gender": [], "age": []}),
+        "klaviyo": safe_extract("klaviyo", extract_klaviyo,
+                                {"totals": {}, "daily": [], "flows": [], "campaigns": []}),
+        "shopify": safe_extract("shopify", extract_shopify,
+                                {"totals": {}, "daily": [], "products": [], "breakdowns": {}}),
     }
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
