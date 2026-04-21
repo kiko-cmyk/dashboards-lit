@@ -35,6 +35,23 @@
     text: (v) => (v == null ? "—" : String(v)),
   };
 
+  function cpm(spend, impressions) {
+    return impressions ? (spend / impressions) * 1000 : 0;
+  }
+  function convRate(conversions, clicks) {
+    return clicks ? (conversions / clicks) * 100 : 0;
+  }
+  function shortName(name, max = 50) {
+    if (!name) return "";
+    return name.length > max ? name.slice(0, max - 1) + "…" : name;
+  }
+  function withDerived(row, { spendKey = "spend", convKey = "purchases" } = {}) {
+    const r = { ...row };
+    r._cpm = cpm(r[spendKey] ?? 0, r.impressions ?? 0);
+    r._conv_rate = convRate(r[convKey] ?? 0, r.clicks ?? 0);
+    return r;
+  }
+
   async function loadManifest() {
     const r = await fetch(`data/manifest.json?t=${Date.now()}`);
     if (!r.ok) throw new Error("manifest not found");
@@ -218,6 +235,13 @@
           const v = row[col.key];
           if (col.render) td.innerHTML = col.render(v, row);
           else td.textContent = col.format ? col.format(v) : fmt.text(v);
+          if (col.truncate) {
+            td.style.maxWidth = (col.truncate === true ? 260 : col.truncate) + "px";
+            td.style.overflow = "hidden";
+            td.style.textOverflow = "ellipsis";
+            td.style.whiteSpace = "nowrap";
+            if (v != null) td.title = String(v);
+          }
           tr.appendChild(td);
         }
         tbody.appendChild(tr);
@@ -264,47 +288,67 @@
       "CPA (€)",
     );
 
+    const metaCampaignsRows = (m?.campaigns || []).map((r) => withDerived(r, { convKey: "purchases" }));
     renderTable("meta-campaigns", [
-      { key: "campaign", label: "Campaña" },
+      { key: "campaign", label: "Campaña", truncate: 280 },
       { key: "spend", label: "Inversión", format: fmt.money },
       { key: "impressions", label: "Impr.", format: fmt.int },
       { key: "clicks", label: "Clics", format: fmt.int },
       { key: "ctr", label: "CTR", format: fmt.pct },
       { key: "cpc", label: "CPC", format: fmt.money2 },
-      { key: "purchases", label: "Purchases", format: fmt.int },
+      { key: "_cpm", label: "CPM", format: fmt.money2 },
+      { key: "purchases", label: "Ventas", format: fmt.int },
       { key: "cpa", label: "CPA", format: fmt.money2 },
+      { key: "_conv_rate", label: "CR", format: fmt.pct },
       { key: "roas", label: "ROAS", format: fmt.dec2 },
-    ], m?.campaigns);
+    ], metaCampaignsRows);
 
+    const metaPlatformsRows = (m?.platforms || []).map((r) => withDerived(r, { convKey: "purchases" }));
     renderTable("meta-platforms", [
       { key: "platform", label: "Plataforma" },
       { key: "spend", label: "Inversión", format: fmt.money },
       { key: "impressions", label: "Impr.", format: fmt.int },
       { key: "clicks", label: "Clics", format: fmt.int },
       { key: "ctr", label: "CTR", format: fmt.pct },
-      { key: "purchases", label: "Purchases", format: fmt.int },
+      { key: "cpc", label: "CPC", format: fmt.money2 },
+      { key: "_cpm", label: "CPM", format: fmt.money2 },
+      { key: "purchases", label: "Ventas", format: fmt.int },
       { key: "cpa", label: "CPA", format: fmt.money2 },
+      { key: "_conv_rate", label: "CR", format: fmt.pct },
       { key: "roas", label: "ROAS", format: fmt.dec2 },
-    ], m?.platforms);
+    ], metaPlatformsRows);
 
+    const metaCreativesRows = (m?.creatives || []).map((r) => withDerived({ ...r, _short: shortName(r.ad_name) }, { convKey: "purchases" }));
     renderTable("meta-creatives", [
       {
         key: "thumbnail_url", label: "", render: (v) =>
-          v ? `<img src="${v}" style="width:48px;height:48px;object-fit:cover;border-radius:4px" loading="lazy">` : ""
+          v ? `<img src="${v}" style="width:44px;height:44px;object-fit:cover;border-radius:3px" loading="lazy">` : ""
       },
-      { key: "ad_name", label: "Anuncio" },
+      { key: "_short", label: "Anuncio", truncate: 220 },
+      { key: "campaigns", label: "Campañas", format: (v) => (v || []).join(", "), truncate: 180 },
       { key: "spend", label: "Inversión", format: fmt.money },
       { key: "impressions", label: "Impr.", format: fmt.int },
+      { key: "clicks", label: "Clics", format: fmt.int },
       { key: "ctr", label: "CTR", format: fmt.pct },
-      { key: "purchases", label: "Purchases", format: fmt.int },
+      { key: "cpc", label: "CPC", format: fmt.money2 },
+      { key: "_cpm", label: "CPM", format: fmt.money2 },
+      { key: "purchases", label: "Ventas", format: fmt.int },
       { key: "cpa", label: "CPA", format: fmt.money2 },
+      { key: "_conv_rate", label: "CR", format: fmt.pct },
       { key: "roas", label: "ROAS", format: fmt.dec2 },
-    ], m?.creatives, { limit: 50 });
+    ], metaCreativesRows, { limit: 80 });
 
     const hist = aggregateHistory(
       state.history, "meta",
       ["spend", "impressions", "clicks", "purchases", "revenue"],
-      { ctr: ["clicks", "impressions", 100], cpc: ["spend", "clicks"], cpa: ["spend", "purchases"], roas: ["revenue", "spend"] }
+      {
+        ctr: ["clicks", "impressions", 100],
+        cpc: ["spend", "clicks"],
+        cpm: ["spend", "impressions", 1000],
+        cpa: ["spend", "purchases"],
+        conv_rate: ["purchases", "clicks", 100],
+        roas: ["revenue", "spend"],
+      }
     );
     renderTable("meta-history", [
       { key: "month", label: "Mes" },
@@ -313,8 +357,10 @@
       { key: "clicks", label: "Clics", format: fmt.int },
       { key: "ctr", label: "CTR", format: (v) => `${v.toFixed(2)}%` },
       { key: "cpc", label: "CPC", format: fmt.money2 },
-      { key: "purchases", label: "Purchases", format: fmt.int },
+      { key: "cpm", label: "CPM", format: fmt.money2 },
+      { key: "purchases", label: "Ventas", format: fmt.int },
       { key: "cpa", label: "CPA", format: fmt.money2 },
+      { key: "conv_rate", label: "CR", format: (v) => `${v.toFixed(2)}%` },
       { key: "roas", label: "ROAS", format: fmt.dec2 },
     ], hist);
   }
@@ -356,8 +402,9 @@
       "Conversiones",
       LIT.beige);
 
+    const googleCampaignsRows = (g?.campaigns || []).map((r) => withDerived(r, { spendKey: "cost", convKey: "conversions" }));
     renderTable("google-campaigns", [
-      { key: "campaign", label: "Campaña" },
+      { key: "campaign", label: "Campaña", truncate: 240 },
       { key: "type", label: "Tipo" },
       { key: "status", label: "Estado" },
       { key: "cost", label: "Inversión", format: fmt.money },
@@ -365,29 +412,40 @@
       { key: "clicks", label: "Clics", format: fmt.int },
       { key: "ctr", label: "CTR", format: fmt.pct },
       { key: "cpc", label: "CPC", format: fmt.money2 },
+      { key: "_cpm", label: "CPM", format: fmt.money2 },
       { key: "conversions", label: "Conv.", format: fmt.dec2 },
       { key: "cpa", label: "CPA", format: fmt.money2 },
-      { key: "conv_rate", label: "Tasa Conv.", format: fmt.pct },
+      { key: "conv_rate", label: "CR", format: fmt.pct },
       { key: "roas", label: "ROAS", format: fmt.dec2 },
-    ], g?.campaigns);
+    ], googleCampaignsRows);
 
+    const googleKeywordsRows = (g?.keywords || []).map((r) => withDerived({ ...r, cpc: r.avg_cpc }, { spendKey: "cost", convKey: "conversions" }));
     renderTable("google-keywords", [
-      { key: "keyword", label: "Keyword" },
+      { key: "keyword", label: "Keyword", truncate: 220 },
       { key: "match_type", label: "Match" },
-      { key: "campaign", label: "Campaña" },
+      { key: "campaign", label: "Campaña", truncate: 200 },
       { key: "impressions", label: "Impr.", format: fmt.int },
       { key: "clicks", label: "Clics", format: fmt.int },
       { key: "ctr", label: "CTR", format: fmt.pct },
       { key: "avg_cpc", label: "CPC", format: fmt.money2 },
+      { key: "_cpm", label: "CPM", format: fmt.money2 },
       { key: "cost", label: "Coste", format: fmt.money },
       { key: "conversions", label: "Conv.", format: fmt.dec2 },
       { key: "cpa", label: "CPA", format: fmt.money2 },
-    ], g?.keywords, { limit: 100 });
+      { key: "_conv_rate", label: "CR", format: fmt.pct },
+    ], googleKeywordsRows, { limit: 100 });
 
     const hist = aggregateHistory(
       state.history, "google",
       ["cost", "impressions", "clicks", "conversions", "revenue"],
-      { ctr: ["clicks", "impressions", 100], cpc: ["cost", "clicks"], cpa: ["cost", "conversions"], conv_rate: ["conversions", "clicks", 100], roas: ["revenue", "cost"] }
+      {
+        ctr: ["clicks", "impressions", 100],
+        cpc: ["cost", "clicks"],
+        cpm: ["cost", "impressions", 1000],
+        cpa: ["cost", "conversions"],
+        conv_rate: ["conversions", "clicks", 100],
+        roas: ["revenue", "cost"],
+      }
     );
     renderTable("google-history", [
       { key: "month", label: "Mes" },
@@ -396,9 +454,10 @@
       { key: "clicks", label: "Clics", format: fmt.int },
       { key: "ctr", label: "CTR", format: (v) => `${v.toFixed(2)}%` },
       { key: "cpc", label: "CPC", format: fmt.money2 },
+      { key: "cpm", label: "CPM", format: fmt.money2 },
       { key: "conversions", label: "Conv.", format: fmt.dec2 },
       { key: "cpa", label: "CPA", format: fmt.money2 },
-      { key: "conv_rate", label: "Tasa Conv.", format: (v) => `${v.toFixed(2)}%` },
+      { key: "conv_rate", label: "CR", format: (v) => `${v.toFixed(2)}%` },
       { key: "roas", label: "ROAS", format: fmt.dec2 },
     ], hist);
   }

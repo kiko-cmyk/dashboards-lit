@@ -50,10 +50,10 @@
     .brand {
       display: flex;
       align-items: center;
-      gap: 14px;
+      gap: 18px;
     }
     .brand img {
-      height: 32px;
+      height: 56px;
       width: auto;
       filter: brightness(0) invert(1);
     }
@@ -257,14 +257,14 @@
   </header>
 
   <nav class="tabs">
-    <button class="tab active" data-tab="meta">Meta Ads</button>
+    <button class="tab active" data-tab="shopify">Shopify</button>
+    <button class="tab" data-tab="meta">Meta Ads</button>
     <button class="tab" data-tab="google">Google Ads</button>
     <button class="tab" data-tab="klaviyo">Klaviyo</button>
-    <button class="tab" data-tab="shopify">Shopify</button>
   </nav>
 
   <main>
-    <section class="section active" data-section="meta">
+    <section class="section" data-section="meta">
       <h2>Meta Ads</h2>
       <div id="meta-kpis" class="kpi-grid"></div>
       <div class="panel">
@@ -341,7 +341,7 @@
       </div>
     </section>
 
-    <section class="section" data-section="shopify">
+    <section class="section active" data-section="shopify">
       <h2>Shopify</h2>
       <div id="shopify-kpis" class="kpi-grid"></div>
       <div class="panel">
@@ -370,6 +370,6 @@
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
-  <script src="dashboard.js?v=4"></script>
+  <script src="dashboard.js?v=5"></script>
 </body>
 </html>
