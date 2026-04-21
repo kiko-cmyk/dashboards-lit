@@ -3460,5 +3460,783 @@
         }
       ]
     }
+  },
+  "wholesale": {
+    "totals": {
+      "orders": 92,
+      "revenue": 30269.88,
+      "paid": 5437.01,
+      "pending": 24832.87,
+      "aov": 329.02,
+      "paid_pct": 17.96,
+      "accounts": 61
+    },
+    "daily": [
+      {
+        "date": "2026-03-01",
+        "orders": 15,
+        "revenue": 2210.69,
+        "paid": 1044.2
+      },
+      {
+        "date": "2026-03-02",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-03-03",
+        "orders": 14,
+        "revenue": 3002.62,
+        "paid": 2155.74
+      },
+      {
+        "date": "2026-03-04",
+        "orders": 3,
+        "revenue": 536.93,
+        "paid": 302.43
+      },
+      {
+        "date": "2026-03-05",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-03-06",
+        "orders": 4,
+        "revenue": 114.52,
+        "paid": 114.52
+      },
+      {
+        "date": "2026-03-07",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-03-08",
+        "orders": 3,
+        "revenue": 261.63,
+        "paid": 144.99
+      },
+      {
+        "date": "2026-03-09",
+        "orders": 3,
+        "revenue": 203.31,
+        "paid": 115.83
+      },
+      {
+        "date": "2026-03-10",
+        "orders": 1,
+        "revenue": 25.52,
+        "paid": 25.52
+      },
+      {
+        "date": "2026-03-11",
+        "orders": 3,
+        "revenue": 51.04,
+        "paid": 51.04
+      },
+      {
+        "date": "2026-03-12",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-03-13",
+        "orders": 3,
+        "revenue": 82.22,
+        "paid": 82.22
+      },
+      {
+        "date": "2026-03-14",
+        "orders": 2,
+        "revenue": 56.7,
+        "paid": 56.7
+      },
+      {
+        "date": "2026-03-15",
+        "orders": 2,
+        "revenue": 56.7,
+        "paid": 56.7
+      },
+      {
+        "date": "2026-03-16",
+        "orders": 6,
+        "revenue": 230.66,
+        "paid": 172.03
+      },
+      {
+        "date": "2026-03-17",
+        "orders": 1,
+        "revenue": 28.35,
+        "paid": 28.35
+      },
+      {
+        "date": "2026-03-18",
+        "orders": 4,
+        "revenue": 291.2,
+        "paid": 173.95
+      },
+      {
+        "date": "2026-03-19",
+        "orders": 3,
+        "revenue": 145.61,
+        "paid": 145.61
+      },
+      {
+        "date": "2026-03-20",
+        "orders": 2,
+        "revenue": 51.98,
+        "paid": 51.98
+      },
+      {
+        "date": "2026-03-21",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-03-22",
+        "orders": 6,
+        "revenue": 423.51,
+        "paid": 364.89
+      },
+      {
+        "date": "2026-03-23",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-03-24",
+        "orders": 2,
+        "revenue": 37.8,
+        "paid": 18.9
+      },
+      {
+        "date": "2026-03-25",
+        "orders": 1,
+        "revenue": 14.18,
+        "paid": 14.18
+      },
+      {
+        "date": "2026-03-26",
+        "orders": 1,
+        "revenue": 33.97,
+        "paid": 33.97
+      },
+      {
+        "date": "2026-03-27",
+        "orders": 1,
+        "revenue": 18.9,
+        "paid": 18.9
+      },
+      {
+        "date": "2026-03-28",
+        "orders": 1,
+        "revenue": 39.98,
+        "paid": 39.98
+      },
+      {
+        "date": "2026-03-29",
+        "orders": 4,
+        "revenue": 385.71,
+        "paid": 92.59
+      },
+      {
+        "date": "2026-03-30",
+        "orders": 2,
+        "revenue": 21834.36,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-03-31",
+        "orders": 5,
+        "revenue": 131.79,
+        "paid": 131.79
+      }
+    ],
+    "pipeline": [
+      {
+        "stage": "Prospects",
+        "count": 21
+      },
+      {
+        "stage": "Outreach / Visits",
+        "count": 67
+      },
+      {
+        "stage": "Qualified / In Communication",
+        "count": 43
+      },
+      {
+        "stage": "Lost",
+        "count": 22
+      },
+      {
+        "stage": "Order: Consignment",
+        "count": 12
+      }
+    ],
+    "top_accounts": [
+      {
+        "account": "CLIENTES SHOPIFY",
+        "orders": 1,
+        "revenue": 21384.36
+      },
+      {
+        "account": "LAMARCA LAB SL.",
+        "orders": 3,
+        "revenue": 1209.4
+      },
+      {
+        "account": "Magdalena Muñoz Lozano",
+        "orders": 2,
+        "revenue": 750.0
+      },
+      {
+        "account": "HOTEL VILLA MAGNA SL (ROSEWOOD SPA VILLA MAGNA)",
+        "orders": 5,
+        "revenue": 731.44
+      },
+      {
+        "account": "A&P Wellness S.L. (Olimpia TWC)",
+        "orders": 6,
+        "revenue": 702.44
+      },
+      {
+        "account": "Katarina Strygina Kravtsova (Verde)",
+        "orders": 5,
+        "revenue": 611.45
+      },
+      {
+        "account": "AMA Pilates SL",
+        "orders": 2,
+        "revenue": 469.0
+      },
+      {
+        "account": "CURIOUS HEALTH SL. (DR YOU)",
+        "orders": 2,
+        "revenue": 469.0
+      },
+      {
+        "account": "TELWAY INVERSIONES, S.L.",
+        "orders": 2,
+        "revenue": 469.0
+      },
+      {
+        "account": "Ford Beckham",
+        "orders": 2,
+        "revenue": 351.74
+      },
+      {
+        "account": "AMA PILATES SL. (AMA STUDIO)",
+        "orders": 2,
+        "revenue": 234.5
+      },
+      {
+        "account": "THE SHAPE SQUAD SL.",
+        "orders": 2,
+        "revenue": 234.5
+      },
+      {
+        "account": "Domo Lane Group SL (After Box)",
+        "orders": 2,
+        "revenue": 234.5
+      },
+      {
+        "account": "A&P Wellness S.L.",
+        "orders": 1,
+        "revenue": 234.4
+      },
+      {
+        "account": "HOTEL VILLA MAGNA SL",
+        "orders": 1,
+        "revenue": 234.4
+      },
+      {
+        "account": "FONDO SUPPER CLUB SL. (FONDO SCHOOL)",
+        "orders": 2,
+        "revenue": 233.28
+      },
+      {
+        "account": "ACOSTA'S FIT SLU",
+        "orders": 2,
+        "revenue": 117.26
+      },
+      {
+        "account": "Sano Goya SL",
+        "orders": 2,
+        "revenue": 117.26
+      },
+      {
+        "account": "SKYRSKYR SL.",
+        "orders": 2,
+        "revenue": 117.24
+      },
+      {
+        "account": "Beatriz Castelló Castro (Luis Felipe Fossa)",
+        "orders": 2,
+        "revenue": 117.24
+      },
+      {
+        "account": "MIRO REVIVE PROJECT SL. (Revive)",
+        "orders": 2,
+        "revenue": 75.0
+      },
+      {
+        "account": "Crossfit Titanium SL",
+        "orders": 1,
+        "revenue": 70.35
+      },
+      {
+        "account": "Nerea Alarcón Cabezas",
+        "orders": 1,
+        "revenue": 67.93
+      },
+      {
+        "account": "Silvia Vera Juan",
+        "orders": 1,
+        "revenue": 39.98
+      },
+      {
+        "account": "Francisco Crespo Marcos",
+        "orders": 2,
+        "revenue": 39.7
+      },
+      {
+        "account": "Cafes Zaidin SA",
+        "orders": 2,
+        "revenue": 37.8
+      },
+      {
+        "account": "Carlos Ibañez",
+        "orders": 1,
+        "revenue": 37.8
+      },
+      {
+        "account": "Daniel Martinez Ramos",
+        "orders": 1,
+        "revenue": 37.8
+      },
+      {
+        "account": "Raquel Nofuentes Peñalver",
+        "orders": 1,
+        "revenue": 33.97
+      },
+      {
+        "account": "Irene Gómez Moreno",
+        "orders": 1,
+        "revenue": 33.97
+      },
+      {
+        "account": "Tamara Barcelo",
+        "orders": 1,
+        "revenue": 33.97
+      },
+      {
+        "account": "Jorge Rivero Trujillo",
+        "orders": 1,
+        "revenue": 29.47
+      },
+      {
+        "account": "Asia Dlutowska",
+        "orders": 1,
+        "revenue": 28.35
+      },
+      {
+        "account": "Irina Sucre",
+        "orders": 1,
+        "revenue": 28.35
+      },
+      {
+        "account": "ANA MARTÍN GÓMEZ",
+        "orders": 1,
+        "revenue": 28.35
+      },
+      {
+        "account": "Sara Rodriguez De Soria",
+        "orders": 1,
+        "revenue": 28.35
+      },
+      {
+        "account": "Eva Marqués  Domingo",
+        "orders": 1,
+        "revenue": 28.35
+      },
+      {
+        "account": "Andres Ibañez",
+        "orders": 1,
+        "revenue": 28.35
+      },
+      {
+        "account": "Soraya Rodríguez López",
+        "orders": 1,
+        "revenue": 28.35
+      },
+      {
+        "account": "Atibel Alvarez",
+        "orders": 1,
+        "revenue": 28.35
+      },
+      {
+        "account": "Cristina Cachero",
+        "orders": 1,
+        "revenue": 28.35
+      },
+      {
+        "account": "Leticia Soria",
+        "orders": 1,
+        "revenue": 28.35
+      },
+      {
+        "account": "Alejandro fernandez-blanco",
+        "orders": 1,
+        "revenue": 28.35
+      },
+      {
+        "account": "Jose Montelongo melian",
+        "orders": 1,
+        "revenue": 28.35
+      },
+      {
+        "account": "Borja Fernández Fernández",
+        "orders": 1,
+        "revenue": 28.35
+      },
+      {
+        "account": "lorena Repiso",
+        "orders": 1,
+        "revenue": 28.35
+      },
+      {
+        "account": "Ana Salobreña",
+        "orders": 1,
+        "revenue": 28.35
+      },
+      {
+        "account": "Carlos Ruiz Candelario",
+        "orders": 1,
+        "revenue": 28.35
+      },
+      {
+        "account": "Jose Gama",
+        "orders": 1,
+        "revenue": 28.35
+      },
+      {
+        "account": "juan loreiro rubio",
+        "orders": 1,
+        "revenue": 28.35
+      },
+      {
+        "account": "MATIAS CUBAS VEGA",
+        "orders": 1,
+        "revenue": 28.35
+      },
+      {
+        "account": "M. Isabel González Méndez",
+        "orders": 1,
+        "revenue": 25.52
+      },
+      {
+        "account": "Jesús Carralero Medialdea",
+        "orders": 1,
+        "revenue": 25.52
+      },
+      {
+        "account": "Alba Perez franco",
+        "orders": 1,
+        "revenue": 25.52
+      },
+      {
+        "account": "Marta Estefano Lopez",
+        "orders": 1,
+        "revenue": 18.9
+      },
+      {
+        "account": "Leticia Otero Alvarez",
+        "orders": 1,
+        "revenue": 18.9
+      },
+      {
+        "account": "Vanessa Rodríguez Alcaide",
+        "orders": 1,
+        "revenue": 14.18
+      },
+      {
+        "account": "Rafael Cueto",
+        "orders": 1,
+        "revenue": 14.18
+      },
+      {
+        "account": "Micaela Viciosa",
+        "orders": 1,
+        "revenue": 14.18
+      },
+      {
+        "account": "Valentina Lopez",
+        "orders": 1,
+        "revenue": 14.18
+      },
+      {
+        "account": "Ignacio Echánove sanchez",
+        "orders": 1,
+        "revenue": 0.0
+      }
+    ]
+  },
+  "affiliates": {
+    "totals": {
+      "orders": 16,
+      "revenue": 619.75,
+      "commission": 95.16,
+      "active_affiliates": 6,
+      "total_affiliates": 30,
+      "new_affiliates": 10,
+      "aov": 38.73,
+      "commission_rate": 15.35
+    },
+    "daily": [
+      {
+        "date": "2026-03-01",
+        "orders": 2,
+        "revenue": 218.68,
+        "commission": 32.8
+      },
+      {
+        "date": "2026-03-02",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-03-03",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-03-04",
+        "orders": 1,
+        "revenue": 62.48,
+        "commission": 9.37
+      },
+      {
+        "date": "2026-03-05",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-03-06",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-03-07",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-03-08",
+        "orders": 1,
+        "revenue": 23.43,
+        "commission": 3.51
+      },
+      {
+        "date": "2026-03-09",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-03-10",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-03-11",
+        "orders": 2,
+        "revenue": 62.48,
+        "commission": 9.38
+      },
+      {
+        "date": "2026-03-12",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-03-13",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-03-14",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-03-15",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-03-16",
+        "orders": 2,
+        "revenue": 84.45,
+        "commission": 12.67
+      },
+      {
+        "date": "2026-03-17",
+        "orders": 1,
+        "revenue": 23.43,
+        "commission": 3.51
+      },
+      {
+        "date": "2026-03-18",
+        "orders": 1,
+        "revenue": 23.13,
+        "commission": 3.47
+      },
+      {
+        "date": "2026-03-19",
+        "orders": 1,
+        "revenue": 23.43,
+        "commission": 3.51
+      },
+      {
+        "date": "2026-03-20",
+        "orders": 1,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-03-21",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-03-22",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-03-23",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-03-24",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-03-25",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-03-26",
+        "orders": 2,
+        "revenue": 67.54,
+        "commission": 9.46
+      },
+      {
+        "date": "2026-03-27",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-03-28",
+        "orders": 1,
+        "revenue": 16.52,
+        "commission": 2.48
+      },
+      {
+        "date": "2026-03-29",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-03-30",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-03-31",
+        "orders": 1,
+        "revenue": 14.18,
+        "commission": 5.0
+      }
+    ],
+    "top_affiliates": [
+      {
+        "affiliate_id": 19579850,
+        "name": "Vicky Fidalgo",
+        "ref_code": "10460850.aOAL7jDdo1Dp",
+        "orders": 7,
+        "revenue": 195.25,
+        "commission": 29.28
+      },
+      {
+        "affiliate_id": 19579849,
+        "name": "Mother Euro",
+        "ref_code": "10412833.rUpLwioB0wXDno",
+        "orders": 2,
+        "revenue": 192.89,
+        "commission": 28.93
+      },
+      {
+        "affiliate_id": 9894578,
+        "name": "Alejandra Rodriguez",
+        "ref_code": "9214863.7sITLMxdEEAKZn",
+        "orders": 4,
+        "revenue": 149.89,
+        "commission": 22.49
+      },
+      {
+        "affiliate_id": 19579914,
+        "name": "Julian Lopez Richart",
+        "ref_code": "9596825.QzwquXcNVR",
+        "orders": 1,
+        "revenue": 37.8,
+        "commission": 5.0
+      },
+      {
+        "affiliate_id": 19579845,
+        "name": "Manuel Goncalves",
+        "ref_code": "9214898.wSDyxEUM0rzTc",
+        "orders": 1,
+        "revenue": 29.74,
+        "commission": 4.46
+      },
+      {
+        "affiliate_id": 19579916,
+        "name": "David Parreira Preto",
+        "ref_code": "9596832.sg2Xk6UNBd",
+        "orders": 1,
+        "revenue": 14.18,
+        "commission": 5.0
+      }
+    ]
   }
 }
