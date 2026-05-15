@@ -5,4 +5,5 @@ __pycache__/
 .venv/
 venv/
 .DS_Store
-.github/workflows/
+.github/workflows/*
+!.github/workflows/pages.yml
