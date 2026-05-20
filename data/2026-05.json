@@ -1,19 +1,19 @@
 {
   "month": "2026-05",
-  "generated_at": "2026-05-19T16:00:07.818243+00:00",
+  "generated_at": "2026-05-20T08:00:04.331568+00:00",
   "meta": {
     "totals": {
-      "spend": 6817.34,
-      "impressions": 1168651,
-      "clicks": 43364,
-      "reach": 470670,
-      "purchases": 310.0,
-      "revenue": 10540.68,
-      "ctr": 3.71,
+      "spend": 7031.38,
+      "impressions": 1203181,
+      "clicks": 44438,
+      "reach": 477621,
+      "purchases": 323.0,
+      "revenue": 11013.52,
+      "ctr": 3.69,
       "cpc": 0.16,
-      "cpm": 5.83,
-      "cpa": 21.99,
-      "roas": 1.55
+      "cpm": 5.84,
+      "cpa": 21.77,
+      "roas": 1.57
     },
     "daily": [
       {
@@ -242,8 +242,8 @@
       },
       {
         "date": "2026-05-17",
-        "spend": 394.36,
-        "impressions": 65976,
+        "spend": 394.38,
+        "impressions": 65978,
         "clicks": 1907,
         "reach": 46606,
         "purchases": 7.0,
@@ -256,123 +256,137 @@
       },
       {
         "date": "2026-05-18",
-        "spend": 350.46,
-        "impressions": 61000,
+        "spend": 350.48,
+        "impressions": 61008,
         "clicks": 1807,
         "reach": 45070,
         "purchases": 19.0,
         "revenue": 888.19,
         "ctr": 2.96,
         "cpc": 0.19,
-        "cpm": 5.75,
+        "cpm": 5.74,
         "cpa": 18.45,
         "roas": 2.53
       },
       {
         "date": "2026-05-19",
-        "spend": 224.74,
-        "impressions": 37427,
-        "clicks": 1162,
-        "reach": 30253,
-        "purchases": 6.0,
-        "revenue": 247.48,
-        "ctr": 3.1,
+        "spend": 357.43,
+        "impressions": 60375,
+        "clicks": 1901,
+        "reach": 46447,
+        "purchases": 11.0,
+        "revenue": 408.13,
+        "ctr": 3.15,
         "cpc": 0.19,
-        "cpm": 6.0,
-        "cpa": 37.46,
-        "roas": 1.1
+        "cpm": 5.92,
+        "cpa": 32.49,
+        "roas": 1.14
+      },
+      {
+        "date": "2026-05-20",
+        "spend": 81.31,
+        "impressions": 11572,
+        "clicks": 335,
+        "reach": 9325,
+        "purchases": 8.0,
+        "revenue": 312.19,
+        "ctr": 2.89,
+        "cpc": 0.24,
+        "cpm": 7.03,
+        "cpa": 10.16,
+        "roas": 3.84
       }
     ],
     "campaigns": [
       {
         "campaign": "Electrolytes - Salty Lemon_Acquisition_Spain_Sales_Evergreen Campaign_2026-02-26",
-        "spend": 3820.02,
-        "impressions": 478174,
-        "clicks": 7880,
-        "reach": 93964,
-        "purchases": 161.0,
-        "revenue": 5262.34,
-        "ctr": 1.65,
-        "cpc": 0.48,
-        "cpm": 7.99,
-        "cpa": 23.73,
-        "roas": 1.38
+        "spend": 3938.0,
+        "impressions": 491909,
+        "clicks": 8053,
+        "reach": 95641,
+        "purchases": 167.0,
+        "revenue": 5481.47,
+        "ctr": 1.64,
+        "cpc": 0.49,
+        "cpm": 8.01,
+        "cpa": 23.58,
+        "roas": 1.39
       },
       {
         "campaign": "Electrolytes - Salty Lemon_Acquisition_Spain_Sales_Press Campaign_2026-03-10",
-        "spend": 2997.32,
-        "impressions": 690477,
-        "clicks": 35484,
-        "reach": 445115,
-        "purchases": 149.0,
-        "revenue": 5278.34,
-        "ctr": 5.14,
-        "cpc": 0.08,
-        "cpm": 4.34,
-        "cpa": 20.12,
-        "roas": 1.76
+        "spend": 3093.38,
+        "impressions": 711272,
+        "clicks": 36385,
+        "reach": 452316,
+        "purchases": 156.0,
+        "revenue": 5532.05,
+        "ctr": 5.12,
+        "cpc": 0.09,
+        "cpm": 4.35,
+        "cpa": 19.83,
+        "roas": 1.79
       }
     ],
     "adsets": [
       {
         "campaign": "Electrolytes - Salty Lemon_Acquisition_Spain_Sales_Evergreen Campaign_2026-02-26",
         "adset": "Spain_Broad_Fatigue - Work_MFO_All ages_Auto bidding_All placements_2026-02-25",
-        "spend": 1183.14,
-        "impressions": 133846,
-        "clicks": 1896,
-        "reach": 49356,
+        "spend": 1222.67,
+        "impressions": 138081,
+        "clicks": 1935,
+        "reach": 50451,
         "purchases": 40.0,
         "revenue": 1469.35,
-        "ctr": 1.42,
-        "cpc": 0.62,
-        "cpm": 8.84,
-        "cpa": 29.58,
-        "roas": 1.24
+        "ctr": 1.4,
+        "cpc": 0.63,
+        "cpm": 8.85,
+        "cpa": 30.57,
+        "roas": 1.2
       },
       {
         "campaign": "Electrolytes - Salty Lemon_Acquisition_Spain_Sales_Evergreen Campaign_2026-02-26",
         "adset": "Spain_Broad_Fatigue - Running_MFO_All ages_Auto bidding_All placements_2026-02-25",
-        "spend": 1194.82,
-        "impressions": 187981,
-        "clicks": 2699,
-        "reach": 54819,
-        "purchases": 47.0,
-        "revenue": 1611.88,
-        "ctr": 1.44,
-        "cpc": 0.44,
-        "cpm": 6.36,
-        "cpa": 25.42,
-        "roas": 1.35
+        "spend": 1233.8,
+        "impressions": 193446,
+        "clicks": 2760,
+        "reach": 55541,
+        "purchases": 52.0,
+        "revenue": 1842.24,
+        "ctr": 1.43,
+        "cpc": 0.45,
+        "cpm": 6.38,
+        "cpa": 23.73,
+        "roas": 1.49
       },
       {
         "campaign": "Electrolytes - Salty Lemon_Acquisition_Spain_Sales_Evergreen Campaign_2026-02-26",
         "adset": "Spain_Broad_Fatigue - General_MFO_All ages_Auto bidding_All placements_2026-02-25",
-        "spend": 1272.2,
-        "impressions": 141669,
-        "clicks": 2756,
-        "reach": 50570,
-        "purchases": 58.0,
-        "revenue": 1820.69,
-        "ctr": 1.95,
+        "spend": 1311.67,
+        "impressions": 145704,
+        "clicks": 2829,
+        "reach": 51336,
+        "purchases": 60.0,
+        "revenue": 1877.39,
+        "ctr": 1.94,
         "cpc": 0.46,
-        "cpm": 8.98,
-        "cpa": 21.93,
+        "cpm": 9.0,
+        "cpa": 21.86,
         "roas": 1.43
       },
       {
         "campaign": "Electrolytes - Salty Lemon_Acquisition_Spain_Sales_Press Campaign_2026-03-10",
         "adset": "Spain_Broad_Press-ElMundo_MFO_All ages_Auto bidding_All placements_2026-03-10",
-        "spend": 2288.74,
-        "impressions": 550132,
-        "clicks": 29522,
-        "reach": 401383,
-        "purchases": 129.0,
-        "revenue": 4747.4,
-        "ctr": 5.37,
+        "spend": 2365.71,
+        "impressions": 567179,
+        "clicks": 30299,
+        "reach": 409055,
+        "purchases": 135.0,
+        "revenue": 4972.76,
+        "ctr": 5.34,
         "cpc": 0.08,
-        "cpm": 4.16,
-        "cpa": 17.74,
-        "roas": 2.07
+        "cpm": 4.17,
+        "cpa": 17.52,
+        "roas": 2.1
       },
       {
         "campaign": "Electrolytes - Salty Lemon_Acquisition_Spain_Sales_Evergreen Campaign_2026-02-26",
@@ -407,73 +421,73 @@
       {
         "campaign": "Electrolytes - Salty Lemon_Acquisition_Spain_Sales_Press Campaign_2026-03-10",
         "adset": "Spain_Broad_Press-Men'sHealth_MFO_All ages_Auto bidding_All placements_2026-04-21",
-        "spend": 591.58,
-        "impressions": 125361,
-        "clicks": 4947,
-        "reach": 86947,
-        "purchases": 19.0,
-        "revenue": 502.59,
-        "ctr": 3.95,
+        "spend": 610.67,
+        "impressions": 129109,
+        "clicks": 5071,
+        "reach": 88282,
+        "purchases": 20.0,
+        "revenue": 530.94,
+        "ctr": 3.93,
         "cpc": 0.12,
-        "cpm": 4.72,
-        "cpa": 31.14,
-        "roas": 0.85
+        "cpm": 4.73,
+        "cpa": 30.53,
+        "roas": 0.87
       }
     ],
     "platforms": [
       {
         "platform": "audience_network",
-        "spend": 9.23,
-        "impressions": 1636,
-        "clicks": 364,
-        "reach": 165,
+        "spend": 9.46,
+        "impressions": 1720,
+        "clicks": 384,
+        "reach": 174,
         "purchases": 1.0,
         "revenue": 37.8,
-        "ctr": 22.25,
-        "cpc": 0.03,
-        "cpm": 5.64,
-        "cpa": 9.23,
-        "roas": 4.09
+        "ctr": 22.33,
+        "cpc": 0.02,
+        "cpm": 5.5,
+        "cpa": 9.46,
+        "roas": 3.99
       },
       {
         "platform": "facebook",
-        "spend": 774.45,
-        "impressions": 196652,
-        "clicks": 6351,
-        "reach": 71716,
-        "purchases": 40.0,
-        "revenue": 1351.0,
-        "ctr": 3.23,
+        "spend": 792.97,
+        "impressions": 201322,
+        "clicks": 6486,
+        "reach": 72624,
+        "purchases": 41.0,
+        "revenue": 1379.35,
+        "ctr": 3.22,
         "cpc": 0.12,
         "cpm": 3.94,
-        "cpa": 19.36,
+        "cpa": 19.34,
         "roas": 1.74
       },
       {
         "platform": "instagram",
-        "spend": 6032.04,
-        "impressions": 969884,
-        "clicks": 36644,
-        "reach": 413123,
-        "purchases": 268.0,
-        "revenue": 9083.95,
-        "ctr": 3.78,
-        "cpc": 0.16,
-        "cpm": 6.22,
-        "cpa": 22.51,
-        "roas": 1.51
+        "spend": 6227.27,
+        "impressions": 999646,
+        "clicks": 37563,
+        "reach": 419263,
+        "purchases": 281.0,
+        "revenue": 9596.37,
+        "ctr": 3.76,
+        "cpc": 0.17,
+        "cpm": 6.23,
+        "cpa": 22.16,
+        "roas": 1.54
       },
       {
         "platform": "threads",
-        "spend": 1.61,
-        "impressions": 478,
+        "spend": 1.66,
+        "impressions": 492,
         "clicks": 5,
-        "reach": 403,
+        "reach": 419,
         "purchases": 0.0,
         "revenue": 0.0,
-        "ctr": 1.05,
-        "cpc": 0.32,
-        "cpm": 3.37,
+        "ctr": 1.02,
+        "cpc": 0.33,
+        "cpm": 3.38,
         "cpa": 0.0,
         "roas": 0.0
       },
@@ -496,7 +510,7 @@
       {
         "creative_id": "3937899833178389",
         "ad_name": "id.2026-03-10-Creative El Mundo_format.Image_product.Electrolytes - Salty Lemon_persona.Trend Follower_angle.Emotional Benefit - Therapeutic Value_style.Product - Lifestyle_copy.C1_type.New - Performance_promo.No promo_url.Landing page_vidlength.none_creator._hook.Vuelve al Ruedo_creativeCTA.Learn More / Discover",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/649506859_941401722172525_1703411262447133523_n.png?_nc_cat=102&ccb=1-7&_nc_ohc=nkQ3WxXBPqYQ7kNvwH9T-PV&_nc_oc=Adr2OA-YnPWK2RwhKDdPuCFkwfnFiPmU01iJiyFo990RxXMTroz79GyGF1k_N0q5nJiIr8C8OrltF6atjZ0h_nuo&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=oG99auK8kt5lRBb8wEU_5w&_nc_tpa=Q5bMBQFYIt2wLkgXhY_3y3VjmRG9EgqaRllkN5J2zJJZ6he1xClzsVqR4DJp_T9CcxW9MM7eBB3F6zeJ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af6gP6TW0YaQ9dilka0W0bfCDJpRcwWSg4BscpW7nNQSdg&oe=6A12596F",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/649506859_941401722172525_1703411262447133523_n.png?_nc_cat=102&ccb=1-7&_nc_ohc=nkQ3WxXBPqYQ7kNvwH9T-PV&_nc_oc=Adr2OA-YnPWK2RwhKDdPuCFkwfnFiPmU01iJiyFo990RxXMTroz79GyGF1k_N0q5nJiIr8C8OrltF6atjZ0h_nuo&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=qv6gN9_gbqaHEaVerpm4tg&_nc_tpa=Q5bMBQH5Mj7h5G3UHZrPAaTQbBpnhcTa8qM2iyBhCGrvUoQRPAWqwDbBXtSRCFzL_FY3gLLqh-9Bm10F&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af6ipSHoVQy5_gKKf9SfZjkmHPvEjkKNMkM4h2IlR71CFw&oe=6A133A6F",
         "title": null,
         "body": null,
         "campaigns": [
@@ -505,21 +519,21 @@
         "adsets": [
           "Spain_Broad_Press-ElMundo_MFO_All ages_Auto bidding_All placements_2026-03-10"
         ],
-        "spend": 2288.74,
-        "impressions": 550132,
-        "clicks": 29522,
-        "reach": 401383,
-        "purchases": 129.0,
-        "revenue": 4747.4,
-        "ctr": 5.37,
+        "spend": 2365.71,
+        "impressions": 567179,
+        "clicks": 30299,
+        "reach": 409055,
+        "purchases": 135.0,
+        "revenue": 4972.76,
+        "ctr": 5.34,
         "cpc": 0.08,
-        "cpa": 17.74,
-        "roas": 2.07
+        "cpa": 17.52,
+        "roas": 2.1
       },
       {
         "creative_id": "1205576198031279",
         "ad_name": "id.2026-02-12-Creative 39_format.Video_product.Electrolytes - Salty Lemon_persona.Trend Follower_angle.Emotional Benefit - Therapeutic Value_style.Product - UGC_copy.C1_type.New - Performance_promo.No promo_url.Landing page_vidlength.15-30s_creator.IA_hook._creativeCTA.Learn More / Discover",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/628534979_1240931637470298_8896003931047812488_n.jpg?_nc_cat=111&ccb=1-7&_nc_ohc=KsAN-zwSOHgQ7kNvwFAtvUr&_nc_oc=AdrdRtm3gyInSo4eDHTj5Mt8_Kn8dEANdFGn-_1hqbmFgPO8QOMy13b8Gg90JrJh-fNl1huNdsEGAmM0JLWFINvu&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=oG99auK8kt5lRBb8wEU_5w&_nc_tpa=Q5bMBQG0fqtg-vMgr5tGRQpT1ucohlTCTHtPMLfFmK-ysGyq-6ihJsyhDXRLgEoe9Cvta6Qemi8D2iYm&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_Af4Prcd81Xz-L867q6gV6Z8cxPGRppIguZGK89a3KxXjuQ&oe=6A1255A7",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/628534979_1240931637470298_8896003931047812488_n.jpg?_nc_cat=111&ccb=1-7&_nc_ohc=KsAN-zwSOHgQ7kNvwFAtvUr&_nc_oc=AdrdRtm3gyInSo4eDHTj5Mt8_Kn8dEANdFGn-_1hqbmFgPO8QOMy13b8Gg90JrJh-fNl1huNdsEGAmM0JLWFINvu&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=qv6gN9_gbqaHEaVerpm4tg&_nc_tpa=Q5bMBQH7UxI3BIy5yBb-l44l2Xlle51hsdw7hnYdlENMwK39viwEqkyRm4jIHr57_Dhk6qYLYhwNOIEc&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_Af5Ve4kH1AsWDtHOq8CF5GlIUz4-azs5rfRj9w7ygI2kww&oe=6A1336A7",
         "title": "Cánsate menos, rinde mejor",
         "body": "¿Te notas cansado sin motivo claro?\n\nLa deshidratación no siempre se siente como sed.\nA veces aparece como fatiga, apatía, bajo rendimiento.\n\nMantén tu equilibrio mineral y siente la diferencia.\n\nLIT. Simple. Funcional. Sin azúcar.",
         "campaigns": [
@@ -528,21 +542,21 @@
         "adsets": [
           "Spain_Broad_Fatigue - General_MFO_All ages_Auto bidding_All placements_2026-02-25"
         ],
-        "spend": 908.04,
-        "impressions": 100079,
-        "clicks": 2178,
-        "reach": 46551,
-        "purchases": 46.0,
-        "revenue": 1366.47,
-        "ctr": 2.18,
+        "spend": 943.07,
+        "impressions": 103651,
+        "clicks": 2245,
+        "reach": 47465,
+        "purchases": 47.0,
+        "revenue": 1394.82,
+        "ctr": 2.17,
         "cpc": 0.42,
-        "cpa": 19.74,
-        "roas": 1.5
+        "cpa": 20.07,
+        "roas": 1.48
       },
       {
         "creative_id": "1610011106973858",
         "ad_name": "id.2026-04-01-Creative Men's Health_format.Image_product.Electrolytes - Salty Lemon_persona.Trend Follower_angle.Emotional Benefit - Therapeutic Value_style.Product - Lifestyle_copy.C1_type.New - Performance_promo.No promo_url.Landing page_vidlength.none_creator._hook.Vuelve al Ruedo_creativeCTA.Learn More / Discover",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/657356925_952966991015998_8195544919979397495_n.png?_nc_cat=101&ccb=1-7&_nc_ohc=rvMnFGpKJwsQ7kNvwHyDGHD&_nc_oc=AdobNJKpcK63G8NXCVkCxQHSALzlqzzYRSFEl5H6uLORUFwHaamkt5XPE8Cm8JB_7eeMwdhwCFrUFdjO1ry6eYJ8&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=oG99auK8kt5lRBb8wEU_5w&_nc_tpa=Q5bMBQEp8vpDuwd-c36-H5f-Y8_K8Pun23AnjOV03CliOEX-0pGcb_HwNH0v_cNF3E37p_L1RnARvn6O&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af4y_DvTUShA4BvcLWX6SJOtDRpSB-5oPiz5VaBFx9KgvQ&oe=6A124EF1",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/657356925_952966991015998_8195544919979397495_n.png?_nc_cat=101&ccb=1-7&_nc_ohc=rvMnFGpKJwsQ7kNvwHyDGHD&_nc_oc=AdobNJKpcK63G8NXCVkCxQHSALzlqzzYRSFEl5H6uLORUFwHaamkt5XPE8Cm8JB_7eeMwdhwCFrUFdjO1ry6eYJ8&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=qv6gN9_gbqaHEaVerpm4tg&_nc_tpa=Q5bMBQFO2c9YXzam4ws3xVk9smHLtK3hv-5q1wEvIsgEgpX7HmqkeSzcnGq_Z7i2D47mIE1tGp2GZ48Q&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af7R5u6Cn3R8OPvOaOPY2o3mZXnD9G8Mz-ma6VSTWpc9LA&oe=6A132FF1",
         "title": null,
         "body": null,
         "campaigns": [
@@ -551,21 +565,21 @@
         "adsets": [
           "Spain_Broad_Press-Men'sHealth_MFO_All ages_Auto bidding_All placements_2026-04-21"
         ],
-        "spend": 591.58,
-        "impressions": 125361,
-        "clicks": 4947,
-        "reach": 86947,
-        "purchases": 19.0,
-        "revenue": 502.59,
-        "ctr": 3.95,
+        "spend": 610.67,
+        "impressions": 129109,
+        "clicks": 5071,
+        "reach": 88282,
+        "purchases": 20.0,
+        "revenue": 530.94,
+        "ctr": 3.93,
         "cpc": 0.12,
-        "cpa": 31.14,
-        "roas": 0.85
+        "cpa": 30.53,
+        "roas": 0.87
       },
       {
         "creative_id": "3423441037818863",
         "ad_name": "id.2026-01-12-Creative 79_format.Image_product.Electrolytes - Salty Lemon_persona.High-Performer_angle.Emotional Benefit - Therapeutic Value_style.Product - Lifestyle_copy.C2_type.New - Performance_promo.No promo_url.Landing page_vidlength.none_creator._hook.Vuelve al Ruedo - Running_creativeCTA.Learn More / Discover",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/615432293_10165801817241840_3553249023003863745_n.png?_nc_cat=102&ccb=1-7&_nc_ohc=jhdfPEHbm3sQ7kNvwEDftyY&_nc_oc=AdpjCSqhMntTu8ONK7d2M1eS_W-gUl3xPgRaBCtqwlhp84rmVYpWNT0L_vULwzxiC2iLvvZHFistEj0rwWYYcW1X&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=oG99auK8kt5lRBb8wEU_5w&_nc_tpa=Q5bMBQEdAOrOm3QqZnQHVCshhvlxRGeYjd8eMeeiGfI6tBe0iVy0mcOtR9Qy1WjnHpGkao-kR4YAHaZf&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af78rFj-luftgQ2JwW7PoHqvLKHCskQLxC-LAfSRe9xaag&oe=6A12526B",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/615432293_10165801817241840_3553249023003863745_n.png?_nc_cat=102&ccb=1-7&_nc_ohc=jhdfPEHbm3sQ7kNvwEDftyY&_nc_oc=AdpjCSqhMntTu8ONK7d2M1eS_W-gUl3xPgRaBCtqwlhp84rmVYpWNT0L_vULwzxiC2iLvvZHFistEj0rwWYYcW1X&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=qv6gN9_gbqaHEaVerpm4tg&_nc_tpa=Q5bMBQHX96TDmVXY5mIsiUlrwfVc-KmmW4qkJvGAQjdVXtfhKt4RlMYK1n5nllHiYwf1oAdVAFpqbbNy&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af78PkgmeE_r9ksqvkIV3WPqK8Z9b_-S91zIsBu5M5M0Dw&oe=6A13336B",
         "title": null,
         "body": null,
         "campaigns": [
@@ -588,7 +602,7 @@
       {
         "creative_id": "959238816621510",
         "ad_name": "id.2026-03-11-Creative2-Marzo_format.Image_product.Electrolytes - Salty Lemon_persona.High-Performer_angle.Emotional Benefit - Therapeutic Value_style.Product - Lifestyle_copy.C2_type.New - Performance_promo.No promo_url.Landing page_vidlength.none_creator._hook.Vuelve al Ruedo - Running_creativeCTA.Learn More / Discover",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/649948057_941416465504384_4264710786611160246_n.png?_nc_cat=101&ccb=1-7&_nc_ohc=A1Fg4OUtAc8Q7kNvwGl5ylF&_nc_oc=AdrikFX9azBHRfUrZMiRhc3ZQISQJCHOz1nuyE1KLQ1uLeu6jOjK8-jY5TP2k6SjL4kTEHA1A-BHJJFIASN-Dzyr&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=oG99auK8kt5lRBb8wEU_5w&_nc_tpa=Q5bMBQG7H1z0wsvkO_PYorkAVhpdHX1Tt9Jhm8MM1i5Yke5w3K5x-l2LklsZjjDookRMEPeHVnLNLZ3w&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af5cgjGHpp2TZQ-GHA4fKt8DMTZt80YVrSsRWU5BT-crqw&oe=6A1262C7",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/649948057_941416465504384_4264710786611160246_n.png?_nc_cat=101&ccb=1-7&_nc_ohc=A1Fg4OUtAc8Q7kNvwGl5ylF&_nc_oc=AdrikFX9azBHRfUrZMiRhc3ZQISQJCHOz1nuyE1KLQ1uLeu6jOjK8-jY5TP2k6SjL4kTEHA1A-BHJJFIASN-Dzyr&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=qv6gN9_gbqaHEaVerpm4tg&_nc_tpa=Q5bMBQENsV_Y_IhR_HHFqESmt1epiOt9uKYI8PvtfQiOREDvOu46RzGZSYzaNoMPsJmqV2hYvTJY2Lqv&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af4LT0z6SGKmJl87iw73yc8QDq4BmQEkmjRh8EEhG_9msg&oe=6A1343C7",
         "title": null,
         "body": null,
         "campaigns": [
@@ -597,21 +611,21 @@
         "adsets": [
           "Spain_Broad_Fatigue - Work_MFO_All ages_Auto bidding_All placements_2026-02-25"
         ],
-        "spend": 498.36,
-        "impressions": 62068,
-        "clicks": 743,
-        "reach": 29259,
+        "spend": 533.34,
+        "impressions": 65861,
+        "clicks": 777,
+        "reach": 30676,
         "purchases": 18.0,
         "revenue": 767.3,
-        "ctr": 1.2,
-        "cpc": 0.67,
-        "cpa": 27.69,
-        "roas": 1.54
+        "ctr": 1.18,
+        "cpc": 0.69,
+        "cpa": 29.63,
+        "roas": 1.44
       },
       {
         "creative_id": "1434260378443660",
         "ad_name": "id.2026-03-11-Creative8-Marzo_format.Image_product.Electrolytes - Salty Lemon_persona.High-Performer_angle.Emotional Benefit - Therapeutic Value_style.Product - Lifestyle_copy.C2_type.New - Performance_promo.No promo_url.Landing page_vidlength.none_creator._hook.Vuelve al Ruedo - Running_creativeCTA.Learn More / Discover",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/647179898_941416562171041_3694500736531613878_n.png?_nc_cat=108&ccb=1-7&_nc_ohc=vidwi-DeMgkQ7kNvwElhSgh&_nc_oc=AdooxfGiuCbUCatynPh-6uv9UY94r88zbNAzbiNuaGR8Y0ojPT29rIl0E_dOrUXzIZkTZgHRCmlY22skZVPLhx9z&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=oG99auK8kt5lRBb8wEU_5w&_nc_tpa=Q5bMBQFIBKVBGndBkhPWNdVtQcVkVj2pQq6ic8SazYm3oj3z2OvIn8NDiOTtTFYscfqm3qKQ3GXyS16-&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af48pAcXS_SSlG_tsLk6r94FktyqjI7sMOk5Wd78_j1OFQ&oe=6A125E5E",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/647179898_941416562171041_3694500736531613878_n.png?_nc_cat=108&ccb=1-7&_nc_ohc=vidwi-DeMgkQ7kNvwElhSgh&_nc_oc=AdooxfGiuCbUCatynPh-6uv9UY94r88zbNAzbiNuaGR8Y0ojPT29rIl0E_dOrUXzIZkTZgHRCmlY22skZVPLhx9z&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=qv6gN9_gbqaHEaVerpm4tg&_nc_tpa=Q5bMBQE8wrC04OOc86TegPqqgm5d0Sd8QMy7tqOupFlhuZzJOL9ZasbA_uLuFi72Oh0mP0BiL0XCZa9v&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af6zFTA100x5vhk2cf7gZFGCMpQOoyGm8qgoUEw1O_uQwQ&oe=6A133F5E",
         "title": null,
         "body": null,
         "campaigns": [
@@ -620,21 +634,21 @@
         "adsets": [
           "Spain_Broad_Fatigue - Running_MFO_All ages_Auto bidding_All placements_2026-02-25"
         ],
-        "spend": 487.79,
-        "impressions": 74144,
-        "clicks": 1007,
-        "reach": 32699,
-        "purchases": 17.0,
-        "revenue": 759.95,
-        "ctr": 1.36,
-        "cpc": 0.48,
-        "cpa": 28.69,
-        "roas": 1.56
+        "spend": 520.99,
+        "impressions": 79031,
+        "clicks": 1064,
+        "reach": 33812,
+        "purchases": 21.0,
+        "revenue": 922.38,
+        "ctr": 1.35,
+        "cpc": 0.49,
+        "cpa": 24.81,
+        "roas": 1.77
       },
       {
         "creative_id": "679685225202257",
         "ad_name": "id.2026-02-12-UGC 5_format.Video_product.Electrolytes - Salty Lemon_persona.Trend Follower_angle.Emotional Benefit - Therapeutic Value_style.Product - UGC_copy.C1_type.New - Performance_promo.No promo_url.Landing page_vidlength.15-30s_creator.IA_hook._creativeCTA.Learn More / Discover",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/629637564_1565828747919133_2493747197402905706_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=v5n3VEv9RYIQ7kNvwGH-h0G&_nc_oc=AdpAJ_z-TcMrYbKBZJ2yeOESahiLgUtGdiYTESTHHKbTaFdSjDp0Ay9YlYwMnmdfhOIl17aaEt93nTqZYMzy6aLY&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=oG99auK8kt5lRBb8wEU_5w&_nc_tpa=Q5bMBQFxzCzgEwimHZnalgAsvvtFeIP1LY-3F9RScBu27W-c_3xNo446dhjx5oPQz9WnCkPIfiwdcQoT&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_Af5_wBupRhcUTcQXJk-IfJITLfpgC86hQwQAvO0LuDnOAQ&oe=6A126743",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/629637564_1565828747919133_2493747197402905706_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=v5n3VEv9RYIQ7kNvwGH-h0G&_nc_oc=AdpAJ_z-TcMrYbKBZJ2yeOESahiLgUtGdiYTESTHHKbTaFdSjDp0Ay9YlYwMnmdfhOIl17aaEt93nTqZYMzy6aLY&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=qv6gN9_gbqaHEaVerpm4tg&_nc_tpa=Q5bMBQExBPTfSZgDR-vs8MFt0WCUMBpcJ2LdUojPx2Y_AcIqf48p1e9jUW21NpktvFr-leuHq_irBH_g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_Af7JvhLTrWDaPEMvcbmY2rB7DScVfwVBtc6qB05WMJysqA&oe=6A134843",
         "title": "Más foco. Menos bajón.",
         "body": "Reuniones, llamadas, pantalla… y cero energía.\nNo todo es falta de café.\n\nSi sudas, si te mueves, si vives activo, necesitas reponer minerales.\n\nLIT te ayuda a mantener claridad y estabilidad durante el día.",
         "campaigns": [
@@ -657,7 +671,7 @@
       {
         "creative_id": "878120915229442",
         "ad_name": "id.2025-09-19-Beneficios_format.Video_product.Electrolytes - Salty Lemon_persona.High-Performer_angle.Emotional Benefit - Therapeutic Value_style.Product - UGC_copy.C1_type.New - Performance_promo.No promo_url.Landing page_vidlength.30-60s_creator._hook._creativeCTA.Shop Now Prompt",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/565931343_1981033836053491_5926905991918376512_n.jpg?_nc_cat=107&ccb=1-7&_nc_ohc=vOkWhYSjc6QQ7kNvwHqJCXv&_nc_oc=AdpkXLwOCP0T_27jsZvGQnwyCks6sL_eMXyynrz8Qjc9OVBVolPZCvXwncdPZlq0_H-iEolTNzneR4c9V-agSprh&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=oG99auK8kt5lRBb8wEU_5w&_nc_tpa=Q5bMBQFdLX_ZFsq4GLrgbePxFQ4fb73ijanv8RKzB4FSHKI6bhXmUjmytnh3vlfrEYvP41srocJHlCYC&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_Af5QV6-wD2sGDM2j6cX71kZfJdiIr-fpS7Aa63dBOXcUWw&oe=6A1250E0",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/565931343_1981033836053491_5926905991918376512_n.jpg?_nc_cat=107&ccb=1-7&_nc_ohc=YM5M8z-51UkQ7kNvwElhnhW&_nc_oc=AdoQH06OuFwT-R1qQcVOOric5P_Tehxn5NX3q7boK0kQYjV2u8pbQE7tEne0TKS6LNWCRu63sgqiT5M_GfDG7rcC&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=qv6gN9_gbqaHEaVerpm4tg&_nc_tpa=Q5bMBQHAn9uDRCOce6yGouyHU0FsDe77yjeo8VSzKQ1KuI08r1dtDyC__dRcTRIqd1lCBGGA80ikWQMH&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_Af6oZexgXZDY2wCIByGBHqegAkNsFkhMBBWlv-OzbZ73Kg&oe=6A1331E0",
         "title": "Cánsate menos, rinde mejor",
         "body": "¿Te notas cansado sin motivo claro?\n\nLa deshidratación no siempre se siente como sed.\nA veces aparece como fatiga, apatía, bajo rendimiento.\n\nMantén tu equilibrio mineral y siente la diferencia.\n\nLIT. Simple. Funcional. Sin azúcar.",
         "campaigns": [
@@ -680,7 +694,7 @@
       {
         "creative_id": "2407625726368345",
         "ad_name": "id.2026-04-20-OOS Andrés_format.Video_product.Electrolytes - Salty Lemon_persona.Trend Follower_angle.Emotional Benefit - Therapeutic Value_style.Product - UGC_copy.C1_type.New - Performance_promo.No promo_url.Landing page_vidlength.15-30s_creator.IA_hook._creativeCTA.Learn More / Discover",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/676486112_26895741443353473_8249671824880029323_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=YYrW1AKa3CYQ7kNvwGlszRy&_nc_oc=AdovsD5k_xzm64qwb4Bd5w5Sxs2WI7EvAxgvxrEQzwNWsfDtGu9INL3LfkASX5vaNariuHT21hHBw71GNeDiIngY&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=oG99auK8kt5lRBb8wEU_5w&_nc_tpa=Q5bMBQHzIRKNRx97_Ny7hG_gS-mDaB3VBiVx260WUmnFB4pTzjzNHEt2JXaR2XcJYm-tj_ceGm_gbkuM&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_Af4N2q8FwgQQN4pzf1sJJdCHC7IZ-JiUzK8Epf0zMST89w&oe=6A124B84",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/676486112_26895741443353473_8249671824880029323_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=YYrW1AKa3CYQ7kNvwGlszRy&_nc_oc=AdovsD5k_xzm64qwb4Bd5w5Sxs2WI7EvAxgvxrEQzwNWsfDtGu9INL3LfkASX5vaNariuHT21hHBw71GNeDiIngY&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=qv6gN9_gbqaHEaVerpm4tg&_nc_tpa=Q5bMBQHytYoUjvA76EnCpiU2fs_xcGtOMOdbaK2G_05KGZhazSbYaDHi6dJtyAseS46m-GHosljrEleq&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_Af5L667ptAFNpvN6jpm7XT1yF-Q6e-V1pPyrj_LxqVEr3Q&oe=6A132C84",
         "title": "50% en tu Primer Pedido",
         "body": "SE NOS HA IDO DE LAS MANOS. LIT está volando, ya estamos preparando más.\n\nEstas semanas han sido una locura. Habéis arrasado con todo antes de que pudiéramos ni pestañear.\nAhora mismo estamos en fábrica preparando la siguiente tanda. Los nuevos pedidos salen a partir del 15 de abril.\n\nMientras tanto aprovecha el MAYOR DESCUENTO de nuestra historia. 50% en tu PRIMER PEDIDO.\nPide el tuyo y que no te quedes sin él.",
         "campaigns": [
@@ -703,7 +717,7 @@
       {
         "creative_id": "851279241259077",
         "ad_name": "id.2025-07-11-Creative 18_format.Image_product.Salty Lemon x 16_persona.Wellness Enthusiast_angle.Functional Benefit - Simplifies_style.Product - Graphics_copy.C1_type.New - Performance_promo.No promo_url.Landing page_vidlength.none_creator.None_hook.GIRL-CANSANCIO_creativeCTA.Shop Now Prompt",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/517246921_10165077925076840_6690114951692633414_n.png?_nc_cat=106&ccb=1-7&_nc_ohc=BiQWdCUhT6sQ7kNvwFAKzUp&_nc_oc=AdrXV1t0fi6Gt83XPNZJbbvSsAyPof19ez75XeTKJoAZJFjwNEJUBhwks30XxnE6GeS3FWVo5Xv9-sKOEh9vMrpH&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=oG99auK8kt5lRBb8wEU_5w&_nc_tpa=Q5bMBQFMMrPJpILvWLtUVVybBB1fltHOWb7v6EC6WZMnPoIhIORydR0BvQ79W2AW_iAd3QghanAR_4Lo&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af7aKtVAT97igdinrM7jwzHdut9y2C64jgfNJc6hIXuCIg&oe=6A12425E",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/517246921_10165077925076840_6690114951692633414_n.png?_nc_cat=106&ccb=1-7&_nc_ohc=BiQWdCUhT6sQ7kNvwFAKzUp&_nc_oc=AdrXV1t0fi6Gt83XPNZJbbvSsAyPof19ez75XeTKJoAZJFjwNEJUBhwks30XxnE6GeS3FWVo5Xv9-sKOEh9vMrpH&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=qv6gN9_gbqaHEaVerpm4tg&_nc_tpa=Q5bMBQE7-1gBvU-vkr-CmjXh4TYQ9dlS-eG3ehYcj0Y6S9kO-DgGF-BX2WBCA58TX1sSwc5Zl001DAYy&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af79002gEdnOcD_UHhfeTgRqSXMJgPiuQYOjMEmfi-FTlw&oe=6A13235E",
         "title": null,
         "body": null,
         "campaigns": [
@@ -712,21 +726,21 @@
         "adsets": [
           "Spain_Broad_Fatigue - General_MFO_All ages_Auto bidding_All placements_2026-02-25"
         ],
-        "spend": 132.57,
-        "impressions": 18719,
-        "clicks": 210,
-        "reach": 8554,
-        "purchases": 7.0,
-        "revenue": 336.09,
-        "ctr": 1.12,
+        "spend": 136.57,
+        "impressions": 19150,
+        "clicks": 216,
+        "reach": 8772,
+        "purchases": 8.0,
+        "revenue": 364.44,
+        "ctr": 1.13,
         "cpc": 0.63,
-        "cpa": 18.94,
-        "roas": 2.54
+        "cpa": 17.07,
+        "roas": 2.67
       },
       {
         "creative_id": "4341980809394940",
         "ad_name": "id.2026-03-11-Creative4-Marzo_format.Image_product.Electrolytes - Salty Lemon_persona.High-Performer_angle.Emotional Benefit - Therapeutic Value_style.Product - Lifestyle_copy.C2_type.New - Performance_promo.No promo_url.Landing page_vidlength.none_creator._hook.Vuelve al Ruedo - Running_creativeCTA.Learn More / Discover",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/649507475_941416448837719_5098115077455737024_n.png?_nc_cat=108&ccb=1-7&_nc_ohc=18aJMRLjQyEQ7kNvwGV0Py_&_nc_oc=AdopANLUZMkmUTyLOc9tz0L3LN3QVNfU_IdF-u2m4qJznZ87HEavVGciCTP5cTSjw_EXcZNaJBITCI59G04Xpgln&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=oG99auK8kt5lRBb8wEU_5w&_nc_tpa=Q5bMBQExzaP0kbIiwlfxKfKQqwomjL2f-t9PS6zBd0GzlkIjwGPDjZM6z9HC4o493MN8fpr1OrSbL8T7&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af5qMGT4RtFCVwwBv_6URDhBOPwLLXmr6LJ8XvKbpIwXyg&oe=6A126485",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/649507475_941416448837719_5098115077455737024_n.png?_nc_cat=108&ccb=1-7&_nc_ohc=j1wk4GvQSKcQ7kNvwFdNY3U&_nc_oc=Adp9iuh7law95hob3jhId4uwpO0JxkCJpi2XwpS_UWCuFp4vSvJYKmTTh8tv2LwfKLMgYd9-hJUFbJ6kSg4VazXz&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=qv6gN9_gbqaHEaVerpm4tg&_nc_tpa=Q5bMBQHt6OcxTt4BIwnOfOfBYSnDcbSbBr9C7sYYgcVCsQS81xwgrjhvGASE0OJtsJ4mH-Z8obkYCDpX&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af5WrZOv674WF-zla-9hahcFOEovfJ3dSa8UK9G6HZJLCQ&oe=6A134585",
         "title": null,
         "body": null,
         "campaigns": [
@@ -735,21 +749,21 @@
         "adsets": [
           "Spain_Broad_Fatigue - Work_MFO_All ages_Auto bidding_All placements_2026-02-25"
         ],
-        "spend": 121.59,
-        "impressions": 13981,
-        "clicks": 162,
-        "reach": 6669,
+        "spend": 126.14,
+        "impressions": 14423,
+        "clicks": 167,
+        "reach": 6828,
         "purchases": 4.0,
         "revenue": 141.75,
         "ctr": 1.16,
-        "cpc": 0.75,
-        "cpa": 30.4,
-        "roas": 1.17
+        "cpc": 0.76,
+        "cpa": 31.54,
+        "roas": 1.12
       },
       {
         "creative_id": "999861859263202",
         "ad_name": "id.2026-05-05-Creative El Mundo_format.Image_product.Electrolytes - Salty Lemon_persona.Trend Follower_angle.Emotional Benefit - Therapeutic Value_style.Product - Lifestyle_copy.C1_type.New - Performance_promo.No promo_url.Landing page_vidlength.none_creator._hook.Vuelve al Ruedo_creativeCTA.Learn More / Discover",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/649506859_941401722172525_1703411262447133523_n.png?_nc_cat=102&ccb=1-7&_nc_ohc=nkQ3WxXBPqYQ7kNvwH9T-PV&_nc_oc=Adr2OA-YnPWK2RwhKDdPuCFkwfnFiPmU01iJiyFo990RxXMTroz79GyGF1k_N0q5nJiIr8C8OrltF6atjZ0h_nuo&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=oG99auK8kt5lRBb8wEU_5w&_nc_tpa=Q5bMBQGzkm9U9Mji9gpKpqrh2LmGgISrUE3Xv1E0IkX5vW805HTO65D-qaVa-5Fhu6oBIKlUw3Up0Phw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af7MGebzRfsRnqtPnjoj6EVUEVHjrsfuK13Cpw8IIC0VvQ&oe=6A12596F",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/649506859_941401722172525_1703411262447133523_n.png?_nc_cat=102&ccb=1-7&_nc_ohc=nkQ3WxXBPqYQ7kNvwH9T-PV&_nc_oc=Adr2OA-YnPWK2RwhKDdPuCFkwfnFiPmU01iJiyFo990RxXMTroz79GyGF1k_N0q5nJiIr8C8OrltF6atjZ0h_nuo&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=qv6gN9_gbqaHEaVerpm4tg&_nc_tpa=Q5bMBQEsLSXba1mGLAHNxLONG6uLgdmIcogYw0Kb_SwcZbtdA-kZ7yleIGsvV_MvlEPHXISUhDUzA5zy&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af5QO5qGKZ5YWX0D5UeLH_KvZBQYit7VwSXS0aITU-VMAg&oe=6A133A6F",
         "title": null,
         "body": null,
         "campaigns": [
@@ -770,9 +784,32 @@
         "roas": 0.24
       },
       {
+        "creative_id": "1202730495274217",
+        "ad_name": "id.2026-03-11-Creative5-Marzo_format.Image_product.Electrolytes - Salty Lemon_persona.High-Performer_angle.Emotional Benefit - Therapeutic Value_style.Product - Lifestyle_copy.C2_type.New - Performance_promo.No promo_url.Landing page_vidlength.none_creator._hook.Vuelve al Ruedo - Running_creativeCTA.Learn More / Discover",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/651448867_942100395435991_7224662586750171527_n.png?_nc_cat=108&ccb=1-7&_nc_ohc=EPjNCm7pVUIQ7kNvwHcJIN5&_nc_oc=AdojTySN63JgHb7JIEbmkOUUdF7jF1PlJHbiJXduW2kpzwGFaQiD-NE6BpVTimmfq8p3qYtXUt_9mQYWldKdnw8m&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=qv6gN9_gbqaHEaVerpm4tg&_nc_tpa=Q5bMBQE_MipamxwEVoqVT8puWn87-1-xmQnla8-dhuPVna9qabxlSif2GSpp20aWNnS-vd9lz7yM5dW8&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af6q_9fvx5TSJ6ei18Rxb-PTJKqyqCJ7UhdpUMlG-AkrJg&oe=6A134874",
+        "title": null,
+        "body": null,
+        "campaigns": [
+          "Electrolytes - Salty Lemon_Acquisition_Spain_Sales_Evergreen Campaign_2026-02-26"
+        ],
+        "adsets": [
+          "Spain_Broad_Fatigue - Running_MFO_All ages_Auto bidding_All placements_2026-02-25"
+        ],
+        "spend": 79.77,
+        "impressions": 10088,
+        "clicks": 107,
+        "reach": 5008,
+        "purchases": 1.0,
+        "revenue": 37.8,
+        "ctr": 1.06,
+        "cpc": 0.75,
+        "cpa": 79.77,
+        "roas": 0.47
+      },
+      {
         "creative_id": "911002325162653",
         "ad_name": "id.2026-03-11-Creative3-Marzo_format.Image_product.Electrolytes - Salty Lemon_persona.High-Performer_angle.Emotional Benefit - Therapeutic Value_style.Product - Lifestyle_copy.C2_type.New - Performance_promo.No promo_url.Landing page_vidlength.none_creator._hook.Vuelve al Ruedo - Running_creativeCTA.Learn More / Discover",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/649891799_941416425504388_3597365376585133977_n.png?_nc_cat=101&ccb=1-7&_nc_ohc=1Sxxy_nSzhAQ7kNvwFKOUHv&_nc_oc=AdqB7m2QCqXVGSUUlpZr4ZZcy8riU4wB1wnG3o9zNZ5w4ghfFCanafmKMzJwNyINCGVbLlQzr3fMzS7eHX2YmOOe&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=oG99auK8kt5lRBb8wEU_5w&_nc_tpa=Q5bMBQGkgAl8wsvL0400ac7rLYfGlfBt9scrw5BiwgowaaUd6t-igmlPVgocqyCnwGZ9KbOGj-9oiwZc&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af4-Xdv1hDopZzaXr4OIXJTH5aRDjfltY5KStjDdx0L8aw&oe=6A1248D4",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/649891799_941416425504388_3597365376585133977_n.png?_nc_cat=101&ccb=1-7&_nc_ohc=P0nY27v1lr8Q7kNvwEJFZHr&_nc_oc=AdqGtN-TCimIhqhzJhhtysr2LJDZlkSexzrjwchbGQzKRJiYcBBIs3gPC8-jo4E1joDi-IwWHD9DaFdo4_4pDtEx&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=qv6gN9_gbqaHEaVerpm4tg&_nc_tpa=Q5bMBQEjeVMy8kP0676PienGazz1OrOuv0VVyI-KjaIPZyIQf0Sl6LMkDxTZCZtSJTNmWv99Fil97LId&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af6Z-akZU_U93xfE03b2BwpcRGb08mj0ZUYjlOxxRz3NaQ&oe=6A1329D4",
         "title": null,
         "body": null,
         "campaigns": [
@@ -793,32 +830,9 @@
         "roas": 0.96
       },
       {
-        "creative_id": "1202730495274217",
-        "ad_name": "id.2026-03-11-Creative5-Marzo_format.Image_product.Electrolytes - Salty Lemon_persona.High-Performer_angle.Emotional Benefit - Therapeutic Value_style.Product - Lifestyle_copy.C2_type.New - Performance_promo.No promo_url.Landing page_vidlength.none_creator._hook.Vuelve al Ruedo - Running_creativeCTA.Learn More / Discover",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/651448867_942100395435991_7224662586750171527_n.png?_nc_cat=108&ccb=1-7&_nc_ohc=EPjNCm7pVUIQ7kNvwHcJIN5&_nc_oc=AdojTySN63JgHb7JIEbmkOUUdF7jF1PlJHbiJXduW2kpzwGFaQiD-NE6BpVTimmfq8p3qYtXUt_9mQYWldKdnw8m&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=oG99auK8kt5lRBb8wEU_5w&_nc_tpa=Q5bMBQGpA7czCy-Jv5xTK30PaXKn7kZx0AS8lj4NWv9hwWh2HanDT7P8pHfGoZmMSc51xA9tJlTkQy0B&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af42OQJofM4WD8VCIkx29YJ_0dmUm9eCjFOL5tGvtHWcqA&oe=6A126774",
-        "title": null,
-        "body": null,
-        "campaigns": [
-          "Electrolytes - Salty Lemon_Acquisition_Spain_Sales_Evergreen Campaign_2026-02-26"
-        ],
-        "adsets": [
-          "Spain_Broad_Fatigue - Running_MFO_All ages_Auto bidding_All placements_2026-02-25"
-        ],
-        "spend": 76.48,
-        "impressions": 9743,
-        "clicks": 103,
-        "reach": 4865,
-        "purchases": 1.0,
-        "revenue": 37.8,
-        "ctr": 1.06,
-        "cpc": 0.74,
-        "cpa": 76.48,
-        "roas": 0.49
-      },
-      {
         "creative_id": "1244941077833948",
         "ad_name": "id.2026-03-11-UGC Guava_format.Video_product.Electrolytes - Salty Lemon_persona.Trend Follower_angle.Emotional Benefit - Therapeutic Value_style.Product - UGC_copy.C1_type.New - Performance_promo.No promo_url.Landing page_vidlength.15-30s_creator.IA_hook._creativeCTA.Learn More / Discover",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/649527904_1431724478444285_5912203667980242891_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=c6-TR7WRvG8Q7kNvwFGLK_L&_nc_oc=AdqYqpVop52qVV6gMpVJWFTmbcnW1iK1U5GTYmv02wE8UyktA8bESPzjrUSvDoYIgmYx-caeVIUMunAtxbGYjO57&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=oG99auK8kt5lRBb8wEU_5w&_nc_tpa=Q5bMBQEAMcKALyS9KSb9wCGQcKnVYka7SJlqjSCLBO-d0sGAjaehdtGnpHIkElY0VRolUhgEFRqtLC5m&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_Af5lmj0TtP2kM_l53B-QiIkiBSc6an4sw3HPZtE-qooXSw&oe=6A1246BA",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/649527904_1431724478444285_5912203667980242891_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=c6-TR7WRvG8Q7kNvwFGLK_L&_nc_oc=AdqYqpVop52qVV6gMpVJWFTmbcnW1iK1U5GTYmv02wE8UyktA8bESPzjrUSvDoYIgmYx-caeVIUMunAtxbGYjO57&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=qv6gN9_gbqaHEaVerpm4tg&_nc_tpa=Q5bMBQGvDuK5hUe83IuEQ5h8pT7k2Q1FYp1T_S1CF8nYo9_tbwfK5xvLEPwHdgj9oY5eZO9sX1fNE7I3&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_Af4Xf1OJCd4xtkabxyI9atxPAcqfznLJar2iiLoXDjh91w&oe=6A1327BA",
         "title": "Más foco. Menos bajón.",
         "body": "Reuniones, llamadas, pantalla… y cero energía.\nNo todo es falta de café.\n\nSi sudas, si te mueves, si vives activo, necesitas reponer minerales.\n\nLIT te ayuda a mantener claridad y estabilidad durante el día.",
         "campaigns": [
@@ -827,21 +841,21 @@
         "adsets": [
           "Spain_Broad_Fatigue - Running_MFO_All ages_Auto bidding_All placements_2026-02-25"
         ],
-        "spend": 54.13,
-        "impressions": 7381,
+        "spend": 54.19,
+        "impressions": 7392,
         "clicks": 118,
-        "reach": 4236,
+        "reach": 4244,
         "purchases": 3.0,
         "revenue": 119.91,
         "ctr": 1.6,
         "cpc": 0.46,
-        "cpa": 18.04,
-        "roas": 2.22
+        "cpa": 18.06,
+        "roas": 2.21
       },
       {
         "creative_id": "26676184238633236",
         "ad_name": "id.2025-10-27-UGC Chica Rojo_format.Video_product.Electrolytes - Salty Lemon_persona.Wellness Enthusiast_angle.Emotional Benefit - Wellness_style.People - Lifestyle_copy.C1_type.New - Performance_promo.No promo_url.Landing page_vidlength.15-30s_creator.Manon_hook.Cansancio_creativeCTA.Shop Now Prompt",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/566559291_1523134622241221_5289066096830835121_n.jpg?_nc_cat=109&ccb=1-7&_nc_ohc=6V2Ww1ohgosQ7kNvwHHya15&_nc_oc=AdqwMZX_U4FaxuX8LSoWjVek1TwkkQGwKcTqTVb4XEUdYoOucMxag5EISMTqSzg8fUQBaM1pvEoYcsxEF1-p1sLU&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=oG99auK8kt5lRBb8wEU_5w&_nc_tpa=Q5bMBQH3NE1JlyqAC2YkYq_zfq-ZcVn8VO2eEoile7JZd4_SQQ6TON6MBHgBF92oomW-DanSZXC9h_dG&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_Af5XJPJdVygEs-EVbduFIiCXmr00cQc4VTFXaN1CpFBIgw&oe=6A126B5D",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/566559291_1523134622241221_5289066096830835121_n.jpg?_nc_cat=109&ccb=1-7&_nc_ohc=6V2Ww1ohgosQ7kNvwHHya15&_nc_oc=AdqwMZX_U4FaxuX8LSoWjVek1TwkkQGwKcTqTVb4XEUdYoOucMxag5EISMTqSzg8fUQBaM1pvEoYcsxEF1-p1sLU&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=qv6gN9_gbqaHEaVerpm4tg&_nc_tpa=Q5bMBQGQNhHnvZmws4NjDh-tCZSgWjdp6IEU88eGhhUWDEe6vWxhjoD0x4MVLnjgRUi51MhFWc-A37W2&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_Af4BA7ihx9ML5ZEhO6NZtglLfF2ypfKkcxAxIsI0r0khRw&oe=6A134C5D",
         "title": "Cánsate menos, rinde mejor",
         "body": "¿Te notas cansado sin motivo claro?\n\nLa deshidratación no siempre se siente como sed.\nA veces aparece como fatiga, apatía, bajo rendimiento.\n\nMantén tu equilibrio mineral y siente la diferencia.\n\nLIT. Simple. Funcional. Sin azúcar.",
         "campaigns": [
@@ -850,8 +864,8 @@
         "adsets": [
           "Spain_Broad_Fatigue - General_MFO_All ages_Auto bidding_All placements_2026-02-25"
         ],
-        "spend": 43.16,
-        "impressions": 3338,
+        "spend": 43.19,
+        "impressions": 3341,
         "clicks": 50,
         "reach": 2182,
         "purchases": 0.0,
@@ -864,7 +878,7 @@
       {
         "creative_id": "921810977159693",
         "ad_name": "id.2026-03-11-Creative6-Marzo_format.Image_product.Electrolytes - Salty Lemon_persona.High-Performer_angle.Emotional Benefit - Therapeutic Value_style.Product - Lifestyle_copy.C2_type.New - Performance_promo.No promo_url.Landing page_vidlength.none_creator._hook.Vuelve al Ruedo - Running_creativeCTA.Learn More / Discover",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/649389296_941416375504393_6362389934218678432_n.png?_nc_cat=105&ccb=1-7&_nc_ohc=OfljRCOqBBEQ7kNvwH4iwCE&_nc_oc=AdopWu7M-ShEri48a3HL26obyRHYXIXPOvV1StzTB7Tp4u3PdjkxKJo9Swyu-aR20la0MsVarmwTrGf0jPETC0vD&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=oG99auK8kt5lRBb8wEU_5w&_nc_tpa=Q5bMBQEomgKPdZKuqdnHZHYPEXjjJ74VjXNwseXmM0zFv207dw-VFvYnM4RTsYQWQUIZMgXj1kUQt_x6&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af5s8tjFo2C8Kv5mOi8gpO33BdVSFBxCsSnw2sWufZbNNA&oe=6A1272B7",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/649389296_941416375504393_6362389934218678432_n.png?_nc_cat=105&ccb=1-7&_nc_ohc=OfljRCOqBBEQ7kNvwH4iwCE&_nc_oc=AdopWu7M-ShEri48a3HL26obyRHYXIXPOvV1StzTB7Tp4u3PdjkxKJo9Swyu-aR20la0MsVarmwTrGf0jPETC0vD&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=qv6gN9_gbqaHEaVerpm4tg&_nc_tpa=Q5bMBQF-qqHz9zES3eOfU4KRfu6Dd7ktDzG4-jaz29rZfq7FekngP2mS549DvLSWFT2DN9a-3Q04tzOg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af6uoYiZQuRZPSpQXZg0E90bbkPZWUMljjOX5ricyr2BXg&oe=6A1353B7",
         "title": null,
         "body": null,
         "campaigns": [
@@ -873,21 +887,21 @@
         "adsets": [
           "Spain_Broad_Fatigue - Running_MFO_All ages_Auto bidding_All placements_2026-02-25"
         ],
-        "spend": 20.61,
-        "impressions": 2918,
+        "spend": 22.69,
+        "impressions": 3116,
         "clicks": 46,
-        "reach": 2069,
+        "reach": 2174,
         "purchases": 1.0,
         "revenue": 37.8,
-        "ctr": 1.58,
-        "cpc": 0.45,
-        "cpa": 20.61,
-        "roas": 1.83
+        "ctr": 1.48,
+        "cpc": 0.49,
+        "cpa": 22.69,
+        "roas": 1.67
       },
       {
         "creative_id": "4038611136385489",
         "ad_name": "id.2026-01-12-Creative 68_format.Image_product.Electrolytes - Salty Lemon_persona.Trend Follower_angle.Emotional Benefit - Therapeutic Value_style.Product - Lifestyle_copy.C1_type.New - Performance_promo.No promo_url.Landing page_vidlength.none_creator._hook.Vuelve al Ruedo_creativeCTA.Learn More / Discover",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/634334553_919484281030936_5045441572585261392_n.png?_nc_cat=107&ccb=1-7&_nc_ohc=2hJ_P41F4xcQ7kNvwGC6lU0&_nc_oc=AdoYHV6NZ8sXy-7cUDdDuvRj_W6mQpo58OXNtBau4UhTodMnQ4UT9zXVW71S1Pt_RiCZGhHO2-Vb0OjkG3PIYs0K&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=oG99auK8kt5lRBb8wEU_5w&_nc_tpa=Q5bMBQFEwpPbig05BiD8XIN_OrhHEojrVqy7ZZWQ_8Q6Mo2GoDWxwOOCd9axzxfi3QYjZcc6GI1KIhJI&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af4gJ8jju3HR7UZZNOsG0uytNKg8kCv3nt03BaQXjdpneA&oe=6A1273DE",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/634334553_919484281030936_5045441572585261392_n.png?_nc_cat=107&ccb=1-7&_nc_ohc=2hJ_P41F4xcQ7kNvwGC6lU0&_nc_oc=AdoYHV6NZ8sXy-7cUDdDuvRj_W6mQpo58OXNtBau4UhTodMnQ4UT9zXVW71S1Pt_RiCZGhHO2-Vb0OjkG3PIYs0K&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=qv6gN9_gbqaHEaVerpm4tg&_nc_tpa=Q5bMBQHNYarEAVbaRcDkmPSsBQzmKiIEttUgF7F0IKEBRQEGHOf-q_IqI5XD6qJiwUOWdIcZmqwYsg9c&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af4IfrBn5ONC7Jtb44Po_n3A5FP8K0PJrPvKZqdjE734rQ&oe=6A1354DE",
         "title": null,
         "body": null,
         "campaigns": [
@@ -910,7 +924,7 @@
       {
         "creative_id": "2389018354875395",
         "ad_name": "id.2026-03-11-Creative7-Marzo_format.Image_product.Electrolytes - Salty Lemon_persona.High-Performer_angle.Emotional Benefit - Therapeutic Value_style.Product - Lifestyle_copy.C2_type.New - Performance_promo.No promo_url.Landing page_vidlength.none_creator._hook.Vuelve al Ruedo - Running_creativeCTA.Learn More / Discover",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/647435580_941416532171044_7940677406777282763_n.png?_nc_cat=107&ccb=1-7&_nc_ohc=e970a4_ozKoQ7kNvwEDbaY9&_nc_oc=Adqepm0EqQSVNeAT2fCW1s0o-QniHewqqt0vgzQjMdck06uEVQQ3Yaq7neAnSqe5v34SdJH5JIzjEhT0b9P2ncJa&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=oG99auK8kt5lRBb8wEU_5w&_nc_tpa=Q5bMBQEhmFstU4C4Rvl3osvLwWDnGHmfl1gBOaUahphHBLU7mQafPvwbKURAVdDFVxaslDKu0M84zIPI&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af6ZmDb8Jra8YwF2khMWT1QBuVA0_QtzpEG3QhookvcOCA&oe=6A125A91",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/647435580_941416532171044_7940677406777282763_n.png?_nc_cat=107&ccb=1-7&_nc_ohc=e970a4_ozKoQ7kNvwEDbaY9&_nc_oc=Adqepm0EqQSVNeAT2fCW1s0o-QniHewqqt0vgzQjMdck06uEVQQ3Yaq7neAnSqe5v34SdJH5JIzjEhT0b9P2ncJa&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=qv6gN9_gbqaHEaVerpm4tg&_nc_tpa=Q5bMBQGh2dOt86NzYXKc88RfC8G5iproo9zfSgMbwP83EZquAcFNve4zdJppuXvdPRKJpJFKEjvllDqh&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af6t0qK3-GKZpaXee4rx3VnlypFRhNIn61LBIfzuYtcEig&oe=6A133B91",
         "title": null,
         "body": null,
         "campaigns": [
@@ -919,21 +933,21 @@
         "adsets": [
           "Spain_Broad_Fatigue - Running_MFO_All ages_Auto bidding_All placements_2026-02-25"
         ],
-        "spend": 5.6,
-        "impressions": 571,
+        "spend": 5.95,
+        "impressions": 595,
         "clicks": 5,
-        "reach": 476,
+        "reach": 494,
         "purchases": 0.0,
         "revenue": 0.0,
-        "ctr": 0.88,
-        "cpc": 1.12,
+        "ctr": 0.84,
+        "cpc": 1.19,
         "cpa": 0.0,
         "roas": 0.0
       },
       {
         "creative_id": "958354360012967",
         "ad_name": "id.2025-12-29-Creative 73_format.Video_product.Electrolytes - Salty Lemon_persona.Wellness Enthusiast_angle.Emotional Benefit - Wellness_style.People - Lifestyle_copy.C1_type.New - Performance_promo.No promo_url.Landing page_vidlength.15-30s_creator.Manon_hook.Cansancio_creativeCTA.Shop Now Prompt",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/607341905_1541160537572856_8552563035764202750_n.jpg?_nc_cat=103&ccb=1-7&_nc_ohc=vIvDYtOFSOAQ7kNvwFF5peL&_nc_oc=AdojqKrSdiWabBdjEiGRCSR29TsvDA6B4Z6hPaPlYkRPL7TFDjkg4z3gaj0_r0IMgi5RtwuY95IWUXbHPbBrQMOz&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=oG99auK8kt5lRBb8wEU_5w&_nc_tpa=Q5bMBQH57NIZT4kBZ18md80cZK2d9Xdu0-oPBK1SE00ci6agsysHf3Wgkxjd6s-_G_x6sBDeqhCzq21U&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=b696e2&_nc_sid=58080a&oh=00_Af6Fjab5xmQng4jAB6eK0TLSIp3IQQrqF6XrTr5D1satBQ&oe=6A1260DE",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/607341905_1541160537572856_8552563035764202750_n.jpg?_nc_cat=103&ccb=1-7&_nc_ohc=vIvDYtOFSOAQ7kNvwFF5peL&_nc_oc=AdojqKrSdiWabBdjEiGRCSR29TsvDA6B4Z6hPaPlYkRPL7TFDjkg4z3gaj0_r0IMgi5RtwuY95IWUXbHPbBrQMOz&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=qv6gN9_gbqaHEaVerpm4tg&_nc_tpa=Q5bMBQHj5AtKaOnikPjSvOco4Fqj53PqBKdKPP2RhaamSPn7iHUvhiWoe0_ljR3S11MyC9WNoX8F4YF1&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=b696e2&_nc_sid=58080a&oh=00_Af4QIc3-H5jfbv366wFOYqj5pfdEQtw4Uehzt-0X57E5ew&oe=6A1341DE",
         "title": null,
         "body": null,
         "campaigns": [
@@ -942,14 +956,14 @@
         "adsets": [
           "Spain_Broad_Fatigue - General_MFO_All ages_Auto bidding_All placements_2026-02-25"
         ],
-        "spend": 2.67,
-        "impressions": 205,
+        "spend": 3.08,
+        "impressions": 234,
         "clicks": 3,
-        "reach": 185,
+        "reach": 209,
         "purchases": 0.0,
         "revenue": 0.0,
-        "ctr": 1.46,
-        "cpc": 0.89,
+        "ctr": 1.28,
+        "cpc": 1.03,
         "cpa": 0.0,
         "roas": 0.0
       }
@@ -965,15 +979,15 @@
   },
   "klaviyo": {
     "totals": {
-      "revenue_total": 2736.09,
-      "revenue_campaigns": 432.37,
+      "revenue_total": 2841.82,
+      "revenue_campaigns": 538.1,
       "revenue_flows": 2303.72,
-      "sends": 4780,
-      "opens": 2720,
-      "clicks": 289,
+      "sends": 4835,
+      "opens": 2776,
+      "clicks": 294,
       "unsubs": 37,
-      "open_rate": 56.9,
-      "click_rate": 6.05,
+      "open_rate": 57.41,
+      "click_rate": 6.08,
       "unsub_rate": 0.77
     },
     "daily": [
@@ -1077,10 +1091,10 @@
       },
       {
         "date": "2026-05-15",
-        "revenue": 432.37,
+        "revenue": 538.1,
         "sends": 2572,
-        "opens": 1346,
-        "open_rate": 52.33
+        "opens": 1367,
+        "open_rate": 53.15
       },
       {
         "date": "2026-05-16",
@@ -1109,6 +1123,13 @@
         "sends": 0,
         "opens": 0,
         "open_rate": 0.0
+      },
+      {
+        "date": "2026-05-20",
+        "revenue": 0.0,
+        "sends": 0,
+        "opens": 0,
+        "open_rate": 0.0
       }
     ],
     "flows": [
@@ -1116,40 +1137,40 @@
         "flow_id": "VzwdgK",
         "name": "Checkout Abandonado",
         "status": "live",
-        "sends": 345,
-        "opens": 165,
-        "clicks": 29,
+        "sends": 354,
+        "opens": 172,
+        "clicks": 30,
         "unsubs": 1,
         "revenue": 1132.81,
-        "open_rate": 47.83,
-        "click_rate": 8.41,
-        "unsub_rate": 0.29
+        "open_rate": 48.59,
+        "click_rate": 8.47,
+        "unsub_rate": 0.28
       },
       {
         "flow_id": "UyQDRp",
         "name": "Order Experience Flow - Order #1",
         "status": "live",
-        "sends": 1346,
-        "opens": 861,
-        "clicks": 32,
+        "sends": 1388,
+        "opens": 886,
+        "clicks": 33,
         "unsubs": 12,
         "revenue": 771.18,
-        "open_rate": 63.97,
+        "open_rate": 63.83,
         "click_rate": 2.38,
-        "unsub_rate": 0.89
+        "unsub_rate": 0.86
       },
       {
         "flow_id": "UkkQhv",
         "name": "LF - Welcome",
         "status": "live",
-        "sends": 109,
-        "opens": 62,
+        "sends": 110,
+        "opens": 64,
         "clicks": 8,
         "unsubs": 5,
         "revenue": 295.17,
-        "open_rate": 56.88,
-        "click_rate": 7.34,
-        "unsub_rate": 4.59
+        "open_rate": 58.18,
+        "click_rate": 7.27,
+        "unsub_rate": 4.55
       },
       {
         "flow_id": "TmTrMD",
@@ -1168,26 +1189,13 @@
         "flow_id": "URwaNT",
         "name": "Abandono de navegación - PP",
         "status": "live",
-        "sends": 42,
-        "opens": 29,
+        "sends": 45,
+        "opens": 30,
         "clicks": 6,
         "unsubs": 0,
         "revenue": 36.63,
-        "open_rate": 69.05,
-        "click_rate": 14.29,
-        "unsub_rate": 0.0
-      },
-      {
-        "flow_id": "UAH3ug",
-        "name": "Área personal - Bienvenida",
-        "status": "live",
-        "sends": 1,
-        "opens": 1,
-        "clicks": 0,
-        "unsubs": 0,
-        "revenue": 0.0,
-        "open_rate": 100.0,
-        "click_rate": 0.0,
+        "open_rate": 66.67,
+        "click_rate": 13.33,
         "unsub_rate": 0.0
       },
       {
@@ -1201,6 +1209,19 @@
         "revenue": 0.0,
         "open_rate": 75.0,
         "click_rate": 1.07,
+        "unsub_rate": 0.0
+      },
+      {
+        "flow_id": "UAH3ug",
+        "name": "Área personal - Bienvenida",
+        "status": "live",
+        "sends": 1,
+        "opens": 1,
+        "clicks": 0,
+        "unsubs": 0,
+        "revenue": 0.0,
+        "open_rate": 100.0,
+        "click_rate": 0.0,
         "unsub_rate": 0.0
       },
       {
@@ -1223,31 +1244,31 @@
         "name": "15/05 - Nuevo pack",
         "send_time": "2026-05-15T09:30:00+00:00",
         "sends": 2572,
-        "opens": 1346,
-        "clicks": 204,
+        "opens": 1367,
+        "clicks": 207,
         "unsubs": 19,
-        "revenue": 432.37,
-        "open_rate": 52.33,
-        "click_rate": 7.93,
+        "revenue": 538.1,
+        "open_rate": 53.15,
+        "click_rate": 8.05,
         "unsub_rate": 0.74
       }
     ]
   },
   "shopify": {
     "totals": {
-      "orders": 570,
-      "revenue": 20101.18,
+      "orders": 590,
+      "revenue": 20773.91,
       "refunds": 0.0,
-      "net_revenue": 20101.18,
-      "aov": 35.27,
-      "new_customers": 428,
-      "returning_customers": 142,
-      "subscription_orders": 366,
-      "onetime_orders": 204,
-      "subscription_revenue": 12123.14,
-      "onetime_revenue": 7978.04,
-      "subscription_pct": 64.21,
-      "returning_pct": 24.91,
+      "net_revenue": 20773.91,
+      "aov": 35.21,
+      "new_customers": 444,
+      "returning_customers": 146,
+      "subscription_orders": 378,
+      "onetime_orders": 212,
+      "subscription_revenue": 12502.92,
+      "onetime_revenue": 8270.99,
+      "subscription_pct": 64.07,
+      "returning_pct": 24.75,
       "refund_rate": 0.0
     },
     "daily": [
@@ -1451,30 +1472,41 @@
       },
       {
         "date": "2026-05-19",
-        "orders": 17,
-        "revenue": 653.49,
+        "orders": 29,
+        "revenue": 1050.39,
         "refunds": 0.0,
-        "aov": 38.44,
-        "new": 10,
-        "returning": 7,
-        "subscription_orders": 10,
-        "onetime_orders": 7
+        "aov": 36.22,
+        "new": 20,
+        "returning": 9,
+        "subscription_orders": 16,
+        "onetime_orders": 13
+      },
+      {
+        "date": "2026-05-20",
+        "orders": 8,
+        "revenue": 275.83,
+        "refunds": 0.0,
+        "aov": 34.48,
+        "new": 6,
+        "returning": 2,
+        "subscription_orders": 6,
+        "onetime_orders": 2
       }
     ],
     "products": [
       {
         "product_id": "gid://shopify/Product/16008517550429",
         "title": "LIT Daily Hydration",
-        "orders": 413,
-        "units": 489,
-        "revenue": 18069.58
+        "orders": 426,
+        "units": 502,
+        "revenue": 18477.71
       },
       {
         "product_id": "gid://shopify/Product/16182160523613",
         "title": "LIT Daily Hydration - Compra única",
-        "orders": 95,
-        "units": 103,
-        "revenue": 3893.4
+        "orders": 102,
+        "units": 110,
+        "revenue": 4158.0
       },
       {
         "product_id": "gid://shopify/Product/9684523548976",
@@ -1509,23 +1541,23 @@
       "new_vs_returning": [
         {
           "bucket": "new",
-          "orders": 428
+          "orders": 444
         },
         {
           "bucket": "returning",
-          "orders": 142
+          "orders": 146
         }
       ],
       "subscription_vs_onetime": [
         {
           "bucket": "subscription",
-          "orders": 366,
-          "revenue": 12123.14
+          "orders": 378,
+          "revenue": 12502.92
         },
         {
           "bucket": "onetime",
-          "orders": 204,
-          "revenue": 7978.04
+          "orders": 212,
+          "revenue": 8270.99
         }
       ]
     }
@@ -1651,6 +1683,12 @@
       },
       {
         "date": "2026-05-19",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-05-20",
         "orders": 0,
         "revenue": 0.0,
         "paid": 0.0
@@ -4258,6 +4296,12 @@
       },
       {
         "date": "2026-05-19",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-05-20",
         "orders": 0,
         "revenue": 0.0,
         "commission": 0.0
