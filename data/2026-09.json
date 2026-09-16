@@ -1,19 +1,19 @@
 {
   "month": "2026-09",
-  "generated_at": "2026-09-15T16:00:11.034319+00:00",
+  "generated_at": "2026-09-16T08:00:12.795792+00:00",
   "meta": {
     "totals": {
-      "spend": 7971.3,
-      "impressions": 1119736,
-      "clicks": 19415,
-      "reach": 335394,
-      "purchases": 127.0,
-      "revenue": 6362.63,
-      "ctr": 1.73,
+      "spend": 8315.69,
+      "impressions": 1150621,
+      "clicks": 20053,
+      "reach": 341107,
+      "purchases": 129.0,
+      "revenue": 6428.78,
+      "ctr": 1.74,
       "cpc": 0.41,
-      "cpm": 7.12,
-      "cpa": 62.77,
-      "roas": 0.8
+      "cpm": 7.23,
+      "cpa": 64.46,
+      "roas": 0.77
     },
     "daily": [
       {
@@ -214,17 +214,31 @@
       },
       {
         "date": "2026-09-15",
-        "spend": 389.45,
-        "impressions": 31542,
-        "clicks": 847,
-        "reach": 20031,
-        "purchases": 2.0,
-        "revenue": 56.7,
-        "ctr": 2.69,
-        "cpc": 0.46,
-        "cpm": 12.35,
-        "cpa": 194.72,
-        "roas": 0.15
+        "spend": 606.98,
+        "impressions": 52254,
+        "clicks": 1253,
+        "reach": 30207,
+        "purchases": 4.0,
+        "revenue": 122.85,
+        "ctr": 2.4,
+        "cpc": 0.48,
+        "cpm": 11.62,
+        "cpa": 151.75,
+        "roas": 0.2
+      },
+      {
+        "date": "2026-09-16",
+        "spend": 126.86,
+        "impressions": 10173,
+        "clicks": 232,
+        "reach": 7780,
+        "purchases": 0.0,
+        "revenue": 0.0,
+        "ctr": 2.28,
+        "cpc": 0.55,
+        "cpm": 12.47,
+        "cpa": 0.0,
+        "roas": 0.0
       }
     ],
     "campaigns": [
@@ -286,45 +300,45 @@
       },
       {
         "campaign": "PROSP | ABO | PURCH | ES | 202609",
-        "spend": 1998.45,
-        "impressions": 166787,
-        "clicks": 1407,
-        "reach": 41752,
+        "spend": 2228.36,
+        "impressions": 187237,
+        "clicks": 1581,
+        "reach": 46079,
         "purchases": 19.0,
         "revenue": 988.75,
         "ctr": 0.84,
-        "cpc": 1.42,
-        "cpm": 11.98,
-        "cpa": 105.18,
-        "roas": 0.49
+        "cpc": 1.41,
+        "cpm": 11.9,
+        "cpa": 117.28,
+        "roas": 0.44
       },
       {
         "campaign": "TEST | ABO | PURCH | ES | 202609",
-        "spend": 350.21,
-        "impressions": 29560,
-        "clicks": 276,
-        "reach": 14859,
-        "purchases": 2.0,
-        "revenue": 113.4,
-        "ctr": 0.93,
-        "cpc": 1.27,
-        "cpm": 11.85,
-        "cpa": 175.1,
-        "roas": 0.32
+        "spend": 414.4,
+        "impressions": 34588,
+        "clicks": 337,
+        "reach": 16812,
+        "purchases": 4.0,
+        "revenue": 179.55,
+        "ctr": 0.97,
+        "cpc": 1.23,
+        "cpm": 11.98,
+        "cpa": 103.6,
+        "roas": 0.43
       },
       {
         "campaign": "PRESS | ABO | PURCH | ES | 202609",
-        "spend": 742.18,
-        "impressions": 66985,
-        "clicks": 5275,
-        "reach": 60973,
+        "spend": 793.84,
+        "impressions": 72486,
+        "clicks": 5679,
+        "reach": 64955,
         "purchases": 9.0,
         "revenue": 290.12,
-        "ctr": 7.87,
+        "ctr": 7.83,
         "cpc": 0.14,
-        "cpm": 11.08,
-        "cpa": 82.46,
-        "roas": 0.39
+        "cpm": 10.95,
+        "cpa": 88.2,
+        "roas": 0.37
       }
     ],
     "adsets": [
@@ -496,107 +510,107 @@
       {
         "campaign": "PROSP | ABO | PURCH | ES | 202609",
         "adset": "PROSP | GENERAL | STORIES-FEED | PURCHASE",
-        "spend": 455.04,
-        "impressions": 35249,
-        "clicks": 277,
-        "reach": 16181,
+        "spend": 500.29,
+        "impressions": 38822,
+        "clicks": 297,
+        "reach": 17457,
         "purchases": 6.0,
         "revenue": 245.7,
-        "ctr": 0.79,
-        "cpc": 1.64,
-        "cpm": 12.91,
-        "cpa": 75.84,
-        "roas": 0.54
+        "ctr": 0.77,
+        "cpc": 1.68,
+        "cpm": 12.89,
+        "cpa": 83.38,
+        "roas": 0.49
       },
       {
         "campaign": "PROSP | ABO | PURCH | ES | 202609",
         "adset": "PROSP | CANSANCIO | STORIES-FEED | PURCHASE",
-        "spend": 1072.13,
-        "impressions": 93181,
-        "clicks": 797,
-        "reach": 31830,
+        "spend": 1166.18,
+        "impressions": 102903,
+        "clicks": 878,
+        "reach": 35853,
         "purchases": 9.0,
         "revenue": 450.1,
-        "ctr": 0.86,
-        "cpc": 1.35,
-        "cpm": 11.51,
-        "cpa": 119.13,
-        "roas": 0.42
+        "ctr": 0.85,
+        "cpc": 1.33,
+        "cpm": 11.33,
+        "cpa": 129.58,
+        "roas": 0.39
       },
       {
         "campaign": "PROSP | ABO | PURCH | ES | 202609",
         "adset": "PROSP | RUNNING | STORIES-FEED | PURCHASE",
-        "spend": 252.14,
-        "impressions": 20118,
-        "clicks": 191,
-        "reach": 11145,
+        "spend": 297.31,
+        "impressions": 23442,
+        "clicks": 228,
+        "reach": 12475,
         "purchases": 3.0,
         "revenue": 207.9,
-        "ctr": 0.95,
-        "cpc": 1.32,
-        "cpm": 12.53,
-        "cpa": 84.05,
-        "roas": 0.82
+        "ctr": 0.97,
+        "cpc": 1.3,
+        "cpm": 12.68,
+        "cpa": 99.1,
+        "roas": 0.7
       },
       {
         "campaign": "PROSP | ABO | PURCH | ES | 202609",
         "adset": "PROSP | RECOVERY | STORIES-FEED | PURCHASE",
-        "spend": 219.31,
-        "impressions": 18259,
-        "clicks": 142,
-        "reach": 9044,
+        "spend": 264.58,
+        "impressions": 22070,
+        "clicks": 178,
+        "reach": 10460,
         "purchases": 1.0,
         "revenue": 85.05,
-        "ctr": 0.78,
-        "cpc": 1.54,
-        "cpm": 12.01,
-        "cpa": 219.31,
-        "roas": 0.39
+        "ctr": 0.81,
+        "cpc": 1.49,
+        "cpm": 11.99,
+        "cpa": 264.58,
+        "roas": 0.32
       },
       {
         "campaign": "PRESS | ABO | PURCH | ES | 202609",
         "adset": "PROSP | PRESS | FEED-STORIES | PURCHASE",
-        "spend": 742.04,
-        "impressions": 66962,
-        "clicks": 5275,
-        "reach": 60973,
+        "spend": 794.07,
+        "impressions": 72516,
+        "clicks": 5679,
+        "reach": 64955,
         "purchases": 9.0,
         "revenue": 290.12,
-        "ctr": 7.88,
+        "ctr": 7.83,
         "cpc": 0.14,
-        "cpm": 11.08,
-        "cpa": 82.45,
-        "roas": 0.39
+        "cpm": 10.95,
+        "cpa": 88.23,
+        "roas": 0.37
       },
       {
         "campaign": "TEST | ABO | PURCH | ES | 202609",
         "adset": "TEST | HAMBRE | STORIES-FEED | PURCHASE",
-        "spend": 177.37,
-        "impressions": 14644,
-        "clicks": 143,
-        "reach": 8710,
+        "spend": 206.96,
+        "impressions": 16903,
+        "clicks": 168,
+        "reach": 9872,
         "purchases": 0.0,
         "revenue": 0.0,
-        "ctr": 0.98,
-        "cpc": 1.24,
-        "cpm": 12.11,
+        "ctr": 0.99,
+        "cpc": 1.23,
+        "cpm": 12.24,
         "cpa": 0.0,
         "roas": 0.0
       },
       {
         "campaign": "TEST | ABO | PURCH | ES | 202609",
         "adset": "TEST | RESACA | STORIES-FEED | PURCHASE",
-        "spend": 173.33,
-        "impressions": 14940,
-        "clicks": 133,
-        "reach": 9958,
-        "purchases": 2.0,
-        "revenue": 113.4,
-        "ctr": 0.89,
-        "cpc": 1.3,
-        "cpm": 11.6,
-        "cpa": 86.67,
-        "roas": 0.65
+        "spend": 207.7,
+        "impressions": 17723,
+        "clicks": 169,
+        "reach": 11342,
+        "purchases": 4.0,
+        "revenue": 179.55,
+        "ctr": 0.95,
+        "cpc": 1.23,
+        "cpm": 11.72,
+        "cpa": 51.92,
+        "roas": 0.86
       }
     ],
     "platforms": [
@@ -616,31 +630,31 @@
       },
       {
         "platform": "facebook",
-        "spend": 596.57,
-        "impressions": 169559,
-        "clicks": 3107,
-        "reach": 58741,
+        "spend": 601.97,
+        "impressions": 170047,
+        "clicks": 3125,
+        "reach": 59041,
         "purchases": 5.0,
         "revenue": 216.91,
-        "ctr": 1.83,
+        "ctr": 1.84,
         "cpc": 0.19,
-        "cpm": 3.52,
-        "cpa": 119.31,
+        "cpm": 3.54,
+        "cpa": 120.39,
         "roas": 0.36
       },
       {
         "platform": "instagram",
-        "spend": 7355.64,
-        "impressions": 939771,
-        "clicks": 16182,
-        "reach": 289191,
-        "purchases": 122.0,
-        "revenue": 6145.71,
-        "ctr": 1.72,
-        "cpc": 0.45,
-        "cpm": 7.83,
-        "cpa": 60.29,
-        "roas": 0.84
+        "spend": 7697.3,
+        "impressions": 970168,
+        "clicks": 16802,
+        "reach": 294601,
+        "purchases": 124.0,
+        "revenue": 6211.86,
+        "ctr": 1.73,
+        "cpc": 0.46,
+        "cpm": 7.93,
+        "cpa": 62.08,
+        "roas": 0.81
       },
       {
         "platform": "threads",
@@ -675,7 +689,7 @@
       {
         "creative_id": "1419621103408589",
         "ad_name": "id.2026-03-10-Creative El Mundo_format.Image_product.Electrolytes - Salty Lemon_persona.Trend Follower_angle.Emotional Benefit - Therapeutic Value_style.Product - Lifestyle_copy.C1_type.New - Performance_promo.No promo_url.Landing page_vidlength.none_creator._hook.Vuelve al Ruedo_creativeCTA.Learn More / Discover",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/649506859_941401722172525_1703411262447133523_n.png?_nc_cat=102&ccb=1-7&_nc_ohc=a9Hh-r6A0DEQ7kNvwHowhOp&_nc_oc=AdoMYFz8YrwHG2IMQLFH6m7yAOm4Vdh3AFHd7ZTAGD-HAQdDg2huZVqbpf3myiCXRIDaNnX1yxaNpa27BvkL4DYJ&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQKODKwSppU-qEeTTE0sIOzK8P2aIZeEn8GuU2acfZz8FnYxTRC0FU1KzpvVznk0zh_M1r4ODs0l&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQK_MMeYlfWDNUc5yuFX6Smt4ajr7-Wa76yBTEOlHJv2GA&oe=6AAF3BEF",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/649506859_941401722172525_1703411262447133523_n.png?_nc_cat=102&ccb=1-7&_nc_ohc=a9Hh-r6A0DEQ7kNvwHowhOp&_nc_oc=AdoMYFz8YrwHG2IMQLFH6m7yAOm4Vdh3AFHd7ZTAGD-HAQdDg2huZVqbpf3myiCXRIDaNnX1yxaNpa27BvkL4DYJ&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQJlgiFYg06vHKfWb8MXTK3B14jOlCBcbFIgIg11PuQZ2gu76pbN6dWBVsRGfxzEK5vjOVlFn4mO&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQKTNUfx8I_esy_YPd-r8Sc8WxhPH5CgFf1PR8R267kOpQ&oe=6AB01CEF",
         "title": null,
         "body": null,
         "campaigns": [
@@ -696,9 +710,32 @@
         "roas": 1.26
       },
       {
+        "creative_id": "1033141006393699",
+        "ad_name": "IMG EL MUNDO | 202605",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/649506859_941401722172525_1703411262447133523_n.png?_nc_cat=102&ccb=1-7&_nc_ohc=a9Hh-r6A0DEQ7kNvwHowhOp&_nc_oc=AdoMYFz8YrwHG2IMQLFH6m7yAOm4Vdh3AFHd7ZTAGD-HAQdDg2huZVqbpf3myiCXRIDaNnX1yxaNpa27BvkL4DYJ&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQLDBbuNWZXFNT2FeADZfFTLWXc9YGvoi0CXHSY-A7UQSupm27FuOJStR-BEzJqdkYXKzV5yGUll&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQKJ9reDMcDwSRBd1Dg0gcmjIpxyPfg4bDZy1-E6AKBo6A&oe=6AB01CEF",
+        "title": null,
+        "body": null,
+        "campaigns": [
+          "PRESS | ABO | PURCH | ES | 202609"
+        ],
+        "adsets": [
+          "PROSP | PRESS | FEED-STORIES | PURCHASE"
+        ],
+        "spend": 794.07,
+        "impressions": 72516,
+        "clicks": 5679,
+        "reach": 64955,
+        "purchases": 9.0,
+        "revenue": 290.12,
+        "ctr": 7.83,
+        "cpc": 0.14,
+        "cpa": 88.23,
+        "roas": 0.37
+      },
+      {
         "creative_id": "924150226941333",
         "ad_name": "id.2026-06-16-Cansancio-Buscador_format.Image_product.Electrolytes - Salty Lemon_persona.Trend Follower_angle.Emotional Benefit - Therapeutic Value_style.Product - Lifestyle_copy.C1_type.New - Performance_promo.No promo_url.Landing page_vidlength.none_creator._hook.Vuelve al Ruedo_creativeCTA.Learn More / Discover",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t39.2147-6/75341531_494485104475166_2751028116179648512_n.png?_nc_cat=1&ccb=1-7&_nc_ohc=XWvhwjzv-N8Q7kNvwHB5Mqb&_nc_oc=Ado2axlGnfuz_d0yn85_c16kBRq1De09t1yvksM7jnpNY7w6auMx0tZM7h3xSW_GKBEblilJkVnjOP5g3KcwsER5&_nc_zt=14&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQJU73F6S_-7hru170juEtOm6PSHUeEkkHkVE8Vdh64V8RGS1IblEpY5Dnmt-GPqR0Itfjw5lYU9&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=39b8c1&_nc_sid=58080a&oh=00_AQIRisROZl20jMQ0Q5EYLcnmYPqehr7ceQuo9WsNy3e9ng&oe=6AAF40C4",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t39.2147-6/75341531_494485104475166_2751028116179648512_n.png?_nc_cat=1&ccb=1-7&_nc_ohc=qDinBs8AvVIQ7kNvwHxzMvl&_nc_oc=AdqNc6dxDYqKEjniriZFODYESCjAcKZjjQxLa2WLmp1pmAADGXb2xCRjZ6Ms4QMYgYQRQ8qPBGhql3YGUAgQJg_f&_nc_zt=14&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQI8R47kyPy121w_-wvXems_Enov2R6Wd9HE1OkbG49b5BdecZv7yXQx2imZCKxpqgUKMf_CFcGS&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=39b8c1&_nc_sid=58080a&oh=00_AQJtkvoxF5Efpmm-JaYxuOFc0TLwXGKmk5vO2IRfq8jaaQ&oe=6AB021C4",
         "title": "Descubre LIT",
         "body": "Duermes 8 horas y amaneces sin pilas? Puede que no sea sueño, sino deshidratación: una bajada mínima ya te tumba el foco.\n\nLIT te devuelve los minerales que tu cuerpo pide cada mañana. 61% menos fatiga en 30 días.\n\nEmpieza el día repuesto, no solo descansado.",
         "campaigns": [
@@ -719,32 +756,9 @@
         "roas": 0.81
       },
       {
-        "creative_id": "1033141006393699",
-        "ad_name": "IMG EL MUNDO | 202605",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/649506859_941401722172525_1703411262447133523_n.png?_nc_cat=102&ccb=1-7&_nc_ohc=a9Hh-r6A0DEQ7kNvwHowhOp&_nc_oc=AdoMYFz8YrwHG2IMQLFH6m7yAOm4Vdh3AFHd7ZTAGD-HAQdDg2huZVqbpf3myiCXRIDaNnX1yxaNpa27BvkL4DYJ&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQJeTNWd0O9AO_4LG4-gPigcRnQvbnoarsHje0rVxFHdAbiNhMu0923fy60Y5kFS7seEo6qZ6YLj&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQK5YjBXrZjLJYPtT1YvUnj3TsbB9VK9DwT95mo_KLc7vw&oe=6AAF3BEF",
-        "title": null,
-        "body": null,
-        "campaigns": [
-          "PRESS | ABO | PURCH | ES | 202609"
-        ],
-        "adsets": [
-          "PROSP | PRESS | FEED-STORIES | PURCHASE"
-        ],
-        "spend": 742.04,
-        "impressions": 66962,
-        "clicks": 5275,
-        "reach": 60877,
-        "purchases": 9.0,
-        "revenue": 290.12,
-        "ctr": 7.88,
-        "cpc": 0.14,
-        "cpa": 82.45,
-        "roas": 0.39
-      },
-      {
         "creative_id": "3970115939949348",
         "ad_name": "id.2026-06-16-Hambre-Buscador_format.Image_product.Electrolytes - Salty Lemon_persona.Trend Follower_angle.Emotional Benefit - Therapeutic Value_style.Product - Lifestyle_copy.C1_type.New - Performance_promo.No promo_url.Landing page_vidlength.none_creator._hook.Vuelve al Ruedo_creativeCTA.Learn More / Discover",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/730917460_1032208026425227_4936854033647312087_n.png?_nc_cat=101&ccb=1-7&_nc_ohc=eBPhTqgknMUQ7kNvwFprJsI&_nc_oc=Adpigy7_zmssMz9zQOyj3yZA8kxDsLeLLg90GGh--402NUN9dUpOxuySb7FJTKHVeKkzd2_orFsaWuPfYLToYp21&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQJPSNXFrmlHYjd3oEpyYmpA-F2zAGElcF42i6AjmLwh2elTLj0LhP3BWjQ0wYjdV1DG9-vmWiE_&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQJpnZaS_FOuDD5ABvkmc9hS7JWKuhFMHHT0XrkeTvVZ3A&oe=6AAF295F",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/730917460_1032208026425227_4936854033647312087_n.png?_nc_cat=101&ccb=1-7&_nc_ohc=eBPhTqgknMUQ7kNvwFprJsI&_nc_oc=Adpigy7_zmssMz9zQOyj3yZA8kxDsLeLLg90GGh--402NUN9dUpOxuySb7FJTKHVeKkzd2_orFsaWuPfYLToYp21&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQJZI451pFwlWYAirMhbEngEcYOYk49poTTzRtMBOTGnmWN1VYxEnMZA4qGFceGq_eWdIrcGFAnt&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQJTxQZjAduafsPNUzv3Y4u6Hs5x9RJyBOGL6LjshM5P1g&oe=6AB00A5F",
         "title": null,
         "body": null,
         "campaigns": [
@@ -767,7 +781,7 @@
       {
         "creative_id": "2309612713206168",
         "ad_name": "id.2026-08-31-Carrusel-Brand_format.Image_product.Salty Lemon.Wellness Enthusiast_angle.Functional Benefit - Simplifies_style.Product - Graphics_copy.C1_type.New - Performance_promo.No promo_url.Landing page_vidlength.none_creator.None_creativeCTA.Shop Now Prompt",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/786374834_1091156167197079_5597769742175882060_n.png?_nc_cat=101&ccb=1-7&_nc_ohc=i4HRmV3DHMEQ7kNvwEDX_fl&_nc_oc=AdoFQ4OISwmFqP3WUGV06eSNOT35rOQpyaYdJIigEi7x4reuEhTxU9HDXToe-uQUCJVgswZ6PHXBs5vk8G0SEq1O&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQIhRtWl0Tk8f_X-IalUE31jxkVvw2Y8rO8OqvtRzFlFtT1Z15RkpBoa1pulipaJa64cCLapMtFh&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQKqYlTd-BDwe7BHh3SiKl6ftlrWX6Oh2qxd-Dw0hr9e5w&oe=6AAF5A30",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/786374834_1091156167197079_5597769742175882060_n.png?_nc_cat=101&ccb=1-7&_nc_ohc=i4HRmV3DHMEQ7kNvwEDX_fl&_nc_oc=AdoFQ4OISwmFqP3WUGV06eSNOT35rOQpyaYdJIigEi7x4reuEhTxU9HDXToe-uQUCJVgswZ6PHXBs5vk8G0SEq1O&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQJC_WUbTV8tf5t6IF8rO_tV4hWkgXmq8joijALKHxwB3IOi97IlUosJlSxhm09QVqd9PmIcnoJz&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQLoPZjqKShEs0-lm6iz2GR7ZGKC4BWN8OsrR6BJeGHv1Q&oe=6AB03B30",
         "title": null,
         "body": null,
         "campaigns": [
@@ -790,7 +804,7 @@
       {
         "creative_id": "1025644813667925",
         "ad_name": "SEED|Descongelar-audiencias|no-optimizar",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/649527904_1431724478444285_5912203667980242891_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=CpszGpvz0FEQ7kNvwF-b_kG&_nc_oc=AdqSuvL0LJhNKldE8goei4gR3K_3c8rWXHAYHxPp2fh6RjBvj6SOjCjwmEhad9vmWhz-z1qg4yW4FQOpwJUmUL59&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQI0e2gTx6NUpPvV5lVSUm8utAafFrWMBaLpbK2RiJxR35QagcZKTS0jlZhBBrgEysQbhYbYJm4H&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQI894HSseT5tm91amehI_GWONVJGCRP5G4bN8SJWL_gnA&oe=6AAF293A",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/649527904_1431724478444285_5912203667980242891_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=CpszGpvz0FEQ7kNvwF-b_kG&_nc_oc=AdqSuvL0LJhNKldE8goei4gR3K_3c8rWXHAYHxPp2fh6RjBvj6SOjCjwmEhad9vmWhz-z1qg4yW4FQOpwJUmUL59&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQIbH14M6veJAhwI8PRx15z8zlEbHCkd6PNAYWpaG4C0o6j_3Cu-MaqYYZg0z_Hgv-cPY-LDVWqU&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQIpUCWpZuEoO3vGvRu8VrJKE4BQ1rMzGFPer5cXRuQJIw&oe=6AB00A3A",
         "title": "Más foco. Menos bajón.",
         "body": "Reuniones, llamadas, pantalla… y cero energía.\nNo todo es falta de café.\n\nSi sudas, si te mueves, si vives activo, necesitas reponer minerales.\n\nLIT te ayuda a mantener claridad y estabilidad durante el día.",
         "campaigns": [
@@ -815,7 +829,7 @@
       {
         "creative_id": "2912943225705478",
         "ad_name": "id.2026-03-11-Creative7-Marzo_format.Image_product.Electrolytes - Salty Lemon_persona.High-Performer_angle.Emotional Benefit - Therapeutic Value_style.Product - Lifestyle_copy.C2_type.New - Performance_promo.No promo_url.Landing page_vidlength.none_creator._hook.Vuelve al Ruedo - Running_creativeCTA.Learn More / Discover",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/647435580_941416532171044_7940677406777282763_n.png?_nc_cat=107&ccb=1-7&_nc_ohc=18q7auvYNb0Q7kNvwFS5ofS&_nc_oc=AdqAhuZw_ZJ3kdaADFTlCPLHKfSvGk7x9QRDg0EHV5iC_JtJa9beyP02RRp6UcErAqtqy8w3-NLPg_Lxt1pMj9Nn&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQJUEwahRzb1Y0sNlq_hdoAS-5pMA2hNgbwnKOTNUudqSIm_--loPQvyZqJHbpgvtPLvmhlpKEUT&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQJjWFR6YhEIdGFLZ5DCyWtkBK0W8WB6sFI5lqiSWx4UXQ&oe=6AAF3D11",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/647435580_941416532171044_7940677406777282763_n.png?_nc_cat=107&ccb=1-7&_nc_ohc=18q7auvYNb0Q7kNvwFS5ofS&_nc_oc=AdqAhuZw_ZJ3kdaADFTlCPLHKfSvGk7x9QRDg0EHV5iC_JtJa9beyP02RRp6UcErAqtqy8w3-NLPg_Lxt1pMj9Nn&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQL9UNybzOXfhMwDRS0xcRjl0J8xC6C-XXM37JSKm7L619n9YKCaVd6Sz3ESZe4enTFGjDb014YX&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQK_hFpD8Xr7BhtbOw5cPTu_HTzzRw4V4PaSEhx-pohlGQ&oe=6AB01E11",
         "title": null,
         "body": null,
         "campaigns": [
@@ -836,9 +850,32 @@
         "roas": 0.95
       },
       {
+        "creative_id": "1260418996229507",
+        "ad_name": "IMG CANSACIO 4 | 202609",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802021843_1099328966379799_7229308674121101432_n.png?_nc_cat=111&ccb=1-7&_nc_ohc=RsxUqlbbewcQ7kNvwGEXL_9&_nc_oc=AdpZUv0v8Sk3ZTtsCBnNiJPUGKRX2_fwv2Yhrar2ey94hNi59zHZFhxO49PUxI_xHeNVW1xJGJ6mnT36682gFYxs&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQKKToaIhAYxbKxmeiVvHN3fHZ7zNgtp_eYR2ezMrjZiLhuKQL_AX1QGgc4BrDtUcHtuKB58UC_R&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQLtSMAH9fK-FUcwITBM-e_WnHI-1QpGcAmscBSgRoPzXg&oe=6AB03113",
+        "title": null,
+        "body": null,
+        "campaigns": [
+          "PROSP | ABO | PURCH | ES | 202609"
+        ],
+        "adsets": [
+          "PROSP | CANSANCIO | STORIES-FEED | PURCHASE"
+        ],
+        "spend": 312.96,
+        "impressions": 30381,
+        "clicks": 288,
+        "reach": 20593,
+        "purchases": 1.0,
+        "revenue": 113.4,
+        "ctr": 0.95,
+        "cpc": 1.09,
+        "cpa": 312.96,
+        "roas": 0.36
+      },
+      {
         "creative_id": "38150775371235881",
         "ad_name": "id.2026-06-16-Resaca-Buscador_format.Image_product.Electrolytes - Salty Lemon_persona.Trend Follower_angle.Emotional Benefit - Therapeutic Value_style.Product - Lifestyle_copy.C1_type.New - Performance_promo.No promo_url.Landing page_vidlength.none_creator._hook.Vuelve al Ruedo_creativeCTA.Learn More / Discover",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/730917284_1032208113091885_1920819366510408757_n.png?_nc_cat=104&ccb=1-7&_nc_ohc=mpeHx2wnapcQ7kNvwGD-c-F&_nc_oc=Adp-u0uWTDI7jeAiLaoOz8yuao1N8SD1_ii1eUEcraBScuHw4cBw6aw9_BY03I1cIw90uuTu3dcahyKvzFf7Cusi&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQLVW5bGHjZNiu7V4RoIJfVUM18l3CqRI3K1ObW12li9m0E_5Zw7xv5wHh4FncC3ds3ufRVmgV14&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQJvFcZmW4SdQ2NIeyDz0-paKyG3EfC5RfVhd8EQpCUdVA&oe=6AAF2E3C",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/730917284_1032208113091885_1920819366510408757_n.png?_nc_cat=104&ccb=1-7&_nc_ohc=E91X7ZbQA18Q7kNvwF_PmWl&_nc_oc=AdrEXvnNzsfTh52kbxap6NRDvM6ra_zHNha4ESM353htkIynfENxzWdJfnNrJGvSgEDucQU62Hj4YnZYMKV5r5uz&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQJ-Blhep-QQb2jfuMmBAMMn05wTBREZAqTRA-WD4Nd1kBm8Ti2WS20OgyLchyp5_jerVf4MVJus&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQK8rAE3uMSk_VJIwY8R4plMsBU-AGUaAayuKU0Lnxa83A&oe=6AB00F3C",
         "title": null,
         "body": null,
         "campaigns": [
@@ -861,7 +898,7 @@
       {
         "creative_id": "28453260000975467",
         "ad_name": "IMG CANSACIO 6 | BUSCADOR | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802033237_1099304906382205_1837571528884316328_n.png?_nc_cat=108&ccb=1-7&_nc_ohc=K9FxPxalRUwQ7kNvwEz4v6_&_nc_oc=AdoeKu2P8J2CmzU4yoAbpfycVStsOzngWHC-lv4Fc7fFw25yVEMU3M4y3-LMfvFOFK5bjUh1XSNiAlETkS-tGPOF&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQKNekeXaxGjmcWuI2y1r335PYJwxpj2wBIw19479N5sAtwogXd8DiIAsRb6DHTVnO7Y5rEp8Dfe&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQLqgyjFdPXltRE7X5pB8USkmcBoXkBGD1R8cuvdwE4gFA&oe=6AAF49B9",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802033237_1099304906382205_1837571528884316328_n.png?_nc_cat=108&ccb=1-7&_nc_ohc=K9FxPxalRUwQ7kNvwEz4v6_&_nc_oc=AdoeKu2P8J2CmzU4yoAbpfycVStsOzngWHC-lv4Fc7fFw25yVEMU3M4y3-LMfvFOFK5bjUh1XSNiAlETkS-tGPOF&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQLmnBXmr3iKPFG3Yaxr5Jm2kVW2aGzlf9xFbQFZLh-OX-Znf078NUao2Pg4S7IxYv36cLO1slIm&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQJ6FvIjJfNjQZu0oHhk8tft1Hx1Cs3LwM0lnzXGyC9WXA&oe=6AB02AB9",
         "title": null,
         "body": null,
         "campaigns": [
@@ -884,7 +921,7 @@
       {
         "creative_id": "1076463701943433",
         "ad_name": "BRAND CARROUSEL | 202609",
-        "thumbnail_url": "https://external-hel3-1.xx.fbcdn.net/emg1/v/t13/5140801584484470492?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJ89xUrPNA_Tsfi4Q5BLBOf0vPkzAVVDTg4___g7GsK2J_nPoylxHR8vCENzTLCToNxJLRUGtdjA-CmNTHjQA2UxOF6mbSI1tQltXEuCWZ-syCewNTPz-or08mubbfk7WRBQqUn0yVebZOUx2GFSn8P&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-hel3-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=enDPkiF4hkiW3eVDPojfyA&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQLVmzyt_0OZkMmsVEo0hyhpdLKxbtCqbMxvGEqgFuie5AM6qGVEp8a68EHvAIjXYt0eknCZ509j&oh=06_Q3_DAfk48a5u7cHvBeZtdsJZ7BIVrnx38i1muP4t_TZ82ACU&oe=6AAB6389",
+        "thumbnail_url": "https://external-hel3-1.xx.fbcdn.net/emg1/v/t13/5140801584484470492?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJ89xUrPNA_Tsfi4Q5BLBOf0vPkzAVVDTg4___g7GsK2J_nPoylxHR8vCENzTLCToNxJLRUGtdjA-CmNTHjQA2UxOF6mbSI1tQltXEuCWZ-syCewNTPz-or08mubbfk7WRBQqUn0yVebZOUx2GFSn8P&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-hel3-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQIct8Ce9PooD5y8UxapvpuzOPPKKdGALjK6uNgI526EF4RW_udzFaasjpeQnjN2cpcamlF_LNNj&oh=06_Q3_DAW0yf8voFFQ4FT6h0x-CspKDWvgawGFpSPOcFEj7CH-f&oe=6AAC4489",
         "title": "Lit Hydration",
         "body": "El agua te quita la sed. No te repone los minerales.\n\nAl sudar pierdes sodio, potasio y magnesio. Sin ellos el cuerpo funciona, pero a medio gas: menos energía, peor concentración, el bajón de media tarde.\n\nLos electrolitos son eso que te falta. LIT los trae en sobres, sin azúcar, en Salty Lemon, Watermelon y Peach.\n\nUno al día. La diferencia se nota en una semana.",
         "campaigns": [
@@ -905,32 +942,32 @@
         "roas": 0.25
       },
       {
-        "creative_id": "1260418996229507",
-        "ad_name": "IMG CANSACIO 4 | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802021843_1099328966379799_7229308674121101432_n.png?_nc_cat=111&ccb=1-7&_nc_ohc=RsxUqlbbewcQ7kNvwGEXL_9&_nc_oc=AdpZUv0v8Sk3ZTtsCBnNiJPUGKRX2_fwv2Yhrar2ey94hNi59zHZFhxO49PUxI_xHeNVW1xJGJ6mnT36682gFYxs&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQIvDcm82lLXmVPV3prPu2CSoIPeRtv6knLO0pkZjzMs9nJrovrDTITNpPtyI0sO1RDONYLPFOyL&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQLuLkzW539xbkOoZQqAhl9ekErrGVpkE_Yi-pUVLbUO1A&oe=6AAF5013",
-        "title": null,
-        "body": null,
+        "creative_id": "1621820483055343",
+        "ad_name": "PRODUCT CARROUSEL | 202609",
+        "thumbnail_url": "https://external-hel3-1.xx.fbcdn.net/emg1/v/t13/6878552586610718428?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKoTDlrIicnLMgVWDm_zvxFO2kPg4v15GtKaQyd21FxsD-PMItqC3GK5Ln5TL9XJLZH73ZlNOcxrIL9i2tHFYQiYY-A-D7zPxDO1nHN0jjXJsHbvBFxSPh5ClgaKGaj5YT4qN5UlUKgXcmBYHHQYUqw&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-hel3-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQJkFQ66TbrNmrxM_qe80kRZcKOVVSFxLgy3UP41ovaObwJZEkH1kxknpFdo6wavcXOo9bY1ir0z&oh=06_Q3_DAdZRXRSY1P--5GzD8KbTyZncBkitWyODcOnZB0n3DNrf&oe=6AAC1160",
+        "title": "Lit Hydration",
+        "body": "El agua te quita la sed. No te repone los minerales.\n\nAl sudar pierdes sodio, potasio y magnesio. Sin ellos el cuerpo funciona, pero a medio gas: menos energía, peor concentración, el bajón de media tarde.\n\nLos electrolitos son eso que te falta. LIT los trae en sobres, sin azúcar, en Salty Lemon, Watermelon y Peach.\n\nUno al día. La diferencia se nota en una semana.",
         "campaigns": [
           "PROSP | ABO | PURCH | ES | 202609"
         ],
         "adsets": [
-          "PROSP | CANSANCIO | STORIES-FEED | PURCHASE"
+          "PROSP | GENERAL | STORIES-FEED | PURCHASE"
         ],
-        "spend": 223.56,
-        "impressions": 20856,
-        "clicks": 211,
-        "reach": 15024,
-        "purchases": 1.0,
-        "revenue": 113.4,
-        "ctr": 1.01,
-        "cpc": 1.06,
-        "cpa": 223.56,
-        "roas": 0.51
+        "spend": 239.99,
+        "impressions": 20070,
+        "clicks": 147,
+        "reach": 10753,
+        "purchases": 4.0,
+        "revenue": 179.55,
+        "ctr": 0.73,
+        "cpc": 1.63,
+        "cpa": 60.0,
+        "roas": 0.75
       },
       {
         "creative_id": "906491395617273",
         "ad_name": "IMG CANSACIO 3 | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802021864_1099304863048876_4310593752561261857_n.png?_nc_cat=102&ccb=1-7&_nc_ohc=JZtc-CYD-AIQ7kNvwE5qUPY&_nc_oc=Adpmg-T3JiGhv6jk4kep9oLMF5RDYSbiCmbpaivPaLC91BMaadxMUOuKVAdFj-FWzuKb7VwRxB4aXBgVZbqc-i3o&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQJtmy-_RPXALhwTP-lxyokaCPSOM-NvX_RqkbPBkOwfzv2VxICYKfNl7TSXO671YewDP8Pa8k4k&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQJot6HPDX_FTH33y2hZ3QDvoe9oUvD_AsI9eh_TSGVX7A&oe=6AAF37D0",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802021864_1099304863048876_4310593752561261857_n.png?_nc_cat=102&ccb=1-7&_nc_ohc=JZtc-CYD-AIQ7kNvwE5qUPY&_nc_oc=Adpmg-T3JiGhv6jk4kep9oLMF5RDYSbiCmbpaivPaLC91BMaadxMUOuKVAdFj-FWzuKb7VwRxB4aXBgVZbqc-i3o&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQKI4bu_JvypvVd27LxR2SNDMZnv8wIX_6wJCm7C2Gti_grha5Sea6iaPW5so3IGx6SsQ0NyUrC1&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQJ8Z2P2JYoHLvlXhoiUToUnv1sh-7bNTwI_3ndBYHrDcw&oe=6AB018D0",
         "title": null,
         "body": null,
         "campaigns": [
@@ -951,32 +988,9 @@
         "roas": 0.14
       },
       {
-        "creative_id": "1621820483055343",
-        "ad_name": "PRODUCT CARROUSEL | 202609",
-        "thumbnail_url": "https://external-hel3-1.xx.fbcdn.net/emg1/v/t13/6878552586610718428?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKoTDlrIicnLMgVWDm_zvxFO2kPg4v15GtKaQyd21FxsD-PMItqC3GK5Ln5TL9XJLZH73ZlNOcxrIL9i2tHFYQiYY-A-D7zPxDO1nHN0jjXJsHbvBFxSPh5ClgaKGaj5YT4qN5UlUKgXcmBYHHQYUqw&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-hel3-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=enDPkiF4hkiW3eVDPojfyA&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQIHzdATOxB0RNStJWJkq1fhrzJwDETjt5LZCRs1r_HaG1o80_OJzIXwKELNTcPqw-3rPmQoDHSD&oh=06_Q3_DAV6k8Ju3AFC7zjbtJ7zSlM-NiDFRhoYrDScAErEQGj47&oe=6AAB3060",
-        "title": "Lit Hydration",
-        "body": "El agua te quita la sed. No te repone los minerales.\n\nAl sudar pierdes sodio, potasio y magnesio. Sin ellos el cuerpo funciona, pero a medio gas: menos energía, peor concentración, el bajón de media tarde.\n\nLos electrolitos son eso que te falta. LIT los trae en sobres, sin azúcar, en Salty Lemon, Watermelon y Peach.\n\nUno al día. La diferencia se nota en una semana.",
-        "campaigns": [
-          "PROSP | ABO | PURCH | ES | 202609"
-        ],
-        "adsets": [
-          "PROSP | GENERAL | STORIES-FEED | PURCHASE"
-        ],
-        "spend": 194.57,
-        "impressions": 16477,
-        "clicks": 127,
-        "reach": 9122,
-        "purchases": 4.0,
-        "revenue": 179.55,
-        "ctr": 0.77,
-        "cpc": 1.53,
-        "cpa": 48.64,
-        "roas": 0.92
-      },
-      {
         "creative_id": "1988953285011902",
         "ad_name": "id.2026-06-16-Cansancio-Buscador_format.Image_product.Electrolytes - Salty Lemon_persona.Trend Follower_angle.Emotional Benefit - Therapeutic Value_style.Product - Lifestyle_copy.C1_type.New - Performance_promo.No promo_url.Landing page_vidlength.none_creator._hook.Vuelve al Ruedo_creativeCTA.Learn More / Discover",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/730941196_1032207999758563_1952245151112320857_n.png?_nc_cat=100&ccb=1-7&_nc_ohc=NIqwfVKZzMQQ7kNvwFlHWA1&_nc_oc=Adr3SgbgHUO0m4jeE7Wit4PZbegyrNAbzwf91eEve_BNA5YdayK2FDK2a8fvZnLbXpoxd-Dx5uzFab1NuO1AYHiB&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQLrcISXsAuiWIEDsfIMOjXqNonn2mfim5f8hS1KR8ziot5CscLfbjwucgHFeiVrVax7QbePlIdn&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQJcKDlsvb49g62z0_DmSdTd0mTcA04vm8R06HAp0jc0Uw&oe=6AAF4334",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/730941196_1032207999758563_1952245151112320857_n.png?_nc_cat=100&ccb=1-7&_nc_ohc=NIqwfVKZzMQQ7kNvwFlHWA1&_nc_oc=Adr3SgbgHUO0m4jeE7Wit4PZbegyrNAbzwf91eEve_BNA5YdayK2FDK2a8fvZnLbXpoxd-Dx5uzFab1NuO1AYHiB&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQIJ9edBi7Pox1wlAAFx0eazrRDTyJC_PJ_v4Ph6NrXUG9gSipPuQBKX940avcZAb4F0wKnnyGvQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQIL88CUubuVfjix4agupLjvP4reDaL3UyMlFDYtUB3txg&oe=6AB02434",
         "title": null,
         "body": null,
         "campaigns": [
@@ -999,7 +1013,7 @@
       {
         "creative_id": "1470864241769169",
         "ad_name": "id.2026-06-16-Trabajo-Buscador_format.Image_product.Electrolytes - Salty Lemon_persona.Trend Follower_angle.Emotional Benefit - Therapeutic Value_style.Product - Lifestyle_copy.C1_type.New - Performance_promo.No promo_url.Landing page_vidlength.none_creator._hook.Vuelve al Ruedo_creativeCTA.Learn More / Discover",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/731137529_1032208063091890_7167414846088904289_n.png?_nc_cat=104&ccb=1-7&_nc_ohc=H4OYPNl2MlgQ7kNvwF8Vz40&_nc_oc=Adr8bhTIIwrFvJoTcU6VcnipSKVRkjvjrUXE6YjQ8uA-52jQy3fPZGKwnDQAHtBWM1RaRV4JSM821BZO3gmhmfSn&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQK809zIjqIiggjfKFIPjMIOhpBq19bavwy6d-RU51AMwOtmyy7SXBdOxyByV6_773zGqt0z93ty&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQJyFHzftZfhsZcuI8lXSloXoiDcOmtdNGgRNkJIhV700g&oe=6AAF25D8",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/731137529_1032208063091890_7167414846088904289_n.png?_nc_cat=104&ccb=1-7&_nc_ohc=H4OYPNl2MlgQ7kNvwF8Vz40&_nc_oc=Adr8bhTIIwrFvJoTcU6VcnipSKVRkjvjrUXE6YjQ8uA-52jQy3fPZGKwnDQAHtBWM1RaRV4JSM821BZO3gmhmfSn&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQLP6M20CBytUfS0fkwi00Cx2I7JbcF6elKpfpzOSbn4QouQG_1PWlOyx7a01RayRVOxoSi6UKyE&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQJPQBY_pU5Po49ZB1BiwOXEu597zTBqbuaWrNeSVRuUzg&oe=6AB006D8",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1022,7 +1036,7 @@
       {
         "creative_id": "1688215656638530",
         "ad_name": "IMG CANSACIO 7 |  BUSCADOR | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802188507_1099304933048869_4610374361718345772_n.png?_nc_cat=100&ccb=1-7&_nc_ohc=vukd4HhYff4Q7kNvwFajP6s&_nc_oc=AdrYhRp6uJxcCuTX14PKUkYL2NeAZpx1hqSHRanrMBQi4q0Ar9GYjPRryvpUU0swMI2wLZ0gAtWvTU8xdJWfo3jm&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQIOJNmBqt3tJXgpCRdOQV2BPv5dg-4AJ3UN_lstB6xeA9TRllI0N-XQkra7qFR5T8Ic8iK3bYCI&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQLngMsijajAtLy9L85U0W8W1eWl7qjAT4FFoEhAXa5Ijw&oe=6AAF31B2",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802188507_1099304933048869_4610374361718345772_n.png?_nc_cat=100&ccb=1-7&_nc_ohc=hlzA95hCyjIQ7kNvwG4zMSa&_nc_oc=Adqk6Cb_-mAUG2drEVNJ1mVtLjakj2V4j67GA7DoB3ggLNnIaMgZCcTUFkCauTSrlMXuRdhN6_yXMB_9zqPjYS8r&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQIoc4Njb3knBvFv1lEo1KFr8Ma-uwfAJ6ESjtUuMaz99jUEQPsUk2WLElqwHn9WKImOXSUu1-Vl&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQIN0K2gdANekRMYgExRj1onokuI6EHaZezUYFZeXNo9vA&oe=6AB012B2",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1045,7 +1059,7 @@
       {
         "creative_id": "972002425309429",
         "ad_name": "IMG CANSACIO 8 | BUSCADOR | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802121244_1099304916382204_8427311889218009142_n.png?_nc_cat=111&ccb=1-7&_nc_ohc=8w3rmqTqFXUQ7kNvwGcAwge&_nc_oc=AdreUHbPNue0Fg5VCl4ge8O1eEnD77SDdbkWjwv5EAbpNSlYNiPySWwPrv_FAxX-GM78QFpX1pvni4_hJIXOurYJ&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQLZUoc5wu7hhArfRGNFVxKJOeebrOevAguxmsPwzvc6MQrKB2zG-cz9fPBt1Ww-8nBLIjB6XDh5&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQJ7PQVCV8gRNom9hNGhAAOJscB8oUsg2czAcwW1MN8hwA&oe=6AAF54EA",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802121244_1099304916382204_8427311889218009142_n.png?_nc_cat=111&ccb=1-7&_nc_ohc=8w3rmqTqFXUQ7kNvwGcAwge&_nc_oc=AdreUHbPNue0Fg5VCl4ge8O1eEnD77SDdbkWjwv5EAbpNSlYNiPySWwPrv_FAxX-GM78QFpX1pvni4_hJIXOurYJ&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQJ3ROGrfAfq6AQ9pm7G4EmFrFiGcwTQkV7OGND6tQHUBe8j3i74I0-A1h1Cgr1NJzCPcf2fyMAc&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQKXR1OX93PDf0lYFkfgc88eR_SZflEuFFPzNYF1xSqH8A&oe=6AB035EA",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1066,9 +1080,32 @@
         "roas": 0.0
       },
       {
+        "creative_id": "1068506819439576",
+        "ad_name": "IMG RUNNING 3 | 202609",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802940094_1101732426139453_8388128045237131599_n.png?_nc_cat=111&ccb=1-7&_nc_ohc=qCUGsDqg1sMQ7kNvwGhBLK5&_nc_oc=AdpGa-6zPW9wbYPBqVSGUSzaNS1FdMhwNiHYlYAwy37zGOdTgd9Cxo1Yeh_CC1qmmdTNyz-K53YymUm2KPwXARRX&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQKrYf6jzrtBX_exLdpW_6n64xGnmiQTsct3gu5LCnUtdbmm0_GJLv0_tNmigFIxwxrP92WX99-F&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQIQztRrM8yXgHaK1sGomVxHywvLr1klOdO8E_1ugKVCuA&oe=6AB01738",
+        "title": null,
+        "body": null,
+        "campaigns": [
+          "PROSP | ABO | PURCH | ES | 202609"
+        ],
+        "adsets": [
+          "PROSP | RUNNING | STORIES-FEED | PURCHASE"
+        ],
+        "spend": 112.92,
+        "impressions": 8142,
+        "clicks": 76,
+        "reach": 6184,
+        "purchases": 0.0,
+        "revenue": 0.0,
+        "ctr": 0.93,
+        "cpc": 1.49,
+        "cpa": 0.0,
+        "roas": 0.0
+      },
+      {
         "creative_id": "2037530213554401",
         "ad_name": "IMG HAMBRE 8 | BUSCADOR | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802964781_1101800652799297_2835221895817684297_n.png?_nc_cat=105&ccb=1-7&_nc_ohc=HHSBZfMqxuAQ7kNvwGNVATF&_nc_oc=AdomlLGcistihwtkW7vdX64FoJJrhJ-Vj6hLm6hfBW8C_K_9AB8YYOsBO8iQ3fPUfJKwuVrQOC-UieWwaerVWu_5&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQJi8h5xfAoR09WdT779n-VMkgXK7MEl4vVfeI_3L0RSB4yWNcnKKBjd8UJl1C8E6u4BqRw9MwWJ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQIZlGaDEvk5wntJO79F4WHHhvMsLqoLwu6jSyrKO3soIA&oe=6AAF3CD9",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802964781_1101800652799297_2835221895817684297_n.png?_nc_cat=105&ccb=1-7&_nc_ohc=M4J-L0uaROMQ7kNvwFbb2_E&_nc_oc=AdpZT1LyWvN1_Y0e4hvkr56Ya30R6l_ISt95FTmDNNnO_C8dna3s7jrKQyRzVRUcbR9MTcMUG0uNzjLsdWajqsP-&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQLyNkZO-4kV8CWRDs01uscqpd7OOfilf135FQ5182F5gQmKAF1xm0xJK_lTafEJ7LipSi-H3PEr&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQLO4XBvEiO1yqJMXSMChiL-v2DFJOY_XQBIW6k3FjHwjA&oe=6AB01DD9",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1077,21 +1114,21 @@
         "adsets": [
           "TEST | HAMBRE | STORIES-FEED | PURCHASE"
         ],
-        "spend": 88.09,
-        "impressions": 6634,
-        "clicks": 72,
-        "reach": 5096,
+        "spend": 107.11,
+        "impressions": 8003,
+        "clicks": 89,
+        "reach": 6087,
         "purchases": 0.0,
         "revenue": 0.0,
-        "ctr": 1.09,
-        "cpc": 1.22,
+        "ctr": 1.11,
+        "cpc": 1.2,
         "cpa": 0.0,
         "roas": 0.0
       },
       {
         "creative_id": "1596779771983860",
         "ad_name": "IMG RESACA 6 | BUSCADOR | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/807590695_1101820862797276_2497790849939048860_n.png?_nc_cat=101&ccb=1-7&_nc_ohc=MzU0sJS_dSwQ7kNvwHtnGBZ&_nc_oc=AdqZ_h_J4leAPpZSli9Njcc2X4q7Q4M4zuuvG3JCY6RYxzrw0ohTwd9_xClDXgQIvXbqX_6XdNc4-ryQ8NpACpbo&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQI4DLlQGBFZCBd1nJAvZrXSKnkoBnS1hy0w_WIvEdgnSx-gdHYYIyF4G_krkZmRNffy_pEPzqFD&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQJcbsNVAoPV0euidbsR1uPu32MUXwa21WNiQp1pC8ZcJg&oe=6AAF435D",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/807590695_1101820862797276_2497790849939048860_n.png?_nc_cat=101&ccb=1-7&_nc_ohc=MzU0sJS_dSwQ7kNvwHtnGBZ&_nc_oc=AdqZ_h_J4leAPpZSli9Njcc2X4q7Q4M4zuuvG3JCY6RYxzrw0ohTwd9_xClDXgQIvXbqX_6XdNc4-ryQ8NpACpbo&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQKBNmmUUqgAYo0YyQDKdLK97Wn799TWiQhZBbj4zwzOjxzivFyWnrnjHpBsd11bTdsfaZCGNHkG&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQLJYo1lNLu0pxbFCrQgSe_Xvh2Zy5OXFjj89aH3qO875A&oe=6AB0245D",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1100,21 +1137,21 @@
         "adsets": [
           "TEST | RESACA | STORIES-FEED | PURCHASE"
         ],
-        "spend": 85.68,
-        "impressions": 8980,
-        "clicks": 67,
-        "reach": 6982,
+        "spend": 99.62,
+        "impressions": 10346,
+        "clicks": 81,
+        "reach": 7791,
         "purchases": 1.0,
         "revenue": 85.05,
-        "ctr": 0.75,
-        "cpc": 1.28,
-        "cpa": 85.68,
-        "roas": 0.99
+        "ctr": 0.78,
+        "cpc": 1.23,
+        "cpa": 99.62,
+        "roas": 0.85
       },
       {
         "creative_id": "1018601871227922",
         "ad_name": "IMG RECOVERY 8 | BUSCADOR | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802597539_1101763069469722_6181985887223566213_n.png?_nc_cat=108&ccb=1-7&_nc_ohc=jazZnELnDcYQ7kNvwGTuBIs&_nc_oc=AdqW0wqRopmOC61OxCG5kbLVAy1N9H8aedeXv1gVp3EPX0KY97TA-K1K79nP6xkdGlSqq6i-wNuEWXiKI9a5kq21&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQLRFFH0m_Eh3LFCN6Qa_E5oEt-40sU3UW2Sulvz21Ke9dO6RGGPAvsc4NcUL4ZBtbrSHtux4mZ1&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQKAPjzdZn7T6Fy_fNjK9yVBYDibnASZjs6m0CBSTceJyA&oe=6AAF5470",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802597539_1101763069469722_6181985887223566213_n.png?_nc_cat=108&ccb=1-7&_nc_ohc=-kPp5YEJOecQ7kNvwFzbGB5&_nc_oc=AdpQvEa0HWEdFFytC0erWkEkud23uxeZ3j9iYdCpKgR7KU_fExJQE5pVL74NXB9eA2i5hfLOQQTw_wxHSknCYTvK&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQJVpqVFeUP0LLkKl7vvbihQ5Lj9uJXDYhCNyofYdKMdHEbEofJEzEzSs3b6agau_E3-Yk6KNunr&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQI1BVcUhiwB4IE4cQJiOP-51utQXKnthoYRVHNY0iDROQ&oe=6AB03570",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1123,44 +1160,44 @@
         "adsets": [
           "PROSP | RECOVERY | STORIES-FEED | PURCHASE"
         ],
-        "spend": 83.06,
-        "impressions": 6879,
-        "clicks": 58,
-        "reach": 4397,
+        "spend": 97.95,
+        "impressions": 8084,
+        "clicks": 69,
+        "reach": 4947,
         "purchases": 0.0,
         "revenue": 0.0,
-        "ctr": 0.84,
-        "cpc": 1.43,
+        "ctr": 0.85,
+        "cpc": 1.42,
         "cpa": 0.0,
         "roas": 0.0
       },
       {
-        "creative_id": "1068506819439576",
-        "ad_name": "IMG RUNNING 3 | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802940094_1101732426139453_8388128045237131599_n.png?_nc_cat=111&ccb=1-7&_nc_ohc=qCUGsDqg1sMQ7kNvwGhBLK5&_nc_oc=AdpGa-6zPW9wbYPBqVSGUSzaNS1FdMhwNiHYlYAwy37zGOdTgd9Cxo1Yeh_CC1qmmdTNyz-K53YymUm2KPwXARRX&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQK9Y6YeijrWZ7GSMGnroA4_hqfOFB4RWi5U9wS-NEHZPnYfZ7aoeY5Z9aYF6NyytJ6l3haG9lDB&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQIGu4uqas_kSU_JkEEaj0zahceyWKFbw7OvN13P1fs8kw&oe=6AAF3638",
+        "creative_id": "2934295840266658",
+        "ad_name": "IMG RECOVERY 6 | BUSCADOR | 202609",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802597543_1101762916136404_5527594916175897501_n.png?_nc_cat=108&ccb=1-7&_nc_ohc=VxjuejuuBSUQ7kNvwFxdcu4&_nc_oc=AdqphL6vXrEqlTSBXWthaUVphxYBB5lS9POBfz1NFmXxvEnHiDs8wDu1UVqrRksbMSKYG0upC_YzfiV01Dq9ulML&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQJJ0q8Or5WqJPMlY844xYkIeYlJEp1R7N12GUZk0fofJjK5RbXbeZSeb_jTMo4-uRBY7n2gZurw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQLmZtSUQusockTIP2DpTazkWUMrAAjBjfhlKLOmkas8kw&oe=6AB026A8",
         "title": null,
         "body": null,
         "campaigns": [
           "PROSP | ABO | PURCH | ES | 202609"
         ],
         "adsets": [
-          "PROSP | RUNNING | STORIES-FEED | PURCHASE"
+          "PROSP | RECOVERY | STORIES-FEED | PURCHASE"
         ],
-        "spend": 82.03,
-        "impressions": 5925,
-        "clicks": 50,
-        "reach": 4788,
-        "purchases": 0.0,
-        "revenue": 0.0,
-        "ctr": 0.84,
-        "cpc": 1.64,
-        "cpa": 0.0,
-        "roas": 0.0
+        "spend": 78.5,
+        "impressions": 6768,
+        "clicks": 55,
+        "reach": 4338,
+        "purchases": 1.0,
+        "revenue": 85.05,
+        "ctr": 0.81,
+        "cpc": 1.43,
+        "cpa": 78.5,
+        "roas": 1.08
       },
       {
         "creative_id": "1604667421108353",
         "ad_name": "IMG CANSACIO 1 | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802334083_1099304719715557_8178214885731755322_n.png?_nc_cat=105&ccb=1-7&_nc_ohc=tiJ8OMaBYBgQ7kNvwG6u6nD&_nc_oc=AdrYf373kTR_wPBLC22NcYZLGrN-v_BRuOd5FH7JPSJiGFPkAmxPWfjjYidHjvkfo1fFvudG_4oeqJlW5QW7l4_6&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQIkBx0p99FoFDI33SlI0ZOria8LFW_YxRf7BM-CGX5vQZaA_czEdHVo6eQ-vKSZGnBssqEIx4Qp&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQLM7yIInQNX8j-ACY8tB-gsou9FTn1zgCJ5_ueQp4MejQ&oe=6AAF384C",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802334083_1099304719715557_8178214885731755322_n.png?_nc_cat=105&ccb=1-7&_nc_ohc=tiJ8OMaBYBgQ7kNvwG6u6nD&_nc_oc=AdrYf373kTR_wPBLC22NcYZLGrN-v_BRuOd5FH7JPSJiGFPkAmxPWfjjYidHjvkfo1fFvudG_4oeqJlW5QW7l4_6&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQKQ4Y4ymRTwYfSMkpcfptgsfyYaCiulO3YruMfc_BgGbq4pk4NinTZTFfcF7WNDUd8xbmu5fJ2q&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQLEz3zf0NO8EibSoSAMDaQEiA72Eqn5_ErvuPQV6TV6zg&oe=6AB0194C",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1169,21 +1206,21 @@
         "adsets": [
           "PROSP | CANSANCIO | STORIES-FEED | PURCHASE"
         ],
-        "spend": 78.43,
-        "impressions": 4104,
+        "spend": 78.45,
+        "impressions": 4108,
         "clicks": 29,
-        "reach": 2960,
+        "reach": 2964,
         "purchases": 1.0,
         "revenue": 28.35,
         "ctr": 0.71,
-        "cpc": 2.7,
-        "cpa": 78.43,
+        "cpc": 2.71,
+        "cpa": 78.45,
         "roas": 0.36
       },
       {
         "creative_id": "3314071305454665",
         "ad_name": "IMG RUNNING 8 | BUSCADOR | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/803050855_1101732509472778_6551809254537522808_n.png?_nc_cat=106&ccb=1-7&_nc_ohc=kUsLtG8IX_YQ7kNvwGu_83k&_nc_oc=Adqm55OKXDBGSKgXw1Z3GjNcsF3cbMIj6o_tZ8EojtY6MFdHSV-eWSbMdI2EbzYsng-mBTcJXhnKmdznrgauo0iB&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQIWO94uEgBqNc60Ezuim2RzE_S7ZS-YJnZBmC7OJYWpzB5-ivBoz5QEZOYW3Zp0ts_Dny93joE7&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQIFi5UTuBnXuAkBectRJRrzyg4kGNHog8ngZYN5L0bllA&oe=6AAF3D3F",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/803050855_1101732509472778_6551809254537522808_n.png?_nc_cat=106&ccb=1-7&_nc_ohc=kUsLtG8IX_YQ7kNvwGu_83k&_nc_oc=Adqm55OKXDBGSKgXw1Z3GjNcsF3cbMIj6o_tZ8EojtY6MFdHSV-eWSbMdI2EbzYsng-mBTcJXhnKmdznrgauo0iB&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQIKoxNOlDdSmp_5mfOX88agcHrPChwe376SJIKasSWWTjtwQMdOs92dCWoIEK1tFr6rEH2R_lx0&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQJqhkKUY3iiqqbOqstWKcdV3D_O36mLHbr-i404GveNog&oe=6AB01E3F",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1192,21 +1229,21 @@
         "adsets": [
           "PROSP | RUNNING | STORIES-FEED | PURCHASE"
         ],
-        "spend": 70.0,
-        "impressions": 4987,
-        "clicks": 57,
-        "reach": 3831,
+        "spend": 76.45,
+        "impressions": 5497,
+        "clicks": 63,
+        "reach": 4128,
         "purchases": 1.0,
         "revenue": 85.05,
-        "ctr": 1.14,
-        "cpc": 1.23,
-        "cpa": 70.0,
-        "roas": 1.22
+        "ctr": 1.15,
+        "cpc": 1.21,
+        "cpa": 76.45,
+        "roas": 1.11
       },
       {
         "creative_id": "1711942066582796",
         "ad_name": "id.2026-06-16-Verano-Buscador_format.Image_product.Electrolytes - Salty Lemon_persona.Trend Follower_angle.Emotional Benefit - Therapeutic Value_style.Product - Lifestyle_copy.C1_type.New - Performance_promo.No promo_url.Landing page_vidlength.none_creator._hook.Vuelve al Ruedo_creativeCTA.Learn More / Discover",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/730941198_1032208036425226_1126018196119684713_n.png?_nc_cat=111&ccb=1-7&_nc_ohc=DohBr3gcLM4Q7kNvwHvTcWv&_nc_oc=AdoLp-35_vDDMu4l7y2HWT-RiMUxLGY8-4r-wt8Kdf2xbXcWVtNYvQEhMpa-a8CZjVPe74yrMkDijjKEeL5hNp2l&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQJeyvjd1plnst8FLog7rCbr6dkPCg6VRk_zOWJ9KVSsh1uJHfQ3EvHYhPv1AhRj3RA5APAkCZeZ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQIZDVRWZWmiinq3TMQ1ixk-o1aHcqgtLZ41qWMaN64Crw&oe=6AAF54CA",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/730941198_1032208036425226_1126018196119684713_n.png?_nc_cat=111&ccb=1-7&_nc_ohc=DohBr3gcLM4Q7kNvwHvTcWv&_nc_oc=AdoLp-35_vDDMu4l7y2HWT-RiMUxLGY8-4r-wt8Kdf2xbXcWVtNYvQEhMpa-a8CZjVPe74yrMkDijjKEeL5hNp2l&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQLC7YVoKF21_jGmI7C7MIMWMIerIVbgZLQaUHK6E5LePtwepSZLx3K19r9NsVe0WbDFslYuNhkM&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQIvWLweSXndIBVuirRY2rxl4nLd4uFkZtgzDUrQfEdK5Q&oe=6AB035CA",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1227,32 +1264,32 @@
         "roas": 0.0
       },
       {
-        "creative_id": "2934295840266658",
-        "ad_name": "IMG RECOVERY 6 | BUSCADOR | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802597543_1101762916136404_5527594916175897501_n.png?_nc_cat=108&ccb=1-7&_nc_ohc=nbMzfePl63MQ7kNvwHt8vt2&_nc_oc=AdrM_spRO9WuC5lZj9o3nKoCETpnhhI1PDSvVAdSs8XzwxvX-Ev_cudo6MnnEngvsFIGyWlG19mseqN5JLONegpq&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQItsCtln3RdH2KYRzz6J_OkvN2bHoZrPsVaNO08Nok_bCSJ9EdAuO4MKdIJ3u73xS2R2yeUW970&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQL82i4kqE_QP41-lkLTjI5i6yWxgVpADGitbtiib0HCbg&oe=6AAF45A8",
+        "creative_id": "1561834472344589",
+        "ad_name": "IMG RESACA 7 |  BUSCADOR | 202609",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802641979_1101820889463940_8064876117581133661_n.png?_nc_cat=103&ccb=1-7&_nc_ohc=NWVNsxV0tZIQ7kNvwEBZT2F&_nc_oc=AdooBCGTKxE-16E8P4T_ysCBj6NoeJsEwzOqPY5ky6k31yrL4us7_m6G_uyBgVvnAtzWAmuY5zkwGHQc0-5F2oij&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQK5PCTeipfnPh14Df-4qAquCPBlM51SHmz0D8veiYXEbNROF4Rpp-4mC93IdTdvK4zT9tKN_hQW&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQIjcDtx0gq9Myam5TzSJHWrsqvZKnYgKGF9rd1Ns9BuJw&oe=6AB025B4",
         "title": null,
         "body": null,
         "campaigns": [
-          "PROSP | ABO | PURCH | ES | 202609"
+          "TEST | ABO | PURCH | ES | 202609"
         ],
         "adsets": [
-          "PROSP | RECOVERY | STORIES-FEED | PURCHASE"
+          "TEST | RESACA | STORIES-FEED | PURCHASE"
         ],
-        "spend": 60.42,
-        "impressions": 5052,
-        "clicks": 39,
-        "reach": 3406,
-        "purchases": 1.0,
-        "revenue": 85.05,
-        "ctr": 0.77,
-        "cpc": 1.55,
-        "cpa": 60.42,
-        "roas": 1.41
+        "spend": 60.34,
+        "impressions": 4265,
+        "clicks": 64,
+        "reach": 3451,
+        "purchases": 3.0,
+        "revenue": 94.5,
+        "ctr": 1.5,
+        "cpc": 0.94,
+        "cpa": 20.11,
+        "roas": 1.57
       },
       {
         "creative_id": "2270020520454692",
         "ad_name": "id.2026-06-16-Running-Buscador_format.Image_product.Electrolytes - Salty Lemon_persona.Trend Follower_angle.Emotional Benefit - Therapeutic Value_style.Product - Lifestyle_copy.C1_type.New - Performance_promo.No promo_url.Landing page_vidlength.none_creator._hook.Vuelve al Ruedo_creativeCTA.Learn More / Discover",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/731396460_1032208009758562_8712436619243096666_n.png?_nc_cat=101&ccb=1-7&_nc_ohc=vMwj2kXVc38Q7kNvwHAaYAS&_nc_oc=AdouS4cO0whEmJsbayN5HEmDOqUXQVFkZ0fK4ceB3M5cuph1MeztlP4WCeTEW97Wf7zddLHdIUW0qtMI9RP6Cnn9&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQLSEH9jCvjczR_YrGZs5NbhuhciW7C9BMz2AJIKmWduy2cvcpoWpLEkwk4PTtCZicERyWE7k3hA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQLYwr3Uua4la6Oj7qERwhXgCRhXbr_PVkBx4qFG27hyoQ&oe=6AAF5069",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/731396460_1032208009758562_8712436619243096666_n.png?_nc_cat=101&ccb=1-7&_nc_ohc=vMwj2kXVc38Q7kNvwHAaYAS&_nc_oc=AdouS4cO0whEmJsbayN5HEmDOqUXQVFkZ0fK4ceB3M5cuph1MeztlP4WCeTEW97Wf7zddLHdIUW0qtMI9RP6Cnn9&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQJOLTMmtbouImrPvXzdcHhBDAWEk1UzFdlJ2MaPd8RjAeOZK_xVpgq8ZYeP096cSTlldwSMetnW&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQItvkh3HB3gtEDElHjd_1p6lCxVZdUUV9Dz2plGTTDhgA&oe=6AB03169",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1273,32 +1310,55 @@
         "roas": 2.35
       },
       {
-        "creative_id": "1561834472344589",
-        "ad_name": "IMG RESACA 7 |  BUSCADOR | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802641979_1101820889463940_8064876117581133661_n.png?_nc_cat=103&ccb=1-7&_nc_ohc=wKz4V5sleF8Q7kNvwGmP24E&_nc_oc=Adqv-X0vOsV_t0ZnCkZ33zcXNKyBAJfL-3qu0l_ZIDv3_hYx5p2BSL7vNGDBoqcMDwAsTrrhFiu9ZyEmRIw9MFHr&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQIbZypojCZ9Be4hdiHrkI94-7IJYPK9C8L-6mbBk8iFUiJp1z0T4GeGTdvN9l7aF4nrlZU4tITx&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQIWPlheGWqymc_9Ynj8Bk0lQd2L-p1ea_UkxMdklZCDMg&oe=6AAF44B4",
+        "creative_id": "2159482177969334",
+        "ad_name": "IMG RUNNING 1 | 202609",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802505216_1101732376139458_4775740748280016763_n.png?_nc_cat=108&ccb=1-7&_nc_ohc=TrWX9SlsV3UQ7kNvwHzM4Po&_nc_oc=Ado5sPS1ZoHZyYo3P10MJV1ZLz9PLkxmewfjHEcpPAvOPJeoJwxKGXBHiJtpAJJ29zaB0dI6kOCLLt9svTjl5mad&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQJlxbx_nMYZI9ZIRsCHCeo2Y9vpeYDltIygSPMNrBsmHj-kI3vNA4McPGwdFZ-Tv554wOxU5g__&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQLl8KBnNrxweMpqkDbeTirNEypTIUwLvht6PzYOPueDWg&oe=6AB02B8A",
+        "title": null,
+        "body": null,
+        "campaigns": [
+          "PROSP | ABO | PURCH | ES | 202609"
+        ],
+        "adsets": [
+          "PROSP | RUNNING | STORIES-FEED | PURCHASE"
+        ],
+        "spend": 37.49,
+        "impressions": 2877,
+        "clicks": 30,
+        "reach": 2363,
+        "purchases": 1.0,
+        "revenue": 85.05,
+        "ctr": 1.04,
+        "cpc": 1.25,
+        "cpa": 37.49,
+        "roas": 2.27
+      },
+      {
+        "creative_id": "1617981893299887",
+        "ad_name": "IMG HAMBRE 7 |  BUSCADOR | 202609",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802900257_1101800529465976_8234105743216884354_n.png?_nc_cat=108&ccb=1-7&_nc_ohc=1-5Qlhj-bS4Q7kNvwEAyb6k&_nc_oc=Adrig97OYy_ig3ExEJ6XKw1NSUsdGnWUeUIMkSv0Bb2KKPeMIEDtnx8VLs9rddAUWnKMi2fNY16yP-K3ZINDbQgD&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQIa-1m0oh4xAJLPb7xTmaCPUu6CXTVoFagROp8bfL1KtImmhzDGitSL_mcRtn68TAlHC33YqhtS&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQINQZexdMdIkjpp5zFj1ENYsNGT3kGfTQXrOm1GRoe7AA&oe=6AB00785",
         "title": null,
         "body": null,
         "campaigns": [
           "TEST | ABO | PURCH | ES | 202609"
         ],
         "adsets": [
-          "TEST | RESACA | STORIES-FEED | PURCHASE"
+          "TEST | HAMBRE | STORIES-FEED | PURCHASE"
         ],
-        "spend": 40.12,
-        "impressions": 2851,
-        "clicks": 42,
-        "reach": 2361,
-        "purchases": 1.0,
-        "revenue": 28.35,
-        "ctr": 1.47,
-        "cpc": 0.96,
-        "cpa": 40.12,
-        "roas": 0.71
+        "spend": 36.4,
+        "impressions": 3875,
+        "clicks": 32,
+        "reach": 2943,
+        "purchases": 0.0,
+        "revenue": 0.0,
+        "ctr": 0.83,
+        "cpc": 1.14,
+        "cpa": 0.0,
+        "roas": 0.0
       },
       {
         "creative_id": "1622141692800282",
         "ad_name": "IMG CANSACIO 2 | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802121593_1099304839715545_6976641712720861185_n.png?_nc_cat=110&ccb=1-7&_nc_ohc=W52O6YrYUnEQ7kNvwGnrfKR&_nc_oc=AdphDVWFalrB6R01awe2pSRo3Pp8HCFff7Exxg4DuFynmlPFUHhae6lySFsL8JBsKp9b94SLy3po-3t2d40hFC5j&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQK48QaT-LBP4rQ0BRNSlfcaENDQV39-LeQv8jyaXyzymjRtCE_wQ0rNiyqwdpfA_pAk8jK_okKj&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQIv3_hOT0NWI5T6HURGuX11ZGPrLKggVL4pNTNEstsweg&oe=6AAF2A98",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802121593_1099304839715545_6976641712720861185_n.png?_nc_cat=110&ccb=1-7&_nc_ohc=W52O6YrYUnEQ7kNvwGnrfKR&_nc_oc=AdphDVWFalrB6R01awe2pSRo3Pp8HCFff7Exxg4DuFynmlPFUHhae6lySFsL8JBsKp9b94SLy3po-3t2d40hFC5j&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQJ3JIVYEBUwFLqA0lrkxMSCag__6dO4vLHiSoWlDgJVV4kkr_ZxAvObG0X6POEYo_GiUGOssOq_&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQJkm3UCPsiMsSiX6bUcSstr8NossNmCfnOElEfj9Ea1Ug&oe=6AB00B98",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1307,10 +1367,10 @@
         "adsets": [
           "PROSP | CANSANCIO | STORIES-FEED | PURCHASE"
         ],
-        "spend": 35.12,
-        "impressions": 2481,
+        "spend": 35.15,
+        "impressions": 2482,
         "clicks": 15,
-        "reach": 1860,
+        "reach": 1862,
         "purchases": 0.0,
         "revenue": 0.0,
         "ctr": 0.6,
@@ -1319,9 +1379,32 @@
         "roas": 0.0
       },
       {
-        "creative_id": "1617981893299887",
-        "ad_name": "IMG HAMBRE 7 |  BUSCADOR | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802900257_1101800529465976_8234105743216884354_n.png?_nc_cat=108&ccb=1-7&_nc_ohc=1-5Qlhj-bS4Q7kNvwEAyb6k&_nc_oc=Adrig97OYy_ig3ExEJ6XKw1NSUsdGnWUeUIMkSv0Bb2KKPeMIEDtnx8VLs9rddAUWnKMi2fNY16yP-K3ZINDbQgD&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQKU1xHLtw34NaKU3tQ9oL0A4Ojv-DL6pZ1YK2rsTT5th864j2-phUPGeew65g41jl6Xx2NdR-St&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQKYofjaGPivpHkicliKqzCf9ONNNGH2WSjIK1vx5JHf0A&oe=6AAF2685",
+        "creative_id": "1560345538530290",
+        "ad_name": "IMG RUNNING 7 |  BUSCADOR | 202609",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/807684710_1101732526139443_663905055136158780_n.png?_nc_cat=101&ccb=1-7&_nc_ohc=-mPIgDeB3r0Q7kNvwGN4DnD&_nc_oc=AdpA-4McfjVPqUXVozxdXLDr40QiTlwO7GKivq5Q7OUJ-PNUYlWkhuf2-pTsfzcsruf4EwMBXpOg0IsrH2Q6LedC&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQJT8kjW1WxqJitwVvGIDRa_SfD7ETThjkQ_PES0Cgc84nScbZJKKUHJq5Tr6e2M8b-B3IJ1YDIL&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQK07vLoxwi2AYuN0wphKraq80FQKxJiMY3cSn6JatwS7w&oe=6AB01E91",
+        "title": null,
+        "body": null,
+        "campaigns": [
+          "PROSP | ABO | PURCH | ES | 202609"
+        ],
+        "adsets": [
+          "PROSP | RUNNING | STORIES-FEED | PURCHASE"
+        ],
+        "spend": 34.48,
+        "impressions": 3879,
+        "clicks": 32,
+        "reach": 2838,
+        "purchases": 1.0,
+        "revenue": 37.8,
+        "ctr": 0.82,
+        "cpc": 1.08,
+        "cpa": 34.48,
+        "roas": 1.1
+      },
+      {
+        "creative_id": "1405812821525012",
+        "ad_name": "IMG HAMBRE 3 | 202609",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802562120_1101800412799321_8499265111250977851_n.png?_nc_cat=107&ccb=1-7&_nc_ohc=bMJuLcxSMzIQ7kNvwG5t3U4&_nc_oc=Adokef9cjYYh8FM0HVPy4BrcEohww4M_7miBbZoAy_F58Smo4Aws7oyDPTruemDIfe6JhdnfT0FIk3mX2bWEeqTD&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQJQP_t29oJQkQriWTEXo2RgRdfh__REUBJLwBkwoekdtMz1-aBi1I7KGgPoiQ4Fl92xtnDPyYpt&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQKQ2BHPnB-7HwlyzKR66YHx5cdgyJJpCanoeoTH4dXsUQ&oe=6AB01D46",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1330,67 +1413,21 @@
         "adsets": [
           "TEST | HAMBRE | STORIES-FEED | PURCHASE"
         ],
-        "spend": 34.61,
-        "impressions": 3705,
-        "clicks": 31,
-        "reach": 2825,
+        "spend": 26.95,
+        "impressions": 1721,
+        "clicks": 18,
+        "reach": 1410,
         "purchases": 0.0,
         "revenue": 0.0,
-        "ctr": 0.84,
-        "cpc": 1.12,
+        "ctr": 1.05,
+        "cpc": 1.5,
         "cpa": 0.0,
         "roas": 0.0
       },
       {
-        "creative_id": "2159482177969334",
-        "ad_name": "IMG RUNNING 1 | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802505216_1101732376139458_4775740748280016763_n.png?_nc_cat=108&ccb=1-7&_nc_ohc=TrWX9SlsV3UQ7kNvwHzM4Po&_nc_oc=Ado5sPS1ZoHZyYo3P10MJV1ZLz9PLkxmewfjHEcpPAvOPJeoJwxKGXBHiJtpAJJ29zaB0dI6kOCLLt9svTjl5mad&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQL9e09_7iXJiykPxuDeciVuWbdbyee5Z3LVkUecZlRGf2hX85o41ZpkdG2gC7V-gvx1GYoHHSwM&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQJ-gb1aALMaDczvrvBP8WWTic7sz-oknZRixb0TXBN_2Q&oe=6AAF4A8A",
-        "title": null,
-        "body": null,
-        "campaigns": [
-          "PROSP | ABO | PURCH | ES | 202609"
-        ],
-        "adsets": [
-          "PROSP | RUNNING | STORIES-FEED | PURCHASE"
-        ],
-        "spend": 34.35,
-        "impressions": 2668,
-        "clicks": 27,
-        "reach": 2197,
-        "purchases": 1.0,
-        "revenue": 85.05,
-        "ctr": 1.01,
-        "cpc": 1.27,
-        "cpa": 34.35,
-        "roas": 2.48
-      },
-      {
-        "creative_id": "1560345538530290",
-        "ad_name": "IMG RUNNING 7 |  BUSCADOR | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/807684710_1101732526139443_663905055136158780_n.png?_nc_cat=101&ccb=1-7&_nc_ohc=-mPIgDeB3r0Q7kNvwGN4DnD&_nc_oc=AdpA-4McfjVPqUXVozxdXLDr40QiTlwO7GKivq5Q7OUJ-PNUYlWkhuf2-pTsfzcsruf4EwMBXpOg0IsrH2Q6LedC&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQJuCZ7ukt-eVPEpxwCKrTgh4q21uAT0XHRGOrEiEiLSMGrF-nOv60mrY3q1VNNYRmWoOgI-kzCS&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQI8dZ5NGLjnlYVVf9_-OidfKV94n7o6LQTkuQ-kB5h5dg&oe=6AAF3D91",
-        "title": null,
-        "body": null,
-        "campaigns": [
-          "PROSP | ABO | PURCH | ES | 202609"
-        ],
-        "adsets": [
-          "PROSP | RUNNING | STORIES-FEED | PURCHASE"
-        ],
-        "spend": 31.14,
-        "impressions": 3616,
-        "clicks": 32,
-        "reach": 2683,
-        "purchases": 1.0,
-        "revenue": 37.8,
-        "ctr": 0.88,
-        "cpc": 0.97,
-        "cpa": 31.14,
-        "roas": 1.21
-      },
-      {
         "creative_id": "1048203248210876",
         "ad_name": "IMG RECOVERY 3 | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802989266_1101763012803061_3138440550885864886_n.png?_nc_cat=102&ccb=1-7&_nc_ohc=xyV8RIVUPaIQ7kNvwFZvJsj&_nc_oc=AdoPlgvv-DML8gSniGpIIoxEpAjKU5-cSTOiuH41yz8-MtzQm4KfrQYxzxGi0QvmcA--I2Y6TPfLxUfbDK2G_B8Y&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQKrOzUauQds_Jw51o1jGDDAJMNfZvts6j1cHXKPkDNDTprIgxHDHyw1vyWGG6NVZ5K3KWAIosV5&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQKlVNvrXrchEFiYFQARFvb6210k3T7xobmqb66nKiSbCQ&oe=6AAF4B14",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802989266_1101763012803061_3138440550885864886_n.png?_nc_cat=102&ccb=1-7&_nc_ohc=xyV8RIVUPaIQ7kNvwFZvJsj&_nc_oc=AdoPlgvv-DML8gSniGpIIoxEpAjKU5-cSTOiuH41yz8-MtzQm4KfrQYxzxGi0QvmcA--I2Y6TPfLxUfbDK2G_B8Y&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQLjn0IL32DUZK4d6OqFgSeo-lRbaCioRC9e4Sk18LrH0AnuNzLgkqnNQyWGkQhDKkozBN6bqLMG&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQIjltnNbN9q7XhTpalvew26D6BIPnLMHWeUDq3OsX6rpA&oe=6AB02C14",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1399,21 +1436,21 @@
         "adsets": [
           "PROSP | RECOVERY | STORIES-FEED | PURCHASE"
         ],
-        "spend": 24.78,
-        "impressions": 2083,
-        "clicks": 14,
-        "reach": 1623,
+        "spend": 26.71,
+        "impressions": 2251,
+        "clicks": 16,
+        "reach": 1730,
         "purchases": 0.0,
         "revenue": 0.0,
-        "ctr": 0.67,
-        "cpc": 1.77,
+        "ctr": 0.71,
+        "cpc": 1.67,
         "cpa": 0.0,
         "roas": 0.0
       },
       {
-        "creative_id": "1405812821525012",
-        "ad_name": "IMG HAMBRE 3 | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802562120_1101800412799321_8499265111250977851_n.png?_nc_cat=107&ccb=1-7&_nc_ohc=Sch7iRNVggAQ7kNvwFm0vLk&_nc_oc=Adok9w1UWqa41Y_Z7ctgUuRbEcwuJo3aIYswI1hxl_9TsRg6hOye2YMzxTOSb-MTCjDDROYs4pivnzWeWXl189Xi&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQJyRegdMIBGSXnC8zmeNJRWArTcjRfUKyRCJe0PKvtuhdnsL2c2bBtuzmX616QFlqP3shr0cOpf&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQLhgaPCSxEdfvW8iwFnwcY6E1yroiEKVdc_yy9oAX_H9Q&oe=6AAF3C46",
+        "creative_id": "1573039333893238",
+        "ad_name": "IMG HAMBRE 6 | BUSCADOR | 202609",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/803102463_1101800469465982_1992099966811120014_n.png?_nc_cat=105&ccb=1-7&_nc_ohc=b851IWp_2FkQ7kNvwFzVeww&_nc_oc=Adpaz0ClEWPrr7EP0DqdSJFHo9Q9cIwr1eeNCx5NEZrlOughlk6xoysodmMCxfkiI1hs0Doq0-MTCippghGjsXho&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQKHj6Z3LqKMlIs7J_87go83GYYoBmcjq8OlfxfvJEq180C-_1L8g-PM8lk4KTDwFUGTkiReU77I&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQJ2g-3-3PW2VJOwtsg_0NMhJlQKl4LyWs0kvS7D-BnmMw&oe=6AB00F13",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1422,21 +1459,21 @@
         "adsets": [
           "TEST | HAMBRE | STORIES-FEED | PURCHASE"
         ],
-        "spend": 24.69,
-        "impressions": 1592,
-        "clicks": 17,
-        "reach": 1312,
+        "spend": 25.78,
+        "impressions": 2466,
+        "clicks": 23,
+        "reach": 2005,
         "purchases": 0.0,
         "revenue": 0.0,
-        "ctr": 1.07,
-        "cpc": 1.45,
+        "ctr": 0.93,
+        "cpc": 1.12,
         "cpa": 0.0,
         "roas": 0.0
       },
       {
         "creative_id": "1435115195145928",
         "ad_name": "IMG RECOVERY 7 |  BUSCADOR | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802989820_1101762989469730_6286872868873103640_n.png?_nc_cat=108&ccb=1-7&_nc_ohc=cyx7nItOjJwQ7kNvwFTyA3Z&_nc_oc=AdqRt9kABtqR1HU3zh0P0Kl6XpN4sAwVth8_giIS-l0OM3tfgt9sjoP-jmZT0Xw_-sUIHIedv2okwp3JPjZ9QMj3&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQLwB-teEldsVvJZjPnBjDsVdbS59dsY8bsz3vZVKthPUiCPgRwWKstUP5thfw2Im6lXb5a6tx5l&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQIyk_iHlbihY1BVtTPMv8shojbflvBeanbP2fGq5BVfHw&oe=6AAF5629",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802989820_1101762989469730_6286872868873103640_n.png?_nc_cat=108&ccb=1-7&_nc_ohc=cyx7nItOjJwQ7kNvwFTyA3Z&_nc_oc=AdqRt9kABtqR1HU3zh0P0Kl6XpN4sAwVth8_giIS-l0OM3tfgt9sjoP-jmZT0Xw_-sUIHIedv2okwp3JPjZ9QMj3&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQIhxonGeAoOmumxy1yM-5gREJdDC-1eJYPqj7ab92c4BXrU5mv_AIDm0vSPYwWuPP9U0m55OXpk&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQJe9aTHmaMEjG4we1OD6bFDZepCeOD7EN7TyJLG6mAdtA&oe=6AB03729",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1445,21 +1482,44 @@
         "adsets": [
           "PROSP | RECOVERY | STORIES-FEED | PURCHASE"
         ],
-        "spend": 22.93,
-        "impressions": 2255,
-        "clicks": 14,
-        "reach": 1811,
+        "spend": 24.54,
+        "impressions": 2378,
+        "clicks": 16,
+        "reach": 1893,
         "purchases": 0.0,
         "revenue": 0.0,
-        "ctr": 0.62,
-        "cpc": 1.64,
+        "ctr": 0.67,
+        "cpc": 1.53,
+        "cpa": 0.0,
+        "roas": 0.0
+      },
+      {
+        "creative_id": "2607886959707977",
+        "ad_name": "IMG RUNNING 2 | 202609",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802964802_1101732402806122_980529211386506722_n.png?_nc_cat=103&ccb=1-7&_nc_ohc=yg8qQjdPReIQ7kNvwG7ei2n&_nc_oc=AdqB_uD-2uWwcq6GqpvlOzMWYomJvIt28xS8-Am2pz2Jj-dxlaI03jslAjJOuVswWPL2m_6VuKzxe1QjteJ52Thv&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQIs7JT_Q6WH8DPKpus7iy5wKswc_46PmJZ7gyPYa_8hyYsjGGSuLsyP1tpiDe3S58uFRjWM0ywJ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQJbtx5DzzdWqudUkzpb_Wd4E_Lo5DuFBs51gL7l5QqSSA&oe=6AB00D70",
+        "title": null,
+        "body": null,
+        "campaigns": [
+          "PROSP | ABO | PURCH | ES | 202609"
+        ],
+        "adsets": [
+          "PROSP | RUNNING | STORIES-FEED | PURCHASE"
+        ],
+        "spend": 20.43,
+        "impressions": 1511,
+        "clicks": 16,
+        "reach": 1162,
+        "purchases": 0.0,
+        "revenue": 0.0,
+        "ctr": 1.06,
+        "cpc": 1.28,
         "cpa": 0.0,
         "roas": 0.0
       },
       {
         "creative_id": "1402882018477226",
         "ad_name": "IMG RESACA 2 | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802458701_1101820789463950_5744558473202091998_n.png?_nc_cat=102&ccb=1-7&_nc_ohc=-REgiMjBnJ0Q7kNvwHdUpcB&_nc_oc=AdofFRx9BTtyxzKNH5YHr_-kK8uE_QIWBUCk1C09WxFpz2d9nugyHDgNfH0Rh3J7ucXUdDavEBIxGEu1mlrRXlhr&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQJgAinmKVhg196djLsug5bopE93mNOYXSwtxNPmXwjnkDCln5Kh15w2os6G3chJRONdN-vWXjFP&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQJ8Y0O8U9cCL0SZdFP24kGAgwUsa7HDv0tPCkKE47MsyA&oe=6AAF2C86",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802458701_1101820789463950_5744558473202091998_n.png?_nc_cat=102&ccb=1-7&_nc_ohc=-REgiMjBnJ0Q7kNvwHdUpcB&_nc_oc=AdofFRx9BTtyxzKNH5YHr_-kK8uE_QIWBUCk1C09WxFpz2d9nugyHDgNfH0Rh3J7ucXUdDavEBIxGEu1mlrRXlhr&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQJwRwF2HG62InMGYHmdJlSjHnRBd-2zAdEsD-ontkanlDg2BqWBiDbqnwHwpOfOH51M7egI2uBp&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQKWcH97yI7OgTQnMhjFUskXXyczRi9pDpZmx5EhglyGFw&oe=6AB00D86",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1480,55 +1540,55 @@
         "roas": 0.0
       },
       {
-        "creative_id": "1573039333893238",
-        "ad_name": "IMG HAMBRE 6 | BUSCADOR | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/803102463_1101800469465982_1992099966811120014_n.png?_nc_cat=105&ccb=1-7&_nc_ohc=b851IWp_2FkQ7kNvwFzVeww&_nc_oc=Adpaz0ClEWPrr7EP0DqdSJFHo9Q9cIwr1eeNCx5NEZrlOughlk6xoysodmMCxfkiI1hs0Doq0-MTCippghGjsXho&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQKSYq3JfIrf8Qa-GG7wUHQIxcF8_jq9WbaRcOreN-nBaI053B-l4fbhXBDNPHT-9-QT6C3KDI9z&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQIHSRqz2aI-sCvZVgoGdm55GtPWEvAc2S0PKwODraz4vg&oe=6AAF2E13",
-        "title": null,
-        "body": null,
-        "campaigns": [
-          "TEST | ABO | PURCH | ES | 202609"
-        ],
-        "adsets": [
-          "TEST | HAMBRE | STORIES-FEED | PURCHASE"
-        ],
-        "spend": 19.44,
-        "impressions": 1893,
-        "clicks": 17,
-        "reach": 1567,
-        "purchases": 0.0,
-        "revenue": 0.0,
-        "ctr": 0.9,
-        "cpc": 1.14,
-        "cpa": 0.0,
-        "roas": 0.0
-      },
-      {
-        "creative_id": "2607886959707977",
-        "ad_name": "IMG RUNNING 2 | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802964802_1101732402806122_980529211386506722_n.png?_nc_cat=103&ccb=1-7&_nc_ohc=cw_H7WGAzRcQ7kNvwHUWpPt&_nc_oc=Adp2ZT5VRGKMN1SuiwZ347_rz4tRX_XcvYK6kow4bTfC9KNoZ7HMi9VIAHlDKerpD4re8n7nJO9ZBqpP-k-0efJa&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQLfFetypeO76gTdDOjLL-zOb3m1XFRlcAEj2OS-jTlqPeJRCBPqtTVgqXcCHwg6MQYB3fnxPLBn&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQJIJCVJheaZUYlAbtnjP-B361JzzGJgaT5us-W7sI2dNA&oe=6AAF2C70",
+        "creative_id": "921297800639471",
+        "ad_name": "IMG RECOVERY 1 | 202609",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802779355_1101762862803076_1035359242316598145_n.png?_nc_cat=111&ccb=1-7&_nc_ohc=jemheyz50JQQ7kNvwHhN9SF&_nc_oc=AdrPupVH84uUB7xiLqdVj9LgJ3GIyG5eLwoXmPLiVYXjskwUpBTIaCjKaJ0ww9H6LoTG6QBs6Hf5tTGU54Z486zN&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQImBE9Kjw7Rb5xDkQYQQ3TBDtfqF5FSl0yR0CAjMXHrixnoA2xLRKU8HrQewXw80vgeeGJlKTQB&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQKnAn60fYPKVLxPVQRx18m6Ibb79lw3WEYy5_qM49KwGQ&oe=6AB0385C",
         "title": null,
         "body": null,
         "campaigns": [
           "PROSP | ABO | PURCH | ES | 202609"
         ],
         "adsets": [
-          "PROSP | RUNNING | STORIES-FEED | PURCHASE"
+          "PROSP | RECOVERY | STORIES-FEED | PURCHASE"
         ],
-        "spend": 19.14,
-        "impressions": 1394,
-        "clicks": 14,
-        "reach": 1088,
+        "spend": 18.47,
+        "impressions": 1315,
+        "clicks": 10,
+        "reach": 1048,
         "purchases": 0.0,
         "revenue": 0.0,
-        "ctr": 1.0,
-        "cpc": 1.37,
+        "ctr": 0.76,
+        "cpc": 1.85,
+        "cpa": 0.0,
+        "roas": 0.0
+      },
+      {
+        "creative_id": "1019733174446029",
+        "ad_name": "IMG RECOVERY 2 | 202609",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/803050804_1101762846136411_3352419973885718295_n.png?_nc_cat=109&ccb=1-7&_nc_ohc=g00A2AqTTzQQ7kNvwGjE5Hc&_nc_oc=AdryiHoYzzYSceUmvoEIyg8dDuXKuIk-jAgWk8JtEcymlCB4MTJu0VJgx-YZBEIM64o9z7YhttYSAgbO8u_WW8_g&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQLf4eUm-HuKOSndHnlpTBL_WXYsY7P7tf00bQ4ibwJQ1IQ3pFq-IIdwpNYhiizQLPH06PL1NOYT&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQKh3GvpElYy8cU5kkdpQf6ighXiqMWK52KNy_mx9P4-Eg&oe=6AB02244",
+        "title": null,
+        "body": null,
+        "campaigns": [
+          "PROSP | ABO | PURCH | ES | 202609"
+        ],
+        "adsets": [
+          "PROSP | RECOVERY | STORIES-FEED | PURCHASE"
+        ],
+        "spend": 18.41,
+        "impressions": 1274,
+        "clicks": 12,
+        "reach": 1053,
+        "purchases": 0.0,
+        "revenue": 0.0,
+        "ctr": 0.94,
+        "cpc": 1.53,
         "cpa": 0.0,
         "roas": 0.0
       },
       {
         "creative_id": "1757252415583966",
         "ad_name": "IMG RESACA 3 | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/803151764_1101820812797281_276845633733141884_n.png?_nc_cat=107&ccb=1-7&_nc_ohc=ibqIGthqYmcQ7kNvwFOL29A&_nc_oc=AdooK-aHs9SqGMuuOTsV32UOrkVoEy6g1NPCbZH6gG1cR-_KFphrGHG07HjXGpate1mRmSaBJdo6iElQ5pFBTFa5&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQJ_tZbfzjhEkoKfd3tLqf_2urpjjLYUF6VzbN1pAS_yS6oHzR-5HDnr80FzKVPzplJQ8OFke5Or&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQIoVU6RVzlNumt6j-xsTOu8-43XJZsQEz_Bjmi0g2WGNA&oe=6AAF3FE8",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/803151764_1101820812797281_276845633733141884_n.png?_nc_cat=107&ccb=1-7&_nc_ohc=s2Lt3DwxUJsQ7kNvwGOULO9&_nc_oc=Adp7cqSGGfKkoS6onpA7hXq3WqJPX_GHHpV50lE_mYVQ0m2s_aU9nW1OTMzlzIbyc_5-KPWECS4lFloaIxJgF3V5&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQLCMSqDouzVqE9hoBbHnir7Q1JOeBFbx4PkXjsEGQn0hrJ0X1hH5guKu_zFew-KR2LVZSxSVsUT&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQKu9tgxDEDDJ9geJ6GLmwaOu3aPHz1cDEhvxlXKATs24w&oe=6AB020E8",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1537,44 +1597,21 @@
         "adsets": [
           "TEST | RESACA | STORIES-FEED | PURCHASE"
         ],
-        "spend": 18.09,
-        "impressions": 869,
+        "spend": 18.3,
+        "impressions": 872,
         "clicks": 7,
         "reach": 791,
         "purchases": 0.0,
         "revenue": 0.0,
-        "ctr": 0.81,
-        "cpc": 2.58,
-        "cpa": 0.0,
-        "roas": 0.0
-      },
-      {
-        "creative_id": "1360465605841050",
-        "ad_name": "IMG RUNNING 6 | BUSCADOR | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/803068137_1101732499472779_4981427329370087464_n.png?_nc_cat=104&ccb=1-7&_nc_ohc=2DWTvSDfYj0Q7kNvwGLZBAI&_nc_oc=AdrPwne8BPaVb_TA3qWOVWmfYiemIm5NztRXJ0em6KLpz3NDdwMBlkOGza8Vr2c7drUy8khgRbUnPC7USnOsM-cD&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQLMBi86QOrGJTbSbp88wSvr-OFoEcBU5wZDZUgnMOL5qmhvt3Bh6QiXim13vVvJWattn-GWDLL_&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQIz4zFu7-AclDfH6b8taNfx4hvE8Pqjmb9CNAKPuDFaig&oe=6AAF45E7",
-        "title": null,
-        "body": null,
-        "campaigns": [
-          "PROSP | ABO | PURCH | ES | 202609"
-        ],
-        "adsets": [
-          "PROSP | RUNNING | STORIES-FEED | PURCHASE"
-        ],
-        "spend": 15.48,
-        "impressions": 1528,
-        "clicks": 11,
-        "reach": 1318,
-        "purchases": 0.0,
-        "revenue": 0.0,
-        "ctr": 0.72,
-        "cpc": 1.41,
+        "ctr": 0.8,
+        "cpc": 2.61,
         "cpa": 0.0,
         "roas": 0.0
       },
       {
         "creative_id": "1383693733877653",
         "ad_name": "IMG CANSACIO 10 | BUSCADOR | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802033161_1099304789715550_7734473969094554188_n.png?_nc_cat=109&ccb=1-7&_nc_ohc=6TzuyX4AbToQ7kNvwEVrJbG&_nc_oc=AdowF7RWIcUA3-Qd7hEI2LR_gseJoMyK-5xvUzEx3uDFgM2t7T9YHG-ZGJnLyayayanutOsXoGkGCOmiPOC7Yh4Y&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQIzcO7aWanFQFZsFAYAGBdbeIbhIrCxC3wZqsNfYqvPHGT2Sri3QRWyzYlcj9z73AldUURZtA7u&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQIQti8qt_frEEOMtkPCfBagDDze3_AT1J_y35PzSFKb7w&oe=6AAF4BD7",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802033161_1099304789715550_7734473969094554188_n.png?_nc_cat=109&ccb=1-7&_nc_ohc=6TzuyX4AbToQ7kNvwEVrJbG&_nc_oc=AdowF7RWIcUA3-Qd7hEI2LR_gseJoMyK-5xvUzEx3uDFgM2t7T9YHG-ZGJnLyayayanutOsXoGkGCOmiPOC7Yh4Y&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQKXPslx8z6xzh9CrEZp41ryOh7pyY0lxxQNCQWl3DEypcUf9Js8g7CwHGt_qSekE8n68Zsc_ikr&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQJixL1AO4XwDu6FasiZZxAJwoQgyOIvxwrKngJ4wIcEvg&oe=6AB02CD7",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1583,67 +1620,67 @@
         "adsets": [
           "PROSP | CANSANCIO | STORIES-FEED | PURCHASE"
         ],
-        "spend": 15.01,
-        "impressions": 1307,
+        "spend": 17.65,
+        "impressions": 1414,
         "clicks": 14,
-        "reach": 1129,
+        "reach": 1209,
         "purchases": 0.0,
         "revenue": 0.0,
-        "ctr": 1.07,
-        "cpc": 1.07,
+        "ctr": 0.99,
+        "cpc": 1.26,
         "cpa": 0.0,
         "roas": 0.0
       },
       {
-        "creative_id": "1019733174446029",
-        "ad_name": "IMG RECOVERY 2 | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/803050804_1101762846136411_3352419973885718295_n.png?_nc_cat=109&ccb=1-7&_nc_ohc=bm_0HyuIyeIQ7kNvwEHUQiL&_nc_oc=AdphUJSgEvi1sWuUdj9McEj6NhQUiUMzL8uuYKc7inFXINCoWlhr199pbegW1VYFxadBWsCTWZaCe9kFsvXsUtzo&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQIa5TPRW6-5uSRki6gF8A8vTfGybN3fNenyH7HIsO8A_EVbBugvu1jSdiL7mI7YgpD8QAkGT7Zl&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQJ-VJnP6yiNP5Izf3rbG56SngtpVI9McvyjSNhB1KzS_g&oe=6AAF4144",
+        "creative_id": "1360465605841050",
+        "ad_name": "IMG RUNNING 6 | BUSCADOR | 202609",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/803068137_1101732499472779_4981427329370087464_n.png?_nc_cat=104&ccb=1-7&_nc_ohc=2DWTvSDfYj0Q7kNvwGLZBAI&_nc_oc=AdrPwne8BPaVb_TA3qWOVWmfYiemIm5NztRXJ0em6KLpz3NDdwMBlkOGza8Vr2c7drUy8khgRbUnPC7USnOsM-cD&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQJJIvnYSqJXf0zB-3eUfTyber-RFeb6xNflXWELuqBepYo2C61QHpwm9UXvdGvvSlRUqBrfJVNz&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQKpjOUHkHOZEEOS4N7LHRucl10nZdSR7iMwVD2Xj8T9RQ&oe=6AB026E7",
         "title": null,
         "body": null,
         "campaigns": [
           "PROSP | ABO | PURCH | ES | 202609"
         ],
         "adsets": [
-          "PROSP | RECOVERY | STORIES-FEED | PURCHASE"
+          "PROSP | RUNNING | STORIES-FEED | PURCHASE"
         ],
-        "spend": 14.33,
-        "impressions": 958,
-        "clicks": 10,
-        "reach": 826,
+        "spend": 15.54,
+        "impressions": 1536,
+        "clicks": 11,
+        "reach": 1322,
         "purchases": 0.0,
         "revenue": 0.0,
-        "ctr": 1.04,
-        "cpc": 1.43,
+        "ctr": 0.72,
+        "cpc": 1.41,
         "cpa": 0.0,
         "roas": 0.0
       },
       {
-        "creative_id": "921297800639471",
-        "ad_name": "IMG RECOVERY 1 | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802779355_1101762862803076_1035359242316598145_n.png?_nc_cat=111&ccb=1-7&_nc_ohc=jemheyz50JQQ7kNvwHhN9SF&_nc_oc=AdrPupVH84uUB7xiLqdVj9LgJ3GIyG5eLwoXmPLiVYXjskwUpBTIaCjKaJ0ww9H6LoTG6QBs6Hf5tTGU54Z486zN&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQJyRvh-yWXC--zS38xOGQp5eYfetvGiLVQrpp2AFFxgdqRCAk5vWFbOZgy4XWT8Ovx9zdKJEKmj&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQJIT6b2jKf2IEGwGJRMXzl25lBtnmz2jTnQ_5PeKASyeQ&oe=6AAF575C",
+        "creative_id": "2872414063142947",
+        "ad_name": "IMG CANSACIO 9 | BUSCADOR | 202609",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802032855_1099304819715547_6376131411828856712_n.png?_nc_cat=103&ccb=1-7&_nc_ohc=C4ur21wqxfMQ7kNvwHCjn0w&_nc_oc=AdrzJoKyAWrsqH33aRnNd-o48RC7Rk7NUUwGtWIEn21nV68suNIl9J1f1sWg09fYj63oxvTgfpV5XLKUdN9Y0Q50&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQJ6JChx-bWt5Ru8vjZHxbUTesmsCj8Jbcfi7PfgKTl4BY7AF2VxwLleqwb9gAmgoeGYGHJG27UB&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQLyReIl8m35yUG6JWbACuKyWf430W0DgTtyDj7UTSavpA&oe=6AB03749",
         "title": null,
         "body": null,
         "campaigns": [
           "PROSP | ABO | PURCH | ES | 202609"
         ],
         "adsets": [
-          "PROSP | RECOVERY | STORIES-FEED | PURCHASE"
+          "PROSP | CANSANCIO | STORIES-FEED | PURCHASE"
         ],
-        "spend": 13.93,
-        "impressions": 1053,
+        "spend": 10.1,
+        "impressions": 691,
         "clicks": 7,
-        "reach": 854,
+        "reach": 617,
         "purchases": 0.0,
         "revenue": 0.0,
-        "ctr": 0.66,
-        "cpc": 1.99,
+        "ctr": 1.01,
+        "cpc": 1.44,
         "cpa": 0.0,
         "roas": 0.0
       },
       {
         "creative_id": "1767553361246914",
         "ad_name": "IMG RESACA 8 | BUSCADOR | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802900300_1101820902797272_4655389683794856909_n.png?_nc_cat=104&ccb=1-7&_nc_ohc=5WFc928R65QQ7kNvwGeGkFE&_nc_oc=AdoAHje5vaPArAKC6ol-nH4jDki8jFf6Wm9vnnv21FY-g4-jrMAfB5Z8HPB6ONK48xeyETw5Uo_ApfdLsgz0k4O5&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQJTSRgAohrGiFncdhD3E2_0kAc0JwbjkAASwo2pIy6k6xn9oQv-_5GJ61hU5jSUw64TUM1oSzTN&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQIePatD3lMYiXbs7f_xT91W2Aq7w64OasywXslxoRHy1g&oe=6AAF2F23",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802900300_1101820902797272_4655389683794856909_n.png?_nc_cat=104&ccb=1-7&_nc_ohc=5WFc928R65QQ7kNvwGeGkFE&_nc_oc=AdoAHje5vaPArAKC6ol-nH4jDki8jFf6Wm9vnnv21FY-g4-jrMAfB5Z8HPB6ONK48xeyETw5Uo_ApfdLsgz0k4O5&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQJOrp6F5LJ5Q1bPJ4KPTUN2QAo2GHqYJ-zREA4qmrC1UgkV9NIcU32_lCE6Y1KwSyTzbV61VcOs&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQLMkLI4yTlMHkF9pUnY3hFbMIjVXdhJs9MUFOnH49JyJA&oe=6AB01023",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1664,32 +1701,9 @@
         "roas": 0.0
       },
       {
-        "creative_id": "2872414063142947",
-        "ad_name": "IMG CANSACIO 9 | BUSCADOR | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802032855_1099304819715547_6376131411828856712_n.png?_nc_cat=103&ccb=1-7&_nc_ohc=YKO9BkJKB4cQ7kNvwECCOg4&_nc_oc=AdpEppo1u3ZyvrlxpndQC-0xD6_5u2FCKIm8qG_lasPgentJGw3n3Ze_D0TZpTLTDvvQQnjcUc71moPMTHme9-Dg&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQIag0xdnoMOn2su-9KApcV81LfAPfZFZPafIowctdiCxLyIsuaZL7NTgq5qXVn_zaH2Hb03tPc2&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQLCo3XSlXyVchQ8x_d9fdd4OtjsOT6jEL9pzRO5tMJOyw&oe=6AAF5649",
-        "title": null,
-        "body": null,
-        "campaigns": [
-          "PROSP | ABO | PURCH | ES | 202609"
-        ],
-        "adsets": [
-          "PROSP | CANSANCIO | STORIES-FEED | PURCHASE"
-        ],
-        "spend": 8.14,
-        "impressions": 606,
-        "clicks": 3,
-        "reach": 552,
-        "purchases": 0.0,
-        "revenue": 0.0,
-        "ctr": 0.5,
-        "cpc": 2.71,
-        "cpa": 0.0,
-        "roas": 0.0
-      },
-      {
         "creative_id": "1995207997861175",
         "ad_name": "IMG HAMBRE 1 | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802965018_1101800392799323_4352203750493510534_n.png?_nc_cat=103&ccb=1-7&_nc_ohc=MQAdEDKSjWkQ7kNvwEJvdjk&_nc_oc=AdpC-_ucGd6PiXxjV8tpB0LER2_sLwlm2QrtV0Orv12ljHIjEpc2rBUGHoQux8VVuJAylXC70hE9L4qDIsvUri8K&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQJe_a_nrdYeLh26aD_X_f_eYjIRfqLrTGcat1Esb29h2HywF8DOVoo62Cq4HnVwoBywshfF9off&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQLMOdzMgE0_YuXdnOiZoR6Cu2_U0eNbedwkVmgkL6S5Aw&oe=6AAF3980",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802965018_1101800392799323_4352203750493510534_n.png?_nc_cat=103&ccb=1-7&_nc_ohc=MQAdEDKSjWkQ7kNvwEJvdjk&_nc_oc=AdpC-_ucGd6PiXxjV8tpB0LER2_sLwlm2QrtV0Orv12ljHIjEpc2rBUGHoQux8VVuJAylXC70hE9L4qDIsvUri8K&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQLQt8utkNU9H_uTxjHXJ4DIy9_uW_8yGVYFyBvKuLCSUgylH-BD-u7mtl-WUpjs7JtWlxAKbEVc&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQLHQi_IPQyCgECS1QvT934TqtREoR2RgfiVzwNqtOjAIg&oe=6AB01A80",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1712,7 +1726,7 @@
       {
         "creative_id": "2250822359093891",
         "ad_name": "IMG HAMBRE 2 | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802778934_1101800436132652_9101936114606790030_n.png?_nc_cat=101&ccb=1-7&_nc_ohc=oCUxDoISs4wQ7kNvwHfFRzl&_nc_oc=AdoGc47GJUWnw3zma-6wGW9L00aZx7UOYYsbyEVE3WjzYusNZ5JMfVyyvZKYYv8-BsCoiAAnvTx9Gl5nymIOU2MQ&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQI0hssjM7_seipyfIjp9d4p3ozVr0-xOJ3ZEPoI0zOK5S_1u3sadn0g9uOGPZL_KhRJCJ8K-XkO&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQJQiiuEU2nE9wbZxCJUJuSBTjGmwC_OK6HJx2H18aPOuQ&oe=6AAF2A22",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802778934_1101800436132652_9101936114606790030_n.png?_nc_cat=101&ccb=1-7&_nc_ohc=flxiuNmdmYEQ7kNvwEqEMcm&_nc_oc=AdoI_1NlrC56KMoqEnc4oqGIiRWiAQrZfDTsC0L5Q0vMXQWhuW8HJhda4P7FwJnww6Af562HyDrLlx6DjYbuZ9T0&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQLlFA5CTcxgjJRY5vfhzkFiEan2qZ9fOeOQG5FGvreukogDVE4MdcKzIcChpRljtKnlJn8R0Pgv&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQKbhjU1oSXeXS_p-7lGQaFEvwjY4MxVGeuLKNcrdYcHDQ&oe=6AB00B22",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1721,21 +1735,21 @@
         "adsets": [
           "TEST | HAMBRE | STORIES-FEED | PURCHASE"
         ],
-        "spend": 4.87,
-        "impressions": 436,
+        "spend": 4.89,
+        "impressions": 439,
         "clicks": 5,
-        "reach": 356,
+        "reach": 357,
         "purchases": 0.0,
         "revenue": 0.0,
-        "ctr": 1.15,
-        "cpc": 0.97,
+        "ctr": 1.14,
+        "cpc": 0.98,
         "cpa": 0.0,
         "roas": 0.0
       },
       {
         "creative_id": "1617380173219532",
         "ad_name": "IMG CANSACIO 5 | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802032768_1099304859715543_7081079492210832614_n.png?_nc_cat=101&ccb=1-7&_nc_ohc=GVE5ORN_SWgQ7kNvwFQAUDo&_nc_oc=Adr1qsSKBCaPK6RC3tYMatijHUbZL9r0odL_8RQGONw5UNIuPgi8p47NIm1VOcifAzKN2wEve9_ZFIm14Uci5h0X&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=enDPkiF4hkiW3eVDPojfyA&_nc_tpa=Q5bMBQIUkTCKxr7m2S6uSFDpUeopDR_YstEHpj_jyF1wIwsRI4Uw3q-xQVvoHtjPqkm3ginOk6wC3Uor&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQLEVNvv55hknuW_ZW8Z6oHueSnLp2ajvUVU7NtQba-C2w&oe=6AAF587A",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802032768_1099304859715543_7081079492210832614_n.png?_nc_cat=101&ccb=1-7&_nc_ohc=IgU1kDqxNwYQ7kNvwEh3hN_&_nc_oc=AdpB29UNNF-6kJcAwtFYfqZuHbG_7PblXFhrbVST_smCJvCP1vGJBOavQuMEP5Kr1mW2-eyy3XalnltQlWAWOm_S&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0ZLHsu_DiU_RZs63jNCN9g&_nc_tpa=Q5bMBQKksuW6HUVgiG59ZUpx2-jU0JderA8T5UwjL_F1uJpDS1AcwMoGSYd_umx2bIxTTkNPGmvPV4BU&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQIfZrNqj_ZsVjqjufVqJgQCvg18oectryRo67ADhtMjIQ&oe=6AB0397A",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1767,15 +1781,15 @@
   },
   "klaviyo": {
     "totals": {
-      "revenue_total": 9571.88,
-      "revenue_campaigns": 5027.61,
-      "revenue_flows": 4544.27,
-      "sends": 17704,
-      "opens": 7614,
-      "clicks": 289,
+      "revenue_total": 9906.19,
+      "revenue_campaigns": 5141.01,
+      "revenue_flows": 4765.18,
+      "sends": 17758,
+      "opens": 7781,
+      "clicks": 295,
       "unsubs": 119,
-      "open_rate": 43.01,
-      "click_rate": 1.63,
+      "open_rate": 43.82,
+      "click_rate": 1.66,
       "unsub_rate": 0.67
     },
     "daily": [
@@ -1797,8 +1811,8 @@
         "date": "2026-09-03",
         "revenue": 2966.42,
         "sends": 5145,
-        "opens": 2358,
-        "open_rate": 45.83
+        "opens": 2361,
+        "open_rate": 45.89
       },
       {
         "date": "2026-09-04",
@@ -1832,8 +1846,8 @@
         "date": "2026-09-08",
         "revenue": 661.5,
         "sends": 4188,
-        "opens": 1710,
-        "open_rate": 40.83
+        "opens": 1714,
+        "open_rate": 40.93
       },
       {
         "date": "2026-09-09",
@@ -1846,8 +1860,8 @@
         "date": "2026-09-10",
         "revenue": 1002.79,
         "sends": 1945,
-        "opens": 951,
-        "open_rate": 48.89
+        "opens": 958,
+        "open_rate": 49.25
       },
       {
         "date": "2026-09-11",
@@ -1867,8 +1881,8 @@
         "date": "2026-09-13",
         "revenue": 396.9,
         "sends": 4025,
-        "opens": 1456,
-        "open_rate": 36.17
+        "opens": 1491,
+        "open_rate": 37.04
       },
       {
         "date": "2026-09-14",
@@ -1879,10 +1893,17 @@
       },
       {
         "date": "2026-09-15",
-        "revenue": 0.0,
+        "revenue": 113.4,
         "sends": 940,
-        "opens": 275,
-        "open_rate": 29.26
+        "opens": 370,
+        "open_rate": 39.36
+      },
+      {
+        "date": "2026-09-16",
+        "revenue": 0.0,
+        "sends": 0,
+        "opens": 0,
+        "open_rate": 0.0
       }
     ],
     "flows": [
@@ -1890,14 +1911,14 @@
         "flow_id": "WuEcsg",
         "name": "Email + WhatsApp: Suscripción - Renovación 48h",
         "status": "live",
-        "sends": 315,
-        "opens": 163,
-        "clicks": 40,
+        "sends": 339,
+        "opens": 171,
+        "clicks": 42,
         "unsubs": 1,
-        "revenue": 2382.62,
-        "open_rate": 51.75,
-        "click_rate": 12.7,
-        "unsub_rate": 0.32
+        "revenue": 2603.53,
+        "open_rate": 50.44,
+        "click_rate": 12.39,
+        "unsub_rate": 0.29
       },
       {
         "flow_id": "RhEHHA",
@@ -1916,14 +1937,14 @@
         "flow_id": "UkkQhv",
         "name": "Email: Visitante añadido a Email List (no checkout)",
         "status": "live",
-        "sends": 134,
-        "opens": 78,
+        "sends": 139,
+        "opens": 80,
         "clicks": 9,
         "unsubs": 2,
         "revenue": 420.64,
-        "open_rate": 58.21,
-        "click_rate": 6.72,
-        "unsub_rate": 1.49
+        "open_rate": 57.55,
+        "click_rate": 6.47,
+        "unsub_rate": 1.44
       },
       {
         "flow_id": "YafeMJ",
@@ -1942,13 +1963,13 @@
         "flow_id": "VzwdgK",
         "name": "Email: Checkout Abandonado",
         "status": "live",
-        "sends": 78,
-        "opens": 49,
+        "sends": 80,
+        "opens": 51,
         "clicks": 4,
         "unsubs": 0,
         "revenue": 302.4,
-        "open_rate": 62.82,
-        "click_rate": 5.13,
+        "open_rate": 63.75,
+        "click_rate": 5.0,
         "unsub_rate": 0.0
       },
       {
@@ -1968,40 +1989,40 @@
         "flow_id": "QRkWPP",
         "name": "Email: Suscripción - Cancelación",
         "status": "live",
-        "sends": 97,
+        "sends": 99,
         "opens": 53,
         "clicks": 0,
         "unsubs": 1,
         "revenue": 28.35,
-        "open_rate": 54.64,
+        "open_rate": 53.54,
         "click_rate": 0.0,
-        "unsub_rate": 1.03
+        "unsub_rate": 1.01
       },
       {
         "flow_id": "UAH3ug",
         "name": "Email: Suscripción - Bienvenida",
         "status": "live",
-        "sends": 138,
-        "opens": 110,
+        "sends": 142,
+        "opens": 114,
         "clicks": 11,
         "unsubs": 0,
         "revenue": 0.0,
-        "open_rate": 79.71,
-        "click_rate": 7.97,
+        "open_rate": 80.28,
+        "click_rate": 7.75,
         "unsub_rate": 0.0
       },
       {
         "flow_id": "UyQDRp",
         "name": "Email: Pedido Realizado - Order Experience",
         "status": "live",
-        "sends": 523,
-        "opens": 329,
+        "sends": 539,
+        "opens": 335,
         "clicks": 11,
         "unsubs": 5,
         "revenue": 0.0,
-        "open_rate": 62.91,
-        "click_rate": 2.1,
-        "unsub_rate": 0.96
+        "open_rate": 62.15,
+        "click_rate": 2.04,
+        "unsub_rate": 0.93
       },
       {
         "flow_id": "VTn9S4",
@@ -2046,14 +2067,14 @@
         "flow_id": "URwaNT",
         "name": "Email + Whatsapp: Producto visto",
         "status": "live",
-        "sends": 31,
-        "opens": 25,
+        "sends": 32,
+        "opens": 26,
         "clicks": 1,
         "unsubs": 2,
         "revenue": 0.0,
-        "open_rate": 80.65,
-        "click_rate": 3.23,
-        "unsub_rate": 6.45
+        "open_rate": 81.25,
+        "click_rate": 3.12,
+        "unsub_rate": 6.25
       }
     ],
     "campaigns": [
@@ -2062,12 +2083,12 @@
         "name": "15/09 - OT→Plan (2/2) Mandas tú, siempre",
         "send_time": "2026-09-15T07:00:00+00:00",
         "sends": 940,
-        "opens": 275,
-        "clicks": 3,
+        "opens": 370,
+        "clicks": 4,
         "unsubs": 11,
-        "revenue": 0.0,
-        "open_rate": 29.26,
-        "click_rate": 0.32,
+        "revenue": 113.4,
+        "open_rate": 39.36,
+        "click_rate": 0.43,
         "unsub_rate": 1.17
       },
       {
@@ -2075,12 +2096,12 @@
         "name": "13/09 - El domingo que no te apetece nada",
         "send_time": "2026-09-13T07:30:00+00:00",
         "sends": 4025,
-        "opens": 1456,
-        "clicks": 22,
+        "opens": 1491,
+        "clicks": 24,
         "unsubs": 18,
         "revenue": 396.9,
-        "open_rate": 36.17,
-        "click_rate": 0.55,
+        "open_rate": 37.04,
+        "click_rate": 0.6,
         "unsub_rate": 0.45
       },
       {
@@ -2088,11 +2109,11 @@
         "name": "10/09 - OT→Plan (1/2) Ahora te toca lo cómodo",
         "send_time": "2026-09-10T07:00:00+00:00",
         "sends": 933,
-        "opens": 425,
+        "opens": 428,
         "clicks": 21,
         "unsubs": 2,
         "revenue": 321.3,
-        "open_rate": 45.55,
+        "open_rate": 45.87,
         "click_rate": 2.25,
         "unsub_rate": 0.21
       },
@@ -2101,12 +2122,12 @@
         "name": "10/09 - Salty Peach para Suscriptores (elige sabor)",
         "send_time": "2026-09-10T06:30:00+00:00",
         "sends": 1012,
-        "opens": 526,
-        "clicks": 37,
+        "opens": 530,
+        "clicks": 38,
         "unsubs": 5,
         "revenue": 681.49,
-        "open_rate": 51.98,
-        "click_rate": 3.66,
+        "open_rate": 52.37,
+        "click_rate": 3.75,
         "unsub_rate": 0.49
       },
       {
@@ -2114,11 +2135,11 @@
         "name": "08/09 - Peach universo",
         "send_time": "2026-09-08T07:30:00+00:00",
         "sends": 4188,
-        "opens": 1710,
+        "opens": 1714,
         "clicks": 32,
         "unsubs": 35,
         "revenue": 661.5,
-        "open_rate": 40.83,
+        "open_rate": 40.93,
         "click_rate": 0.76,
         "unsub_rate": 0.84
       },
@@ -2140,11 +2161,11 @@
         "name": "03/09 - Lanzamiento Salty Peach (B2C)",
         "send_time": "2026-09-03T06:30:00+00:00",
         "sends": 5073,
-        "opens": 2314,
+        "opens": 2317,
         "clicks": 73,
         "unsubs": 35,
         "revenue": 2218.42,
-        "open_rate": 45.61,
+        "open_rate": 45.67,
         "click_rate": 1.44,
         "unsub_rate": 0.69
       }
@@ -2152,19 +2173,19 @@
   },
   "shopify": {
     "totals": {
-      "orders": 518,
-      "revenue": 25468.01,
+      "orders": 541,
+      "revenue": 26386.22,
       "refunds": 0.0,
-      "net_revenue": 25468.01,
-      "aov": 49.17,
-      "new_customers": 166,
-      "returning_customers": 352,
-      "subscription_orders": 407,
-      "onetime_orders": 111,
-      "subscription_revenue": 18062.11,
-      "onetime_revenue": 7405.9,
-      "subscription_pct": 78.57,
-      "returning_pct": 67.95,
+      "net_revenue": 26386.22,
+      "aov": 48.77,
+      "new_customers": 174,
+      "returning_customers": 367,
+      "subscription_orders": 426,
+      "onetime_orders": 115,
+      "subscription_revenue": 18832.9,
+      "onetime_revenue": 7553.32,
+      "subscription_pct": 78.74,
+      "returning_pct": 67.84,
       "refund_rate": 0.0
     },
     "daily": [
@@ -2324,30 +2345,41 @@
       },
       {
         "date": "2026-09-15",
-        "orders": 17,
-        "revenue": 739.61,
+        "orders": 37,
+        "revenue": 1572.77,
         "refunds": 0.0,
-        "aov": 43.51,
-        "new": 7,
-        "returning": 10,
-        "subscription_orders": 15,
-        "onetime_orders": 2
+        "aov": 42.51,
+        "new": 15,
+        "returning": 22,
+        "subscription_orders": 31,
+        "onetime_orders": 6
+      },
+      {
+        "date": "2026-09-16",
+        "orders": 3,
+        "revenue": 85.05,
+        "refunds": 0.0,
+        "aov": 28.35,
+        "new": 0,
+        "returning": 3,
+        "subscription_orders": 3,
+        "onetime_orders": 0
       }
     ],
     "products": [
       {
         "product_id": "gid://shopify/Product/16008517550429",
         "title": "LIT Daily Hydration: Salty Lemon",
-        "orders": 274,
-        "units": 282,
-        "revenue": 10303.54
+        "orders": 288,
+        "units": 296,
+        "revenue": 10819.18
       },
       {
         "product_id": "gid://shopify/Product/16386839445853",
         "title": "LIT Hydration Pack: 4 Cajas",
-        "orders": 58,
-        "units": 58,
-        "revenue": 4932.9
+        "orders": 60,
+        "units": 60,
+        "revenue": 5103.0
       },
       {
         "product_id": "gid://shopify/Product/16386839478621",
@@ -2359,37 +2391,37 @@
       {
         "product_id": "gid://shopify/Product/16182160523613",
         "title": "LIT Daily Hydration: Salty Lemon - Compra única",
-        "orders": 54,
-        "units": 67,
-        "revenue": 2532.6
+        "orders": 55,
+        "units": 68,
+        "revenue": 2570.4
       },
       {
         "product_id": "gid://shopify/Product/16272445112669",
         "title": "LIT Daily Hydration: Watermelon",
-        "orders": 57,
-        "units": 60,
-        "revenue": 1785.49
+        "orders": 58,
+        "units": 61,
+        "revenue": 1813.84
       },
       {
         "product_id": "gid://shopify/Product/16272452813149",
         "title": "LIT Daily Hydration: Watermelon - Compra única",
-        "orders": 17,
-        "units": 26,
-        "revenue": 982.8
+        "orders": 19,
+        "units": 28,
+        "revenue": 1058.4
       },
       {
         "product_id": "gid://shopify/Product/16272456188253",
         "title": "LIT Daily Hydration: Peach",
-        "orders": 26,
-        "units": 26,
-        "revenue": 725.69
+        "orders": 28,
+        "units": 28,
+        "revenue": 782.39
       },
       {
         "product_id": "gid://shopify/Product/16272460022109",
         "title": "LIT Daily Hydration: Peach - Compra única",
-        "orders": 16,
-        "units": 17,
-        "revenue": 642.6
+        "orders": 17,
+        "units": 18,
+        "revenue": 680.4
       },
       {
         "product_id": "gid://shopify/Product/16298837279069",
@@ -2431,23 +2463,23 @@
       "new_vs_returning": [
         {
           "bucket": "new",
-          "orders": 166
+          "orders": 174
         },
         {
           "bucket": "returning",
-          "orders": 352
+          "orders": 367
         }
       ],
       "subscription_vs_onetime": [
         {
           "bucket": "subscription",
-          "orders": 407,
-          "revenue": 18062.11
+          "orders": 426,
+          "revenue": 18832.9
         },
         {
           "bucket": "onetime",
-          "orders": 111,
-          "revenue": 7405.9
+          "orders": 115,
+          "revenue": 7553.32
         }
       ]
     }
@@ -2552,6 +2584,12 @@
         "orders": 0,
         "revenue": 0.0,
         "paid": 0.0
+      },
+      {
+        "date": "2026-09-16",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
       }
     ],
     "pipeline": [
@@ -2650,8 +2688,8 @@
       "revenue": 49.62,
       "commission": 7.44,
       "active_affiliates": 1,
-      "total_affiliates": 33,
-      "new_affiliates": 0,
+      "total_affiliates": 34,
+      "new_affiliates": 1,
       "aov": 24.81,
       "commission_rate": 15.0
     },
@@ -2742,6 +2780,12 @@
       },
       {
         "date": "2026-09-15",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-09-16",
         "orders": 0,
         "revenue": 0.0,
         "commission": 0.0
