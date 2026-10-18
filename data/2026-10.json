@@ -1,18 +1,18 @@
 {
   "month": "2026-10",
-  "generated_at": "2026-10-17T16:00:14.445072+00:00",
+  "generated_at": "2026-10-18T08:00:15.449387+00:00",
   "meta": {
     "totals": {
-      "spend": 10440.31,
-      "impressions": 1203495,
-      "clicks": 33215,
-      "reach": 507195,
+      "spend": 10699.05,
+      "impressions": 1237293,
+      "clicks": 34398,
+      "reach": 519308,
       "purchases": 85.0,
       "revenue": 3173.96,
-      "ctr": 2.76,
+      "ctr": 2.78,
       "cpc": 0.31,
-      "cpm": 8.68,
-      "cpa": 122.83,
+      "cpm": 8.65,
+      "cpa": 125.87,
       "roas": 0.3
     },
     "daily": [
@@ -229,7 +229,7 @@
       {
         "date": "2026-10-16",
         "spend": 527.09,
-        "impressions": 63030,
+        "impressions": 63033,
         "clicks": 1802,
         "reach": 43576,
         "purchases": 4.0,
@@ -242,33 +242,47 @@
       },
       {
         "date": "2026-10-17",
-        "spend": 326.99,
-        "impressions": 35768,
-        "clicks": 1172,
-        "reach": 27108,
+        "spend": 468.29,
+        "impressions": 55255,
+        "clicks": 1748,
+        "reach": 38975,
         "purchases": 2.0,
         "revenue": 33.34,
-        "ctr": 3.28,
-        "cpc": 0.28,
-        "cpm": 9.14,
-        "cpa": 163.5,
-        "roas": 0.1
+        "ctr": 3.16,
+        "cpc": 0.27,
+        "cpm": 8.48,
+        "cpa": 234.15,
+        "roas": 0.07
+      },
+      {
+        "date": "2026-10-18",
+        "spend": 117.44,
+        "impressions": 14308,
+        "clicks": 607,
+        "reach": 12248,
+        "purchases": 0.0,
+        "revenue": 0.0,
+        "ctr": 4.24,
+        "cpc": 0.19,
+        "cpm": 8.21,
+        "cpa": 0.0,
+        "roas": 0.0
       }
     ],
     "campaigns": [
       {
         "campaign": "PERF AO | BROAD | ES | 202609",
-        "spend": 3149.48,
-        "impressions": 374818,
-        "clicks": 14165,
-        "reach": 235223,
+        "spend": 3378.26,
+        "impressions": 403840,
+        "clicks": 15113,
+        "reach": 248568,
         "purchases": 21.0,
         "revenue": 733.17,
-        "ctr": 3.78,
+        "ctr": 3.74,
         "cpc": 0.22,
-        "cpm": 8.4,
-        "cpa": 149.98,
-        "roas": 0.23
+        "cpm": 8.37,
+        "cpa": 160.87,
+        "roas": 0.22
       },
       {
         "campaign": "PERF | TEST AO | BROAD | ES | 202609",
@@ -314,16 +328,16 @@
       },
       {
         "campaign": "LEADS | TEST DE HIDRATACIÓN | BROAD | ES | 202610",
-        "spend": 499.67,
-        "impressions": 82709,
-        "clicks": 5506,
-        "reach": 50589,
+        "spend": 528.8,
+        "impressions": 87357,
+        "clicks": 5737,
+        "reach": 53096,
         "purchases": 1.0,
         "revenue": 4.99,
-        "ctr": 6.66,
+        "ctr": 6.57,
         "cpc": 0.09,
-        "cpm": 6.04,
-        "cpa": 499.67,
+        "cpm": 6.05,
+        "cpa": 528.8,
         "roas": 0.01
       }
     ],
@@ -331,17 +345,17 @@
       {
         "campaign": "PERF AO | BROAD | ES | 202609",
         "adset": "PRESS | BROAD | ES | 202609",
-        "spend": 2230.42,
-        "impressions": 282416,
-        "clicks": 13340,
-        "reach": 220348,
+        "spend": 2321.12,
+        "impressions": 295930,
+        "clicks": 14147,
+        "reach": 231526,
         "purchases": 18.0,
         "revenue": 638.67,
-        "ctr": 4.72,
-        "cpc": 0.17,
-        "cpm": 7.9,
-        "cpa": 123.91,
-        "roas": 0.29
+        "ctr": 4.78,
+        "cpc": 0.16,
+        "cpm": 7.84,
+        "cpa": 128.95,
+        "roas": 0.28
       },
       {
         "campaign": "PERF | TEST AO | BROAD | ES | 202609",
@@ -391,16 +405,16 @@
       {
         "campaign": "LEADS | TEST DE HIDRATACIÓN | BROAD | ES | 202610",
         "adset": "BROAD | ES | 202610",
-        "spend": 499.92,
-        "impressions": 82741,
-        "clicks": 5510,
-        "reach": 50589,
+        "spend": 528.8,
+        "impressions": 87357,
+        "clicks": 5737,
+        "reach": 53096,
         "purchases": 1.0,
         "revenue": 4.99,
-        "ctr": 6.66,
+        "ctr": 6.57,
         "cpc": 0.09,
-        "cpm": 6.04,
-        "cpa": 499.92,
+        "cpm": 6.05,
+        "cpa": 528.8,
         "roas": 0.01
       },
       {
@@ -421,75 +435,75 @@
       {
         "campaign": "PERF AO | BROAD | ES | 202609",
         "adset": "TEST | BROAD | ES | 202610",
-        "spend": 918.77,
-        "impressions": 92349,
-        "clicks": 822,
-        "reach": 34514,
+        "spend": 1057.14,
+        "impressions": 107910,
+        "clicks": 966,
+        "reach": 38660,
         "purchases": 3.0,
         "revenue": 94.5,
-        "ctr": 0.89,
-        "cpc": 1.12,
-        "cpm": 9.95,
-        "cpa": 306.26,
-        "roas": 0.1
+        "ctr": 0.9,
+        "cpc": 1.09,
+        "cpm": 9.8,
+        "cpa": 352.38,
+        "roas": 0.09
       }
     ],
     "platforms": [
       {
         "platform": "audience_network",
-        "spend": 8.95,
-        "impressions": 2541,
-        "clicks": 120,
-        "reach": 454,
+        "spend": 9.54,
+        "impressions": 2693,
+        "clicks": 123,
+        "reach": 474,
         "purchases": 0.0,
         "revenue": 0.0,
-        "ctr": 4.72,
-        "cpc": 0.07,
-        "cpm": 3.52,
+        "ctr": 4.57,
+        "cpc": 0.08,
+        "cpm": 3.54,
         "cpa": 0.0,
         "roas": 0.0
       },
       {
         "platform": "facebook",
-        "spend": 1431.02,
-        "impressions": 231551,
-        "clicks": 9569,
-        "reach": 114384,
+        "spend": 1485.61,
+        "impressions": 242203,
+        "clicks": 10105,
+        "reach": 117660,
         "purchases": 14.0,
         "revenue": 573.05,
-        "ctr": 4.13,
+        "ctr": 4.17,
         "cpc": 0.15,
-        "cpm": 6.18,
-        "cpa": 102.22,
-        "roas": 0.4
+        "cpm": 6.13,
+        "cpa": 106.12,
+        "roas": 0.39
       },
       {
         "platform": "instagram",
-        "spend": 8971.44,
-        "impressions": 962930,
-        "clicks": 23348,
-        "reach": 400739,
+        "spend": 9173.3,
+        "impressions": 985599,
+        "clicks": 23984,
+        "reach": 409607,
         "purchases": 70.0,
         "revenue": 2487.51,
-        "ctr": 2.42,
+        "ctr": 2.43,
         "cpc": 0.38,
-        "cpm": 9.32,
-        "cpa": 128.16,
-        "roas": 0.28
+        "cpm": 9.31,
+        "cpa": 131.05,
+        "roas": 0.27
       },
       {
         "platform": "threads",
-        "spend": 28.9,
-        "impressions": 6473,
-        "clicks": 178,
-        "reach": 5005,
+        "spend": 30.6,
+        "impressions": 6798,
+        "clicks": 186,
+        "reach": 5291,
         "purchases": 1.0,
         "revenue": 113.4,
-        "ctr": 2.75,
+        "ctr": 2.74,
         "cpc": 0.16,
-        "cpm": 4.46,
-        "cpa": 28.9,
-        "roas": 3.92
+        "cpm": 4.5,
+        "cpa": 30.6,
+        "roas": 3.71
       },
       {
         "platform": "unknown",
@@ -510,7 +524,7 @@
       {
         "creative_id": "1747554363202810",
         "ad_name": "IMG PRESS | EL MUNDO | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/649506859_941401722172525_1703411262447133523_n.png?_nc_cat=102&ccb=1-7&_nc_ohc=m77s3-RqjysQ7kNvwG5Dv9i&_nc_oc=AdqSCUu7y1hYgmDWT9OD8U3OXo-izdck4b3Ca-W4jc8bB5aHVY0C4PT3ftSSC0wF4fw62bKZmqlCb_r4jHk-gYRs&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQI4_JcnGgrxXrHpvUHiAqH8QU2K1W8cREVKI_IyynHSxS_uZMT4Uqhg-r-hdaKTm7v-aonGx_bL&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQNg5bP13C1KAW80BQeALPy5ISY8CE0stTvygMd5kNHVpg&oe=6AD96BEF",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/649506859_941401722172525_1703411262447133523_n.png?_nc_cat=102&ccb=1-7&_nc_ohc=ypqD0MnzI2YQ7kNvwFbj3ZE&_nc_oc=AdpT2UO5KDL7ZOK9jO2552J5B2KPouroAWHzQ92jFVTOKTEIyq128-d6WwS8dhLQOXwPle6yP8reWq-O7ps0LXsS&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQLQuOiBzSE98uoow8wotPmiAGB7J0yHW6zbA6-LgP4Bm2DkSM2_7QS2mAxWxwQx5BwZ10MtmwLy&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQPl5-_LWQGcMnrtNeEu7hEhaE-YeB53IH4nCwOwXlAnhQ&oe=6ADA4CEF",
         "title": null,
         "body": null,
         "campaigns": [
@@ -519,21 +533,21 @@
         "adsets": [
           "PRESS | BROAD | ES | 202609"
         ],
-        "spend": 1268.49,
-        "impressions": 175244,
-        "clicks": 9166,
-        "reach": 149545,
+        "spend": 1359.19,
+        "impressions": 188758,
+        "clicks": 9973,
+        "reach": 161624,
         "purchases": 12.0,
         "revenue": 449.67,
-        "ctr": 5.23,
+        "ctr": 5.28,
         "cpc": 0.14,
-        "cpa": 105.71,
-        "roas": 0.35
+        "cpa": 113.27,
+        "roas": 0.33
       },
       {
         "creative_id": "5379619038930597",
         "ad_name": "IMG PRESS | EL MUNDO | 202610 - LP",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/649506859_941401722172525_1703411262447133523_n.png?_nc_cat=102&ccb=1-7&_nc_ohc=m77s3-RqjysQ7kNvwG5Dv9i&_nc_oc=AdqSCUu7y1hYgmDWT9OD8U3OXo-izdck4b3Ca-W4jc8bB5aHVY0C4PT3ftSSC0wF4fw62bKZmqlCb_r4jHk-gYRs&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQJWf_v1G6ggJsrjj4I_wzuNeBuddsE-P8Z7s-KKLtMTgqDpm9Ss5ri2sLkABCkbTMLNragI99bu&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQNBPN7ec--Vyx7r9W0BSQhq5vkfXmfkZIAMrohwPqEBIg&oe=6AD96BEF",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/649506859_941401722172525_1703411262447133523_n.png?_nc_cat=102&ccb=1-7&_nc_ohc=ypqD0MnzI2YQ7kNvwFbj3ZE&_nc_oc=AdpT2UO5KDL7ZOK9jO2552J5B2KPouroAWHzQ92jFVTOKTEIyq128-d6WwS8dhLQOXwPle6yP8reWq-O7ps0LXsS&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQJANhGawjUciMDZAHW7zQloaZW_wlHPKlI2he_Wa04cPjTUA5vwq4sUcj-LxPrektyoVaR0p-4z&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQOH6p735ch9QKFh62GMgiREgD5g9m0EpkU4kKI3XQfvcA&oe=6ADA4CEF",
         "title": null,
         "body": null,
         "campaigns": [
@@ -556,7 +570,7 @@
       {
         "creative_id": "1577971850732652",
         "ad_name": "IMG CANSANCIO 10 | BUSCADOR | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802033161_1099304789715550_7734473969094554188_n.png?_nc_cat=109&ccb=1-7&_nc_ohc=SuvkIhsnyDgQ7kNvwGm2bgY&_nc_oc=Adq6a3DAbLpLQ5I7VFJnTZxMB_30KLHhU945ROH4Mt_jZb7S3PupeGFWJLjr29A0ryVjbD2g8bOAz9wFlMHHhs6R&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQIt57dOCkPsNp4zShLz9W0TC-KrqalqP6CNS2qaJdRz3n_MEvbg-lSolZZnMcFc7w45mGbBGszI&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQNeLik9vwbeTICkSeBCIVdTjhcgf2TB4TvSlo4s2QYvHA&oe=6AD97BD7",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802033161_1099304789715550_7734473969094554188_n.png?_nc_cat=109&ccb=1-7&_nc_ohc=SuvkIhsnyDgQ7kNvwGm2bgY&_nc_oc=Adq6a3DAbLpLQ5I7VFJnTZxMB_30KLHhU945ROH4Mt_jZb7S3PupeGFWJLjr29A0ryVjbD2g8bOAz9wFlMHHhs6R&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQISkI6OIUmjY65ocKvDSH2B6qMdbGc_e5WU-GBTLw6bBY-tMY8Re48Q0meDEccbBQIa9r_OWRvN&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQOsbeWZFKYFyf1jfC9ypM3Z3atxbAdH-fD08cZLIEF7dA&oe=6ADA5CD7",
         "title": null,
         "body": null,
         "campaigns": [
@@ -579,7 +593,7 @@
       {
         "creative_id": "4100520333585050",
         "ad_name": "IMG RUNNING 1 | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802505216_1101732376139458_4775740748280016763_n.png?_nc_cat=108&ccb=1-7&_nc_ohc=EZg0gpKLuewQ7kNvwF4VJeX&_nc_oc=AdoCKJ7CBjU_bxdSoS_KzvM_nSwPNXnug9uJKluPMeXtkTtKHQ5svi7r-rg736vRDqnj3ABdIxGc19ZSz_w_FpIz&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQIAHPXeUEYu8FjGKLvMc3MF5eQ_r_L0sSz3W805ZGxJ3jNpqoyPdkxO0OAOtKXKtJOarePOZymt&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQO4RPV2vfVUZTd19vNDqfBpRg7PIBJrOe5zTePJMXQ5Hg&oe=6AD97A8A",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802505216_1101732376139458_4775740748280016763_n.png?_nc_cat=108&ccb=1-7&_nc_ohc=EZg0gpKLuewQ7kNvwF4VJeX&_nc_oc=AdoCKJ7CBjU_bxdSoS_KzvM_nSwPNXnug9uJKluPMeXtkTtKHQ5svi7r-rg736vRDqnj3ABdIxGc19ZSz_w_FpIz&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=MnC50UT-2AIPbxLEqN0m7g&_nc_tpa=Q5bMBQKAm7Ezi52w9EQxV4_A7pmYeusMd7Ge5zpblCe5fLBzhB0lKryw2bRQkATHyfMH4ldFPNC7Fzxm&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQNqi9pfyxe5aO9PRdIojn0kCDnozVQbdrCzEI7-faZk4g&oe=6ADA5B8A",
         "title": null,
         "body": null,
         "campaigns": [
@@ -602,7 +616,7 @@
       {
         "creative_id": "1090426470505608",
         "ad_name": "IMG PRESS | EL MUNDO | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/649506859_941401722172525_1703411262447133523_n.png?_nc_cat=102&ccb=1-7&_nc_ohc=m77s3-RqjysQ7kNvwG5Dv9i&_nc_oc=AdqSCUu7y1hYgmDWT9OD8U3OXo-izdck4b3Ca-W4jc8bB5aHVY0C4PT3ftSSC0wF4fw62bKZmqlCb_r4jHk-gYRs&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQLZEqoM08xHXIIAqe9zh7OstnEiB3sw9ZzMmLch_ZUHda2Rm4fK1KqImAXZyhr9zUX_VI79T0mB&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQNsisTp-ozWHana6qeWx6riASwa7BxqEodXZiI9HZGpJw&oe=6AD96BEF",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/649506859_941401722172525_1703411262447133523_n.png?_nc_cat=102&ccb=1-7&_nc_ohc=ypqD0MnzI2YQ7kNvwFbj3ZE&_nc_oc=AdpT2UO5KDL7ZOK9jO2552J5B2KPouroAWHzQ92jFVTOKTEIyq128-d6WwS8dhLQOXwPle6yP8reWq-O7ps0LXsS&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQKbPco6NK_kovdlTAkg9AucNd49DbMv-4I-Zq2Bxi37CUSEQrBYEAQJufRjFcWQZsAwq5_LJf8F&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQOwDmh7eR8fCglL5MBN-MmHLiBZsxVUkC37k8WD1dhqkg&oe=6ADA4CEF",
         "title": null,
         "body": null,
         "campaigns": [
@@ -625,7 +639,7 @@
       {
         "creative_id": "1768463570874012",
         "ad_name": "IMG RUNNING 7 |  BUSCADOR | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/807684710_1101732526139443_663905055136158780_n.png?_nc_cat=101&ccb=1-7&_nc_ohc=1urY2Lrc7n4Q7kNvwHRMcZ9&_nc_oc=AdoSk4Gu7LradDnlJWp8O5J2j6dcxzHZJhNAuGDYFHQwbFul0aGk97b1gBbKp1jKKynx1KYn_aSxZne151iiHYVU&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQKmUWq8OmgoOlC86BD1fNhngghH3trVGHOZfBi_bejSTwxVQ6dT3pOWGEXWWanIZpK3QxayrKle&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQPC3rzYZTozbA4W50vt0YFo-q2OAjSEfoZZ9b9eOqLplg&oe=6AD96D91",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/807684710_1101732526139443_663905055136158780_n.png?_nc_cat=101&ccb=1-7&_nc_ohc=1urY2Lrc7n4Q7kNvwHRMcZ9&_nc_oc=AdoSk4Gu7LradDnlJWp8O5J2j6dcxzHZJhNAuGDYFHQwbFul0aGk97b1gBbKp1jKKynx1KYn_aSxZne151iiHYVU&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQKzJ38YS-63aYtKc8PSEt0Zl_r5blrNy0M9uFyjRxq04AP18MujFJtEpfmKbmwAJbHM1s1eeeTm&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQPjvdg_AcsLPOYPXWKBvK5rFw8-Ui9HuY_LNsITWolPnw&oe=6ADA4E91",
         "title": null,
         "body": null,
         "campaigns": [
@@ -648,7 +662,7 @@
       {
         "creative_id": "4387443714854976",
         "ad_name": "IMG 2 | TEST DE HIDRATACIÓN | 202610 - Copia",
-        "thumbnail_url": "https://external-ams2-1.xx.fbcdn.net/emg1/v/t13/11449893111435574592?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKVPPVU4DfuCPCrBPEnozPVcGq5TTG8lbRTs30ksnY8HL6NFmTtTRwX6KakqE-fkFMDoarPoO65JvZhtAjzNmMt1Rmt8dhjFFsk02rIfkweU9AhWsKtiG4TqANQuoyncooxA0wrp1CS6KvWF4TzEk7p&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ams2-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=snpSule_L9iL2IFvu_mUeA&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQLxwDHJy_9I0ywFlP4XYiJtZWxJodcoqGLMRvt6FRNJPAb7FrwbHTPRP6W2D7Z6DoOw19hRnU2e&oh=06_Q3_EARxgnzwQdfD1zqebSM3n9U-Vy3KJ0a3T6LQyEV3N0CJ-&oe=6AD58268",
+        "thumbnail_url": "https://external-hel3-1.xx.fbcdn.net/emg1/v/t13/11449893111435574592?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKVPPVU4DfuCPCrBPEnozPVcGq5TTG8lbRTs30ksnY8HL6NFmTtTRwX6KakqE-fkFMDoarPoO65JvZhtAjzNmMt1Rmt8dhjFFsk02rIfkweU9AhWsKtiG4TqANQuoyncooxA0wrp1CS6KvWF4TzEk7p&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-hel3-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQJ1XSEUc1bcjSvh-pwsXWb1t3ZIo7-WGY9S5bxsObnw4SH9IUMphC2_CgdIjFKVuCSz69EnaE9u&oh=06_Q3_EAbALu2OrEF1OcieliFs6MBXcurVbv0nJgv93waGghMTZ&oe=6AD66368",
         "title": "Descubre tu nivel de hidratación y cómo mejorarlo",
         "body": "Si sudas, beber agua cada dos minutos no te hidrata.\n\nLo que sí te hidrata es reponer los minerales que pierdes con ella. \n\nSi quieres saber cuál es tu estado de hidratación haz click aquí.",
         "campaigns": [
@@ -657,21 +671,21 @@
         "adsets": [
           "BROAD | ES | 202610"
         ],
-        "spend": 489.18,
-        "impressions": 80662,
-        "clicks": 5416,
-        "reach": 50389,
+        "spend": 514.45,
+        "impressions": 84690,
+        "clicks": 5622,
+        "reach": 52739,
         "purchases": 1.0,
         "revenue": 4.99,
-        "ctr": 6.71,
+        "ctr": 6.64,
         "cpc": 0.09,
-        "cpa": 489.18,
+        "cpa": 514.45,
         "roas": 0.01
       },
       {
         "creative_id": "994063693092595",
         "ad_name": "IMG HAMBRE 6 | BUSCADOR | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/803102463_1101800469465982_1992099966811120014_n.png?_nc_cat=105&ccb=1-7&_nc_ohc=ISF09fK2G3MQ7kNvwGax8cS&_nc_oc=AdpLntul65hjB6Usgi7TGt3mUYmeYWq588Hgbn68XrlCWGSVkaxVM5rZDsk8-OtpkfE6xPPMfZCN8Bz9TOjQbbMs&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQJRDYF3rMuyxXuyjk_QRk52tzFTNwjlJwCpt4rY7p9OsAziULAxlGy4wJmmpQNSlJSsmiKZTO3H&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQO2GhmW2bd0L9Xjc7oF3NhXDIIJQb6BaGwnk-bYfsuO6Q&oe=6AD95E13",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/803102463_1101800469465982_1992099966811120014_n.png?_nc_cat=105&ccb=1-7&_nc_ohc=ISF09fK2G3MQ7kNvwGax8cS&_nc_oc=AdpLntul65hjB6Usgi7TGt3mUYmeYWq588Hgbn68XrlCWGSVkaxVM5rZDsk8-OtpkfE6xPPMfZCN8Bz9TOjQbbMs&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQJkbnIlgw_HlZ9n5ptXkJwh_2k60x2e7mXSS-cITsRfpaBgQkgSh_AcIvdo09Xr82YOmu7rBXtA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQO54crs8ihk7WYedCDZLmcyyvA9xI1wj8x7CEjTZ0Islg&oe=6ADA3F13",
         "title": null,
         "body": null,
         "campaigns": [
@@ -694,7 +708,7 @@
       {
         "creative_id": "1185933093756267",
         "ad_name": "VID BEBE DIFERENTE 3 | 202610",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/841233397_1090024083805623_7105014460665439642_n.jpg?_nc_cat=101&ccb=1-7&_nc_ohc=hPCvnmGGJdIQ7kNvwGwWvdF&_nc_oc=AdqCAZJxXYYmvdFHhFGbNXR6Z-QERYU9H83ceqBcBhnpQK7rwqWQCkFUxOKm-S5ORPr9W_lPsMeqTFY9p_mjEe8w&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQI8j-n_KtbBGCSuZQgO3w12JhM_OEwaHJ-faNArgHWDGi8Wbu2Jk4N6JE8SkaW6iiEAUEMG3hpP&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQO5tAAhto60qexNteqQ7O5OAlmKwcxujTV_u9p04lGFig&oe=6AD96C9D",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/841233397_1090024083805623_7105014460665439642_n.jpg?_nc_cat=101&ccb=1-7&_nc_ohc=lIYqGQGR9V8Q7kNvwEOrDfb&_nc_oc=Adp38A8K4sSsMNpNWJi6ukmNqHJwUBipfhR4YqvJjeO2_TVy5W3AflPzGGyRzc-754XfyZ1OGg5N-FdR438YnaF8&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQLz9qdvkDx7PkehFmDqivhNrWgr0XRSwgu42r0d5UuYvV0F4tlJb3q-N8HfRlxproC2sZCjaT-b&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQNdrbAsGUDiEGu76LBjrIIo5dM0fYWpGn6xYZndbouRXw&oe=6ADA4D9D",
         "title": "Bebe diferente. Bebe LIT.",
         "body": "Lo raro no es la postura, lo raro es beber sin minerales. \nSodio, potasio y magnesio en un sobre.\nSin conservantes.\nSin colorantes.\nSin azúcar.\n\nBebe diferente. Bebe LIT.",
         "campaigns": [
@@ -717,7 +731,7 @@
       {
         "creative_id": "1407745804862766",
         "ad_name": "IMG 1 | DISCOVERY SET | 202610",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/828121904_1120705574242138_6070554078490456147_n.png?_nc_cat=100&ccb=1-7&_nc_ohc=jkIIeIT1tfsQ7kNvwEkT6WC&_nc_oc=AdrdUBZ-VKLK3qRWAoI1i2QqEwgO5H7Ceov4IfnDaEIHONeRgR1S8bqdKwWJv9UaDhXnDEzhAoaKF-2frGXbdLcy&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQLV7DO_bZt9h7QhQOE2hW-zbelGKGNS7REYMaJpnbh_6hyjIRlK73EfsOytBp3G28EZv89uTwpx&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQNtprOpXeIcKrMcuV1Nv3WsZ8pAuIImjNk_ePl6mrovxQ&oe=6AD95599",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/828121904_1120705574242138_6070554078490456147_n.png?_nc_cat=100&ccb=1-7&_nc_ohc=HHhDeOl649AQ7kNvwGsAB81&_nc_oc=AdqWDOlVOw5hFCRIrbK25BlXVV9JRv167M487Kxlyhl0sCL3pMIl7HLPiKJkjzWJNdk-x_PvMliqhStZospaE-Ka&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQLh2-A6i96ODZ5PF4wVu48Np9JJnYGdItYlzzrHrYcznqAG13zS_F9F6DZcaZweLUyPBPfxGEkv&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQMZIR3U1RplLauNW8chToBN8aQ0wZbRUjSp8VmQ2Q17EA&oe=6ADA3699",
         "title": null,
         "body": null,
         "campaigns": [
@@ -740,7 +754,7 @@
       {
         "creative_id": "1944192292956163",
         "ad_name": "id.2026-02-12-Creative 39_format.Video_product.Electrolytes - Salty Lemon_persona.Trend Follower_angle.Emotional Benefit - Therapeutic Value_style.Product - UGC_copy.C1_type.New - Performance_promo.No promo_url.Landing page_vidlength.15-30s_creator.IA_hook._creativeCTA.Learn More / Discover",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/628534979_1240931637470298_8896003931047812488_n.jpg?_nc_cat=111&ccb=1-7&_nc_ohc=e8ng9FTuPgUQ7kNvwFjjKKJ&_nc_oc=Ado796H-di4WMKQxGDxpiz8HGmcqsYD3WQ1ofa5r_fkB0V7nYoRWWQXKG0FogYQTtu_5wU1Mv0pRANqVZDCzHE3X&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQJ1kKAP8Y463RiCVVZNXr_pl21Q5J9NAc8T96FbxVw-D1RaUqL9rKy84QUh2SqivA3x2ReAFuxE&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQNlvY69E-zUp8Doaw1QEwhuyRtfLujxHRA1ORq0h9rJsg&oe=6AD96827",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/628534979_1240931637470298_8896003931047812488_n.jpg?_nc_cat=111&ccb=1-7&_nc_ohc=VmnAcfIxh2MQ7kNvwH62xJx&_nc_oc=AdqtSlKZXBWV2fD_ThXYRILpX72_CaURmAHWPsZh1Mlz7tLNhRB8iCwFxd7TZEdug7V80t7sZQViLOjg1IRdwy8g&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQLyEIemNtFTnhuRr2olhaDZI2xzUD5U8M-OCYvDL6pKo7tSYJfijymGx8gqN80jildn9rc_vilz&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQNQMhWZD2fwMShuEAtYOfxVtEKyK-b_kKTLuOR9YyFmaQ&oe=6ADA4927",
         "title": "Cánsate menos, rinde mejor",
         "body": "¿Te notas cansado sin motivo claro?\n\nLa deshidratación no siempre se siente como sed.\nA veces aparece como fatiga, apatía, bajo rendimiento.\n\nMantén tu equilibrio mineral y siente la diferencia.\n\nLIT. Simple. Funcional. Sin azúcar.",
         "campaigns": [
@@ -763,7 +777,7 @@
       {
         "creative_id": "1413479454162573",
         "ad_name": "id.2025-10-27-UGC Chica Rojo_format.Video_product.Electrolytes - Salty Lemon_persona.Wellness Enthusiast_angle.Emotional Benefit - Wellness_style.People - Lifestyle_copy.C1_type.New - Performance_promo.No promo_url.Landing page_vidlength.15-30s_creator.Manon_hook.Cansancio_creativeCTA.Shop Now Prompt",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/566559291_1523134622241221_5289066096830835121_n.jpg?_nc_cat=109&ccb=1-7&_nc_ohc=T1SWRfvRUYQQ7kNvwF2sZCF&_nc_oc=Adoyqw12LvEW0oqJ9_8kUPRmHFeTsY3FaPRqTxQJygrz49Nrav41l62PgdOI7Ty0PG7bzKsF67Oi-jlMl8-JI5mq&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQKYK-pEbctbUSK8ElIa_2CP_qqGN8wkM4t1wSFbusVhE_seDKqqK_D_mJ9qEVoSRT5B75keRvI5&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQOZ_0TuIQA0M-fkJb4ZUMXnuaRFEnl0ypNtR8ULZoFwTw&oe=6AD97DDD",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/566559291_1523134622241221_5289066096830835121_n.jpg?_nc_cat=109&ccb=1-7&_nc_ohc=yUGgE708DbIQ7kNvwF6-d9I&_nc_oc=AdpUiNDEptNUQ_xwGkCh4uyJbK5vVQb1yTsSVQyGFYE1bqOSSfyNEpmGXOjR9FE4gOzV8uuzYdTdiZSurLxDLnnU&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQIzj9edfGDV7vi4z1lySNx2madi-_lagQ8nrMksl7RvezI-ygHtdVIrGBDpMjP9XNfuw0htwau_&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQMO2FgPtssdyEq_5qEGFoZG76X4G0ZyFVmmXhWvVSqUMg&oe=6ADA5EDD",
         "title": "Cánsate menos, rinde mejor",
         "body": "¿Te notas cansado sin motivo claro?\n\nLa deshidratación no siempre se siente como sed.\nA veces aparece como fatiga, apatía, bajo rendimiento.\n\nMantén tu equilibrio mineral y siente la diferencia.\n\nLIT. Simple. Funcional. Sin azúcar.",
         "campaigns": [
@@ -786,7 +800,7 @@
       {
         "creative_id": "1633726954810160",
         "ad_name": "IMG RECOVERY 2 | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/803050804_1101762846136411_3352419973885718295_n.png?_nc_cat=109&ccb=1-7&_nc_ohc=seinIU30N5kQ7kNvwEuSJjW&_nc_oc=Adp7tZrB2y6geYEs7VPCjuctaZMIkj4EyvRB-L458Lo9Zm8Hz9Clc6gEjr03Z9KaPGDDCTB2QdR5NAJrbR9iw9tf&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQLGJbgzHimQzXzMaHOe_JqCRBvzQp5aRnvr_3TMAnh2-Beafv1i8C2XCVjvc96GLbjz-yIFbzBh&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQOTYRpY0Trv-iSgGc7oKZoNTIYq-4rZS2e_quaO4e1ifQ&oe=6AD97144",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/803050804_1101762846136411_3352419973885718295_n.png?_nc_cat=109&ccb=1-7&_nc_ohc=seinIU30N5kQ7kNvwEuSJjW&_nc_oc=Adp7tZrB2y6geYEs7VPCjuctaZMIkj4EyvRB-L458Lo9Zm8Hz9Clc6gEjr03Z9KaPGDDCTB2QdR5NAJrbR9iw9tf&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQJTXzNz5_pdKXS67D71qpFbWLR4YD9ysMnnPe11AhryWeZao13PGJSM6F4zqYtBOa7-n9uqR_Cu&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQMYs9TQkXR8FjEpjvn907KiDwjb2QHktwfXunCnkemvdQ&oe=6ADA5244",
         "title": null,
         "body": null,
         "campaigns": [
@@ -807,9 +821,55 @@
         "roas": 0.14
       },
       {
+        "creative_id": "2305260340253168",
+        "ad_name": "IMG TICKET ISOTÓNICA | 202610",
+        "thumbnail_url": "https://external-hel3-1.xx.fbcdn.net/emg1/v/t13/13862962066345283377?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKeNDOLBBF8x65Ipw0irW-O6c8o_P2IxafTEo17gj7KfrTm4sw5rww4UYheNa553ZtHZPVqWIOkvDNeJq9p4XsOSQ_2P0Y3X3V0udvaEyycN3lBDSgjO5HUby4e35YKMwGHaycxE6b7Uw7IngQwf7Lt&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-hel3-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQKUyomIlC7d8gsVZriACBFpH1GWg282qQ9_40LAqmRnu4xE7DoDYspwbOM_b5TPkNwArNq0RlqS&oh=06_Q3_EAb2WiFhO6Ny1Npc54FpvEytSZLvaYiZhYPRRjMK7SPgs&oe=6AD6749C",
+        "title": "Hidratarte bien te cuesta muy poco",
+        "body": "Bebida isotónica: 2,99€ y 15 g de azúcar. LIT: 0,71€ y 0 g. Lo único dulce, el precio.",
+        "campaigns": [
+          "PERF AO | BROAD | ES | 202609"
+        ],
+        "adsets": [
+          "TEST | BROAD | ES | 202610"
+        ],
+        "spend": 212.11,
+        "impressions": 24614,
+        "clicks": 209,
+        "reach": 17221,
+        "purchases": 0.0,
+        "revenue": 0.0,
+        "ctr": 0.85,
+        "cpc": 1.01,
+        "cpa": 0.0,
+        "roas": 0.0
+      },
+      {
+        "creative_id": "1536198978263368",
+        "ad_name": "IMG TICKET ZUMO | 202610",
+        "thumbnail_url": "https://external-hel3-1.xx.fbcdn.net/emg1/v/t13/1105477496648271343?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIFSqWDU5Q4Hsf0ZiUyNuPEAQ5UJrfDryq26UO2oCvqr6wI5KB13B_k7pZU7B2xWrPSaGLY9YZdFG1u1SCrBzwrS86LmwH90faUgCCZ8y4hYmiLgVt0Gmy4OFceTcnymM66VyNcVB_DWS36yMzrfnB2&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-hel3-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQI3HNnTPpFglktVCvYFNSqfPxyeOGj-rsGO5FIASCpxB2dVcGbRZQgE3s-kuU7OX9-ttsS61qo6&oh=06_Q3_EAY36PGURUuHCh3zmWSgkKGQqu6ST36VACNISdkCLLKUH&oe=6AD66B04",
+        "title": "Hidratarte bien cuesta muy poco",
+        "body": "El zumo, para el desayuno. LIT, para todo lo demás.",
+        "campaigns": [
+          "PERF AO | BROAD | ES | 202609"
+        ],
+        "adsets": [
+          "TEST | BROAD | ES | 202610"
+        ],
+        "spend": 158.38,
+        "impressions": 16245,
+        "clicks": 152,
+        "reach": 10406,
+        "purchases": 3.0,
+        "revenue": 94.5,
+        "ctr": 0.94,
+        "cpc": 1.04,
+        "cpa": 52.79,
+        "roas": 0.6
+      },
+      {
         "creative_id": "2025410138177461",
         "ad_name": "CAR BEBE DIFERENTE 3 | 202610",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/836896915_1127396163573079_6786145515697240683_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=byTUJdfRe_sQ7kNvwFiUvpI&_nc_oc=Ado2z_R4KwBVSfWOX8FLtpiiqBaaO6tLidAt6TuNope9LlRiNul8GgZLwFNmwst4p6oGpz5QXIwqaQtITrWaGK75&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQIE0ZxOigI49lVg4uDmHw1hPNBjv1Cm4cJuXA2Z3UzVS7TtNgSey2k9wTjZM2jA_6ZVbRMQ4Z_n&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQPU4GMunWMz3brNFR66QAuNesjlU6YqV_LMkFK6Wd4ZEg&oe=6AD9536C",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/836896915_1127396163573079_6786145515697240683_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=byTUJdfRe_sQ7kNvwFiUvpI&_nc_oc=Ado2z_R4KwBVSfWOX8FLtpiiqBaaO6tLidAt6TuNope9LlRiNul8GgZLwFNmwst4p6oGpz5QXIwqaQtITrWaGK75&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQJHVRyIqqaav4JO8ixu8Cb8icjPC4GseHvuRUibr19b1r5y8U0GVYjqWTRhEmqbmqUBbKr5cmjz&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQMg0NDlrEejy_9AiXAl384crj5DDpOOEv0fqsHd3h2w7w&oe=6ADA346C",
         "title": null,
         "body": null,
         "campaigns": [
@@ -819,7 +879,7 @@
           "TEST | BROAD | ES | 202610"
         ],
         "spend": 150.85,
-        "impressions": 18376,
+        "impressions": 18377,
         "clicks": 130,
         "reach": 12556,
         "purchases": 0.0,
@@ -832,7 +892,7 @@
       {
         "creative_id": "1114628994517429",
         "ad_name": "CAR BEBE DIFERENTE 1 | 202610",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/841575179_1127396120239750_1357402074279297641_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=t1oOhi_0B6gQ7kNvwFE_erV&_nc_oc=AdpDatOeI9NaIDZARm7u0LB2GHOptWcW8YSiOy-8U1Gf8Yl2IwANPnh6h-G-qYcwmYbA-seHAEer1sxGtuMnq-qw&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQI-3hK6Q1p-wRxsnl1ISI_ZsfuFf3B6qhppljQJBV9OHobmgtFt4QSBD4lNRJawGVDMngN183iG&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQN_6CiRBLktFRU33nwrYi10QmFMJY5lTuSHGPV5sm4vzw&oe=6AD964FD",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/841575179_1127396120239750_1357402074279297641_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=t1oOhi_0B6gQ7kNvwFE_erV&_nc_oc=AdpDatOeI9NaIDZARm7u0LB2GHOptWcW8YSiOy-8U1Gf8Yl2IwANPnh6h-G-qYcwmYbA-seHAEer1sxGtuMnq-qw&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQIdBuAKEVsThw9Ckfma8YY4hp3a0u7avdxqBWQc5biXd6v8DyK1ahh_68p7HgDGGzUWX4txP4Na&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQPjplJHw_hz5aoG8-zAovgtBoYg86yJeNzXmLceIDlrvg&oe=6ADA45FD",
         "title": null,
         "body": null,
         "campaigns": [
@@ -853,32 +913,9 @@
         "roas": 0.0
       },
       {
-        "creative_id": "2305260340253168",
-        "ad_name": "IMG TICKET ISOTÓNICA | 202610",
-        "thumbnail_url": "https://external-ams2-1.xx.fbcdn.net/emg1/v/t13/13862962066345283377?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKeNDOLBBF8x65Ipw0irW-O6c8o_P2IxafTEo17gj7KfrTm4sw5rww4UYheNa553ZtHZPVqWIOkvDNeJq9p4XsOSQ_2P0Y3X3V0udvaEyycN3lBDSgjO5HUby4e35YKMwGHaycxE6b7Uw7IngQwf7Lt&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ams2-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=snpSule_L9iL2IFvu_mUeA&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQLBldAZF2ipX2iFBFRGEDXlkwCYY-W5mKwQs2bcUAZwtLUOUZePcKeIf8Tf4unCH8JfXFZ_ggcr&oh=06_Q3_EAY84wXqfsdZzqgbUqpzDdQJOUs0NVjSnT7G4a8tRyO1d&oe=6AD5939C",
-        "title": "Hidratarte bien te cuesta muy poco",
-        "body": "Bebida isotónica: 2,99€ y 15 g de azúcar. LIT: 0,71€ y 0 g. Lo único dulce, el precio.",
-        "campaigns": [
-          "PERF AO | BROAD | ES | 202609"
-        ],
-        "adsets": [
-          "TEST | BROAD | ES | 202610"
-        ],
-        "spend": 148.59,
-        "impressions": 16644,
-        "clicks": 135,
-        "reach": 12806,
-        "purchases": 0.0,
-        "revenue": 0.0,
-        "ctr": 0.81,
-        "cpc": 1.1,
-        "cpa": 0.0,
-        "roas": 0.0
-      },
-      {
         "creative_id": "1101701502234809",
         "ad_name": "CAR BEBE DIFERENTE 2 | 202610",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/838620590_1127396103573085_6350697400995792848_n.jpg?_nc_cat=101&ccb=1-7&_nc_ohc=hVTSyfZ5GZcQ7kNvwFzQshp&_nc_oc=AdoxMOk_c46ERDlaPZ3HoG7LCbsMwnAON5difIccOqm4He3WMHp9jdsPEHsuRvK6nsVf_g3nrY0tredNSUOWulv6&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQK47jG8CBtDdOxt-4I0D0sfzONqoQUIg-aIIAP-_hnvhlMw-DaVcQ8co4CFpeQXAByfO6xtEIXV&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQOYvkEfItOG6KfUEhILbw9e6Qw95HaD_sWQr6yvsUQmIQ&oe=6AD98123",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/838620590_1127396103573085_6350697400995792848_n.jpg?_nc_cat=101&ccb=1-7&_nc_ohc=hVTSyfZ5GZcQ7kNvwFzQshp&_nc_oc=AdoxMOk_c46ERDlaPZ3HoG7LCbsMwnAON5difIccOqm4He3WMHp9jdsPEHsuRvK6nsVf_g3nrY0tredNSUOWulv6&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQJvm62m5-1gdonRh_rYsv7lTBcfwC7e1NCnxtcAtYJKLguDBSynYMn6uG3vijnYZsjEhw02rMOd&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQMIX80j7mMzAJg7MFbfUlxpT9w2Vmq5K30MAPJiDG1-eA&oe=6ADA6223",
         "title": null,
         "body": null,
         "campaigns": [
@@ -901,7 +938,7 @@
       {
         "creative_id": "1122188883563981",
         "ad_name": "CARROUSEL 1 | DISCOVERY SET | 202610",
-        "thumbnail_url": "https://external-ams2-1.xx.fbcdn.net/emg1/v/t13/17621043526133032877?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQK3ERM6RP-cjclpbFQ4dFajUfgjF2ImfUtmmtmxAH8B9YWlqMXRI71TMZOWjO_Kpo91O-rB5IteSEe05N8rOpS0FBNgb336lW9gqj86U3Y0oTiBY3PjyetcemBbkK7mnxBMDWghR0dLF8ZCw4h7rXfZ&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ams2-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=snpSule_L9iL2IFvu_mUeA&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQKlsRpWmZoafBlNqLujZfOe4kjugJ798zvRNb9I8TN7Lq2ztXXqkMpYBUx7E9Coa7BNRSVQhsEH&oh=06_Q3_EAQ-yEsd0GyGADJxEyMI-AFePE_TlWC9cHpzZocrlVEi4&oe=6AD56424",
+        "thumbnail_url": "https://external-hel3-1.xx.fbcdn.net/emg1/v/t13/17621043526133032877?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQK3ERM6RP-cjclpbFQ4dFajUfgjF2ImfUtmmtmxAH8B9YWlqMXRI71TMZOWjO_Kpo91O-rB5IteSEe05N8rOpS0FBNgb336lW9gqj86U3Y0oTiBY3PjyetcemBbkK7mnxBMDWghR0dLF8ZCw4h7rXfZ&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-hel3-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQL8UVVfYBQSstw8PzXbj1kiGlcNBS_WRHdJFpiB0LixLiJymiJZEW3DIbTPBDXilMssBxySK1XY&oh=06_Q3_EAavwlFAZonb_ljQeBreIAC2JNhhskeLc4YfyYRpjY8P3&oe=6AD64524",
         "title": "Lit Hydration",
         "body": "Cuando sudas, no pierdes solo agua: también pierdes electrolitos como el sodio.\nPor eso, beber litros de agua sola no siempre es suficiente.\n\nPor eso, te proponemos algo: prueba LIT por 0 €.\n\n¿Cómo funciona? Muy fácil:\n\n1️⃣ Pides el Discovery Set por 4,99 €.\n2️⃣ Te regalamos 4,99 € en tu email al momento.\n3️⃣ Si te quedas, esos 4,99 € se descuentan de tu primer envío a los 30 días.\n\nLIT-eralmente, no tienes nada que perder. Entra en el enlace.",
         "campaigns": [
@@ -922,32 +959,9 @@
         "roas": 0.37
       },
       {
-        "creative_id": "1536198978263368",
-        "ad_name": "IMG TICKET ZUMO | 202610",
-        "thumbnail_url": "https://external-ams2-1.xx.fbcdn.net/emg1/v/t13/1105477496648271343?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIFSqWDU5Q4Hsf0ZiUyNuPEAQ5UJrfDryq26UO2oCvqr6wI5KB13B_k7pZU7B2xWrPSaGLY9YZdFG1u1SCrBzwrS86LmwH90faUgCCZ8y4hYmiLgVt0Gmy4OFceTcnymM66VyNcVB_DWS36yMzrfnB2&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ams2-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=P9dwcZwQWidY9EXRb3QYCA&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQL0JEJBcmp5dRJINVNAHR7QSPsXfpgMdjdbKIQrttRjfsRt6_T6N1Bp3HW_Nz1JXc2y_FPcWLuZ&oh=06_Q3_EAZQ-6oLClO2Odde5XtJFzWkgrw5D_oGFsTNWfTBiHoyu&oe=6AD58A04",
-        "title": "Hidratarte bien cuesta muy poco",
-        "body": "El zumo, para el desayuno. LIT, para todo lo demás.",
-        "campaigns": [
-          "PERF AO | BROAD | ES | 202609"
-        ],
-        "adsets": [
-          "TEST | BROAD | ES | 202610"
-        ],
-        "spend": 113.96,
-        "impressions": 11512,
-        "clicks": 110,
-        "reach": 7954,
-        "purchases": 3.0,
-        "revenue": 94.5,
-        "ctr": 0.96,
-        "cpc": 1.04,
-        "cpa": 37.99,
-        "roas": 0.83
-      },
-      {
         "creative_id": "1090484953626725",
         "ad_name": "VID BEBE DIFERENTE 1 | 202610",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/838881019_4697160170511743_5811912232752585486_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=MF0wSUsKntkQ7kNvwFCoAjV&_nc_oc=AdoDWc-zrODO1bzg6oxGnWi0Ql80NQxFMPYTM4OPKtRxlUPnQ4UwJd-t9xz48ihS6voJ0gc63S8PU1XDjErDLlLA&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQLzlu3GS4nvL-RGE4OTssG1naSIwk-atAP1rjon6yJy5AZjSFjT8tu_yrqRI1OtlaBplrDvKi1T&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQM3HZf_6BU57r7FGioWq90TM_luEm-ZIySnSv4qZhsRmw&oe=6AD95D11",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/838881019_4697160170511743_5811912232752585486_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=2i7idYT4vEIQ7kNvwEXLBDL&_nc_oc=AdoguAhwkmPlmRPK1bDHVN49StyjvYtzTG900dlkaFnqPjOUotg375HHlqJG6vrtQZPIUcNrXpY15fpeL5StKnS_&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQL7o1i5PtrMzmDhDL5ZxUDOc5otwm5npepZZ7ZfeoEBTimVGwCbXOBsrycfMax0JlbFIL6NlZtG&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQMMOdwWpp7S_u33Ikjc9drC2e75DJVoNq60yWzkYZHXLA&oe=6ADA3E11",
         "title": "Bebe diferente. Bebe LIT.",
         "body": "Lo raro no es la postura, lo raro es beber sin minerales. \nSodio, potasio y magnesio en un sobre.\nSin conservantes.\nSin colorantes.\nSin azúcar.\n\nBebe diferente. Bebe LIT.",
         "campaigns": [
@@ -970,7 +984,7 @@
       {
         "creative_id": "28467553229605600",
         "ad_name": "CARROUSEL 2 | DISCOVERY SET | 202610",
-        "thumbnail_url": "https://external-ams2-1.xx.fbcdn.net/emg1/v/t13/12228321211997790058?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJiRx95kz07J9bdBhsdphl_RBgSpPdGH6IPqalY73pwe6tbCOZQnO85bHk5Iol66Khhcn5ld_VB3qjS9NbtK2wgoyAVNzwOx4p0jq9wUG6IDnGggSkU90-VftPO5muQ10LJPNxrmgo3ueJ1MnPaf_OE&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ams2-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=snpSule_L9iL2IFvu_mUeA&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQIS8U5b_Oz0WNuJ-dLpawsMDQwJsoKK_UsxktrCnOGAePXV4rSEU9r1Bd19-HSjWPsHq9320T7h&oh=06_Q3_EAVlGU48qiRa8AhKR3a3wgwmw9ei1TASQHY-4NnQ5zBWu&oe=6AD59209",
+        "thumbnail_url": "https://external-hel3-1.xx.fbcdn.net/emg1/v/t13/12228321211997790058?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJiRx95kz07J9bdBhsdphl_RBgSpPdGH6IPqalY73pwe6tbCOZQnO85bHk5Iol66Khhcn5ld_VB3qjS9NbtK2wgoyAVNzwOx4p0jq9wUG6IDnGggSkU90-VftPO5muQ10LJPNxrmgo3ueJ1MnPaf_OE&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-hel3-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQJZ1InvT0fNK_j3a7-yAYVvw8MqpJeF7vljBALxLvk8VpzH62Rl3RwaSgzMjrprY44L_LGPyx6T&oh=06_Q3_EAfrihtYU0PUGAan_C7UKY8buT1WZosx2owdOqj5xirUI&oe=6AD67309",
         "title": "Lit Hydration",
         "body": "Cuando sudas, no pierdes solo agua: también pierdes electrolitos como el sodio.\nPor eso, beber litros de agua sola no siempre es suficiente.\n\nPor eso, te proponemos algo: prueba LIT por 0 €.\n\n¿Cómo funciona? Muy fácil:\n\n1️⃣ Pides el Discovery Set por 4,99 €.\n2️⃣ Te regalamos 4,99 € en tu email al momento.\n3️⃣ Si te quedas, esos 4,99 € se descuentan de tu primer envío a los 30 días.\n\nLIT-eralmente, no tienes nada que perder. Entra en el enlace.",
         "campaigns": [
@@ -993,7 +1007,7 @@
       {
         "creative_id": "2506810993144037",
         "ad_name": "IMG 2 | DISCOVERY SET | 202610",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/825272636_1120705604242135_6074143269687722196_n.png?_nc_cat=106&ccb=1-7&_nc_ohc=xDsaQbT2AJQQ7kNvwE_xGYm&_nc_oc=Adp3BML0lRpeOm9kqKPKoAxYsZJkGRv0msJK_KCyDLjhjvlTs1hhQITQSfsBxtbMO0-Qq34yktLE60e9awpO19h1&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQLETNA6ouj_OdtnXIz_MjerlkAThnurH8ReG4U9s_dEQNFuyi1diWZ9_DswNizAq4fCr83_dzjq&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQPM9AVOisP3tKoAvQs6TReSkBdrapbxTAHhYMTTbwLQUQ&oe=6AD95586",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/825272636_1120705604242135_6074143269687722196_n.png?_nc_cat=106&ccb=1-7&_nc_ohc=1dz3h5qQorcQ7kNvwGrNnCk&_nc_oc=AdpviiUuVyzdX1Dat1wv4OMLHDMa-ApbyirqLGz4gP9KgaOy3yqATR1UzWh7Ux16qiWob6WZUO6A954dQ9cjXHXA&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQICt8IOhwz_lVlhXGlUN4398cKmqCtuqDtWJw5ZA5kEPjKEvqAahuNkuaIPtR5kIH-PjIN6QMe9&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQODEJLKIH_tGS6cUx83yTVqQLIQs-H4FY46rrDTjrE_3Q&oe=6ADA3686",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1016,7 +1030,7 @@
       {
         "creative_id": "4452363838315876",
         "ad_name": "HIDRÁTATE DE VERDAD 1 | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/808661663_1107021102277252_7779920361075856164_n.png?_nc_cat=103&ccb=1-7&_nc_ohc=ARhg8_vsyMEQ7kNvwEOG1Rm&_nc_oc=Adp9COtoaVvf3zGHi8idNZ87CRfaVUlPWkiAc3y6rcq0fGS-x5mvNDpspDDKn243SOkRqNOoaX_XrepVTGlzasZa&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQJMpQajDSlAz0073d-OTFjSNw5PedIJ7POxVj33p5NmVSB8UVvcqrg79rhzsh5EhnPr5_eUTT4g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQPbD5ESMI0-Ere6YNGTTo17oJMefkLlEK9MT8FtSiR5pQ&oe=6AD98118",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/808661663_1107021102277252_7779920361075856164_n.png?_nc_cat=103&ccb=1-7&_nc_ohc=ARhg8_vsyMEQ7kNvwEOG1Rm&_nc_oc=Adp9COtoaVvf3zGHi8idNZ87CRfaVUlPWkiAc3y6rcq0fGS-x5mvNDpspDDKn243SOkRqNOoaX_XrepVTGlzasZa&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQIp3zyw4ztxK1GuO07jBPfe6FuzV6wOiozfKk5_V3ZUmbSQNJ8AjT_6oc0w_G1w9MB3PBQBrWSq&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQNXZnwfLExqj93Hx45_yS_qdfw7O9WTgcMLg_Yo-qE_UQ&oe=6ADA6218",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1039,7 +1053,7 @@
       {
         "creative_id": "1378880390649485",
         "ad_name": "VIDEO 1 | DISCOVERY SET | 202610",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/833364046_2222685811924339_6012833178152629782_n.jpg?_nc_cat=101&ccb=1-7&_nc_ohc=Vy2hikhbpX8Q7kNvwGfjyTy&_nc_oc=Adq4Q1pttaw41cO-yugugJHwSYMmxGnPj1-puQ-lITaBWexxx6VUxQ5pZyQx2FzFaRL-aPANx1qOpYGunBs3Biut&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQK7bANsLfS3mSRs6BEuX7bq3HcYAYpjNPOegSLhsgQNRS6mjt3VoQTG8EMgnFNdEGIiupBjp6lM&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQOUXd2rQyAkcSUloh9Ux5ZYC9WZu5UofAfrKyA0mI17LQ&oe=6AD9556A",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/833364046_2222685811924339_6012833178152629782_n.jpg?_nc_cat=101&ccb=1-7&_nc_ohc=Vy2hikhbpX8Q7kNvwGfjyTy&_nc_oc=Adq4Q1pttaw41cO-yugugJHwSYMmxGnPj1-puQ-lITaBWexxx6VUxQ5pZyQx2FzFaRL-aPANx1qOpYGunBs3Biut&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQKJ8giUIBBJ3Z2IG48_hOiUucdnfndUiEiA9pm70ANYegge9VRmQHIVdtIVN0hGb2pzzrV7ZCjL&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQOFfGGow7Vsml4WFLVdkOdnPNg7BbS2uROS7MJAz7lklw&oe=6ADA366A",
         "title": "Probar LIT, hoy, no te cuesta nada, LIT-eral.",
         "body": "Cuando sudas, no pierdes solo agua: también pierdes electrolitos como el sodio.\nPor eso, beber litros de agua sola no siempre es suficiente.\n\nPor eso, te proponemos algo: prueba LIT por 0 €.\n\n¿Cómo funciona? Muy fácil:\n\n1️⃣ Pides el Discovery Set por 4,99 €.\n2️⃣ Te regalamos 4,99 € en tu email al momento.\n3️⃣ Si te quedas, esos 4,99 € se descuentan de tu primer envío a los 30 días.\n\nLIT-eralmente, no tienes nada que perder. Entra en el enlace.",
         "campaigns": [
@@ -1062,7 +1076,7 @@
       {
         "creative_id": "1095378309655851",
         "ad_name": "250926 - LIT X BIOTHERM",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/825551709_1398130952508293_5234561574222541790_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=jeM2f3qwJScQ7kNvwFX8xUe&_nc_oc=AdqEkJxrM8H_bcfozoXrmpwu95BjP-krSuevXkjOYgmCJvg8y2Cy4kD-raqQH101U3zRi6UEQ9gVsesFXNGVqgii&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQJfMjDAH61KV7VgKQwOO7SoCo25gA6txRGzJmqCBCwQYOkpeHNQAoe6xFxdTf-XJIThQlxjXqLV&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQOd7JaoFSQjH-1Bq9PlehzcYd0cUyTknAtOwz6k7VhtFQ&oe=6AD95614",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/825551709_1398130952508293_5234561574222541790_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=jeM2f3qwJScQ7kNvwFX8xUe&_nc_oc=AdqEkJxrM8H_bcfozoXrmpwu95BjP-krSuevXkjOYgmCJvg8y2Cy4kD-raqQH101U3zRi6UEQ9gVsesFXNGVqgii&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQLw96K7LCFIXfWfIvQ5DMz441yrGUI-AzlcK27jgVePYe-rVSmuXlLWCbeTEf1vaTKvFploFDHU&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQNVrcufdkJcJgccnZoUE4qcWHJzmma3mO6EMU9WjC0LFg&oe=6ADA3714",
         "title": null,
         "body": "Moverse sienta bien, pero al sudar, se consumen sales esenciales.\n\nPor eso nos unimos a @biotherm para desbloquear un nuevo nivel de hidratación 🔑\n\n⚡ LA DOSIS IN: Tu sobre de LIT en agua helada. Sodio, potasio y magnesio.\n\n🧴 LA DOSIS OUT: La nueva Electrolyte Nutri Cream de Biotherm, con 3.500 mg de electrolitos.\n\nEste mes, ¡cada pedido en litsalt.com incluye una muestra física de Biotherm! \n\n#LIT #LITxBiotherm #electrolitos #electrolytes #staylit",
         "campaigns": [
@@ -1085,7 +1099,7 @@
       {
         "creative_id": "29832950119628445",
         "ad_name": "VID BEBE DIFERENTE 1 | 202610",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/848718329_1114952617566057_7513303502736095400_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=qiYet9WQ22QQ7kNvwF_FDLG&_nc_oc=AdprYcqb2oZXoYXAG72RNTBpS3mDPrJ_wUyZOewGzA9MSiBQrQ0Se0H-Qr_GM8T69o4uNJzR0WZ-i86If45TMeKs&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQJnGKfC8cE6NIMFe-CXeFF3YZUR4tbmvOUK9L-gmW3TWWzEWGYpHU3zYZ9nPy9MR4qY1W3jP7P6&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQMBOnVPs5sbQcB7jkyDtDY7cue7SUa81_cXPSqHzCi-zg&oe=6AD96A59",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/848718329_1114952617566057_7513303502736095400_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=qiYet9WQ22QQ7kNvwF_FDLG&_nc_oc=AdprYcqb2oZXoYXAG72RNTBpS3mDPrJ_wUyZOewGzA9MSiBQrQ0Se0H-Qr_GM8T69o4uNJzR0WZ-i86If45TMeKs&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQIxyIgmiGF8svT8UjD_8txJylukWFe12dm9oge0x0U9_2_Jg6PSKxT6jubuygQmCPxfLxb40Aw-&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQMjTYFWRQulEOk_AO6ZsKz-Z7ngfkTP2kGB1AKFslkkvQ&oe=6ADA4B59",
         "title": "Bebe diferente. Bebe LIT.",
         "body": "Lo raro no es la postura, lo raro es beber sin minerales. \nSodio, potasio y magnesio en un sobre.\nSin conservantes.\nSin colorantes.\nSin azúcar.",
         "campaigns": [
@@ -1108,7 +1122,7 @@
       {
         "creative_id": "2333439440526688",
         "ad_name": "IMG HAMBRE 2 | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802778934_1101800436132652_9101936114606790030_n.png?_nc_cat=101&ccb=1-7&_nc_ohc=bj-DA5I4XT4Q7kNvwHecANi&_nc_oc=AdpalwsDE2n-Up6Dxq1R5btkIW6y7CI3SGDzbcV9Z2hXMUBJQslIpwLPzS125BX8_MVO3bd4RNcGxYEx9pQB0LBt&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQIJn3kEoBNx4rAg7MLUKE1fDhCZctZqsrXgiNeCfakwLTqtnPLynpt0Clw60G1nZxbGjuksbY5v&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQNRai2RGC8EMwSattU6ySFd10NvdAHXne4mu1X4Zhl0dg&oe=6AD95A22",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802778934_1101800436132652_9101936114606790030_n.png?_nc_cat=101&ccb=1-7&_nc_ohc=bj-DA5I4XT4Q7kNvwHecANi&_nc_oc=AdpalwsDE2n-Up6Dxq1R5btkIW6y7CI3SGDzbcV9Z2hXMUBJQslIpwLPzS125BX8_MVO3bd4RNcGxYEx9pQB0LBt&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQIwCGut96u6s4bwtzYdYUKzs1oMDeiTO8g0ZWWOoV2kYZqX1I8sx66jRhTKNTRZRlZxabPNmWCr&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQNI-2vwTnxs1vqOWdDbLbU6HysJ3QS7NX6rgJD5lDVMZA&oe=6ADA3B22",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1131,7 +1145,7 @@
       {
         "creative_id": "1595286002330593",
         "ad_name": "CAR BEBE DIFERENTE 2 | 202610",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/838620590_1127396103573085_6350697400995792848_n.jpg?_nc_cat=101&ccb=1-7&_nc_ohc=hVTSyfZ5GZcQ7kNvwFzQshp&_nc_oc=AdoxMOk_c46ERDlaPZ3HoG7LCbsMwnAON5difIccOqm4He3WMHp9jdsPEHsuRvK6nsVf_g3nrY0tredNSUOWulv6&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQK8mHQAs4ad-Aq25hH-IsQ0yiEBjG1VNU_X7iIixCK_i2m_t_yVDDppQnSU3vCtBvK1-_TegSfy&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQMh-1vwuSHv13WVEoNVN-aIxkFRvcTfj9JmQHwVWpVncw&oe=6AD98123",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/838620590_1127396103573085_6350697400995792848_n.jpg?_nc_cat=101&ccb=1-7&_nc_ohc=hVTSyfZ5GZcQ7kNvwFzQshp&_nc_oc=AdoxMOk_c46ERDlaPZ3HoG7LCbsMwnAON5difIccOqm4He3WMHp9jdsPEHsuRvK6nsVf_g3nrY0tredNSUOWulv6&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQLfp3HJ5yfNW7fkf9zb1CV9NbP322KIpj5w50zMlHDE2-GFbZad9TSGgpVYUND-bPBseq7mNDk0&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQMua3qNo1iPL3TJFlkJUrLryiofLUoRTtz5Bl7W6JXmMg&oe=6ADA6223",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1152,9 +1166,32 @@
         "roas": 0.0
       },
       {
+        "creative_id": "1792043262080398",
+        "ad_name": "IMG TICKET METRO | 202610",
+        "thumbnail_url": "https://external-hel3-1.xx.fbcdn.net/emg1/v/t13/7325301080668861792?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQK9bxVXUFvEClneF3PGqZFGrf0-cUBYz5iObPOEXXtG4Gtm3qoutdOiubmloeXA9bt_wsSA04TslV9LdeYTaZdN5UCYEql7lhkJU391vcC3xZw42X__-IneH4om8pktO2T3ToKSQe7dW5aD2SpipllK&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-hel3-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQJbWe1_vc1LgvSw-7zGPccYuP5p-kDDwQJM77q4LWte1OaDrOk8ISgr5BOoKRGD_yoeR5jhAwMl&oh=06_Q3_EATqePtJuVdt2sbXaimEQse9qU2ueOCbEUaFED7p-xY-1&oe=6AD64A08",
+        "title": "Hidratarte bien te cuesta muy poco",
+        "body": "Billete de metro: 1,50€. Sobre de LIT: 0,71€. Uno te mueve. El otro te repone.",
+        "campaigns": [
+          "PERF AO | BROAD | ES | 202609"
+        ],
+        "adsets": [
+          "TEST | BROAD | ES | 202610"
+        ],
+        "spend": 64.23,
+        "impressions": 5653,
+        "clicks": 66,
+        "reach": 4325,
+        "purchases": 0.0,
+        "revenue": 0.0,
+        "ctr": 1.17,
+        "cpc": 0.97,
+        "cpa": 0.0,
+        "roas": 0.0
+      },
+      {
         "creative_id": "1068863255936160",
         "ad_name": "IMG 1 | DISCOVERY SET | 202610",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/828121904_1120705574242138_6070554078490456147_n.png?_nc_cat=100&ccb=1-7&_nc_ohc=jkIIeIT1tfsQ7kNvwEkT6WC&_nc_oc=AdrdUBZ-VKLK3qRWAoI1i2QqEwgO5H7Ceov4IfnDaEIHONeRgR1S8bqdKwWJv9UaDhXnDEzhAoaKF-2frGXbdLcy&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQKRtbwBx33IRdnEzw4dg3przupRgkpnbV3NVNx5e4w1gy0LqtjHbGUGPL_tPPhlL59YZf-zqp6R&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQMfKs93ZV4vlZZwMkcA-RN0e_vylfWJr5lQHNXme56eBA&oe=6AD95599",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/828121904_1120705574242138_6070554078490456147_n.png?_nc_cat=100&ccb=1-7&_nc_ohc=HHhDeOl649AQ7kNvwGsAB81&_nc_oc=AdqWDOlVOw5hFCRIrbK25BlXVV9JRv167M487Kxlyhl0sCL3pMIl7HLPiKJkjzWJNdk-x_PvMliqhStZospaE-Ka&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQLx7sFKL4NGfxDMWwE83zVbRi-Uk5mJcfd3-7Jk73tN-uObxLTKuc35XQBewe8Dk6_8uiS9oI19&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQOw9SJhsxW66Rr79Z7bBGcrf-gJVDl8JNGaJabH7d-lfA&oe=6ADA3699",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1177,7 +1214,7 @@
       {
         "creative_id": "1620327583059517",
         "ad_name": "CAR BEBE DIFERENTE 3 | 202610",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/836896915_1127396163573079_6786145515697240683_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=byTUJdfRe_sQ7kNvwFiUvpI&_nc_oc=Ado2z_R4KwBVSfWOX8FLtpiiqBaaO6tLidAt6TuNope9LlRiNul8GgZLwFNmwst4p6oGpz5QXIwqaQtITrWaGK75&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQKuLBXnS4MnMcfhsoamanGpRlwedStPqSSiaaq27tpb0FVsUuKi2WLj6XaIKJOtKNtpm5I7zCPm&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQMyCE6thhgwVAQmUkJFTNKi_nuTw8N3CSwmNSAUGKokBw&oe=6AD9536C",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/836896915_1127396163573079_6786145515697240683_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=byTUJdfRe_sQ7kNvwFiUvpI&_nc_oc=Ado2z_R4KwBVSfWOX8FLtpiiqBaaO6tLidAt6TuNope9LlRiNul8GgZLwFNmwst4p6oGpz5QXIwqaQtITrWaGK75&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQIkWeevp2JaGcVcLSCzI-ycgIbWK6wiOhhsPbPzFJk-Jsm_bwpoLsb2LpjKXwyDmEkW3T9BiA4L&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQM-DTFXFHraySA5VKaBp8u6QiIMg-FpKG9RynrYuuj8Qg&oe=6ADA346C",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1198,32 +1235,9 @@
         "roas": 0.0
       },
       {
-        "creative_id": "1792043262080398",
-        "ad_name": "IMG TICKET METRO | 202610",
-        "thumbnail_url": "https://external-ams2-1.xx.fbcdn.net/emg1/v/t13/7325301080668861792?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQK9bxVXUFvEClneF3PGqZFGrf0-cUBYz5iObPOEXXtG4Gtm3qoutdOiubmloeXA9bt_wsSA04TslV9LdeYTaZdN5UCYEql7lhkJU391vcC3xZw42X__-IneH4om8pktO2T3ToKSQe7dW5aD2SpipllK&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ams2-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=snpSule_L9iL2IFvu_mUeA&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQIIeOJL-porQuhW5K5wruKCfRAoe8To_RRe_YoIkjVT2wS3p3Yqk2fh7LC2OpsAmbbPFnhW7Pr-&oh=06_Q3_EAaYLa6pksgs-RoETvAjp0pHU7cA-7WfXrqsaBZXB_BZM&oe=6AD56908",
-        "title": "Hidratarte bien te cuesta muy poco",
-        "body": "Billete de metro: 1,50€. Sobre de LIT: 0,71€. Uno te mueve. El otro te repone.",
-        "campaigns": [
-          "PERF AO | BROAD | ES | 202609"
-        ],
-        "adsets": [
-          "TEST | BROAD | ES | 202610"
-        ],
-        "spend": 53.61,
-        "impressions": 4650,
-        "clicks": 52,
-        "reach": 3714,
-        "purchases": 0.0,
-        "revenue": 0.0,
-        "ctr": 1.12,
-        "cpc": 1.03,
-        "cpa": 0.0,
-        "roas": 0.0
-      },
-      {
         "creative_id": "2980501475617182",
         "ad_name": "IMG RECOVERY 3 | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802989266_1101763012803061_3138440550885864886_n.png?_nc_cat=102&ccb=1-7&_nc_ohc=7lQiSUDYWXEQ7kNvwGZAlvP&_nc_oc=Adpq4kBDLILXb5jEIJ46bqG0mhtZbQDMiZAfwG6uCgXlNPvlMNwzk3N9BUCGzennADmqi87ajvR2yjM6W3JX9n5s&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQLr0S-CuFVqjPPRuuzKKcGlPs3pWO7NUESniLBxI8k95ETj-3uGQKLx6DEfk8zl-vdSdDvfti4B&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQM243qOw71IZR84oxGamy9mNxpqR618BARJztgjnYvRbw&oe=6AD97B14",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802989266_1101763012803061_3138440550885864886_n.png?_nc_cat=102&ccb=1-7&_nc_ohc=7lQiSUDYWXEQ7kNvwGZAlvP&_nc_oc=Adpq4kBDLILXb5jEIJ46bqG0mhtZbQDMiZAfwG6uCgXlNPvlMNwzk3N9BUCGzennADmqi87ajvR2yjM6W3JX9n5s&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQIAMndq8Iury2lzCJeqqAXR6dgCOvctbo9crHrk2N6-tSGzi9QQw3stTQIJkuzOuvxcdq_m1z_n&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQOKlYEt8N9rFqbUGATsmPUFaMiG6vUqorvTU8Uln_G6qw&oe=6ADA5C14",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1246,7 +1260,7 @@
       {
         "creative_id": "1061129816927310",
         "ad_name": "IMG VUELTA-VERANO 2 | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/805905626_1105588262420536_2359548753395344717_n.png?_nc_cat=104&ccb=1-7&_nc_ohc=dP5MXQ5594AQ7kNvwGkCjiM&_nc_oc=Adr-K3Hz1rDieKdD0qFM-FznJWHCv5vQYWbc-GnapzNZuFrTV0OsxZASDtBqw3DVF94Vz9ORywGhUOF5uqZbr-2L&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQJ_nmAL69wNpWUyDrD3IMVGxMDt-k5iguL4g0P9S-sYiZrO2VLgAmbIyW3aUOg_RUgHQbLEUZas&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQMDIEgfgx_419yVouFn0EZ2Wn0IMUGRPxzW2gCY4CpQ0Q&oe=6AD9873E",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/805905626_1105588262420536_2359548753395344717_n.png?_nc_cat=104&ccb=1-7&_nc_ohc=I14QA6PnjQEQ7kNvwFkO7dU&_nc_oc=AdrZ4XgoVL6JfO_BuyWoheaRUQ0DocxKEHEEAIXyG3nKHyYRZAH-eN-ldbneYGkw6QmbL9JVO0xDkFk_SBzqQVqh&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQL9I_mIw5VxtgL7U8Xq_tBCNlfZXhLAgveFVFa7JR4fZhBR4WhaUC6cSuioCz2fDsto4TGaIikc&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQMSHubJkGq7tLI9CQkK2YDucuGsHxmKLQ6R0KeU7o4ikQ&oe=6ADA683E",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1269,7 +1283,7 @@
       {
         "creative_id": "2090030508311379",
         "ad_name": "VID BEBE DIFERENTE 2 | 202610",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/849673647_1474283457891178_5057398041900837313_n.jpg?_nc_cat=100&ccb=1-7&_nc_ohc=kYIuUDdYcwsQ7kNvwHeUcKt&_nc_oc=AdoCdYzqbnmdWVJLOFrUY_IsI5HxMWph7OmK2GirnLSK-UGuiIs944kfssx8CNfnu6hrSm_Wgb72BHVpkOwc6-iH&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQJK2dwDH4_p5r82JTNFwu_tXeq7V1MDF3-FrvvVzHAJvV2oZGVHX4xshGA7kGRXizez9rLR-lME&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQPjY0KQmjJkHmJZcD_OyFqzQZtS0lYBGH3CwajjV0vzHA&oe=6AD96A12",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/849673647_1474283457891178_5057398041900837313_n.jpg?_nc_cat=100&ccb=1-7&_nc_ohc=kYIuUDdYcwsQ7kNvwHeUcKt&_nc_oc=AdoCdYzqbnmdWVJLOFrUY_IsI5HxMWph7OmK2GirnLSK-UGuiIs944kfssx8CNfnu6hrSm_Wgb72BHVpkOwc6-iH&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQJsFAnJw8Zg6pQL55GF0D6KGLeiKpD570oDmDn99FnvJbLxnLC1bFOqh_rxa5VoWeoY8udlaa1H&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQPSnq_pnQ_VpF4962Q7fwhrsAYLJJy0xCIVYT4FFlmSHg&oe=6ADA4B12",
         "title": "Bebe diferente. Bebe LIT.",
         "body": "Lo raro no es la postura, lo raro es beber sin minerales. \nSodio, potasio y magnesio en un sobre.\nSin conservantes.\nSin colorantes.\nSin azúcar.",
         "campaigns": [
@@ -1292,7 +1306,7 @@
       {
         "creative_id": "1450627560332522",
         "ad_name": "CAR BEBE DIFERENTE 1 | 202610",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/841575179_1127396120239750_1357402074279297641_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=t1oOhi_0B6gQ7kNvwFE_erV&_nc_oc=AdpDatOeI9NaIDZARm7u0LB2GHOptWcW8YSiOy-8U1Gf8Yl2IwANPnh6h-G-qYcwmYbA-seHAEer1sxGtuMnq-qw&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQLLoST4B9Pf6fsiH-97BekrGNvfK7uufYhdG6e7nn_MfO1pmvj5dVabS2zuIFASjzdbrhxu6xBl&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQOUXnH9f72ADwieasYZTAamYPsMEUjzG8AZRHSQdiMBRA&oe=6AD964FD",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/841575179_1127396120239750_1357402074279297641_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=t1oOhi_0B6gQ7kNvwFE_erV&_nc_oc=AdpDatOeI9NaIDZARm7u0LB2GHOptWcW8YSiOy-8U1Gf8Yl2IwANPnh6h-G-qYcwmYbA-seHAEer1sxGtuMnq-qw&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQKgzPMfHbucl8miA_NrMDNCKUQhzqqxEHfPIIKGETyAGbjWJVvgDgW6tTUwg1zGJ8TXOJ2nYVYh&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQPJY8ATjo3lCxHhq_Ufu01rkx147kVN9sz836WG1fVnlg&oe=6ADA45FD",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1315,7 +1329,7 @@
       {
         "creative_id": "2585837995188992",
         "ad_name": "VID BEBE DIFERENTE 2 | 202610",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/843316038_3674373366045997_3394308097320644099_n.jpg?_nc_cat=107&ccb=1-7&_nc_ohc=Tv9L-gf51ygQ7kNvwFrhxbp&_nc_oc=Adr9ldJvRLCmgFi-MfPx0U5lxvvST97lGl7I9_k1uGDPbM9AYl0eZOgp1RtdKorogBw0XQZO-G9V8KaOvdwSU63U&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQLXAoyjWR3Y4UAsgUYUUoVr9Uh-a9kWf4P16d3CYk_SD_WtDo05Gy-WPM2-C_HxxYBz6cxYURtW&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQNQ3dmdq0rjyZ-Z5oPHmK18K6lU9ovr6O8MFguf29qVQQ&oe=6AD952E7",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/843316038_3674373366045997_3394308097320644099_n.jpg?_nc_cat=107&ccb=1-7&_nc_ohc=Tv9L-gf51ygQ7kNvwFrhxbp&_nc_oc=Adr9ldJvRLCmgFi-MfPx0U5lxvvST97lGl7I9_k1uGDPbM9AYl0eZOgp1RtdKorogBw0XQZO-G9V8KaOvdwSU63U&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQIvJrugCck6tu34nl897ksJ3p12S8jR8euNuIxSCIWpkdg44wfTvSOXN8AVrLoiiGBG-Yj5Afk7&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQO1_yGx-u4bwhxpWKM816mCFlShPpUBNIzjKzTejm5VNw&oe=6ADA33E7",
         "title": "Bebe diferente. Bebe LIT.",
         "body": "Lo raro no es la postura, lo raro es beber sin minerales. \nSodio, potasio y magnesio en un sobre.\nSin conservantes.\nSin colorantes.\nSin azúcar.\n\nBebe diferente. Bebe LIT.",
         "campaigns": [
@@ -1338,7 +1352,7 @@
       {
         "creative_id": "1853296925844726",
         "ad_name": "VID BEBE DIFERENTE 3 | 202610",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/846409871_2496873990792996_7006739065216436120_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=ndxTWs7wPZQQ7kNvwHgCbZP&_nc_oc=AdrQeyIDIAw94ltvFy0xWPznoY8nJcqG94JWzxV3b16wgikR_YuvAbKr5IBgkNkdte4rxJOfg5X4JlUbSksoS5ZP&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQIDXV0MFmJlpKMdLWCaflFmk7m8fxjdAWKob6Rr1Yr5REo66-tAmQa5PlZDkcYyBcwKmSko_OC6&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQMXqM5X7VMd2HyENSxMXsOd4V4gUwL9jQISbVpTuLZedQ&oe=6AD963D8",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/846409871_2496873990792996_7006739065216436120_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=rYdqkWwJ2C8Q7kNvwFCMnh1&_nc_oc=Adpi3hye32dHEKr6bgYbexDd3G2SJ-j8Q0KsLsdRxGsySHDBdnMRgxK0pJcHo9PIGJNgspnIK_D4whKIQxefplXg&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQK0D4fM71BCE-rewNiWHD5UoJSkgsgCKAwBSO1uCZkRLUH51s3Yqd7ITKLWTMer9qLR0h80u49H&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQPTSRN40CUAzalUokPRbSKBIUEq_M1XPhHOVEDy-n6wJg&oe=6ADA44D8",
         "title": "Bebe diferente. Bebe LIT.",
         "body": "Lo raro no es la postura, lo raro es beber sin minerales. \nSodio, potasio y magnesio en un sobre.\nSin conservantes.\nSin colorantes.\nSin azúcar.",
         "campaigns": [
@@ -1359,9 +1373,32 @@
         "roas": 0.0
       },
       {
+        "creative_id": "1419790872924553",
+        "ad_name": "CAR TICKET | 202610",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/850999224_1134228326223196_2350295211042483219_n.png?_nc_cat=105&ccb=1-7&_nc_ohc=GcjEXFgGNMkQ7kNvwGbn3VC&_nc_oc=AdpaOi333S1gIjabv3pRUCRFKHOmfd9Is3UDwCZ3aneC4-sCc6vzs0ifDvRomXovZOIzAmOf0wz9qDUyn433BBX4&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQIw55Mp5aK0urHNO6WsOHysogiArasSwWc_tJMTq9jwxeT0VrczpwM6KbbRnOWYs_5aGsQsSK4J&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQPGw4BOjk9LDUZJmcBK3h4Ht1fo8NfuYrByXFdTNW4k2w&oe=6ADA44B2",
+        "title": null,
+        "body": null,
+        "campaigns": [
+          "PERF AO | BROAD | ES | 202609"
+        ],
+        "adsets": [
+          "TEST | BROAD | ES | 202610"
+        ],
+        "spend": 32.2,
+        "impressions": 2850,
+        "clicks": 23,
+        "reach": 2344,
+        "purchases": 0.0,
+        "revenue": 0.0,
+        "ctr": 0.81,
+        "cpc": 1.4,
+        "cpa": 0.0,
+        "roas": 0.0
+      },
+      {
         "creative_id": "1055287837294820",
         "ad_name": "IMG RESACA 8 | BUSCADOR | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802900300_1101820902797272_4655389683794856909_n.png?_nc_cat=104&ccb=1-7&_nc_ohc=2TeAOmb7C2wQ7kNvwEVe-dB&_nc_oc=AdpE0bY9GfkHd1avx7TBkrWhzwOyykAqexurG2s8B_C4HIGcXSl1Jm9qM_L8ZT5NUtJsz5hb5M7853Rq3AJOO53X&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQJ8XESE_agQts8XZ-eacdAergz_J5gaGnnj9Ulxi6m3ZhpDnSXpM7TU_1RX3tbZvD-GYVtlg0vf&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQMgfNB8jd7ISEGCdCZeEfOKFuDb7creDBa2gtwXoUBVxw&oe=6AD95F23",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802900300_1101820902797272_4655389683794856909_n.png?_nc_cat=104&ccb=1-7&_nc_ohc=2TeAOmb7C2wQ7kNvwEVe-dB&_nc_oc=AdpE0bY9GfkHd1avx7TBkrWhzwOyykAqexurG2s8B_C4HIGcXSl1Jm9qM_L8ZT5NUtJsz5hb5M7853Rq3AJOO53X&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQLSJrXUcWc656syBSffqidXS6ZaSy3BbxgNfGz2GAqg3EA7wINfajtaG3rg1nIBzpO36L7bTzkK&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQMfaE_z_5CEceK5eiRLuDAt0XjE5vp1haHMcaqLcJxkKw&oe=6ADA4023",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1384,7 +1421,7 @@
       {
         "creative_id": "1128138612994619",
         "ad_name": "IMG 2 | DISCOVERY SET | 202610",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/825272636_1120705604242135_6074143269687722196_n.png?_nc_cat=106&ccb=1-7&_nc_ohc=xDsaQbT2AJQQ7kNvwE_xGYm&_nc_oc=Adp3BML0lRpeOm9kqKPKoAxYsZJkGRv0msJK_KCyDLjhjvlTs1hhQITQSfsBxtbMO0-Qq34yktLE60e9awpO19h1&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQIXPi-WcwRYQ-i-fUq9dRG3UND2t-EAran4vUzD7AjdaP28sMePzIzNzIkwYvlUt7qhunE5Nn-u&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQM_xA-FLmf6g2V79kwjkK71qLcf7xKG8irE1VAOpAzaWw&oe=6AD95586",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/825272636_1120705604242135_6074143269687722196_n.png?_nc_cat=106&ccb=1-7&_nc_ohc=1dz3h5qQorcQ7kNvwGrNnCk&_nc_oc=AdpviiUuVyzdX1Dat1wv4OMLHDMa-ApbyirqLGz4gP9KgaOy3yqATR1UzWh7Ux16qiWob6WZUO6A954dQ9cjXHXA&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQL1Tc7vPQ10nctAZkB7eSAKkhdrilVdRYfKbBd1EQX_NifhqfY27jbb_urQBjUs0gzEifqfCY9D&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQPv7CBFhYcNNeVBj_Ccu_ne9GgvDA5TMkSiETdhlPzpdg&oe=6ADA3686",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1405,32 +1442,32 @@
         "roas": 1.75
       },
       {
-        "creative_id": "1419790872924553",
-        "ad_name": "CAR TICKET | 202610",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/850999224_1134228326223196_2350295211042483219_n.png?_nc_cat=105&ccb=1-7&_nc_ohc=GcjEXFgGNMkQ7kNvwGbn3VC&_nc_oc=AdpaOi333S1gIjabv3pRUCRFKHOmfd9Is3UDwCZ3aneC4-sCc6vzs0ifDvRomXovZOIzAmOf0wz9qDUyn433BBX4&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQJi6FIElJn8TjDGq8-FFPC5COIOPtyWH0FjXzg9q7kysyzRgI9_CVctYdsjYwiEGC9xC6LZiNQe&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQNd9B5uHeruzkrHLALdrVzLdf0xeXE40m3tRb3H0Kp2uQ&oe=6AD963B2",
-        "title": null,
-        "body": null,
+        "creative_id": "2666170627163689",
+        "ad_name": "IMG TICKET CAFÉ | 202610",
+        "thumbnail_url": "https://external-hel3-1.xx.fbcdn.net/emg1/v/t13/8665396162354192649?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIAU-htH3cmJpNCqlD_o42r2JkYMpGDqkx0p_ZjuWvUIPsmyy4jLfgDxX9vXh5Unk3p6tUhLVwSHLT3cEZqyH7X40nyKtMsvGaTJZfeVGC7BTEQpGutvXYEoOvO--5liP7mUDJiVhZuSOTWlSdfG1lF&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-hel3-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQIHCTl77g5ru4eYFGitz_aOP1sEi1hwD6f2dHd6Foe7KuDdfYZYJsKrjs4WDnclQpxdvaFJ0jgO&oh=06_Q3_EAZfnkQkb4P9xVRBd00OpcK3VjffcHiDO8wD_Y6Pjj-1G&oe=6AD65E71",
+        "title": "Hidratarte bien te cuesta muy poco",
+        "body": "Café de especialidad: 3,50€. LIT: 0,71€. El cuarto café, sobra. El sobre, no.",
         "campaigns": [
           "PERF AO | BROAD | ES | 202609"
         ],
         "adsets": [
           "TEST | BROAD | ES | 202610"
         ],
-        "spend": 15.31,
-        "impressions": 1149,
-        "clicks": 9,
-        "reach": 1031,
+        "spend": 17.33,
+        "impressions": 1714,
+        "clicks": 11,
+        "reach": 1398,
         "purchases": 0.0,
         "revenue": 0.0,
-        "ctr": 0.78,
-        "cpc": 1.7,
+        "ctr": 0.64,
+        "cpc": 1.58,
         "cpa": 0.0,
         "roas": 0.0
       },
       {
         "creative_id": "2265821667570823",
         "ad_name": "IMG HAMBRE 3 | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802562120_1101800412799321_8499265111250977851_n.png?_nc_cat=107&ccb=1-7&_nc_ohc=CjX3YHMBiN4Q7kNvwF7pW6y&_nc_oc=AdqM7LuJySrorm8T9k1DuhE-V6Dd2PTOsmxjaC75wYtNeqIp5yCEBNQjB6zEW77xyYPSkw5KT7m0ugllLUfucpCZ&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQKGx3FRA9hZPra8ZTLNX3kS9_TYAzotJI3GT4dqqatwV0H5zCZogdfEhyjGiO8dAnTa78sVNNEk&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQNGoFTgC23oMXE6SPZ0n4bmMt4-S8cJRr9rRwtHPLU2BA&oe=6AD96C46",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802562120_1101800412799321_8499265111250977851_n.png?_nc_cat=107&ccb=1-7&_nc_ohc=CjX3YHMBiN4Q7kNvwF7pW6y&_nc_oc=AdqM7LuJySrorm8T9k1DuhE-V6Dd2PTOsmxjaC75wYtNeqIp5yCEBNQjB6zEW77xyYPSkw5KT7m0ugllLUfucpCZ&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQIYqRinoHxSy7rAnI_zF3-YjeYsrKpH0Vqy22k0aF1sDVyMtzeurTP45EKChzMFe5q5Yi9Ixw7w&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQOaJB2LSQj_mxyGOU8EwnBRYYw4nzmBTLWgk5C-PCajXQ&oe=6ADA4D46",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1451,9 +1488,32 @@
         "roas": 0.0
       },
       {
+        "creative_id": "1933744324254721",
+        "ad_name": "IMG 1 | TEST DE HIDRATACIÓN | 202610",
+        "thumbnail_url": "https://external-hel3-1.xx.fbcdn.net/emg1/v/t13/9736406365954843964?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQLEE1g5XiSYy9YMJEpaGVDxFLGwk_SJajECB1MkZC6e0Br6zr1oZzzuLrypD1_6lelLf8B91Kqek-8daywCkvUMBB188-8HWtvZQ6Pqw7C59m_A0LWcbLn305ZydCLXLlWpjEFS5VCUdPRoZOdn-i2l&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-hel3-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQLp0VvpLbCtEenolwggjminfdIwc98nh0rsLXAJQhpagmaxe_d9f5Sd-F2Bl39RSx2OAm7zBhms&oh=06_Q3_EAQXdD8fNN1pvuqcMOP-5jD-ATNZe6HqoFWBZJKcEtuhc&oe=6AD650CC",
+        "title": "Descubre tu nivel de hidratación y cómo mejorarlo",
+        "body": "Si sudas, beber agua cada dos minutos no te hidrata.\n\nLo que sí te hidrata es reponer los minerales que pierdes con ella. \n\nSi quieres saber cuál es tu estado de hidratación haz click aquí.",
+        "campaigns": [
+          "LEADS | TEST DE HIDRATACIÓN | BROAD | ES | 202610"
+        ],
+        "adsets": [
+          "BROAD | ES | 202610"
+        ],
+        "spend": 14.35,
+        "impressions": 2667,
+        "clicks": 115,
+        "reach": 2128,
+        "purchases": 0.0,
+        "revenue": 0.0,
+        "ctr": 4.31,
+        "cpc": 0.12,
+        "cpa": 0.0,
+        "roas": 0.0
+      },
+      {
         "creative_id": "1051617717713640",
         "ad_name": "IMG CANSANCIO 7 |  BUSCADOR | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802188507_1099304933048869_4610374361718345772_n.png?_nc_cat=100&ccb=1-7&_nc_ohc=LixA-9BO_9MQ7kNvwH92NHw&_nc_oc=AdrhLbJkSTStqM-8-vv9HU_-_KkQfhHf0DRHSLleW_zJhMRfgD1LnFTjpcwIYECcrPgmTfPh27WXtpDJtKG8E2Vq&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQLrJvv_1CVoY6aOeeVJyp5B6Nv05cLcPT_0KcgXAdlvOVkdXDVzgCj8jtfL69NgtUZQxaVNQOp4&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQMdRvlPc44iMou_zSFMFidea-j93BtNIn9_X8mCld6dzw&oe=6AD961B2",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802188507_1099304933048869_4610374361718345772_n.png?_nc_cat=100&ccb=1-7&_nc_ohc=LixA-9BO_9MQ7kNvwH92NHw&_nc_oc=AdrhLbJkSTStqM-8-vv9HU_-_KkQfhHf0DRHSLleW_zJhMRfgD1LnFTjpcwIYECcrPgmTfPh27WXtpDJtKG8E2Vq&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQK5V8qKNmpI8uUNh_qAEKgggoXFu5M0sPEHBI2Y8mKneEzjwUghgaW7wxnjheyaylfGzeqRrTU8&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQO3ImNTLvqYhfRX6WOsN_5gt3Y4YxT7MXiQKvhhpean7w&oe=6ADA42B2",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1474,32 +1534,9 @@
         "roas": 0.0
       },
       {
-        "creative_id": "2666170627163689",
-        "ad_name": "IMG TICKET CAFÉ | 202610",
-        "thumbnail_url": "https://external-ams2-1.xx.fbcdn.net/emg1/v/t13/8665396162354192649?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIAU-htH3cmJpNCqlD_o42r2JkYMpGDqkx0p_ZjuWvUIPsmyy4jLfgDxX9vXh5Unk3p6tUhLVwSHLT3cEZqyH7X40nyKtMsvGaTJZfeVGC7BTEQpGutvXYEoOvO--5liP7mUDJiVhZuSOTWlSdfG1lF&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ams2-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=snpSule_L9iL2IFvu_mUeA&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQLAdsmtXuts2qRAyweGZMC_t0KreVgJbrjOOLRicAJOSSdVJfqtx3iO6ZH147T0vrzSqSycX3Rs&oh=06_Q3_EAf4L-cIsWpSdGObLiF9fjpRnziW0YsgyvmLSX9-vm0Ut&oe=6AD57D71",
-        "title": "Hidratarte bien te cuesta muy poco",
-        "body": "Café de especialidad: 3,50€. LIT: 0,71€. El cuarto café, sobra. El sobre, no.",
-        "campaigns": [
-          "PERF AO | BROAD | ES | 202609"
-        ],
-        "adsets": [
-          "TEST | BROAD | ES | 202610"
-        ],
-        "spend": 13.89,
-        "impressions": 1491,
-        "clicks": 10,
-        "reach": 1258,
-        "purchases": 0.0,
-        "revenue": 0.0,
-        "ctr": 0.67,
-        "cpc": 1.39,
-        "cpa": 0.0,
-        "roas": 0.0
-      },
-      {
         "creative_id": "1617799646474630",
         "ad_name": "VIDEO 1 | DISCOVERY SET | 202610",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/833364046_2222685811924339_6012833178152629782_n.jpg?_nc_cat=101&ccb=1-7&_nc_ohc=Vy2hikhbpX8Q7kNvwGfjyTy&_nc_oc=Adq4Q1pttaw41cO-yugugJHwSYMmxGnPj1-puQ-lITaBWexxx6VUxQ5pZyQx2FzFaRL-aPANx1qOpYGunBs3Biut&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQKPqF5xK_-5IshT1R5VnN0MARZr9bvtlcRGof8uU4NiLuZ_1UkYbN-eru_6CJRgz-3ADd3PglRs&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQN4Wu0BNGfTaXeSqHI86yJ70GFCLVWIlqWOcqbcgBXwjQ&oe=6AD9556A",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/833364046_2222685811924339_6012833178152629782_n.jpg?_nc_cat=101&ccb=1-7&_nc_ohc=Vy2hikhbpX8Q7kNvwGfjyTy&_nc_oc=Adq4Q1pttaw41cO-yugugJHwSYMmxGnPj1-puQ-lITaBWexxx6VUxQ5pZyQx2FzFaRL-aPANx1qOpYGunBs3Biut&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQKQDz6QdjR855Y0ej_GQwvhIJIBocLQfLTl8BtcDopZMUkKo6MXHQ5pNZMnitOtfN78WnURPbeq&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQOe1jBDYjfukBZy6HFIkOjT9FMXrgStyXdrFrH5aher1A&oe=6ADA366A",
         "title": "Probar LIT, hoy, no te cuesta nada, LIT-eral.",
         "body": "Cuando sudas, no pierdes solo agua: también pierdes electrolitos como el sodio.\nPor eso, beber litros de agua sola no siempre es suficiente.\n\nPor eso, te proponemos algo: prueba LIT por 0 €.\n\n¿Cómo funciona? Muy fácil:\n\n1️⃣ Pides el Discovery Set por 4,99 €.\n2️⃣ Te regalamos 4,99 € en tu email al momento.\n3️⃣ Si te quedas, esos 4,99 € se descuentan de tu primer envío a los 30 días.\n\nLIT-eralmente, no tienes nada que perder. Entra en el enlace.",
         "campaigns": [
@@ -1520,32 +1557,9 @@
         "roas": 0.42
       },
       {
-        "creative_id": "1933744324254721",
-        "ad_name": "IMG 1 | TEST DE HIDRATACIÓN | 202610",
-        "thumbnail_url": "https://external-ams2-1.xx.fbcdn.net/emg1/v/t13/9736406365954843964?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQLEE1g5XiSYy9YMJEpaGVDxFLGwk_SJajECB1MkZC6e0Br6zr1oZzzuLrypD1_6lelLf8B91Kqek-8daywCkvUMBB188-8HWtvZQ6Pqw7C59m_A0LWcbLn305ZydCLXLlWpjEFS5VCUdPRoZOdn-i2l&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ams2-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=snpSule_L9iL2IFvu_mUeA&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQI8ZGYB18sOxcVBiZ6jb3DWgJM1hhjOuC35KsHFD7bDFou-q-9dp2jTLjXenAmdlvYicVyhBJ3k&oh=06_Q3_EAan8P2k0TZzUbM-8sZl8Ow2CNGxC_IAQbGoaUFqJaDvS&oe=6AD56FCC",
-        "title": "Descubre tu nivel de hidratación y cómo mejorarlo",
-        "body": "Si sudas, beber agua cada dos minutos no te hidrata.\n\nLo que sí te hidrata es reponer los minerales que pierdes con ella. \n\nSi quieres saber cuál es tu estado de hidratación haz click aquí.",
-        "campaigns": [
-          "LEADS | TEST DE HIDRATACIÓN | BROAD | ES | 202610"
-        ],
-        "adsets": [
-          "BROAD | ES | 202610"
-        ],
-        "spend": 10.74,
-        "impressions": 2079,
-        "clicks": 94,
-        "reach": 1655,
-        "purchases": 0.0,
-        "revenue": 0.0,
-        "ctr": 4.52,
-        "cpc": 0.11,
-        "cpa": 0.0,
-        "roas": 0.0
-      },
-      {
         "creative_id": "2102568121133859",
         "ad_name": "CARROUSEL 2 | DISCOVERY SET | 202610",
-        "thumbnail_url": "https://external-ams2-1.xx.fbcdn.net/emg1/v/t13/1360819610335807960?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIumoCPT5n_t0mL2iSmHrteOMuPM7iQDEcECA_giuRWJOMsw0GZ_8ur1DNS16ERomoX64QwtwGV7Et-hK4lfhMkLhMxqOfXcYZ_7Y_qEWaSPfhp-xVdaY_EAScHXzruotRoC4ek8GC9LIMkrOiMekxZ&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ams2-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=snpSule_L9iL2IFvu_mUeA&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQI_Y1R2FSkw8RCd5rvmNei6-fXgawahQHuMUdW1EvDUDWl7jp90JOZz4REqsEIyYGwXjBvoWUp7&oh=06_Q3_EAWiOEuuT-ofL-5KrkrKN1pQ9uB-qZtPFLYjYkwwsMbKH&oe=6AD588B4",
+        "thumbnail_url": "https://external-hel3-1.xx.fbcdn.net/emg1/v/t13/1360819610335807960?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIumoCPT5n_t0mL2iSmHrteOMuPM7iQDEcECA_giuRWJOMsw0GZ_8ur1DNS16ERomoX64QwtwGV7Et-hK4lfhMkLhMxqOfXcYZ_7Y_qEWaSPfhp-xVdaY_EAScHXzruotRoC4ek8GC9LIMkrOiMekxZ&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-hel3-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQLDQr8lryo7-zI7j0RIqn_hR3P_MaxVAPYM_PtyaT48duuXfosAyg8U6rLUR59hKIbpzd4HoGeP&oh=06_Q3_EAYc2p5XwsFbDgIvjn69uT0w4pP_EoapQgLCfSxmCTDon&oe=6AD669B4",
         "title": "Lit Hydration",
         "body": "Cuando sudas, no pierdes solo agua: también pierdes electrolitos como el sodio.\nPor eso, beber litros de agua sola no siempre es suficiente.\n\nPor eso, te proponemos algo: prueba LIT por 0 €.\n\n¿Cómo funciona? Muy fácil:\n\n1️⃣ Pides el Discovery Set por 4,99 €.\n2️⃣ Te regalamos 4,99 € en tu email al momento.\n3️⃣ Si te quedas, esos 4,99 € se descuentan de tu primer envío a los 30 días.\n\nLIT-eralmente, no tienes nada que perder. Entra en el enlace.",
         "campaigns": [
@@ -1568,7 +1582,7 @@
       {
         "creative_id": "1776072087054753",
         "ad_name": "IMG RECOVERY 6 | BUSCADOR | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802597543_1101762916136404_5527594916175897501_n.png?_nc_cat=108&ccb=1-7&_nc_ohc=TlAi_zTjuOAQ7kNvwF9Z_7R&_nc_oc=AdoBtr896lC9iOukAlRZvgNwpz6gP5q6YMa4rPwAPAngHt_RW0itIJrV_s5zNVKgzi2FT9q5nRFVJ6hUFzRNEwYm&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQK4r3nmA_lqMvtafVI5aursFyRUQNGR7jx5aCNqXuenJzt-uqWpKGa_ze7O_GbWk6bEpWirej-Y&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQO3W0ra4BrOGWjvlsNcRpJvmjIcirvwrnoHWAOy9aTm6w&oe=6AD975A8",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802597543_1101762916136404_5527594916175897501_n.png?_nc_cat=108&ccb=1-7&_nc_ohc=TlAi_zTjuOAQ7kNvwF9Z_7R&_nc_oc=AdoBtr896lC9iOukAlRZvgNwpz6gP5q6YMa4rPwAPAngHt_RW0itIJrV_s5zNVKgzi2FT9q5nRFVJ6hUFzRNEwYm&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQKQjMhp9BcsGo64nENB_lcAMYAzJhaEsuM5kdSMFdED6n1k1YViwd_WWeOnCXbqiJ0SeReus0XG&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQNNpcN7Efzzgb983CZlsB8KqAkwA8Gc5roVN3Z4Et0omg&oe=6ADA56A8",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1591,7 +1605,7 @@
       {
         "creative_id": "1752953839086787",
         "ad_name": "IMG CANSANCIO 1 | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802334083_1099304719715557_8178214885731755322_n.png?_nc_cat=105&ccb=1-7&_nc_ohc=SmNu7PENja0Q7kNvwFkZqa5&_nc_oc=AdoTd53DX4gwINxktY3gVJ2xq6f3d3Pip7h8HT3CUQI8tpyzAV0RoWYDTUboPztvl0IoKNuAy3TlC4uTJ3FwHUCN&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQJBiTFV4khmgv-upW1aay4c8G7M634LCG4p9OR-HmRBsaUKCchxm0ot5HWfs4ICcl7ZbcJdj3MK&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQOSfGphQ3U6aKcfLPmy1OHenmlwUqElg6TNgGhhj5d2pA&oe=6AD9684C",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802334083_1099304719715557_8178214885731755322_n.png?_nc_cat=105&ccb=1-7&_nc_ohc=SmNu7PENja0Q7kNvwFkZqa5&_nc_oc=AdoTd53DX4gwINxktY3gVJ2xq6f3d3Pip7h8HT3CUQI8tpyzAV0RoWYDTUboPztvl0IoKNuAy3TlC4uTJ3FwHUCN&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQJYsIajrSaaCm1m1E3H8GuONmupPlAGj9vkdPRTYt-J6FmBhz4t2pl4UDDXKpmWsTGSZQSy3YsM&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQO-_EiXUebphHAk3UNYc5HIdD3qCRUFF_RbGrDf7DUX7w&oe=6ADA494C",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1614,7 +1628,7 @@
       {
         "creative_id": "1405264491047976",
         "ad_name": "IMG RECOVERY 7 |  BUSCADOR | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802989820_1101762989469730_6286872868873103640_n.png?_nc_cat=108&ccb=1-7&_nc_ohc=K6KpL9L2FmwQ7kNvwHxua-Y&_nc_oc=AdqT90oiAcsQXEQ1Xlcslz-0EKhrxh2cDiVJLqHfR0Uj3JLJQ_EDJKYRuhBHdd6kd4wMrFBxUfm4dhhLVPpSG8-s&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQK8LcdO6-NaAUlb66Hsm14BmdmV4d1-7XZg2njoXtRU2kBOOMFEii2Oqz7NHK1GRERWzwvZxVp5&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQM8DfRkQpNxD56amteH-wI4kN3shFtOlHdJrjoUx3hWZg&oe=6AD98629",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802989820_1101762989469730_6286872868873103640_n.png?_nc_cat=108&ccb=1-7&_nc_ohc=K6KpL9L2FmwQ7kNvwHxua-Y&_nc_oc=AdqT90oiAcsQXEQ1Xlcslz-0EKhrxh2cDiVJLqHfR0Uj3JLJQ_EDJKYRuhBHdd6kd4wMrFBxUfm4dhhLVPpSG8-s&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQKUEI5IDs_pUU39QwvL80bumC0sdr1zFqRryv5IG0opAOsJSl8jrLZxjBARGPP4RJ6uBFO3oMq2&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQPvelkr6YJLxAKm8N6eYDMfxJ6RWmj5KtgEzV7c2-aAug&oe=6ADA6729",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1637,7 +1651,7 @@
       {
         "creative_id": "1112486464766614",
         "ad_name": "CARROUSEL 1 | DISCOVERY SET | 202610",
-        "thumbnail_url": "https://external-ams2-1.xx.fbcdn.net/emg1/v/t13/8075160210446939160?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQLzmxYRM7Mff9CwKFpQ1-KoRun6OXXjWdcpzzDEHwUzj6-2uP6bX6_FYu2eBSnqcVNpMRjaIMv3TKHDoDiFw1ILP6flCnUrOC8mJUbDm2QmZh9jWAQWh4K1pupj-qOriadG3SAih0tEdyFaZly14iP0&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ams2-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=snpSule_L9iL2IFvu_mUeA&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQIdyOme0W58B8RZ2M6lP0pjvqGAL3jndRyBn4CANh8M9kQQ2VqPI0A1nVea5aYHjpowIkdEA3_-&oh=06_Q3_EAYU6DXi_Zu3JfVWIciJ04T09IuK6-4z_jmGAUV7hJvbe&oe=6AD57D13",
+        "thumbnail_url": "https://external-hel3-1.xx.fbcdn.net/emg1/v/t13/8075160210446939160?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQLzmxYRM7Mff9CwKFpQ1-KoRun6OXXjWdcpzzDEHwUzj6-2uP6bX6_FYu2eBSnqcVNpMRjaIMv3TKHDoDiFw1ILP6flCnUrOC8mJUbDm2QmZh9jWAQWh4K1pupj-qOriadG3SAih0tEdyFaZly14iP0&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-hel3-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQKShgvKPL0ioIgdCdCGBr-txgTs2ugbklOwwyHhlprfE43HoZ0Oa2a7eOsLfJAf0kiCeNmXjN11&oh=06_Q3_EAbGV19qUmG8jEsEtGPBVeEjY7ZtMYa1Vt_rzsPXm83mr&oe=6AD65E13",
         "title": "Lit Hydration",
         "body": "Cuando sudas, no pierdes solo agua: también pierdes electrolitos como el sodio.\nPor eso, beber litros de agua sola no siempre es suficiente.\n\nPor eso, te proponemos algo: prueba LIT por 0 €.\n\n¿Cómo funciona? Muy fácil:\n\n1️⃣ Pides el Discovery Set por 4,99 €.\n2️⃣ Te regalamos 4,99 € en tu email al momento.\n3️⃣ Si te quedas, esos 4,99 € se descuentan de tu primer envío a los 30 días.\n\nLIT-eralmente, no tienes nada que perder. Entra en el enlace.",
         "campaigns": [
@@ -1660,7 +1674,7 @@
       {
         "creative_id": "2027056378014741",
         "ad_name": "IMG HAMBRE 1 | 202609",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802965018_1101800392799323_4352203750493510534_n.png?_nc_cat=103&ccb=1-7&_nc_ohc=CzBlRp_duHMQ7kNvwGj2LF5&_nc_oc=AdrjcNsMSyRBimIOORhxlcQwKGTKKH59G-vi17kMTjCnkcUd0ieNzCBHIRu4a-6Oh0t94wB4yP9uL3UA-r33SoWD&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=snpSule_L9iL2IFvu_mUeA&_nc_tpa=Q5bMBQKV_aKRZ_z6IwVPgV0rfx_5v6OgmqBiwEzR8iPYFH9_Kj57dwF3uOwFZxka2wnrCIIwOKR0XECE&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQNByZrnzNQ88MHERA85InLNCfh_NAHMW3hREYWQMDMaEw&oe=6AD96980",
+        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/802965018_1101800392799323_4352203750493510534_n.png?_nc_cat=103&ccb=1-7&_nc_ohc=CzBlRp_duHMQ7kNvwGj2LF5&_nc_oc=AdrjcNsMSyRBimIOORhxlcQwKGTKKH59G-vi17kMTjCnkcUd0ieNzCBHIRu4a-6Oh0t94wB4yP9uL3UA-r33SoWD&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YbCAwKYuq82fSlX5ErSI9g&_nc_tpa=Q5bMBQLh4gJdrbOBQ_pvEHzQQN2wTB36d15fNdBIlVCnfotkSGX7k_iSM6LCbXHGDfcjh_rpbTFwwDd0&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQMc58R5q2TxT7eNuj96TlK5HjwH0KVu24S9PRj7pSfzdg&oe=6ADA4A80",
         "title": null,
         "body": null,
         "campaigns": [
@@ -1692,16 +1706,16 @@
   },
   "klaviyo": {
     "totals": {
-      "revenue_total": 4694.07,
+      "revenue_total": 4864.17,
       "revenue_campaigns": 1039.46,
-      "revenue_flows": 3654.61,
-      "sends": 11664,
-      "opens": 4752,
-      "clicks": 194,
-      "unsubs": 105,
-      "open_rate": 40.74,
-      "click_rate": 1.66,
-      "unsub_rate": 0.9
+      "revenue_flows": 3824.71,
+      "sends": 16838,
+      "opens": 5261,
+      "clicks": 207,
+      "unsubs": 114,
+      "open_rate": 31.24,
+      "click_rate": 1.23,
+      "unsub_rate": 0.68
     },
     "daily": [
       {
@@ -1729,8 +1743,8 @@
         "date": "2026-10-04",
         "revenue": 311.3,
         "sends": 4329,
-        "opens": 1756,
-        "open_rate": 40.56
+        "opens": 1757,
+        "open_rate": 40.59
       },
       {
         "date": "2026-10-05",
@@ -1778,8 +1792,8 @@
         "date": "2026-10-11",
         "revenue": 728.16,
         "sends": 4362,
-        "opens": 1744,
-        "open_rate": 39.98
+        "opens": 1755,
+        "open_rate": 40.23
       },
       {
         "date": "2026-10-12",
@@ -1822,6 +1836,13 @@
         "sends": 0,
         "opens": 0,
         "open_rate": 0.0
+      },
+      {
+        "date": "2026-10-18",
+        "revenue": 0.0,
+        "sends": 5021,
+        "opens": 455,
+        "open_rate": 9.06
       }
     ],
     "flows": [
@@ -1829,66 +1850,92 @@
         "flow_id": "WuEcsg",
         "name": "Email + WhatsApp: Suscripción - Renovación 48h",
         "status": "live",
-        "sends": 289,
-        "opens": 158,
-        "clicks": 51,
+        "sends": 306,
+        "opens": 161,
+        "clicks": 52,
         "unsubs": 1,
-        "revenue": 2987.56,
-        "open_rate": 54.67,
-        "click_rate": 17.65,
-        "unsub_rate": 0.35
+        "revenue": 3157.66,
+        "open_rate": 52.61,
+        "click_rate": 16.99,
+        "unsub_rate": 0.33
       },
       {
         "flow_id": "VzwdgK",
         "name": "Email: Checkout Abandonado",
         "status": "live",
-        "sends": 113,
-        "opens": 49,
+        "sends": 114,
+        "opens": 50,
         "clicks": 7,
         "unsubs": 2,
         "revenue": 363.56,
-        "open_rate": 43.36,
-        "click_rate": 6.19,
-        "unsub_rate": 1.77
+        "open_rate": 43.86,
+        "click_rate": 6.14,
+        "unsub_rate": 1.75
       },
       {
         "flow_id": "YafeMJ",
         "name": "Email: Suscripción - Fallo Método de Pago",
         "status": "live",
-        "sends": 54,
-        "opens": 19,
+        "sends": 57,
+        "opens": 21,
         "clicks": 4,
         "unsubs": 0,
         "revenue": 170.1,
-        "open_rate": 35.19,
-        "click_rate": 7.41,
+        "open_rate": 36.84,
+        "click_rate": 7.02,
         "unsub_rate": 0.0
       },
       {
         "flow_id": "UkkQhv",
         "name": "Email: Visitante añadido a Email List (no checkout)",
         "status": "live",
-        "sends": 118,
-        "opens": 62,
+        "sends": 122,
+        "opens": 63,
         "clicks": 4,
         "unsubs": 4,
         "revenue": 86.67,
-        "open_rate": 52.54,
-        "click_rate": 3.39,
-        "unsub_rate": 3.39
+        "open_rate": 51.64,
+        "click_rate": 3.28,
+        "unsub_rate": 3.28
       },
       {
         "flow_id": "YiHupW",
         "name": "Email: Discovery Set",
         "status": "live",
         "sends": 102,
-        "opens": 61,
+        "opens": 62,
         "clicks": 7,
         "unsubs": 0,
         "revenue": 46.72,
-        "open_rate": 59.8,
+        "open_rate": 60.78,
         "click_rate": 6.86,
         "unsub_rate": 0.0
+      },
+      {
+        "flow_id": "UyQDRp",
+        "name": "Email: Pedido Realizado - Order Experience",
+        "status": "live",
+        "sends": 457,
+        "opens": 283,
+        "clicks": 7,
+        "unsubs": 8,
+        "revenue": 0.0,
+        "open_rate": 61.93,
+        "click_rate": 1.53,
+        "unsub_rate": 1.75
+      },
+      {
+        "flow_id": "WEXFVW",
+        "name": "Email: Test de hidratación → Discovery Set",
+        "status": "live",
+        "sends": 1717,
+        "opens": 494,
+        "clicks": 21,
+        "unsubs": 49,
+        "revenue": 0.0,
+        "open_rate": 28.77,
+        "click_rate": 1.22,
+        "unsub_rate": 2.85
       },
       {
         "flow_id": "VnRhdq",
@@ -1907,66 +1954,27 @@
         "flow_id": "UAH3ug",
         "name": "Email: Suscripción - Bienvenida",
         "status": "live",
-        "sends": 111,
-        "opens": 88,
-        "clicks": 11,
+        "sends": 113,
+        "opens": 90,
+        "clicks": 12,
         "unsubs": 0,
         "revenue": 0.0,
-        "open_rate": 79.28,
-        "click_rate": 9.91,
+        "open_rate": 79.65,
+        "click_rate": 10.62,
         "unsub_rate": 0.0
       },
       {
         "flow_id": "UrZxpF",
         "name": "Email: Discovery Set · Con suscripción",
         "status": "live",
-        "sends": 5,
-        "opens": 3,
-        "clicks": 1,
+        "sends": 6,
+        "opens": 4,
+        "clicks": 2,
         "unsubs": 0,
         "revenue": 0.0,
-        "open_rate": 60.0,
-        "click_rate": 20.0,
+        "open_rate": 66.67,
+        "click_rate": 33.33,
         "unsub_rate": 0.0
-      },
-      {
-        "flow_id": "UyQDRp",
-        "name": "Email: Pedido Realizado - Order Experience",
-        "status": "live",
-        "sends": 448,
-        "opens": 277,
-        "clicks": 7,
-        "unsubs": 8,
-        "revenue": 0.0,
-        "open_rate": 61.83,
-        "click_rate": 1.56,
-        "unsub_rate": 1.79
-      },
-      {
-        "flow_id": "VTn9S4",
-        "name": "Email interno: Solicitud factura B2B",
-        "status": "live",
-        "sends": 2,
-        "opens": 2,
-        "clicks": 0,
-        "unsubs": 0,
-        "revenue": 0.0,
-        "open_rate": 100.0,
-        "click_rate": 0.0,
-        "unsub_rate": 0.0
-      },
-      {
-        "flow_id": "WEXFVW",
-        "name": "Email: Test de hidratación → Discovery Set",
-        "status": "live",
-        "sends": 1604,
-        "opens": 471,
-        "clicks": 18,
-        "unsubs": 45,
-        "revenue": 0.0,
-        "open_rate": 29.36,
-        "click_rate": 1.12,
-        "unsub_rate": 2.81
       },
       {
         "flow_id": "YnyQLZ",
@@ -1995,19 +2003,6 @@
         "unsub_rate": 0.0
       },
       {
-        "flow_id": "SRrfin",
-        "name": "Email interno: Nuevo pedido B2B",
-        "status": "live",
-        "sends": 18,
-        "opens": 2,
-        "clicks": 0,
-        "unsubs": 0,
-        "revenue": 0.0,
-        "open_rate": 11.11,
-        "click_rate": 0.0,
-        "unsub_rate": 0.0
-      },
-      {
         "flow_id": "RhEHHA",
         "name": "Email: Bienvenida partner - acceso B2B activado",
         "status": "live",
@@ -2021,15 +2016,41 @@
         "unsub_rate": 0.0
       },
       {
-        "flow_id": "URwaNT",
-        "name": "Email + Whatsapp: Producto visto",
+        "flow_id": "VTn9S4",
+        "name": "Email interno: Solicitud factura B2B",
         "status": "live",
-        "sends": 20,
-        "opens": 13,
+        "sends": 2,
+        "opens": 2,
         "clicks": 0,
         "unsubs": 0,
         "revenue": 0.0,
-        "open_rate": 65.0,
+        "open_rate": 100.0,
+        "click_rate": 0.0,
+        "unsub_rate": 0.0
+      },
+      {
+        "flow_id": "SRrfin",
+        "name": "Email interno: Nuevo pedido B2B",
+        "status": "live",
+        "sends": 18,
+        "opens": 2,
+        "clicks": 0,
+        "unsubs": 0,
+        "revenue": 0.0,
+        "open_rate": 11.11,
+        "click_rate": 0.0,
+        "unsub_rate": 0.0
+      },
+      {
+        "flow_id": "URwaNT",
+        "name": "Email + Whatsapp: Producto visto",
+        "status": "live",
+        "sends": 21,
+        "opens": 14,
+        "clicks": 0,
+        "unsubs": 0,
+        "revenue": 0.0,
+        "open_rate": 66.67,
         "click_rate": 0.0,
         "unsub_rate": 0.0
       },
@@ -2037,8 +2058,8 @@
         "flow_id": "QRkWPP",
         "name": "Email: Suscripción - Cancelación",
         "status": "live",
-        "sends": 58,
-        "opens": 29,
+        "sends": 60,
+        "opens": 30,
         "clicks": 0,
         "unsubs": 0,
         "revenue": 0.0,
@@ -2049,16 +2070,29 @@
     ],
     "campaigns": [
       {
+        "campaign_id": "01M4XC8XPAPYFPF4QRBT7SZ1Z4",
+        "name": "18/10 - La semana se te hace cuesta arriba",
+        "send_time": "2026-10-18T07:30:00+00:00",
+        "sends": 5021,
+        "opens": 455,
+        "clicks": 5,
+        "unsubs": 5,
+        "revenue": 0.0,
+        "open_rate": 9.06,
+        "click_rate": 0.1,
+        "unsub_rate": 0.1
+      },
+      {
         "campaign_id": "01M4BD1B4GB6S6MW6VHEK6DZNT",
         "name": "11/10 - Si el primer sabor no era el tuyo",
         "send_time": "2026-10-11T07:30:00+00:00",
         "sends": 4362,
-        "opens": 1744,
-        "clicks": 40,
+        "opens": 1755,
+        "clicks": 42,
         "unsubs": 27,
         "revenue": 728.16,
-        "open_rate": 39.98,
-        "click_rate": 0.92,
+        "open_rate": 40.23,
+        "click_rate": 0.96,
         "unsub_rate": 0.62
       },
       {
@@ -2066,11 +2100,11 @@
         "name": "04/10 - Hidratarse mejor, no más",
         "send_time": "2026-10-04T07:30:00+00:00",
         "sends": 4329,
-        "opens": 1756,
+        "opens": 1757,
         "clicks": 38,
         "unsubs": 18,
         "revenue": 311.3,
-        "open_rate": 40.56,
+        "open_rate": 40.59,
         "click_rate": 0.88,
         "unsub_rate": 0.42
       }
@@ -2078,20 +2112,20 @@
   },
   "shopify": {
     "totals": {
-      "orders": 483,
-      "revenue": 18610.49,
+      "orders": 505,
+      "revenue": 19526.24,
       "refunds": 22.12,
-      "net_revenue": 18588.37,
-      "aov": 38.53,
-      "new_customers": 179,
-      "returning_customers": 304,
-      "subscription_orders": 346,
-      "onetime_orders": 137,
-      "subscription_revenue": 13950.51,
-      "onetime_revenue": 4659.98,
-      "subscription_pct": 71.64,
-      "returning_pct": 62.94,
-      "refund_rate": 0.12
+      "net_revenue": 19504.12,
+      "aov": 38.67,
+      "new_customers": 183,
+      "returning_customers": 322,
+      "subscription_orders": 362,
+      "onetime_orders": 143,
+      "subscription_revenue": 14488.26,
+      "onetime_revenue": 5037.98,
+      "subscription_pct": 71.68,
+      "returning_pct": 63.76,
+      "refund_rate": 0.11
     },
     "daily": [
       {
@@ -2272,23 +2306,34 @@
       },
       {
         "date": "2026-10-17",
-        "orders": 20,
-        "revenue": 793.25,
+        "orders": 37,
+        "revenue": 1442.62,
         "refunds": 0.0,
-        "aov": 39.66,
-        "new": 4,
-        "returning": 16,
-        "subscription_orders": 16,
-        "onetime_orders": 4
+        "aov": 38.99,
+        "new": 8,
+        "returning": 29,
+        "subscription_orders": 28,
+        "onetime_orders": 9
+      },
+      {
+        "date": "2026-10-18",
+        "orders": 5,
+        "revenue": 266.38,
+        "refunds": 0.0,
+        "aov": 53.28,
+        "new": 0,
+        "returning": 5,
+        "subscription_orders": 4,
+        "onetime_orders": 1
       }
     ],
     "products": [
       {
         "product_id": "gid://shopify/Product/16008517550429",
         "title": "LIT Daily Hydration: Salty Lemon",
-        "orders": 246,
-        "units": 256,
-        "revenue": 8722.19
+        "orders": 258,
+        "units": 268,
+        "revenue": 9141.55
       },
       {
         "product_id": "gid://shopify/Product/16386839445853",
@@ -2300,37 +2345,37 @@
       {
         "product_id": "gid://shopify/Product/16182160523613",
         "title": "LIT Daily Hydration: Salty Lemon - Compra única",
-        "orders": 63,
-        "units": 69,
-        "revenue": 2381.4
+        "orders": 66,
+        "units": 72,
+        "revenue": 2494.8
       },
       {
         "product_id": "gid://shopify/Product/16272445112669",
         "title": "LIT Daily Hydration: Watermelon",
-        "orders": 47,
-        "units": 50,
-        "revenue": 1477.57
+        "orders": 50,
+        "units": 53,
+        "revenue": 1562.62
       },
       {
         "product_id": "gid://shopify/Product/16386839478621",
         "title": "LIT Hydration Pack: 4 Cajas - Compra única",
-        "orders": 11,
-        "units": 11,
-        "revenue": 1247.4
+        "orders": 13,
+        "units": 13,
+        "revenue": 1474.2
       },
       {
         "product_id": "gid://shopify/Product/16272456188253",
         "title": "LIT Daily Hydration: Peach",
-        "orders": 28,
-        "units": 31,
-        "revenue": 821.76
+        "orders": 29,
+        "units": 32,
+        "revenue": 850.11
       },
       {
         "product_id": "gid://shopify/Product/16272452813149",
         "title": "LIT Daily Hydration: Watermelon - Compra única",
-        "orders": 17,
-        "units": 17,
-        "revenue": 491.4
+        "orders": 18,
+        "units": 18,
+        "revenue": 529.2
       },
       {
         "product_id": "gid://shopify/Product/16272460022109",
@@ -2342,9 +2387,9 @@
       {
         "product_id": "gid://shopify/Product/16504604295517",
         "title": "LIT Discovery Set",
-        "orders": 45,
-        "units": 47,
-        "revenue": 234.53
+        "orders": 46,
+        "units": 48,
+        "revenue": 239.52
       },
       {
         "product_id": "gid://shopify/Product/16204004196701",
@@ -2377,8 +2422,8 @@
       {
         "product_id": "gid://shopify/Product/16583656931718",
         "title": "Biotherm – Electrolyte Nutri Cream",
-        "orders": 210,
-        "units": 212,
+        "orders": 218,
+        "units": 220,
         "revenue": 0.0
       }
     ],
@@ -2386,23 +2431,23 @@
       "new_vs_returning": [
         {
           "bucket": "new",
-          "orders": 179
+          "orders": 183
         },
         {
           "bucket": "returning",
-          "orders": 304
+          "orders": 322
         }
       ],
       "subscription_vs_onetime": [
         {
           "bucket": "subscription",
-          "orders": 346,
-          "revenue": 13950.51
+          "orders": 362,
+          "revenue": 14488.26
         },
         {
           "bucket": "onetime",
-          "orders": 137,
-          "revenue": 4659.98
+          "orders": 143,
+          "revenue": 5037.98
         }
       ]
     }
@@ -2516,6 +2561,12 @@
       },
       {
         "date": "2026-10-17",
+        "orders": 0,
+        "revenue": 0.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-10-18",
         "orders": 0,
         "revenue": 0.0,
         "paid": 0.0
@@ -2711,6 +2762,12 @@
       },
       {
         "date": "2026-10-17",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-10-18",
         "orders": 0,
         "revenue": 0.0,
         "commission": 0.0
