@@ -1,19 +1,19 @@
 {
   "month": "2026-11",
-  "generated_at": "2026-11-05T08:00:14.011470+00:00",
+  "generated_at": "2026-11-06T08:00:12.840478+00:00",
   "meta": {
     "totals": {
-      "spend": 1933.73,
-      "impressions": 351864,
-      "clicks": 4225,
-      "reach": 145583,
-      "purchases": 20.0,
-      "revenue": 1013.99,
-      "ctr": 1.2,
-      "cpc": 0.46,
-      "cpm": 5.5,
-      "cpa": 96.69,
-      "roas": 0.52
+      "spend": 2268.15,
+      "impressions": 406037,
+      "clicks": 5506,
+      "reach": 162956,
+      "purchases": 31.0,
+      "revenue": 1745.64,
+      "ctr": 1.36,
+      "cpc": 0.41,
+      "cpm": 5.59,
+      "cpa": 73.17,
+      "roas": 0.77
     },
     "daily": [
       {
@@ -47,7 +47,7 @@
       {
         "date": "2026-11-03",
         "spend": 429.26,
-        "impressions": 100124,
+        "impressions": 100125,
         "clicks": 1191,
         "reach": 66011,
         "purchases": 1.0,
@@ -60,79 +60,93 @@
       },
       {
         "date": "2026-11-04",
-        "spend": 452.32,
-        "impressions": 84267,
+        "spend": 452.73,
+        "impressions": 84334,
         "clicks": 1225,
-        "reach": 45843,
+        "reach": 45919,
         "purchases": 9.0,
         "revenue": 510.3,
         "ctr": 1.45,
         "cpc": 0.37,
         "cpm": 5.37,
-        "cpa": 50.26,
+        "cpa": 50.3,
         "roas": 1.13
       },
       {
         "date": "2026-11-05",
-        "spend": 108.99,
-        "impressions": 15731,
-        "clicks": 430,
-        "reach": 11911,
-        "purchases": 3.0,
-        "revenue": 141.75,
-        "ctr": 2.73,
+        "spend": 381.2,
+        "impressions": 60421,
+        "clicks": 1544,
+        "reach": 37780,
+        "purchases": 14.0,
+        "revenue": 873.4,
+        "ctr": 2.56,
         "cpc": 0.25,
-        "cpm": 6.93,
-        "cpa": 36.33,
-        "roas": 1.3
+        "cpm": 6.31,
+        "cpa": 27.23,
+        "roas": 2.29
+      },
+      {
+        "date": "2026-11-06",
+        "spend": 61.8,
+        "impressions": 9415,
+        "clicks": 167,
+        "reach": 6976,
+        "purchases": 0.0,
+        "revenue": 0.0,
+        "ctr": 1.77,
+        "cpc": 0.37,
+        "cpm": 6.56,
+        "cpa": 0.0,
+        "roas": 0.0
       }
     ],
     "campaigns": [
       {
         "campaign": "PERF AO | PROSP | BROAD | ES | 202602",
-        "spend": 1932.36,
-        "impressions": 351696,
-        "clicks": 4223,
-        "reach": 145583,
-        "purchases": 20.0,
-        "revenue": 1013.99,
-        "ctr": 1.2,
-        "cpc": 0.46,
-        "cpm": 5.49,
-        "cpa": 96.62,
-        "roas": 0.52
+        "spend": 2268.15,
+        "impressions": 406037,
+        "clicks": 5506,
+        "reach": 162956,
+        "purchases": 31.0,
+        "revenue": 1745.64,
+        "ctr": 1.36,
+        "cpc": 0.41,
+        "cpm": 5.59,
+        "cpa": 73.17,
+        "roas": 0.77
       }
     ],
     "adsets": [
       {
         "campaign": "PERF AO | PROSP | BROAD | ES | 202602",
         "adset": "TEST | BROAD | ES | 202610 - IMG",
-        "spend": 576.03,
-        "impressions": 112278,
-        "clicks": 688,
-        "reach": 37440,
-        "purchases": 8.0,
-        "revenue": 450.77,
+        "spend": 644.24,
+        "impressions": 125986,
+        "clicks": 769,
+        "reach": 39657,
+        "purchases": 10.0,
+        "revenue": 516.92,
         "ctr": 0.61,
         "cpc": 0.84,
-        "cpm": 5.13,
-        "cpa": 72.0,
-        "roas": 0.78
+        "cpm": 5.11,
+        "cpa": 64.42,
+        "roas": 0.8
       },
       {
         "campaign": "PERF AO | PROSP | BROAD | ES | 202602",
         "adset": "TEST | BROAD | ES | 202610 - UGC",
-        "spend": 1028.76,
-        "impressions": 184696,
-        "clicks": 2965,
-        "reach": 100613,
-        "purchases": 12.0,
-        "revenue": 563.22,
-        "ctr": 1.61,
-        "cpc": 0.35,
-        "cpm": 5.57,
-        "cpa": 85.73,
-        "roas": 0.55
+        "spend": 1296.34,
+        "impressions": 225329,
+        "clicks": 4167,
+        "reach": 119496,
+        "purchases": 21.0,
+        "revenue": 1228.72,
+        "ctr": 1.85,
+        "cpc": 0.31,
+        "cpm": 5.75,
+        "cpa": 61.73,
+        "roas": 0.95
       },
       {
         "campaign": "PERF AO | PROSP | BROAD | ES | 202602",
@@ -153,66 +167,66 @@
     "platforms": [
       {
         "platform": "audience_network",
-        "spend": 2.74,
-        "impressions": 1501,
-        "clicks": 44,
-        "reach": 400,
-        "purchases": 0.0,
-        "revenue": 0.0,
-        "ctr": 2.93,
+        "spend": 4.04,
+        "impressions": 2234,
+        "clicks": 63,
+        "reach": 603,
+        "purchases": 1.0,
+        "revenue": 85.05,
+        "ctr": 2.82,
         "cpc": 0.06,
-        "cpm": 1.82,
-        "cpa": 0.0,
-        "roas": 0.0
+        "cpm": 1.81,
+        "cpa": 4.04,
+        "roas": 21.03
       },
       {
         "platform": "facebook",
-        "spend": 268.89,
-        "impressions": 96050,
-        "clicks": 1588,
-        "reach": 63691,
+        "spend": 311.65,
+        "impressions": 106034,
+        "clicks": 1842,
+        "reach": 66812,
         "purchases": 2.0,
         "revenue": 66.15,
-        "ctr": 1.65,
+        "ctr": 1.74,
         "cpc": 0.17,
-        "cpm": 2.8,
-        "cpa": 134.45,
-        "roas": 0.25
+        "cpm": 2.94,
+        "cpa": 155.82,
+        "roas": 0.21
       },
       {
         "platform": "instagram",
-        "spend": 1661.33,
-        "impressions": 254083,
-        "clicks": 2590,
-        "reach": 85997,
-        "purchases": 18.0,
-        "revenue": 947.84,
-        "ctr": 1.02,
-        "cpc": 0.64,
-        "cpm": 6.54,
-        "cpa": 92.3,
-        "roas": 0.57
+        "spend": 1950.11,
+        "impressions": 297438,
+        "clicks": 3598,
+        "reach": 99736,
+        "purchases": 28.0,
+        "revenue": 1594.44,
+        "ctr": 1.21,
+        "cpc": 0.54,
+        "cpm": 6.56,
+        "cpa": 69.65,
+        "roas": 0.82
       },
       {
         "platform": "threads",
-        "spend": 0.77,
-        "impressions": 230,
+        "spend": 1.37,
+        "impressions": 330,
         "clicks": 3,
-        "reach": 212,
+        "reach": 288,
         "purchases": 0.0,
         "revenue": 0.0,
-        "ctr": 1.3,
-        "cpc": 0.26,
-        "cpm": 3.36,
+        "ctr": 0.91,
+        "cpc": 0.46,
+        "cpm": 4.16,
         "cpa": 0.0,
         "roas": 0.0
       },
       {
         "platform": "unknown",
         "spend": 0.0,
-        "impressions": 0,
+        "impressions": 1,
         "clicks": 0,
-        "reach": 0,
+        "reach": 1,
         "purchases": 0.0,
         "revenue": 0.0,
         "ctr": 0.0,
@@ -224,9 +238,32 @@
     ],
     "creatives": [
       {
+        "creative_id": "1120880027308682",
+        "ad_name": "UGC INÉS | 202611",
+        "thumbnail_url": "https://scontent-arn2-1.xx.fbcdn.net/v/t15.5256-10/884501663_2189809095285152_5620172104576191168_n.jpg?_nc_cat=103&ccb=1-7&_nc_ohc=w7j6a1w9yD0Q7kNvwH3WUyv&_nc_oc=AdpsWrYPlclTSBWHfRm-4wnkvKnIXGdypQ2TrC7R7tUW53R45DY2Ds3SzKFfQn4kVW5yDICUQSj6eL1Tf-N-bTje&_nc_zt=23&_nc_ht=scontent-arn2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=UhUw6Pwhc0prcFWn2HVQow&_nc_tpa=Q5bMBQLKl4ck6jtWY8KXimFIObqi6P-4K82YtjO-qF9V7TspS_RasqhX76H_RDZO2vCyITnyIo1vQdZo&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQTOfQaouKdS6VpNewIw0QREtCCJZgeSdCHx6hqyM6Xz8w&oe=6AF3515C",
+        "title": "Hidratación de verdad para rendir mejor",
+        "body": "Cuando entrenas dos veces al día, el sudor se lleva sodio, potasio y magnesio. \nY el sobre de LIT cabe en el bolsillo de la mochila. \n\n✅500 mg de sodio, 150 mg de potasio y 60 mg de magnesio\n✅Cero azúcar\n\n¿Cuántos días de doble sesión haces tú?",
+        "campaigns": [
+          "PERF AO | PROSP | BROAD | ES | 202602"
+        ],
+        "adsets": [
+          "TEST | BROAD | ES | 202610 - UGC"
+        ],
+        "spend": 357.2,
+        "impressions": 50596,
+        "clicks": 1576,
+        "reach": 38809,
+        "purchases": 10.0,
+        "revenue": 731.65,
+        "ctr": 3.11,
+        "cpc": 0.23,
+        "cpa": 35.72,
+        "roas": 2.05
+      },
+      {
         "creative_id": "1534887085134046",
         "ad_name": "IMG PROMO BOTELLA 2 | 202610",
-        "thumbnail_url": "https://external-hel3-1.xx.fbcdn.net/emg1/v/t13/5874974766456220432?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQK-VtCEJHfJPv2yZ0mhBh_9zjOvYj1TcNP27SIqg3jOMqxCzMYT8QyGOhx_TkmXDYJ37GIeK-A1w6DiuAprnIZDIMK7Nb3JRA2NBZVEViw19jiDWFJoo06sp6zgfBN5sTRL8PLBDSe5EtKLAdMyUbDH&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-hel3-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=SR9ToKONr2UyAgqzCEA2zQ&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQLQIfPwciBScnoF-UoKxErFEJ_NikUhOWZl72dxdNQ1gf5z1lHcWT5QOKjrJZdrYEmYRo1AfQu7&oh=06_Q3_FAdvWc9SrVFUqpqdmtUiFVBTBBFrxPMWcpik8xoHAL5oe&oe=6AEE06A7",
+        "thumbnail_url": "https://external-hel3-1.xx.fbcdn.net/emg1/v/t13/5874974766456220432?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQK-VtCEJHfJPv2yZ0mhBh_9zjOvYj1TcNP27SIqg3jOMqxCzMYT8QyGOhx_TkmXDYJ37GIeK-A1w6DiuAprnIZDIMK7Nb3JRA2NBZVEViw19jiDWFJoo06sp6zgfBN5sTRL8PLBDSe5EtKLAdMyUbDH&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-hel3-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=UhUw6Pwhc0prcFWn2HVQow&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQLH4wkS2_I8x1T2t4ukI_Lzho5m7o5S4dAOeZ1jRCDiWbjSe_O4Uy_tx2F9mXs-DSr1IzczeOAn&oh=06_Q3_FAQ6_xjdHvjX3KdffF0OiZLSE34KeZYreVsEVy8FcLbV9&oe=6AEF5827",
         "title": "Te regalamos nuestra botella",
         "body": "La botella térmica LIT va de regalo con tu pedido. Tú solo tienes que llenarla.\n\nInterior cerámico, doble pared y un sobre de electrolitos sin azúcar dentro.\n\nPide ahora y llévatela totalmente gratis con tu pack.",
         "campaigns": [
@@ -249,7 +286,7 @@
       {
         "creative_id": "1546521353903769",
         "ad_name": "UGC MIRIAM - VIAJE | 202610",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/859640571_1659289868888260_5676868190277746534_n.jpg?_nc_cat=101&ccb=1-7&_nc_ohc=x7WVdMXLXpYQ7kNvwEGWfWh&_nc_oc=AdqkvAYeg5Jfv0-wKCICBmMu5MTcZpYTP-772sSbbcicqwSBCThmaqo47HO3S5KVVLh0LjhEt4mySZlXj05UCMyU&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=SR9ToKONr2UyAgqzCEA2zQ&_nc_tpa=Q5bMBQLnPIpmj9Vn1JOVkfBKnny1N8dFzEMDyElTFwsLVxlCq-jcal3akanHY3gNispAFThDh0kRJoKM&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQRUrVSGVREz4Go3HOLZ46dzlLf8cibNXA1eBtYseOIpvQ&oe=6AF1FBCA",
+        "thumbnail_url": "https://scontent-arn2-1.xx.fbcdn.net/v/t15.5256-10/859640571_1659289868888260_5676868190277746534_n.jpg?_nc_cat=101&ccb=1-7&_nc_ohc=LOgn4GTPkkMQ7kNvwE1SgKu&_nc_oc=Adpnnp-bqy0Z2CSmCCa8AZcIfOqmsgMw-gk42TWxsGUMT_PJN7eARCbhg5MhfNI-b8nInVdpk2e13njlC-3eNS_F&_nc_zt=23&_nc_ht=scontent-arn2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=UhUw6Pwhc0prcFWn2HVQow&_nc_tpa=Q5bMBQL3sOE_yn65hv55KQGtPC97BZb7q8hnHxfs0cu8yoTfht6XPSuht3zcFji9OMKXhQByMhuSNtIX&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQQX0iC0z-BWp36HdIQDTlPjJtePzJ44IgNZg8fjYjHVVQ&oe=6AF34D4A",
         "title": "Hidratación de verdad,  menos cansancio",
         "body": "❌Cargador: lo compro allí.\n❌ Paraguas: da igual.\n✅ LIT: siempre a mano.\n✅ DNI: en el bolsillo.\n\nEl aire del avión tiene menos de un 15% de humedad (más seco que un desierto) y te deshidrata rápido. Con 500 mg de electrolitos esenciales y cero azúcar, LIT es lo único que realmente necesito a bordo.",
         "campaigns": [
@@ -258,9 +295,9 @@
         "adsets": [
           "TEST | BROAD | ES | 202610 - UGC"
         ],
-        "spend": 312.08,
-        "impressions": 90989,
-        "clicks": 1276,
+        "spend": 312.47,
+        "impressions": 91067,
+        "clicks": 1277,
         "reach": 64197,
         "purchases": 0.0,
         "revenue": 0.0,
@@ -272,7 +309,7 @@
       {
         "creative_id": "1503181411861542",
         "ad_name": "IMG MENOS CANSANCIO - RUNNING | 202610",
-        "thumbnail_url": "https://external-hel3-1.xx.fbcdn.net/emg1/v/t13/15167243264822576252?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJ2f6hk0mNQpMbRsYlYyugAiOwSJnhQ10CgJlPiVhWEVRllEgLJTgpQWnOozfJlXXdqcx3NKSufTyF6nQWc-qzeCyEbBfkZ2D6DNAqMiB9Nn-3BcBPEdbLwiJ0GUbEO2iWPkLqLS9sX_t0O1nb2Uwb1&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-hel3-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=SR9ToKONr2UyAgqzCEA2zQ&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQJLR5BWRmzEvM-SCyVhP8uWKB6HSR0VqsNg2YFytN4T77hKtkVWsrxYs31Pq0mAeNV4Db-5d0Ey&oh=06_Q3_FAVLbeqYQhzMLGbf01J_bIVAdM1XKZEeisff-ifNzhIWY&oe=6AEDFA73",
+        "thumbnail_url": "https://external-hel3-1.xx.fbcdn.net/emg1/v/t13/15167243264822576252?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJ2f6hk0mNQpMbRsYlYyugAiOwSJnhQ10CgJlPiVhWEVRllEgLJTgpQWnOozfJlXXdqcx3NKSufTyF6nQWc-qzeCyEbBfkZ2D6DNAqMiB9Nn-3BcBPEdbLwiJ0GUbEO2iWPkLqLS9sX_t0O1nb2Uwb1&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-hel3-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=UhUw6Pwhc0prcFWn2HVQow&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQIY0jtc6X1ICFe92xYPU_zAsIirfLI2xS7yC0Ao6Hk5gBsQ_ddX1qFd_KdtwNaGXSNgy2FVbS6i&oh=06_Q3_FAV2GqGar9pCVPtFnsiM8poPsdmoliwXpPxqimO9Rw81y&oe=6AEF4BF3",
         "title": "Hidrátate mejor, rinde más",
         "body": "Si el cansancio te frena, LIT te devuelve al ritmo. Electrolitos para rendir, entrenar y seguir, sin azúcar de más y con un sabor que mola.\nPrueba LIT y despídete del cansancio.",
         "campaigns": [
@@ -281,21 +318,21 @@
         "adsets": [
           "TEST | BROAD | ES | 202610 - IMG"
         ],
-        "spend": 272.67,
-        "impressions": 53704,
-        "clicks": 349,
-        "reach": 27711,
-        "purchases": 3.0,
-        "revenue": 94.5,
+        "spend": 311.59,
+        "impressions": 61375,
+        "clicks": 399,
+        "reach": 29875,
+        "purchases": 4.0,
+        "revenue": 122.85,
         "ctr": 0.65,
         "cpc": 0.78,
-        "cpa": 90.89,
-        "roas": 0.35
+        "cpa": 77.9,
+        "roas": 0.39
       },
       {
         "creative_id": "1108246528465325",
         "ad_name": "UGC KIKO - GYM | 202610",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/868817592_1652524723174084_7718719568377471258_n.jpg?_nc_cat=105&ccb=1-7&_nc_ohc=V5bMpuTHJXsQ7kNvwFm6QfG&_nc_oc=Adpgp2GIbnJ7Erjxh_aLFsxNH5MaEglBEpk1Mo3W8S7d5OwhxjNhZRUNaCbMO8etgm-VjN9bWnLHu5HV6Cvc5F5s&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=SR9ToKONr2UyAgqzCEA2zQ&_nc_tpa=Q5bMBQKzUsOMBz0XVEAdYGWka3MNVlRrDZ-RA8nkpDAGmRGqz-cPq4jsddeFq6MDPESEOTMahToknmTZ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQTDCi2y_yT9efTFznhqQW-gG84ArbgSc3EhfCRNNH3tHQ&oe=6AF204B5",
+        "thumbnail_url": "https://scontent-arn2-1.xx.fbcdn.net/v/t15.5256-10/868817592_1652524723174084_7718719568377471258_n.jpg?_nc_cat=105&ccb=1-7&_nc_ohc=V5bMpuTHJXsQ7kNvwFm6QfG&_nc_oc=Adpgp2GIbnJ7Erjxh_aLFsxNH5MaEglBEpk1Mo3W8S7d5OwhxjNhZRUNaCbMO8etgm-VjN9bWnLHu5HV6Cvc5F5s&_nc_zt=23&_nc_ht=scontent-arn2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=UhUw6Pwhc0prcFWn2HVQow&_nc_tpa=Q5bMBQJIbOIgC4vc5VC_-y3NyCFNVfOZdndjvtz2ODo6OvRVldubsts0A_tESy8SwpIdwG9VkgBDNazC&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQSfu_8Y5cvnEomGyYs_4c_CfwuTxAvN4HjwDwzrIIPPGw&oe=6AF35635",
         "title": "Hidratación de verdad para rendir mejor",
         "body": "WTF es entrenar y beber solo agua. \nAl sudar pierdes sodio, potasio y magnesio, y el agua sola no los repone. Por eso cada serie termina igual: con LIT en la botella.\n\n✅ 500 mg sodio, 150 mg potasio y 60 mg magnesio\n✅ Cero azúcar y nada artificial\n✅ Un sobre en agua, agita y listo\n\nAsí llegas a la última serie. 💪",
         "campaigns": [
@@ -304,67 +341,21 @@
         "adsets": [
           "TEST | BROAD | ES | 202610 - UGC"
         ],
-        "spend": 245.19,
-        "impressions": 30938,
-        "clicks": 280,
-        "reach": 16396,
+        "spend": 248.83,
+        "impressions": 31399,
+        "clicks": 288,
+        "reach": 16452,
         "purchases": 2.0,
         "revenue": 71.82,
-        "ctr": 0.91,
-        "cpc": 0.88,
-        "cpa": 122.59,
+        "ctr": 0.92,
+        "cpc": 0.86,
+        "cpa": 124.42,
         "roas": 0.29
-      },
-      {
-        "creative_id": "1120880027308682",
-        "ad_name": "UGC INÉS | 202611",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/884501663_2189809095285152_5620172104576191168_n.jpg?_nc_cat=103&ccb=1-7&_nc_ohc=w7j6a1w9yD0Q7kNvwH3WUyv&_nc_oc=AdpsWrYPlclTSBWHfRm-4wnkvKnIXGdypQ2TrC7R7tUW53R45DY2Ds3SzKFfQn4kVW5yDICUQSj6eL1Tf-N-bTje&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=SR9ToKONr2UyAgqzCEA2zQ&_nc_tpa=Q5bMBQLWua3h8nYEPS6TpEZsEDqLC9kR2SuA1tVqzUmLnGyfF6Umg40zejh9YcXWPX1c-kOphQtrl9gh&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQTsFDtdY-qu2YWl2wqILFcLpTNYS0ErYzTzB6zqoxZASg&oe=6AF1FFDC",
-        "title": "Hidratación de verdad para rendir mejor",
-        "body": "Cuando entrenas dos veces al día, el sudor se lleva sodio, potasio y magnesio. \nY el sobre de LIT cabe en el bolsillo de la mochila. \n\n✅500 mg de sodio, 150 mg de potasio y 60 mg de magnesio\n✅Cero azúcar\n\n¿Cuántos días de doble sesión haces tú?",
-        "campaigns": [
-          "PERF AO | PROSP | BROAD | ES | 202602"
-        ],
-        "adsets": [
-          "TEST | BROAD | ES | 202610 - UGC"
-        ],
-        "spend": 172.28,
-        "impressions": 20777,
-        "clicks": 594,
-        "reach": 17430,
-        "purchases": 4.0,
-        "revenue": 226.8,
-        "ctr": 2.86,
-        "cpc": 0.29,
-        "cpa": 43.07,
-        "roas": 1.32
-      },
-      {
-        "creative_id": "2032179350788328",
-        "ad_name": "IMG MENOS CANSANCIO - CROSSFIT | 202610",
-        "thumbnail_url": "https://external-hel3-1.xx.fbcdn.net/emg1/v/t13/6335955865915010027?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQLl5vxgllI4OGLw4B_KzYtWKv9MUjWV56yzdXrcw0I5X_2o474CGZlV6z2RId_cp2LXF76i7gopa77YCrZRjV79xt7BfejhMFJg-iZDxZqarpCCcN_4MsYN-aU9xs6yx0nCEk50F1JXpS_uM1dAQH1R&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-hel3-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=SR9ToKONr2UyAgqzCEA2zQ&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQJC8Wj97IV_jqYmv1wr1qFksMF3g6Rfbuzqokqe9jMnqXwuVNVD-bWb8OHMY8eZG39JEyVTjhWZ&oh=06_Q3_FAXqtaH_LSC8bM0vjc2st7_f4SuibFgfOD3eIaBVrudu7&oe=6AEE0C9D",
-        "title": "Hidrátate mejor, rinde más",
-        "body": "Si el cansancio te frena, LIT te devuelve al ritmo. Electrolitos para rendir, entrenar y seguir, sin azúcar de más y con un sabor que mola.\nPrueba LIT y despídete del cansancio.",
-        "campaigns": [
-          "PERF AO | PROSP | BROAD | ES | 202602"
-        ],
-        "adsets": [
-          "TEST | BROAD | ES | 202610 - IMG"
-        ],
-        "spend": 111.26,
-        "impressions": 21587,
-        "clicks": 124,
-        "reach": 11472,
-        "purchases": 3.0,
-        "revenue": 186.17,
-        "ctr": 0.57,
-        "cpc": 0.9,
-        "cpa": 37.09,
-        "roas": 1.67
       },
       {
         "creative_id": "2327481731342954",
         "ad_name": "UGC ELLIN | 202611",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/886750195_1893422122002635_4778093801803872397_n.jpg?_nc_cat=102&ccb=1-7&_nc_ohc=sR5ix-vVT-QQ7kNvwHPThII&_nc_oc=Adq0Q_ES5MN8LjQfuyK0FMuA3fvga1irhnniGMhhfjYjRyu8Xt-ZsyUbFPCupQyniSe3lF4nozeXW7wQzZfMtiQz&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=SR9ToKONr2UyAgqzCEA2zQ&_nc_tpa=Q5bMBQLAoaj8XjSe7AAl1EGCW_9Z4ialR9VObrmCBzypIwMGmo0TleddlEmIWOAu3baKyEWE_s0lTCW6&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQQZ9ux1F4-r95U5wZhTk37aWIPCx07QEcdZL8GAxcPbuw&oe=6AF1F2C8",
+        "thumbnail_url": "https://scontent-arn2-1.xx.fbcdn.net/v/t15.5256-10/886750195_1893422122002635_4778093801803872397_n.jpg?_nc_cat=102&ccb=1-7&_nc_ohc=sR5ix-vVT-QQ7kNvwHPThII&_nc_oc=Adq0Q_ES5MN8LjQfuyK0FMuA3fvga1irhnniGMhhfjYjRyu8Xt-ZsyUbFPCupQyniSe3lF4nozeXW7wQzZfMtiQz&_nc_zt=23&_nc_ht=scontent-arn2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=UhUw6Pwhc0prcFWn2HVQow&_nc_tpa=Q5bMBQIyD8xMqlmfni8Cn6pS23FnU0GP3an2tRFLJrXC5FmMCV8_wFKHJjkjqV0UHO93y7CPdiEplP6k&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQTu6wK7wbWNEsmCCeXYdBdC6wdaMz9FX5d5VBAo77rwzw&oe=6AF34448",
         "title": "Hidratación de verdad para rendir mejor",
         "body": "Las 4 de la tarde y el cuerpo pidiéndome otro café ☕️… hasta que me di cuenta de que no me faltaba café, me faltaba hidratarme bien.\n\nDurante el día pierdes sodio, potasio y magnesio sin darte cuenta, y el agua sola no los repone. Ahora, a esa hora, me preparo un LIT de limón con hielo:\n\n✅ 500 mg de sodio, 150 mg de potasio y 60 mg de magnesio\n✅ Cero azúcar, sin colorantes ni conservantes\n✅ Limón con un toque de sal. Riquísimo 🍋",
         "campaigns": [
@@ -373,21 +364,21 @@
         "adsets": [
           "TEST | BROAD | ES | 202610 - UGC"
         ],
-        "spend": 91.46,
-        "impressions": 9711,
-        "clicks": 132,
-        "reach": 6297,
-        "purchases": 4.0,
-        "revenue": 141.75,
-        "ctr": 1.36,
-        "cpc": 0.69,
-        "cpa": 22.86,
-        "roas": 1.55
+        "spend": 126.59,
+        "impressions": 13650,
+        "clicks": 178,
+        "reach": 7710,
+        "purchases": 5.0,
+        "revenue": 179.55,
+        "ctr": 1.3,
+        "cpc": 0.71,
+        "cpa": 25.32,
+        "roas": 1.42
       },
       {
-        "creative_id": "1119442600783420",
-        "ad_name": "IMG MENOS CANSANCIO - HYROX | 202610",
-        "thumbnail_url": "https://external-hel3-1.xx.fbcdn.net/emg1/v/t13/327585364484325354?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQLwmCFEGq9b5BNnDI4W2XLiVjDGN9s6VD-LjROzbiZ-mavQyTdqfOv5Owt4JQcv03JBohSKaUCP4AHCt047RirzgHN7I7zk2LAGAHg7IftIesxrinNEy4cx0xf-ANyfbAW2Fyv0vxHldMLOvwVQZjCE&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-hel3-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=SR9ToKONr2UyAgqzCEA2zQ&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQKUIMaz0LG7NZ8zjmHdCjgArrMH3NYQRcbugLJ8Io8izAuEsstDTZe2UMS4hSSU0q4SxaYZYqFL&oh=06_Q3_FAbSl8wco5wsFbTPTw1eV9XjcIdq3BR7s9wsP2mQPoIBo&oe=6AEE1B81",
+        "creative_id": "2032179350788328",
+        "ad_name": "IMG MENOS CANSANCIO - CROSSFIT | 202610",
+        "thumbnail_url": "https://external-hel3-1.xx.fbcdn.net/emg1/v/t13/6335955865915010027?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQLl5vxgllI4OGLw4B_KzYtWKv9MUjWV56yzdXrcw0I5X_2o474CGZlV6z2RId_cp2LXF76i7gopa77YCrZRjV79xt7BfejhMFJg-iZDxZqarpCCcN_4MsYN-aU9xs6yx0nCEk50F1JXpS_uM1dAQH1R&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-hel3-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=UhUw6Pwhc0prcFWn2HVQow&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQIORZMTaaZTw_vMM-rigXTVFQP8mzYfHvevaWdCklmhGP5P1UQ77UuPLcExy_83M6lYbgQZvljw&oh=06_Q3_FAckXpBWtjqLCwiXahr01uqGNzBavGuQs0GINFuxRbvl3&oe=6AEF5E1D",
         "title": "Hidrátate mejor, rinde más",
         "body": "Si el cansancio te frena, LIT te devuelve al ritmo. Electrolitos para rendir, entrenar y seguir, sin azúcar de más y con un sabor que mola.\nPrueba LIT y despídete del cansancio.",
         "campaigns": [
@@ -396,21 +387,67 @@
         "adsets": [
           "TEST | BROAD | ES | 202610 - IMG"
         ],
-        "spend": 82.21,
-        "impressions": 14935,
-        "clicks": 89,
-        "reach": 8194,
+        "spend": 119.95,
+        "impressions": 23282,
+        "clicks": 128,
+        "reach": 11943,
+        "purchases": 4.0,
+        "revenue": 223.97,
+        "ctr": 0.55,
+        "cpc": 0.94,
+        "cpa": 29.99,
+        "roas": 1.87
+      },
+      {
+        "creative_id": "1801099657877604",
+        "ad_name": "UGC NURIA | 202611",
+        "thumbnail_url": "https://scontent-arn2-1.xx.fbcdn.net/v/t15.5256-10/887408783_1511003320933660_8754097891050449086_n.jpg?_nc_cat=109&ccb=1-7&_nc_ohc=wQLShtFQFr4Q7kNvwHhmip-&_nc_oc=AdpkBIe1iwbFuwnCWRTeVLwidWNRtDcEvfn77oLTNSMPGzeX6lFblnPc0UYHumFhNNC_APTPaEF5BeHVeOagOhpB&_nc_zt=23&_nc_ht=scontent-arn2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=UhUw6Pwhc0prcFWn2HVQow&_nc_tpa=Q5bMBQJpZkucnZHVMXW89PSTm1oG8LLP0FT5SVhv0qWpdk8eYKfUfcvM1cWoZ3lG43Bn-ehP9LPT2vCf&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQRCxMkNIhIXhRWpU2jT2dp1IAXGI4ABKTbY_RX1i-OUoQ&oe=6AF34AB2",
+        "title": "Hidratación de verdad para rendir mejor",
+        "body": "El agua repone líquido, pero el sudor también se lleva sodio, potasio y magnesio.\nEso no lo recuperas solo con agua.\n\n✅500 mg de sodio, 150 mg de potasio y 60 mg de magnesio\n✅Cero azúcar\n\n¿Tú también entrenas solo con agua?",
+        "campaigns": [
+          "PERF AO | PROSP | BROAD | ES | 202602"
+        ],
+        "adsets": [
+          "TEST | BROAD | ES | 202610 - UGC"
+        ],
+        "spend": 95.77,
+        "impressions": 15463,
+        "clicks": 512,
+        "reach": 11596,
+        "purchases": 1.0,
+        "revenue": 37.8,
+        "ctr": 3.31,
+        "cpc": 0.19,
+        "cpa": 95.77,
+        "roas": 0.39
+      },
+      {
+        "creative_id": "1119442600783420",
+        "ad_name": "IMG MENOS CANSANCIO - HYROX | 202610",
+        "thumbnail_url": "https://external-hel3-1.xx.fbcdn.net/emg1/v/t13/327585364484325354?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQLwmCFEGq9b5BNnDI4W2XLiVjDGN9s6VD-LjROzbiZ-mavQyTdqfOv5Owt4JQcv03JBohSKaUCP4AHCt047RirzgHN7I7zk2LAGAHg7IftIesxrinNEy4cx0xf-ANyfbAW2Fyv0vxHldMLOvwVQZjCE&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-hel3-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=UhUw6Pwhc0prcFWn2HVQow&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQJgJoEUVWdkvZoyX4EfsW82hJWoaSgk4gQPezIMU-5Bdlc0MCd3bMv3J-XVlc5EKy68V9nc1FTl&oh=06_Q3_FAQBeAjjlzTW3rHbIcZ2NkjpGw46Unsj-qm022oo8cpJr&oe=6AEF6D01",
+        "title": "Hidrátate mejor, rinde más",
+        "body": "Si el cansancio te frena, LIT te devuelve al ritmo. Electrolitos para rendir, entrenar y seguir, sin azúcar de más y con un sabor que mola.\nPrueba LIT y despídete del cansancio.",
+        "campaigns": [
+          "PERF AO | PROSP | BROAD | ES | 202602"
+        ],
+        "adsets": [
+          "TEST | BROAD | ES | 202610 - IMG"
+        ],
+        "spend": 92.22,
+        "impressions": 17150,
+        "clicks": 104,
+        "reach": 8714,
         "purchases": 1.0,
         "revenue": 85.05,
-        "ctr": 0.6,
-        "cpc": 0.92,
-        "cpa": 82.21,
-        "roas": 1.03
+        "ctr": 0.61,
+        "cpc": 0.89,
+        "cpa": 92.22,
+        "roas": 0.92
       },
       {
         "creative_id": "1007682668426393",
         "ad_name": "IMG MENOS CANSANCIO - PADEL | 202610",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t45.1600-4/866716063_1144943235151705_731031163830582228_n.png?_nc_cat=106&ccb=1-7&_nc_ohc=oaPf61oQVfcQ7kNvwEnKm9j&_nc_oc=AdpdMHuTAJ5VIl5lzfB_eJ_3EF4uJMn21WAzrYn3ZNReN-CSkqaoVu3o407gbbypRzdmEdREZRkio2T15Al6Wy7C&_nc_zt=1&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=SR9ToKONr2UyAgqzCEA2zQ&_nc_tpa=Q5bMBQKD3lEiWKRcNzsgwKdxc6nzde9pxtozOy_ueEhFlEeD8XTtRx1mhkwjVUdwogazH3B22Xkao-1i&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQTq2sYpdMLORYfHHG3O3yvYlDZL9r0o2wNDGnBB6HoLHw&oe=6AF1F84A",
+        "thumbnail_url": "https://scontent-arn2-1.xx.fbcdn.net/v/t45.1600-4/866716063_1144943235151705_731031163830582228_n.png?_nc_cat=106&ccb=1-7&_nc_ohc=8h4v3yAd0O0Q7kNvwH_nF4Z&_nc_oc=AdqtodWWzQQOX_rrCD7ya4b8L5_t4zQQBGJ0eT_4XLLLFttZksqOprVoS59ReVsJpEGuZaWHH5pcAv4I-gdTTD7i&_nc_zt=1&_nc_ht=scontent-arn2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=UhUw6Pwhc0prcFWn2HVQow&_nc_tpa=Q5bMBQJAbFxGSTU9oQN_0d6E5lNO_7ajoLeCKeEPq2b21YzTEjS5TS4dX8PRgT7ZCAOhoDwmvPowC9l0&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AQQKBjlkhK2zo_I44DgAlWgPN8OZ0snFXsLh-snCZCD_8g&oe=6AF349CA",
         "title": null,
         "body": null,
         "campaigns": [
@@ -419,21 +456,21 @@
         "adsets": [
           "TEST | BROAD | ES | 202610 - IMG"
         ],
-        "spend": 77.76,
-        "impressions": 15870,
-        "clicks": 97,
-        "reach": 8099,
+        "spend": 85.09,
+        "impressions": 17355,
+        "clicks": 104,
+        "reach": 8411,
         "purchases": 1.0,
         "revenue": 85.05,
-        "ctr": 0.61,
-        "cpc": 0.8,
-        "cpa": 77.76,
-        "roas": 1.09
+        "ctr": 0.6,
+        "cpc": 0.82,
+        "cpa": 85.09,
+        "roas": 1.0
       },
       {
         "creative_id": "1135581202397778",
         "ad_name": "UGC SERGIO - CICLISMO | 202610",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/869183721_1097839133124030_8921688743162620184_n.jpg?_nc_cat=111&ccb=1-7&_nc_ohc=5G6LiHFJ0y8Q7kNvwHPRvdv&_nc_oc=AdpKq8SMKAn5dJKjRqkAe2wjRhn1na_vI4jalymuZoHLi1uh9fBSX_M-e-KhFRBq2DXtA42-3wmGlXCBiFkA_Fzo&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=SR9ToKONr2UyAgqzCEA2zQ&_nc_tpa=Q5bMBQLDSSga3qvVigeJ92wKGDTE5RhMA0wHEcwPQxIlyHAHmoPZiYnDXAblIJlsVybK8293pTCdhApe&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQQOCH1-n-VhhpJbv-irUNHeDrGICMGlsGOaBTKpTWZUCw&oe=6AF1FD5E",
+        "thumbnail_url": "https://scontent-arn2-1.xx.fbcdn.net/v/t15.5256-10/869183721_1097839133124030_8921688743162620184_n.jpg?_nc_cat=111&ccb=1-7&_nc_ohc=5G6LiHFJ0y8Q7kNvwHPRvdv&_nc_oc=AdpKq8SMKAn5dJKjRqkAe2wjRhn1na_vI4jalymuZoHLi1uh9fBSX_M-e-KhFRBq2DXtA42-3wmGlXCBiFkA_Fzo&_nc_zt=23&_nc_ht=scontent-arn2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=UhUw6Pwhc0prcFWn2HVQow&_nc_tpa=Q5bMBQKGuiRGypZU2lz410gQ4MW76851zCtLD3xPUxEJSachqSqM6CJdMiJ74Qp0jkurj7J7BkE-01Hc&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQTmFF4ncVu_A_0mTcKO7sGyWmiUY0o7Nim2wjXOSLZ0eA&oe=6AF34EDE",
         "title": "Hidratación de verdad para rendir mejor",
         "body": "Lo que cambió mis salidas largas 🚴‍♂️💛\nAunque bebas agua, el sudor se lleva sodio, potasio y magnesio. Si no los repones, la última subida se hace eterna. Yo los repongo con LIT.\n\n✅ 500 mg de sodio, 150 mg de potasio y 60 mg de magnesio\n✅ Cero azúcar y nada artificial\n✅ Un sobre en tu botella y listo\n\n¿Cómo suena tu última subida?",
         "campaigns": [
@@ -442,21 +479,21 @@
         "adsets": [
           "TEST | BROAD | ES | 202610 - UGC"
         ],
-        "spend": 75.81,
-        "impressions": 12031,
-        "clicks": 196,
-        "reach": 8553,
-        "purchases": 2.0,
-        "revenue": 122.85,
-        "ctr": 1.63,
+        "spend": 81.86,
+        "impressions": 12827,
+        "clicks": 212,
+        "reach": 8963,
+        "purchases": 3.0,
+        "revenue": 207.9,
+        "ctr": 1.65,
         "cpc": 0.39,
-        "cpa": 37.91,
-        "roas": 1.62
+        "cpa": 27.29,
+        "roas": 2.54
       },
       {
         "creative_id": "4344341365709486",
         "ad_name": "UGC JUAN - GYM | 202610",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/860390717_1253480483646487_6624091571995019814_n.jpg?_nc_cat=104&ccb=1-7&_nc_ohc=xjcFxqngRs8Q7kNvwFdNv8X&_nc_oc=AdoDrzOVUF1_VdexE3no-Wc8CqjvJG7KSI1xhdDZF6abhqbbESLQRxq55nCAhNk8yW4TmAk_Hoev8ClUQjsK2EtC&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=SR9ToKONr2UyAgqzCEA2zQ&_nc_tpa=Q5bMBQKv_IbFDrEhECy4Y2xAVwutHNXD8nE3nqqkmkyTm7ZnXeZS-rmNjIF7DOIDsh1k82p5_wh6BdZi&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQQe7pKgJFCeJywDTwDT9S-kZyByfo14Cyit202uaKn6GQ&oe=6AF20CB9",
+        "thumbnail_url": "https://scontent-arn2-1.xx.fbcdn.net/v/t15.5256-10/860390717_1253480483646487_6624091571995019814_n.jpg?_nc_cat=104&ccb=1-7&_nc_ohc=xjcFxqngRs8Q7kNvwFdNv8X&_nc_oc=AdoDrzOVUF1_VdexE3no-Wc8CqjvJG7KSI1xhdDZF6abhqbbESLQRxq55nCAhNk8yW4TmAk_Hoev8ClUQjsK2EtC&_nc_zt=23&_nc_ht=scontent-arn2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=UhUw6Pwhc0prcFWn2HVQow&_nc_tpa=Q5bMBQKk3e46xrVwxnBsxRURxpwquk4pjkGJJp_xN9g_U2ibEYaj3cOALI2uUsbICCrbwoWXSKnGeTgx&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQSBHHaCFDvH8w5Glp4SauU8NOJBzzPNyr0zbRXWGLcD7A&oe=6AF35E39",
         "title": "Hidratación de verdad para rendir mejor",
         "body": "Plan de hoy: reventar el entreno y recuperar hasta la última gota de sudor.\nPorque entrenar es solo la mitad; la otra mitad es darle a tu cuerpo 500 mg de sodio, potasio y magnesio.\nDescubre LIT.",
         "campaigns": [
@@ -477,32 +514,9 @@
         "roas": 0.0
       },
       {
-        "creative_id": "1801099657877604",
-        "ad_name": "UGC NURIA | 202611",
-        "thumbnail_url": "https://scontent-hel3-1.xx.fbcdn.net/v/t15.5256-10/887408783_1511003320933660_8754097891050449086_n.jpg?_nc_cat=109&ccb=1-7&_nc_ohc=wQLShtFQFr4Q7kNvwHhmip-&_nc_oc=AdpkBIe1iwbFuwnCWRTeVLwidWNRtDcEvfn77oLTNSMPGzeX6lFblnPc0UYHumFhNNC_APTPaEF5BeHVeOagOhpB&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=SR9ToKONr2UyAgqzCEA2zQ&_nc_tpa=Q5bMBQLb5JPSAxZiBszUEZKjHmqmHR6-XvZtyfoMXnvIoeje5keub52iakQZur2_X4uSk5V9lS4u5emb&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQS3kJpe63Z95CEjsmSnRsSDWm26TuofQfIbgHVZLcWlhg&oe=6AF1F932",
-        "title": "Hidratación de verdad para rendir mejor",
-        "body": "El agua repone líquido, pero el sudor también se lleva sodio, potasio y magnesio.\nEso no lo recuperas solo con agua.\n\n✅500 mg de sodio, 150 mg de potasio y 60 mg de magnesio\n✅Cero azúcar\n\n¿Tú también entrenas solo con agua?",
-        "campaigns": [
-          "PERF AO | PROSP | BROAD | ES | 202602"
-        ],
-        "adsets": [
-          "TEST | BROAD | ES | 202610 - UGC"
-        ],
-        "spend": 58.57,
-        "impressions": 9941,
-        "clicks": 363,
-        "reach": 8301,
-        "purchases": 0.0,
-        "revenue": 0.0,
-        "ctr": 3.65,
-        "cpc": 0.16,
-        "cpa": 0.0,
-        "roas": 0.0
-      },
-      {
         "creative_id": "2366515100831079",
         "ad_name": "IMG MENOS CANSANCIO - CICLISMO | 202610",
-        "thumbnail_url": "https://external-hel3-1.xx.fbcdn.net/emg1/v/t13/14352888822925193579?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJQKdvwRKP7dOsp2iy_9ttHKjjuCIVFd9zJWq9mawXyZ72IBBOxgeUnd3rs69z7c0VVDf-Y1Bh8bswiuc5WAFXyx-6hRq9wcPUVulQCVHcaXJMqKo_xFXFZV-VUx24JbN3TCKeY7LM4yDocuAbE5XFo&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-hel3-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=SR9ToKONr2UyAgqzCEA2zQ&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQLX-b492giI1XxGGLg9CCivBMm6yvkpC-osx9lPoX-V9fMp7G3O2Q7-4LMP5agub1NJPu0uxIvG&oh=06_Q3_FAW3F3VKLEERRwTyahPc11IZA4wFT9Mnzp0qqJAfYFu0L&oe=6AEE14C1",
+        "thumbnail_url": "https://external-hel3-1.xx.fbcdn.net/emg1/v/t13/14352888822925193579?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJQKdvwRKP7dOsp2iy_9ttHKjjuCIVFd9zJWq9mawXyZ72IBBOxgeUnd3rs69z7c0VVDf-Y1Bh8bswiuc5WAFXyx-6hRq9wcPUVulQCVHcaXJMqKo_xFXFZV-VUx24JbN3TCKeY7LM4yDocuAbE5XFo&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-hel3-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=UhUw6Pwhc0prcFWn2HVQow&edm=AAwGEdEEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQLjzcV6uzQ76zfFiZOxX4uVSCMm3uNo6Jn1iSRs_MvffIMZh5Q4tglGJpsgoJbJyDebgvwJP7rI&oh=06_Q3_FAY3DKOT3c0Dr-ZqDWEbdqYSi-md7DaUfxf6RtU3nQhoq&oe=6AEF6641",
         "title": "Hidrátate mejor, rinde más",
         "body": "Si el cansancio te frena, LIT te devuelve al ritmo. Electrolitos para rendir, entrenar y seguir, sin azúcar de más y con un sabor que mola.\nPrueba LIT y despídete del cansancio.",
         "campaigns": [
@@ -511,14 +525,14 @@
         "adsets": [
           "TEST | BROAD | ES | 202610 - IMG"
         ],
-        "spend": 32.19,
-        "impressions": 6198,
-        "clicks": 29,
-        "reach": 3630,
+        "spend": 35.39,
+        "impressions": 6824,
+        "clicks": 34,
+        "reach": 3837,
         "purchases": 0.0,
         "revenue": 0.0,
-        "ctr": 0.47,
-        "cpc": 1.11,
+        "ctr": 0.5,
+        "cpc": 1.04,
         "cpa": 0.0,
         "roas": 0.0
       }
@@ -534,16 +548,16 @@
   },
   "klaviyo": {
     "totals": {
-      "revenue_total": 932.34,
-      "revenue_campaigns": 495.86,
-      "revenue_flows": 436.48,
-      "sends": 4983,
-      "opens": 1826,
-      "clicks": 82,
-      "unsubs": 20,
-      "open_rate": 36.64,
+      "revenue_total": 1151.47,
+      "revenue_campaigns": 562.01,
+      "revenue_flows": 589.46,
+      "sends": 5085,
+      "opens": 2013,
+      "clicks": 84,
+      "unsubs": 22,
+      "open_rate": 39.59,
       "click_rate": 1.65,
-      "unsub_rate": 0.4
+      "unsub_rate": 0.43
     },
     "daily": [
       {
@@ -569,13 +583,20 @@
       },
       {
         "date": "2026-11-04",
-        "revenue": 495.86,
-        "sends": 4567,
-        "opens": 1606,
-        "open_rate": 35.17
+        "revenue": 562.01,
+        "sends": 4579,
+        "opens": 1737,
+        "open_rate": 37.93
       },
       {
         "date": "2026-11-05",
+        "revenue": 0.0,
+        "sends": 0,
+        "opens": 0,
+        "open_rate": 0.0
+      },
+      {
+        "date": "2026-11-06",
         "revenue": 0.0,
         "sends": 0,
         "opens": 0,
@@ -587,25 +608,25 @@
         "flow_id": "RE2Zq2",
         "name": "[SUSCRIPCIÓN] Email + WhatsApp: Renovación 48h (Botella)",
         "status": "live",
-        "sends": 75,
-        "opens": 34,
-        "clicks": 6,
+        "sends": 88,
+        "opens": 42,
+        "clicks": 7,
         "unsubs": 0,
-        "revenue": 283.5,
-        "open_rate": 45.33,
-        "click_rate": 8.0,
+        "revenue": 408.13,
+        "open_rate": 47.73,
+        "click_rate": 7.95,
         "unsub_rate": 0.0
       },
       {
         "flow_id": "UQTRJ8",
         "name": "[SUSCRIPCIÓN] Email + WhatsApp: Fallo de pago",
         "status": "live",
-        "sends": 9,
-        "opens": 6,
+        "sends": 14,
+        "opens": 9,
         "clicks": 0,
         "unsubs": 0,
         "revenue": 67.93,
-        "open_rate": 66.67,
+        "open_rate": 64.29,
         "click_rate": 0.0,
         "unsub_rate": 0.0
       },
@@ -613,12 +634,12 @@
         "flow_id": "UtLA9F",
         "name": "[SUSCRIPCIÓN] Email: Cambio de sabor",
         "status": "live",
-        "sends": 20,
-        "opens": 11,
+        "sends": 23,
+        "opens": 14,
         "clicks": 0,
         "unsubs": 0,
-        "revenue": 28.35,
-        "open_rate": 55.0,
+        "revenue": 56.7,
+        "open_rate": 60.87,
         "click_rate": 0.0,
         "unsub_rate": 0.0
       },
@@ -626,78 +647,130 @@
         "flow_id": "V6HTh7",
         "name": "[CAPTACIÓN] Email + WhatsApp: Checkout abandonado",
         "status": "live",
-        "sends": 59,
-        "opens": 17,
+        "sends": 74,
+        "opens": 21,
         "clicks": 1,
         "unsubs": 1,
         "revenue": 28.35,
-        "open_rate": 28.81,
-        "click_rate": 1.69,
-        "unsub_rate": 1.69
+        "open_rate": 28.38,
+        "click_rate": 1.35,
+        "unsub_rate": 1.35
       },
       {
         "flow_id": "UGPR84",
         "name": "[CAPTACIÓN] Email: Página vista sin ficha",
         "status": "live",
-        "sends": 14,
+        "sends": 16,
         "opens": 6,
         "clicks": 1,
         "unsubs": 0,
         "revenue": 28.35,
-        "open_rate": 42.86,
-        "click_rate": 7.14,
-        "unsub_rate": 0.0
-      },
-      {
-        "flow_id": "YiHupW",
-        "name": "[CAPTACIÓN] Email: Discovery Set",
-        "status": "live",
-        "sends": 15,
-        "opens": 11,
-        "clicks": 0,
-        "unsubs": 0,
-        "revenue": 0.0,
-        "open_rate": 73.33,
-        "click_rate": 0.0,
+        "open_rate": 37.5,
+        "click_rate": 6.25,
         "unsub_rate": 0.0
       },
       {
         "flow_id": "TL8hbE",
         "name": "[SUSCRIPCIÓN] Email: Cambio de plan",
         "status": "live",
-        "sends": 24,
-        "opens": 18,
+        "sends": 29,
+        "opens": 22,
         "clicks": 2,
         "unsubs": 0,
         "revenue": 0.0,
-        "open_rate": 75.0,
-        "click_rate": 8.33,
+        "open_rate": 75.86,
+        "click_rate": 6.9,
         "unsub_rate": 0.0
       },
       {
         "flow_id": "S3v9WL",
         "name": "[CAPTACIÓN] Email + WhatsApp: Producto visto",
         "status": "live",
-        "sends": 13,
-        "opens": 6,
+        "sends": 17,
+        "opens": 7,
         "clicks": 2,
         "unsubs": 0,
         "revenue": 0.0,
-        "open_rate": 46.15,
-        "click_rate": 15.38,
+        "open_rate": 41.18,
+        "click_rate": 11.76,
         "unsub_rate": 0.0
       },
       {
         "flow_id": "UAH3ug",
         "name": "[SUSCRIPCIÓN] Email: Bienvenida · Comprador recurrente",
         "status": "live",
-        "sends": 8,
-        "opens": 5,
+        "sends": 11,
+        "opens": 7,
         "clicks": 1,
         "unsubs": 0,
         "revenue": 0.0,
-        "open_rate": 62.5,
-        "click_rate": 12.5,
+        "open_rate": 63.64,
+        "click_rate": 9.09,
+        "unsub_rate": 0.0
+      },
+      {
+        "flow_id": "WfU5jq",
+        "name": "[ONE SHOT] Email: Encuesta de perfilado → Cupón 5 EUR",
+        "status": "live",
+        "sends": 3,
+        "opens": 1,
+        "clicks": 0,
+        "unsubs": 0,
+        "revenue": 0.0,
+        "open_rate": 33.33,
+        "click_rate": 0.0,
+        "unsub_rate": 0.0
+      },
+      {
+        "flow_id": "YiHupW",
+        "name": "[CAPTACIÓN] Email: Discovery Set",
+        "status": "live",
+        "sends": 16,
+        "opens": 11,
+        "clicks": 0,
+        "unsubs": 0,
+        "revenue": 0.0,
+        "open_rate": 68.75,
+        "click_rate": 0.0,
+        "unsub_rate": 0.0
+      },
+      {
+        "flow_id": "SQBdjY",
+        "name": "[SUSCRIPCIÓN] Email: Cambio de dirección",
+        "status": "live",
+        "sends": 4,
+        "opens": 4,
+        "clicks": 0,
+        "unsubs": 0,
+        "revenue": 0.0,
+        "open_rate": 100.0,
+        "click_rate": 0.0,
+        "unsub_rate": 0.0
+      },
+      {
+        "flow_id": "SRrfin",
+        "name": "[B2B] Email interno: Nuevo pedido",
+        "status": "live",
+        "sends": 2,
+        "opens": 1,
+        "clicks": 0,
+        "unsubs": 0,
+        "revenue": 0.0,
+        "open_rate": 50.0,
+        "click_rate": 0.0,
+        "unsub_rate": 0.0
+      },
+      {
+        "flow_id": "WPWgym",
+        "name": "[CAPTACIÓN] Email: Bienvenida · Primera compra",
+        "status": "live",
+        "sends": 180,
+        "opens": 114,
+        "clicks": 7,
+        "unsubs": 0,
+        "revenue": 0.0,
+        "open_rate": 63.33,
+        "click_rate": 3.89,
         "unsub_rate": 0.0
       },
       {
@@ -714,67 +787,15 @@
         "unsub_rate": 0.0
       },
       {
-        "flow_id": "WPWgym",
-        "name": "[CAPTACIÓN] Email: Bienvenida · Primera compra",
-        "status": "live",
-        "sends": 148,
-        "opens": 86,
-        "clicks": 7,
-        "unsubs": 0,
-        "revenue": 0.0,
-        "open_rate": 58.11,
-        "click_rate": 4.73,
-        "unsub_rate": 0.0
-      },
-      {
-        "flow_id": "WfU5jq",
-        "name": "[ONE SHOT] Email: Encuesta de perfilado → Cupón 5 EUR",
-        "status": "live",
-        "sends": 2,
-        "opens": 1,
-        "clicks": 0,
-        "unsubs": 0,
-        "revenue": 0.0,
-        "open_rate": 50.0,
-        "click_rate": 0.0,
-        "unsub_rate": 0.0
-      },
-      {
-        "flow_id": "SQBdjY",
-        "name": "[SUSCRIPCIÓN] Email: Cambio de dirección",
-        "status": "live",
-        "sends": 3,
-        "opens": 3,
-        "clicks": 0,
-        "unsubs": 0,
-        "revenue": 0.0,
-        "open_rate": 100.0,
-        "click_rate": 0.0,
-        "unsub_rate": 0.0
-      },
-      {
-        "flow_id": "SRrfin",
-        "name": "[B2B] Email interno: Nuevo pedido",
-        "status": "live",
-        "sends": 1,
-        "opens": 1,
-        "clicks": 0,
-        "unsubs": 0,
-        "revenue": 0.0,
-        "open_rate": 100.0,
-        "click_rate": 0.0,
-        "unsub_rate": 0.0
-      },
-      {
         "flow_id": "VYhGtt",
         "name": "[SUSCRIPCIÓN] Email + WhatsApp: Cancelación y recuperación",
         "status": "live",
-        "sends": 11,
-        "opens": 8,
+        "sends": 14,
+        "opens": 10,
         "clicks": 0,
         "unsubs": 0,
         "revenue": 0.0,
-        "open_rate": 72.73,
+        "open_rate": 71.43,
         "click_rate": 0.0,
         "unsub_rate": 0.0
       },
@@ -795,12 +816,12 @@
         "flow_id": "UuUqpa",
         "name": "[SUSCRIPCIÓN] Email: Baja por impago",
         "status": "live",
-        "sends": 4,
+        "sends": 5,
         "opens": 3,
         "clicks": 0,
         "unsubs": 0,
         "revenue": 0.0,
-        "open_rate": 75.0,
+        "open_rate": 60.0,
         "click_rate": 0.0,
         "unsub_rate": 0.0
       },
@@ -823,25 +844,25 @@
         "campaign_id": "01M664BDFXC851YXME873NZ637",
         "name": "04/11 - Lanzamiento Salty Raw (B2C)",
         "send_time": "2026-11-04T07:30:00+00:00",
-        "sends": 4485,
-        "opens": 1560,
-        "clicks": 61,
-        "unsubs": 19,
-        "revenue": 495.86,
-        "open_rate": 34.78,
-        "click_rate": 1.36,
-        "unsub_rate": 0.42
+        "sends": 4497,
+        "opens": 1689,
+        "clicks": 62,
+        "unsubs": 21,
+        "revenue": 562.01,
+        "open_rate": 37.56,
+        "click_rate": 1.38,
+        "unsub_rate": 0.47
       },
       {
         "campaign_id": "01M664BFH0BFFJQGZTTYZFHJ19",
         "name": "04/11 - Lanzamiento Salty Raw (B2B)",
         "send_time": "2026-11-04T07:30:00+00:00",
         "sends": 82,
-        "opens": 46,
+        "opens": 48,
         "clicks": 0,
         "unsubs": 0,
         "revenue": 0.0,
-        "open_rate": 56.1,
+        "open_rate": 58.54,
         "click_rate": 0.0,
         "unsub_rate": 0.0
       }
@@ -849,19 +870,19 @@
   },
   "shopify": {
     "totals": {
-      "orders": 129,
-      "revenue": 5547.55,
+      "orders": 155,
+      "revenue": 6672.44,
       "refunds": 0.0,
-      "net_revenue": 5547.55,
-      "aov": 43.0,
-      "new_customers": 39,
-      "returning_customers": 90,
-      "subscription_orders": 100,
-      "onetime_orders": 29,
-      "subscription_revenue": 4346.74,
-      "onetime_revenue": 1200.81,
-      "subscription_pct": 77.52,
-      "returning_pct": 69.77,
+      "net_revenue": 6672.44,
+      "aov": 43.05,
+      "new_customers": 47,
+      "returning_customers": 108,
+      "subscription_orders": 122,
+      "onetime_orders": 33,
+      "subscription_revenue": 5320.43,
+      "onetime_revenue": 1352.01,
+      "subscription_pct": 78.71,
+      "returning_pct": 69.68,
       "refund_rate": 0.0
     },
     "daily": [
@@ -900,24 +921,35 @@
       },
       {
         "date": "2026-11-04",
-        "orders": 38,
-        "revenue": 1794.07,
+        "orders": 37,
+        "revenue": 1765.72,
         "refunds": 0.0,
-        "aov": 47.21,
+        "aov": 47.72,
         "new": 11,
-        "returning": 27,
-        "subscription_orders": 30,
+        "returning": 26,
+        "subscription_orders": 29,
         "onetime_orders": 8
       },
       {
         "date": "2026-11-05",
-        "orders": 6,
-        "revenue": 226.8,
+        "orders": 32,
+        "revenue": 1351.69,
         "refunds": 0.0,
-        "aov": 37.8,
-        "new": 3,
-        "returning": 3,
-        "subscription_orders": 6,
+        "aov": 42.24,
+        "new": 11,
+        "returning": 21,
+        "subscription_orders": 28,
+        "onetime_orders": 4
+      },
+      {
+        "date": "2026-11-06",
+        "orders": 1,
+        "revenue": 28.35,
+        "refunds": 0.0,
+        "aov": 28.35,
+        "new": 0,
+        "returning": 1,
+        "subscription_orders": 1,
         "onetime_orders": 0
       }
     ],
@@ -925,9 +957,16 @@
       {
         "product_id": "gid://shopify/Product/16008517550429",
         "title": "LIT Daily Hydration: Salty Lemon",
-        "orders": 56,
-        "units": 57,
-        "revenue": 2062.86
+        "orders": 70,
+        "units": 71,
+        "revenue": 2533.22
+      },
+      {
+        "product_id": "gid://shopify/Product/16386839445853",
+        "title": "LIT Hydration Pack: 4 Cajas",
+        "orders": 17,
+        "units": 17,
+        "revenue": 1445.85
       },
       {
         "product_id": "gid://shopify/Product/16386839478621",
@@ -937,25 +976,18 @@
         "revenue": 1247.4
       },
       {
-        "product_id": "gid://shopify/Product/16386839445853",
-        "title": "LIT Hydration Pack: 4 Cajas",
-        "orders": 13,
-        "units": 13,
-        "revenue": 1105.65
-      },
-      {
         "product_id": "gid://shopify/Product/16596466008454",
         "title": "Botella",
-        "orders": 22,
-        "units": 22,
-        "revenue": 635.8
+        "orders": 26,
+        "units": 26,
+        "revenue": 751.4
       },
       {
         "product_id": "gid://shopify/Product/16182160523613",
         "title": "LIT Daily Hydration: Salty Lemon - Compra única",
-        "orders": 15,
-        "units": 16,
-        "revenue": 529.2
+        "orders": 20,
+        "units": 21,
+        "revenue": 718.2
       },
       {
         "product_id": "gid://shopify/Product/16272445112669",
@@ -967,16 +999,16 @@
       {
         "product_id": "gid://shopify/Product/16272456188253",
         "title": "LIT Daily Hydration: Peach",
-        "orders": 9,
-        "units": 11,
-        "revenue": 283.31
+        "orders": 13,
+        "units": 15,
+        "revenue": 391.0
       },
       {
         "product_id": "gid://shopify/Product/16272462053725",
         "title": "LIT Daily Hydration: Raw",
-        "orders": 6,
-        "units": 6,
-        "revenue": 170.1
+        "orders": 7,
+        "units": 7,
+        "revenue": 192.74
       },
       {
         "product_id": "gid://shopify/Product/16272465789277",
@@ -1018,36 +1050,36 @@
       "new_vs_returning": [
         {
           "bucket": "new",
-          "orders": 39
+          "orders": 47
         },
         {
           "bucket": "returning",
-          "orders": 90
+          "orders": 108
         }
       ],
       "subscription_vs_onetime": [
         {
           "bucket": "subscription",
-          "orders": 100,
-          "revenue": 4346.74
+          "orders": 122,
+          "revenue": 5320.43
         },
         {
           "bucket": "onetime",
-          "orders": 29,
-          "revenue": 1200.81
+          "orders": 33,
+          "revenue": 1352.01
         }
       ]
     }
   },
   "wholesale": {
     "totals": {
-      "orders": 1,
-      "revenue": 39.6,
+      "orders": 2,
+      "revenue": 237.6,
       "paid": 0.0,
-      "pending": 39.6,
-      "aov": 39.6,
+      "pending": 237.6,
+      "aov": 118.8,
       "paid_pct": 0.0,
-      "accounts": 1
+      "accounts": 2
     },
     "daily": [
       {
@@ -1070,12 +1102,18 @@
       },
       {
         "date": "2026-11-04",
+        "orders": 1,
+        "revenue": 198.0,
+        "paid": 0.0
+      },
+      {
+        "date": "2026-11-05",
         "orders": 0,
         "revenue": 0.0,
         "paid": 0.0
       },
       {
-        "date": "2026-11-05",
+        "date": "2026-11-06",
         "orders": 0,
         "revenue": 0.0,
         "paid": 0.0
@@ -1105,6 +1143,11 @@
     ],
     "top_accounts": [
       {
+        "account": "100 BURPEES SL (CBC FITNESS CLUB)",
+        "orders": 1,
+        "revenue": 198.0
+      },
+      {
         "account": "OLAVIDE BLOOM SL (Mooi Petit Olavide)",
         "orders": 1,
         "revenue": 39.6
@@ -1117,8 +1160,8 @@
       "revenue": 0.0,
       "commission": 0.0,
       "active_affiliates": 0,
-      "total_affiliates": 47,
-      "new_affiliates": 3,
+      "total_affiliates": 46,
+      "new_affiliates": 2,
       "aov": 0.0,
       "commission_rate": 0.0
     },
@@ -1149,6 +1192,12 @@
       },
       {
         "date": "2026-11-05",
+        "orders": 0,
+        "revenue": 0.0,
+        "commission": 0.0
+      },
+      {
+        "date": "2026-11-06",
         "orders": 0,
         "revenue": 0.0,
         "commission": 0.0
